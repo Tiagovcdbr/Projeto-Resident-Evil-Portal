@@ -21,7 +21,6 @@ const Header = () => {
     <AiOutlineClose onClick={handleToggle} className={styles.icon_close} />
   );
   /* End Open Menu / Close Menu */
-
   const changeHeader = () => {
     if (window.scrollY >= 80) {
       setHeader(true);
