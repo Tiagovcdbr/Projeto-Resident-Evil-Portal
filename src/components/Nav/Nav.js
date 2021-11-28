@@ -25,14 +25,14 @@ const Nav = ({ toggle }) => {
             Sherry
           </Link>
         </li_4>
-        <li onClick={toggle}>
-          <Link to="gallery" spy={true} smooth={true} duration={800}>
-            Galeria
+        <li_5 onClick={toggle}>
+          <Link to="ada" spy={true} smooth={true} duration={800}>
+            Ada
           </Link>
-        </li>
+        </li_5>
         <li onClick={toggle}>
-          <Link to="about" spy={true} smooth={true} duration={800}>
-            Sobre a Capcom
+          <Link to="details" spy={true} smooth={true} duration={800}>
+            Detalhes
           </Link>
         </li>
       </ul>
