@@ -3,17 +3,23 @@
 ### Foi desenvolvido em React junto a algumas dependências que serão citadas abaixo.
 
 ````
-#### o projeto foi desenvolvido com esses passos
-#### Abra um terminal no Linux ou Windows e digite o comando npx create-react-app "nome do projeto sem aspas", obs se o nome do projeto tiver mais uma palavra sempre colocar um -para separar cada palavra ficando assim create-react-app nome-do-projeto
-#### Aperte enter e espero o projeto ser criados junto a alguns pacotes e dependências padrões que o React cria, feito isso o terminal ira mostrar tudo que foi instalado e o nome do projeto, ao término do projeto criado rode o comando code . dessa forma para abrir o vs code ou alguma IDE que sua preferência.
-#### Rode o ocmando npm start para iniciar o projeto na porta http://localhost:3000/ caso esta porta ja esteja ocupada o terminal mostrar se você quer mudar a porta para rodar o projeto (Y/N) selecione Y para continuar e aguarde o projeto subir. e veja se está tudo ok, a tela que deve aparecer é a do simbolo do React mostrando que seu projeto está funcionando.
-#### Quando abrir seu projeto verá uma tela parecida como mostra abaixo.
+o projeto foi desenvolvido com esses passos
+Abra um terminal no Linux ou Windows e digite o comando npx create-react-app "nome do projeto sem aspas".
+Obs se o nome do projeto tiver mais uma palavra sempre colocar um -para separar cada palavra ficando assim create-react-app nome-do-projeto.
+Aperte enter e espero o projeto ser criados junto a alguns pacotes e dependências padrões que o React cria,
+feito isso o terminal ira mostrar tudo que foi instalado e o nome do projeto, ao término do projeto criado rode o comando code .
+dessa forma para abrir o vs code ou alguma IDE que sua preferência.
+Rode o ocmando npm start para iniciar o projeto na porta http://localhost:3000/
+Caso esta porta ja esteja ocupada o terminal mostrar se você quer mudar a porta para rodar o projeto (Y/N)
+Selecione Y para continuar e aguarde o projeto subir. e veja se está tudo ok,
+a tela que deve aparecer é a do simbolo do React mostrando que seu projeto está funcionando.
+Quando abrir seu projeto verá uma tela parecida como mostra abaixo.
 ````
 
 ![react](https://user-images.githubusercontent.com/78483210/144079263-bdef59b8-5321-420c-b140-411192ddaa17.png)
 
 ````
-#### Note no package.json está mostrando todas as depedências que seu projeto tem, no caso da imagem acima já é o projeto feito e suas depedências, o que irei mostrar agora é como instalar e onde encontrar, caso você já saiba onde procure esses pacotes só pelo nome algumas pessoas já sabem onde é a fonte e por isso não precisa seguir esses passos a risca.
+Note no package.json está mostrando todas as depedências que seu projeto tem, no caso da imagem acima já é o projeto feito e suas depedências, o que irei mostrar agora é como instalar e onde encontrar, caso você já saiba onde procure esses pacotes só pelo nome algumas pessoas já sabem onde é a fonte e por isso não precisa seguir esses passos a risca.
 ````
 
 #### React router dom:   https://v5.reactrouter.com/web/guides/quick-start..... e para instalar execute npm i react-router-dom para instalar as dependências, pode demorar um pouco mas é so aguardar. Após instalar cheque se tudo está ok dentro do package.json
