@@ -1,6 +1,6 @@
 @import "../../styles/variables.scss";
 @import "../../styles/mixins.scss";
-
+/* Estilização dos Personagens, e suas li que contém os textos, que são incluidos no component Nav */ 
 .menu {
     width: 100%;
     @include align-center;
@@ -8,7 +8,7 @@
     font-size: 1.5rem;
     text-transform: uppercase;
     font-weight: 300;
-
+    /* Primeira estilização é sobre a Umbrella  */
     ul {
         @include align-center;
         flex-direction: column;
@@ -29,10 +29,9 @@
                 }
             }
         }
-    }
+    } 
 
-    
-
+    /* Segunda estilização é sobre o personagem Leon */
     ul {
         @include align-center;
         flex-direction: column;
@@ -55,7 +54,7 @@
             }
         }
     }
-
+    /* Terceira estilização é sobre a personagem Claire */
     ul {
         @include align-center;
         flex-direction: column;
@@ -79,6 +78,7 @@
         }
     }
 
+    /* Quarta estilização é sobre a personagem Sherry */
     ul {
         @include align-center;
         flex-direction: column;
@@ -102,6 +102,7 @@
         }
     }
 
+    /* Quinta estilização é sobre a personagem Ada */
     ul {
         @include align-center;
         flex-direction: column;
@@ -124,60 +125,4 @@
             }
         }
     }
-
-    ul {
-        @include align-center;
-        flex-direction: column;
-        margin-bottom: 2rem;
-        cursor: pointer;
-
-        li_6 {
-            &:not(:last-child) {
-                margin-bottom: 3rem;
-                font-size: 1.2rem;
-            }
-
-            a {
-                color: $white;
-                transition: 0.3s ease-in-out;
-
-                &:hover {
-                    color: $gray;
-                }
-            }
-        }
-    }    
 }
-
-.menu, menu_2 {
-
-    width: 100%;
-    @include align-center;
-    flex-direction: column;
-    font-size: 1.5rem;
-    text-transform: uppercase;
-    font-weight: 300;
-
-    ul {
-        @include align-center;
-        flex-direction: column;
-        margin-bottom: 2rem;
-        cursor: pointer;
-
-        li {
-            &:not(:last-child) {
-                margin-bottom: 3rem;
-            }
-
-            a {
-                color: $white;
-                transition: 0.3s ease-in-out;
-
-                &:hover {
-                    color: $gray;
-                }
-            }
-        }
-    }
-}
-

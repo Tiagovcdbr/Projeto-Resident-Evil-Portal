@@ -1,6 +1,6 @@
 import { Link } from "react-scroll";
 import styles from "./Nav.module.scss";
-
+/* Inclusão de todos personagens nessa aba Nav */
 const Nav = ({ toggle }) => {
   return (
     <nav className={styles.menu}>
@@ -33,6 +33,16 @@ const Nav = ({ toggle }) => {
         <li onClick={toggle}>
           <Link to="details" spy={true} smooth={true} duration={800}>
             Detalhes
+          </Link>
+        </li>
+        <li onClick={toggle}>
+          <Link to="videos" spy={true} smooth={true} duration={800}>
+            Vídeos
+          </Link>
+        </li>
+        <li onClick={toggle}>
+          <Link to="gallery" spy={true} smooth={true} duration={800}>
+            Galeria
           </Link>
         </li>
       </ul>

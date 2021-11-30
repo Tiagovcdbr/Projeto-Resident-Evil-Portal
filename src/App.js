@@ -16,8 +16,10 @@ import Ada from "./components/Ada/Ada";
 import { InfoAda } from "./data/DataAda";
 import Details from "./components/Details/Details";
 import { DetailsContent } from "./data/DataDetails";
+import Videos from "./components/Videos/Videos";
+import Gallery from "./components/Gallery/Gallery";
 
-function App() {
+export function App() {
   return (
     <Router>
       <Header />
@@ -28,8 +30,11 @@ function App() {
       <Sherry {...InfoSherry} />
       <Ada {...InfoAda} />
       <Details {...DetailsContent} />
+      <Videos />
+      <Gallery />   
     </Router>
+    
   );
 }
 
-export default App;
+
