@@ -53,7 +53,7 @@ const Gallery = () => {
           )}
         </div>
         <div className={styles.button}>
-            <Button onClick={() => loadMore()}>Load more</Button>
+            <Button onClick={() => loadMore()}>Carregar Mais</Button>
           </div>
       </div>
     </>
