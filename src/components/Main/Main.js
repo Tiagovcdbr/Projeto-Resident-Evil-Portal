@@ -22,7 +22,7 @@ const Main = () => {
       </div>
       <div data-aos="fade" className={styles.main_content}>
         <img src={LogoIMG} alt="Logo" />
-        <h4>©2021 Capcom Co.,Ltd. All rights reserved.</h4>
+        <h4>©2021 Capcom Co.,Ltd. All rights reserved. Feito por Fã</h4>
         <h5>PS4, &nbsp;PS5,&nbsp;  Xbox,&nbsp; Xbox Series,&nbsp; PC</h5>
       </div>
     </div>

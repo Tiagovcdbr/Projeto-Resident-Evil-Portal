@@ -3,7 +3,7 @@ import { Link } from "react-scroll";
 import Nav from "../Nav/Nav";
 import Logo from "../Logo/Logo";
 import styles from "./Header.module.scss";
-import { RiMenu3Fill } from "react-icons/ri";
+import { RiMenu5Fill } from "react-icons/ri";
 import { AiOutlineClose } from "react-icons/ai";
 
 const Header = () => {
@@ -16,7 +16,7 @@ const Header = () => {
   };
 
   const toggle = !openMenu ? (
-    <RiMenu3Fill onClick={handleToggle} className={styles.icon} />
+    <RiMenu5Fill onClick={handleToggle} className={styles.icon} />
   ) : (
     <AiOutlineClose onClick={handleToggle} className={styles.icon_close} />
   );
