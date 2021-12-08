@@ -40,6 +40,18 @@ const BioWilliam = ({
   paragraph9,
   img9,
   alt9,
+  title10,
+  paragraph10,
+  img10,
+  alt10,
+  title11,
+  paragraph11,
+  img11,
+  alt11,
+  title12,
+  paragraph12,
+  img12,
+  alt12,
 }) => {
   useEffect(() => {
     Aos.init({duration: 1000});
@@ -98,9 +110,27 @@ const BioWilliam = ({
         </div>
 
         <div className={styles.features_content_card}>
-          <img src={img6} alt={alt6} />
-          <h3>{title6}</h3>
-          <p>{paragraph6}</p>
+          <img src={img9} alt={alt9} />
+          <h3>{title9}</h3>
+          <p>{paragraph9}</p>
+        </div>
+
+        <div className={styles.features_content_card}>
+          <img src={img10} alt={alt10} />
+          <h3>{title10}</h3>
+          <p>{paragraph10}</p>
+        </div>
+
+        <div className={styles.features_content_card}>
+          <img src={img11} alt={alt11} />
+          <h3>{title11}</h3>
+          <p>{paragraph11}</p>
+        </div>
+
+        <div className={styles.features_content_card}>
+          <img src={img12} alt={alt12} />
+          <h3>{title12}</h3>
+          <p>{paragraph12}</p>
         </div>
       </div>
     </div>

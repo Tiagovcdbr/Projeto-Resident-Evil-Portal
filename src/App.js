@@ -38,8 +38,8 @@ export function App() {
       <MrX {...InfoMrX } />
       <Annete {...InfoAnnete } />
       <BioWilliam {...BioWilliamContent } />
-      <Details {...DetailsContent} />      
       <Videos />
+      <Details {...DetailsContent} />      
       <Gallery />   
     </Router>
     

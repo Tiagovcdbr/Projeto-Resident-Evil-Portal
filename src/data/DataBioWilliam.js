@@ -3,9 +3,13 @@ import ImageTwo from '../images/wlfase2.jpg';
 import ImageThree from '../images/wlfase3.jpg';
 import ImageFour from '../images/wlfase4.jpg';
 import ImageFive from '../images/wlfase5.jpg';
-import ImageSix from '../images/g-joven.jpg';
+import ImageSix from '../images/g-jovem.jpg';
 import ImageSeven from '../images/g-adulto.jpg';
 import ImageEight from '../images/supertyrant.jpg';
+import ImageNine from '../images/lck.jpg';
+import ImageTen from '../images/ivys2.jpg';
+import ImageEleven from '../images/cerberus.jpg';
+import ImageTwelve from '../images/alligator.jpg';
 
 
 export const BioWilliamContent = {
@@ -48,5 +52,25 @@ export const BioWilliamContent = {
     paragraph8: "Marvin Branagh era um dos policiais que integravam a delegacia de Polícia de Raccoon City. Mesmo com a cidade sob lei marcial Marvin mantinha suas funções normais e até preparou a festa de boas vindas para Leon S. Kennedy porém, algo saiu errado.",
     img8: ImageEight,
     alt8: "Marvin ferido",
+
+    title9: "Rostos conhecidos",
+    paragraph9: "Marvin Branagh era um dos policiais que integravam a delegacia de Polícia de Raccoon City. Mesmo com a cidade sob lei marcial Marvin mantinha suas funções normais e até preparou a festa de boas vindas para Leon S. Kennedy porém, algo saiu errado.",
+    img9: ImageNine,
+    alt9: "Marvin ferido",
+
+    title10: "Rostos conhecidos",
+    paragraph10: "Marvin Branagh era um dos policiais que integravam a delegacia de Polícia de Raccoon City. Mesmo com a cidade sob lei marcial Marvin mantinha suas funções normais e até preparou a festa de boas vindas para Leon S. Kennedy porém, algo saiu errado.",
+    img10: ImageTen,
+    alt10: "Marvin ferido",
+
+    title11: "Rostos conhecidos",
+    paragraph11: "Marvin Branagh era um dos policiais que integravam a delegacia de Polícia de Raccoon City. Mesmo com a cidade sob lei marcial Marvin mantinha suas funções normais e até preparou a festa de boas vindas para Leon S. Kennedy porém, algo saiu errado.",
+    img11: ImageEleven,
+    alt11: "Marvin ferido",
+
+    title12: "Rostos conhecidos",
+    paragraph12: "Marvin Branagh era um dos policiais que integravam a delegacia de Polícia de Raccoon City. Mesmo com a cidade sob lei marcial Marvin mantinha suas funções normais e até preparou a festa de boas vindas para Leon S. Kennedy porém, algo saiu errado.",
+    img12: ImageTwelve,
+    alt12: "Marvin ferido",
     
 }
