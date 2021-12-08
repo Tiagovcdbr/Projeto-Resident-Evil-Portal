@@ -132,6 +132,7 @@ const BioWilliam = ({
           <h3>{title12}</h3>
           <p>{paragraph12}</p>
         </div>
+        
       </div>
     </div>
   );
