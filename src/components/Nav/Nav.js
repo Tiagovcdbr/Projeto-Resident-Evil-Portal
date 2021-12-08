@@ -32,9 +32,14 @@ const Nav = ({ toggle }) => {
         </li_5>
         <li_6 onClick={toggle}>
           <Link to="mrx" spy={true} smooth={true} duration={800}>
-            MrX
+            Mr-X
           </Link>
         </li_6>
+        <li_7 onClick={toggle}>
+          <Link to="annete" spy={true} smooth={true} duration={800}>
+            Annete
+          </Link>
+        </li_7>
         <li onClick={toggle}>
           <Link to="details" spy={true} smooth={true} duration={800}>
             Detalhes
