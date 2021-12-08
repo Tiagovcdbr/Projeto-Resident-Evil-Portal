@@ -30,6 +30,11 @@ const Nav = ({ toggle }) => {
             Ada
           </Link>
         </li_5>
+        <li_6 onClick={toggle}>
+          <Link to="mrx" spy={true} smooth={true} duration={800}>
+            MrX
+          </Link>
+        </li_6>
         <li onClick={toggle}>
           <Link to="details" spy={true} smooth={true} duration={800}>
             Detalhes

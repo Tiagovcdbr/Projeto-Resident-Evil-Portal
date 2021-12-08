@@ -18,6 +18,8 @@ import Details from "./components/Details/Details";
 import { DetailsContent } from "./data/DataDetails";
 import Videos from "./components/Videos/Videos";
 import Gallery from "./components/Gallery/Gallery";
+import MrX from "./components/MrX/MrX";
+import { InfoMrX } from "./data/DataMrX";
 
 export function App() {
   return (
@@ -29,6 +31,7 @@ export function App() {
       <Claire {...InfoClaire} />
       <Sherry {...InfoSherry} />
       <Ada {...InfoAda} />
+      <MrX {...InfoMrX } />
       <Details {...DetailsContent} />
       <Videos />
       <Gallery />   
