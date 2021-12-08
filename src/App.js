@@ -22,6 +22,8 @@ import MrX from "./components/MrX/MrX";
 import { InfoMrX } from "./data/DataMrX";
 import Annete from "./components/Annete/Annete";
 import { InfoAnnete } from "./data/DataAnnete";
+import BioWilliam from './components/BioWilliam/BioWilliam';
+import { BioWilliamContent } from './data/DataBioWilliam';
 
 export function App() {
   return (
@@ -35,7 +37,8 @@ export function App() {
       <Ada {...InfoAda} />
       <MrX {...InfoMrX } />
       <Annete {...InfoAnnete } />
-      <Details {...DetailsContent} />
+      <BioWilliam {...BioWilliamContent } />
+      <Details {...DetailsContent} />      
       <Videos />
       <Gallery />   
     </Router>
