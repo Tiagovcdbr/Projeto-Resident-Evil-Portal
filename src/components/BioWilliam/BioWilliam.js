@@ -58,7 +58,7 @@ const BioWilliam = ({
   }, []);
 
   return (
-    <div className={styles.container} id="details">
+    <div className={styles.container} id="biowilliam">
       <h2 data-aos="fade">Fases de William e outros inimigos</h2>
       <div data-aos="fade-up" className={styles.features_content}>
         <div className={styles.features_content_card}>
