@@ -172,4 +172,27 @@
             }
         }
     }
+
+    ul {
+        @include align-center;
+        flex-direction: column;
+        margin-bottom: 2rem;
+        cursor: pointer;
+
+        li_7 {
+            &:not(:last-child) {
+                margin-bottom: 3rem;
+                font-size: 1.2rem;
+            }
+
+            a {
+                color: $white;
+                transition: 0.3s ease-in-out;
+
+                &:hover {
+                    color: $gray;
+                }
+            }
+        }
+    }
 }

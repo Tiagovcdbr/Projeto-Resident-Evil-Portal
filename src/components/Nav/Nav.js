@@ -35,19 +35,24 @@ const Nav = ({ toggle }) => {
             Mr-X
           </Link>
         </li_6>
+        <li_7 onClick={toggle}>
+          <Link to="annete" spy={true} smooth={true} duration={800}>
+            Annete
+          </Link>
+        </li_7>
         <li onClick={toggle}>
           <Link to="biowilliam" spy={true} smooth={true} duration={800}>
             Biografia
           </Link>
         </li>
         <li onClick={toggle}>
-          <Link to="details" spy={true} smooth={true} duration={800}>
-            Detalhes
+          <Link to="videos" spy={true} smooth={true} duration={800}>
+            Vídeos
           </Link>
         </li>
         <li onClick={toggle}>
-          <Link to="videos" spy={true} smooth={true} duration={800}>
-            Vídeos
+          <Link to="details" spy={true} smooth={true} duration={800}>
+            Detalhes
           </Link>
         </li>
         <li onClick={toggle}>
