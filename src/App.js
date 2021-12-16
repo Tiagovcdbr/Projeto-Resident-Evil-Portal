@@ -29,19 +29,21 @@ export function App() {
   return (
     <Router>
       <Header />
-      <Main />
-      <About_Umbrella {...InfoUmbrella} />
-      <Leon {...InfoLeon} />
-      <Claire {...InfoClaire} />
-      <Sherry {...InfoSherry} />
-      <Ada {...InfoAda} />
-      <MrX {...InfoMrX } />
-      <Annete {...InfoAnnete } />
-      <BioWilliam {...BioWilliamContent } />
-      <Videos />
-      <Details {...DetailsContent} />      
-      <Gallery />   
+        <Main />
+          <About_Umbrella {...InfoUmbrella} />
+           <Leon {...InfoLeon} />
+            <Claire {...InfoClaire} />
+             <Sherry {...InfoSherry} />
+             <Ada {...InfoAda} />
+            <MrX {...InfoMrX } />
+           <Annete {...InfoAnnete } />
+          <BioWilliam {...BioWilliamContent } />
+         <Videos />
+        <Details {...DetailsContent} />      
+      <Gallery />          
     </Router>
+    
+    
     
   );
 }
