@@ -3,6 +3,9 @@
 ### Foi desenvolvido em React junto a algumas dependências que serão citadas abaixo.
 
 ````
+Obs: Todas as dependências podem ser instaladas via npm install ou yarn install, assim como os projetos podem ser startados com npm start
+ou yarn start, usem o que for de sua preferência pois no Readme.md eu enfatizei muito o npm.
+
 o projeto foi desenvolvido com esses passos
 Abra um terminal no Linux ou Windows e digite o comando npx create-react-app "nome do projeto sem aspas".
 Obs se o nome do projeto tiver mais uma palavra sempre colocar um -para separar cada palavra ficando assim create-react-app nome-do-projeto.
