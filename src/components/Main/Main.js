@@ -4,6 +4,7 @@ import "aos/dist/aos.css";
 import Video from "../../images/video.mp4";
 import LogoIMG from "../../images/logo.png";
 import styles from "./Main.module.scss";
+import Audio from "../../audios/Resident Evil 2 Remake- Title Screen Voice.m4a";
 
 const Main = () => {
   useEffect(() => {
@@ -21,6 +22,11 @@ const Main = () => {
           className={styles.video}
         ></video>
       </div>
+      <audio
+       src={Audio}
+       autoPlay={true}
+       playAfter={5.0}
+       ></audio>
       <div data-aos="fade" className={styles.main_content}>
         <img src={LogoIMG} alt="Logo" />
         <h4>©2021 Capcom Co.,Ltd. All rights reserved. Feito por Fã</h4>
