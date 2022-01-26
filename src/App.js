@@ -41,10 +41,7 @@ export function App() {
          <Videos />
         <Details {...DetailsContent} />      
       <Gallery />          
-    </Router>
-    
-    
-    
+    </Router>  
   );
 }
 

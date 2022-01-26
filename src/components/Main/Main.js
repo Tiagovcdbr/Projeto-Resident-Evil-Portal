@@ -17,15 +17,14 @@ const Main = () => {
         <video
           src={Video}
           autoPlay={true}
-          loop
-          muted
+          loop 
+          muted        
           className={styles.video}
         ></video>
       </div>
       <audio
        src={Audio}
        autoPlay={true}
-       playAfter={5.0}
        ></audio>
       <div data-aos="fade" className={styles.main_content}>
         <img src={LogoIMG} alt="Logo" />
