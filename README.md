@@ -51,6 +51,10 @@ Note no package.json está mostrando todas as depedências que seu projeto tem, 
 
 ![img6](https://user-images.githubusercontent.com/78483210/144087866-0a370c5d-a6a3-44d6-a80c-6fe10dc0ef71.png)
 
+![bio1](https://user-images.githubusercontent.com/78483210/152059949-10ca8b37-708a-4ae0-8842-3d16eb2e9947.png)
+
+![bio2](https://user-images.githubusercontent.com/78483210/152059958-2e1b8df0-e2b2-49c6-8ed7-e8573ef8c3cc.png)
+
 ![img7](https://user-images.githubusercontent.com/78483210/144087873-4addbdb5-e850-4985-aeee-8cd07a090b4f.png)
 
 ![img8](https://user-images.githubusercontent.com/78483210/144087880-5f327f15-e780-4229-a9e8-a2f92cafc0d0.png)
