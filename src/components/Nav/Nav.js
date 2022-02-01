@@ -1,8 +1,10 @@
 import { Link } from "react-scroll";
 import styles from "./Nav.module.scss";
+
 /* Inclusão de todos personagens nessa aba Nav */
 const Nav = ({ toggle }) => {
-  return (
+
+  return (    
     <nav className={styles.menu}>
       <ul>
         <li onClick={toggle}>
