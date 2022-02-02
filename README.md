@@ -1,6 +1,7 @@
 ## Projeto Resident Evil 2 Desenvolvido por Fã com muito carinho e amor.
 
-### Deploy do projeo
+### Deploy do projeto
+### Obs: é possível que o audio e video apareça bloqueado no navegador de vocês no firefox pelo menos aparece é so desbloquear e curtir
 
 https://resident-evil-2-remake-fa-site.netlify.app/
 
