@@ -1,5 +1,9 @@
 ## Projeto Resident Evil 2 Desenvolvido por Fã com muito carinho e amor.
 
+### Deploy do projeo
+
+https://resident-evil-2-remake-fa-site.netlify.app/
+
 ### Foi desenvolvido em React junto a algumas dependências que serão citadas abaixo.
 
 ````
