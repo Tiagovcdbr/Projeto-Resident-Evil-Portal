@@ -17,6 +17,7 @@
     "sass": "^1.43.5",
     "sass-loader": "^12.3.0",
     "swiper": "^7.3.1",
+    "use-sound": "^4.0.1",
     "web-vitals": "^1.0.1"
   },
   "scripts": {
