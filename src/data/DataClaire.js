@@ -1,4 +1,4 @@
-import Claire from '../images/claire.png';
+import Claire from '../images/claire-character.png';
 
 export const InfoClaire = {
   title: "Uma universitária apaixonada por motociclismo, Claire é a irmã caçula e a única família de Chris Redfield, membro do esquadrão de elite S.T.A.R.S",
