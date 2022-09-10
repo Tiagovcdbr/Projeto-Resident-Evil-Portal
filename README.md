@@ -1,6 +1,6 @@
 ## Projeto Resident Evil 2 Desenvolvido por Fã com muito carinho e amor.
 
-### Projeto está sendo refatorado e modificado e com isso trarei mais algumas novidades ao site, aguardem novidades!
+### O Projeto está sendo refatorado e modificado e com isso trarei mais algumas novidades ao site, aguardem novidades!
 ### 
 
 ### Deploy do projeto
