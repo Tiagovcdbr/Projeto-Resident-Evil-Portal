@@ -46,7 +46,21 @@ Note no package.json está mostrando todas as depedências que seu projeto tem, 
 #### npm i web-vitals:    https://www.npmjs.com/package/web-vitals
 
 #### Com todas as Dependências instaladas é só começar a codar o seu projeto e desenvolver da maneira que quiser, caso queira usar esse projeto como base para criar o seu, fique a vontade pois ficarei feliz que esse trabalho sirva para você criar seu projeto do seu gosto e adicionar o que você quiser.
-#### baixo mostrarei algumas imagens de como ficou o projeto, espero que gostem e façam um fork caso queiram pra me ajudar ou se não estiver familiarizado com o Git faça o download do projeto ou até mesmo um clone dele. Muito obrigdo pela visita Happy Hacking <img src="https://raw.githubusercontent.com/kaueMarques/kaueMarques/master/hi.gif" width="30px"> 🚀🚀
+#### baixo mostrarei algumas imagens de como ficou o projeto, espero que gostem e façam um fork caso queiram pra me ajudar ou se não estiver familiarizado com o Git faça o download do projeto ou até mesmo um clone dele. Muito obrigado pela visita Happy Hacking <img src="https://raw.githubusercontent.com/kaueMarques/kaueMarques/master/hi.gif" width="30px"> 🚀🚀
+
+### Imagens da nova versão do projeto que agora será um portal com o Títulos mais conhecidos e jogados pela comunidade, além dos conteúdos do próprio site trarei informações como por exemplo: filmes, trailers, arquivos encontrados durante cada game e muito mais. Espero poder trazer muito conteúdo para o site e pra galera que curte o game assim como eu, muito obrigado e aos poucos vou atualizando e postando as novidades. 🚀🚀
+
+![portal resident](https://user-images.githubusercontent.com/78483210/189554066-773d312f-f714-43d6-a7f9-440996a11071.png)
+
+![portal resident-2](https://user-images.githubusercontent.com/78483210/189554067-8e7a2b52-bd06-4763-88b6-f12706e09f1f.png)
+
+![portal resident-3](https://user-images.githubusercontent.com/78483210/189554069-3ce48534-6640-459f-af16-43aeebb78530.png)
+
+![portal resident-4](https://user-images.githubusercontent.com/78483210/189554072-f684b145-e996-4c91-b434-1272b5588e25.png)
+
+![portal resident-5](https://user-images.githubusercontent.com/78483210/189554074-d73e80d2-3c09-4602-8340-b08cbb5f9bdd.png)
+
+### Abaixo estão algumas imagens do portal do Resident Evil 2 remake!
 
 ![img1](https://user-images.githubusercontent.com/78483210/144087837-9de75733-29cb-41f3-a0ae-86921af89e94.png)
 
