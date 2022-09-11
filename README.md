@@ -1,4 +1,4 @@
-## Projeto Resident Evil 2 Desenvolvido por Fã com muito carinho e amor.
+## Projeto Resident Evil Portal Desenvolvido por Fã com muito carinho e amor.
 
 ### O Projeto está sendo refatorado e modificado e com isso trarei mais algumas novidades ao site, aguardem novidades!
 ### 
