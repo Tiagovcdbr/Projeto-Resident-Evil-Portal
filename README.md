@@ -7,7 +7,7 @@
 #### Obs: é possível que o audio e video apareça bloqueado no navegador de vocês no firefox pelo menos aparece é so desbloquear e curtir.
 #### Caso o video não carregue na primeira vez que acessar pelo PC de um reload na página, caso esteja na versão mobile e quiser vizualizar melhor o conteúdo vire a tela do aparelho ou ative a versão desktop no seu aparelho celular, espero que curtam !
 
-https://resident-evil-2-remake-fa-site.netlify.app/
+https://resident-evil-portal-fa-site.netlify.app/
 
 ### Foi desenvolvido em React junto a algumas dependências que serão citadas abaixo.
 
