@@ -1,4 +1,4 @@
-import MrX from '../../../images/mrx.png';
+import MrX from '../../../images/Resident2Images/mrx.png';
 
 export const InfoMrX = {
   title: "T-00  foi um Tyrant enviado para Raccoon City durante o Incidente de Destruição de Raccoon City em 1998 ",

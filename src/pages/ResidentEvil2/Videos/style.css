@@ -1,7 +1,7 @@
 .swiper {
   width: 100%;
   height: 80vh;
-  background: url("../../../images/bg8.jpg");
+  background: url("../../../images/Resident2Images/bg8.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -21,7 +21,7 @@
 
 @media (min-width: 1024px) {
   .swiper {
-    background: url("../../../images/bg8.jpg");
+    background: url("../../../images/Resident2Images/bg8.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

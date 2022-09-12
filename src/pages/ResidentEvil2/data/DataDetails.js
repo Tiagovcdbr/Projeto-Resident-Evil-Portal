@@ -1,9 +1,9 @@
-import ImageOne from '../../../images/marvin.jpg';
-import ImageTwo from '../../../images/irons.jpg';
-import ImageThree from '../../../images/birkin.jpg';
-import ImageFour from '../../../images/04.jpg';
-import ImageFive from '../../../images/licker.jpg';
-import ImageSix from '../../../images/12.jpg';
+import ImageOne from '../../../images/Resident2Images/marvin.jpg';
+import ImageTwo from '../../../images/Resident2Images/irons.jpg';
+import ImageThree from '../../../images/Resident2Images/birkin.jpg';
+import ImageFour from '../../../images/Resident2Images/04.jpg';
+import ImageFive from '../../../images/Resident2Images/licker.jpg';
+import ImageSix from '../../../images/Resident2Images/12.jpg';
 
 
 export const DetailsContent = {

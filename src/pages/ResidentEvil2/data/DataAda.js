@@ -1,4 +1,4 @@
-import Ada from '../../../images/aida-character.png';
+import Ada from '../../../images/Resident2Images/aida-character.png';
 
 export const InfoAda = {
   title: "Ada Wong é uma asiática que trabalhou como espiã para uma organização originalmente rival à Umbrella.",

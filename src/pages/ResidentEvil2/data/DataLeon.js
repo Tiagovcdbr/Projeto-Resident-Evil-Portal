@@ -1,4 +1,4 @@
-import Leon from '../../../images/leon-character.png';
+import Leon from '../../../images/Resident2Images/leon-character.png';
 
 export const InfoLeon = {
   title: "Claire Redfield e Leon S. Kennedy são os protagonistas de Resident Evil 2 e seguem em caminhos diferentes, mas de forma simultânea..",

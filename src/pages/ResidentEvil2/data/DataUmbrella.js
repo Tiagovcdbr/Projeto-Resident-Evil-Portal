@@ -1,4 +1,4 @@
-import Umbrella from '../../../images/umbrella.png';
+import Umbrella from '../../../images/Resident2Images/umbrella.png';
 
 export const InfoUmbrella = {
   title: "Raccoon City é uma cidade industrial localizada no centro-oeste dos Estados Unidos que foi destruída pelo governo americano após a disseminação de um vírus mortal.",

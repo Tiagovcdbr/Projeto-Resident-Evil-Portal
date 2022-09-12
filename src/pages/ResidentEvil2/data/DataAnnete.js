@@ -1,4 +1,4 @@
-import Annete from '../../../images/annete.png';
+import Annete from '../../../images/Resident2Images/annete.png';
 
 export const InfoAnnete = {
   title: "Esposa de William Birkin e mãe da jovem Sherry Birkin, Annette, assim como seu marido, também era uma pesquisadora da Umbrella no Complexo de Arklay",

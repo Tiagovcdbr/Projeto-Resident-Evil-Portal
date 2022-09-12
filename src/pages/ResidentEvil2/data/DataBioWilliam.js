@@ -1,15 +1,15 @@
-import ImageOne from '../../../images/wlfase1.jpg';
-import ImageTwo from '../../../images/wlfase2.jpg';
-import ImageThree from '../../../images/wlfase3.jpg';
-import ImageFour from '../../../images/wlfase4.jpg';
-import ImageFive from '../../../images/wlfase5.jpg';
-import ImageSix from '../../../images/g-jovem.jpg';
-import ImageSeven from '../../../images/g-adulto.jpg';
-import ImageEight from '../../../images/supertyrant.jpg';
-import ImageNine from '../../../images/lck.jpg';
-import ImageTen from '../../../images/ivys2.jpg';
-import ImageEleven from '../../../images/cerberus.jpg';
-import ImageTwelve from '../../../images/alligator.jpg';
+import ImageOne from '../../../images/Resident2Images/wlfase1.jpg';
+import ImageTwo from '../../../images/Resident2Images/wlfase2.jpg';
+import ImageThree from '../../../images/Resident2Images/wlfase3.jpg';
+import ImageFour from '../../../images/Resident2Images/wlfase4.jpg';
+import ImageFive from '../../../images/Resident2Images/wlfase5.jpg';
+import ImageSix from '../../../images/Resident2Images/g-jovem.jpg';
+import ImageSeven from '../../../images/Resident2Images/g-adulto.jpg';
+import ImageEight from '../../../images/Resident2Images/supertyrant.jpg';
+import ImageNine from '../../../images/Resident2Images/lck.jpg';
+import ImageTen from '../../../images/Resident2Images/ivys2.jpg';
+import ImageEleven from '../../../images/Resident2Images/cerberus.jpg';
+import ImageTwelve from '../../../images/Resident2Images/alligator.jpg';
 
 
 export const BioWilliamContent = {

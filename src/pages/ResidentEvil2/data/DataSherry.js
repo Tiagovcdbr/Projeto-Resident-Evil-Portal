@@ -1,4 +1,4 @@
-import Sherry from '../../../images/sherry.png';
+import Sherry from '../../../images/Resident2Images/sherry.png';
 
 export const InfoSherry = {
   title: "Sherry Birkin é a filha única do casal de cientistas William Birkin e Annette Birkin. Ambos trabalham no Laboratório Subterrâneo de Raccoon, em projetos que Sherry desconhece, e como são profissionais muito ocupados e focados em suas carreiras, acabam negligenciando a filha.",

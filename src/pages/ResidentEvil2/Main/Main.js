@@ -1,8 +1,8 @@
 import { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import Video from "../../../images/video.mp4";
-import LogoIMG from "../../../images/logo.png";
+import Video from "../../../images/Resident2Images/video.mp4";
+import LogoIMG from "../../../images/Resident2Images/logo.png";
 import styles from "./Main.module.scss";
 import Audio from "../../../audios/Resident Evil 2 Remake- Title Screen Voice.m4a";
 

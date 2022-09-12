@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import Video from "../../../videos/video-portal-background.mp4";
-import LogoIMG from "../../../images/resident-portal.png";
+import LogoIMG from "../../../images/Resident2Images/resident-portal.png";
 import styles from "./Main.module.scss";
 
 const Main = () => {
