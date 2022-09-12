@@ -96,7 +96,9 @@ const LineUpGames = ({
       <div data-aos="fade-up" className={styles.features_content}>
 
         <div className={styles.features_content_card}>
-          <img src={img1} alt={alt1} />
+          <Link to="resident0" spy={true} smooth={true} duration={800} exact return={Component}>
+            <img src={img1} alt={alt1} />
+          </Link>
           <h3>{title1}</h3>
           <p>{paragraph1}</p>
         </div>

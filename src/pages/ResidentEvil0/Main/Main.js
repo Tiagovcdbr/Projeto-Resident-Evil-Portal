@@ -1,8 +1,7 @@
 import { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import Video from "../../../videos/video-portal-background.mp4";
-import LogoIMG from "../../../images/resident-portal.png";
+import LogoIMG from "../../../images/Resident0/firstView-title-global.png";
 import styles from "./Main.module.scss";
 
 const Main = () => {
@@ -13,12 +12,7 @@ const Main = () => {
   return (
     <div className={styles.main} id="home">
       <div data-aos="fade" className={styles.main_bg}>
-        <video
-          src={Video}
-          autoPlay={true}
-          loop 
-          className={styles.video}
-        ></video>
+        
       </div>
       <audio
        src={Audio}
