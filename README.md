@@ -1,4 +1,4 @@
-## Projeto Resident Evil 2 Desenvolvido por Fã com muito carinho e amor.
+## Projeto Resident Evil Portal Desenvolvido por Fã com muito carinho e amor.
 
 ### O Projeto está sendo refatorado e modificado e com isso trarei mais algumas novidades ao site, aguardem novidades!
 ### 
@@ -7,7 +7,7 @@
 #### Obs: é possível que o audio e video apareça bloqueado no navegador de vocês no firefox pelo menos aparece é so desbloquear e curtir.
 #### Caso o video não carregue na primeira vez que acessar pelo PC de um reload na página, caso esteja na versão mobile e quiser vizualizar melhor o conteúdo vire a tela do aparelho ou ative a versão desktop no seu aparelho celular, espero que curtam !
 
-https://resident-evil-2-remake-fa-site.netlify.app/
+https://resident-evil-portal-fa-site.netlify.app/
 
 ### Foi desenvolvido em React junto a algumas dependências que serão citadas abaixo.
 
@@ -46,7 +46,7 @@ Note no package.json está mostrando todas as depedências que seu projeto tem, 
 #### npm i web-vitals:    https://www.npmjs.com/package/web-vitals
 
 #### Com todas as Dependências instaladas é só começar a codar o seu projeto e desenvolver da maneira que quiser, caso queira usar esse projeto como base para criar o seu, fique a vontade pois ficarei feliz que esse trabalho sirva para você criar seu projeto do seu gosto e adicionar o que você quiser.
-#### baixo mostrarei algumas imagens de como ficou o projeto, espero que gostem e façam um fork caso queiram pra me ajudar ou se não estiver familiarizado com o Git faça o download do projeto ou até mesmo um clone dele. Muito obrigado pela visita Happy Hacking <img src="https://raw.githubusercontent.com/kaueMarques/kaueMarques/master/hi.gif" width="30px"> 🚀🚀
+#### Abaixo mostrarei algumas imagens de como ficou o projeto, espero que gostem e façam um fork caso queiram pra me ajudar ou se não estiver familiarizado com o Git faça o download do projeto ou até mesmo um clone dele. Muito obrigado pela visita Happy Hacking <img src="https://raw.githubusercontent.com/kaueMarques/kaueMarques/master/hi.gif" width="30px"> 🚀🚀
 
 #### Imagens da nova versão do projeto que agora será um portal com o Títulos mais conhecidos e jogados pela comunidade, além dos conteúdos do próprio site trarei informações como por exemplo: filmes, trailers, arquivos encontrados durante cada game e muito mais. Espero poder trazer muito conteúdo para o site e pra galera que curte o game assim como eu, muito obrigado e aos poucos vou atualizando e postando as novidades. 🚀🚀
 
