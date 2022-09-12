@@ -6,6 +6,9 @@ import styles from "./LineUpGames.module.scss";
 import { Component } from "react";
 import { Link } from "react-router-dom";
 
+import useSound from 'use-sound';
+import soundMenu from '../../../audios/Resident Evil 0 PS4 Voice Title.m4a'
+
 const LineUpGames = ({
   title1,
   paragraph1,
@@ -90,6 +93,8 @@ const LineUpGames = ({
 
   window.addEventListener("scroll", ChangeDetails);
 
+  const [effect] = useSound(soundMenu)
+
   return (
     <div className={styles.container} id="lineup">
       <h2 data-aos="fade">TimeLine da Franquia</h2>
@@ -97,7 +102,7 @@ const LineUpGames = ({
 
         <div className={styles.features_content_card}>
           <Link to="resident0" spy={true} smooth={true} duration={800} exact return={Component}>
-            <img src={img1} alt={alt1} />
+            <img src={img1} alt={alt1} onClick={effect} />
           </Link>
           <h3>{title1}</h3>
           <p>{paragraph1}</p>
