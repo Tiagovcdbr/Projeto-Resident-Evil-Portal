@@ -42,40 +42,40 @@ export const LineUpGamesContent = {
     title6: "Resident Evil 5",
     //paragraph6: "Assim como as ruas e delegacia, os esgotos de Raccon City estão lindos e concerteza quem jogou o clássico de 1998 vai se surpreender com a maravilha que está esse cenário e os inimigos que habitam nele.",
     img6: ImageSix,
-    alt6: "Leon no esgoto",
+    alt6: "Resident 5",
 
     title7: "Resident Evil 6",
     //paragraph7: "Assim como as ruas e delegacia, os esgotos de Raccon City estão lindos e concerteza quem jogou o clássico de 1998 vai se surpreender com a maravilha que está esse cenário e os inimigos que habitam nele.",
     img7: ImageSeven,
-    alt7: "Leon no esgoto",
+    alt7: "Resident 6",
 
     title8: "Resident Evil 7",
     //paragraph8: "Assim como as ruas e delegacia, os esgotos de Raccon City estão lindos e concerteza quem jogou o clássico de 1998 vai se surpreender com a maravilha que está esse cenário e os inimigos que habitam nele.",
     img8: ImageEight,
-    alt8: "Leon no esgoto",
+    alt8: "Resident 7",
 
     title9: "Resident Evil Village",
     //paragraph9: "Assim como as ruas e delegacia, os esgotos de Raccon City estão lindos e concerteza quem jogou o clássico de 1998 vai se surpreender com a maravilha que está esse cenário e os inimigos que habitam nele.",
     img9: ImageNine,
-    alt9: "Leon no esgoto",
+    alt9: "Resident Village",
 
     title10: "Resident Evil Outbreak",
     //paragraph10: "Assim como as ruas e delegacia, os esgotos de Raccon City estão lindos e concerteza quem jogou o clássico de 1998 vai se surpreender com a maravilha que está esse cenário e os inimigos que habitam nele.",
     img10: ImageTen,
-    alt10: "Leon no esgoto",
+    alt10: "Resident Outbreak",
 
     title11: "Resident Evil Outbreak File#2",
     //paragraph11: "Assim como as ruas e delegacia, os esgotos de Raccon City estão lindos e concerteza quem jogou o clássico de 1998 vai se surpreender com a maravilha que está esse cenário e os inimigos que habitam nele.",
     img11: ImageEleven,
-    alt11: "Leon no esgoto",
+    alt11: "Resident Outbreak #2",
 
     title12: "Resident Evil Revelations 1 & 2",
     //paragraph12: "Assim como as ruas e delegacia, os esgotos de Raccon City estão lindos e concerteza quem jogou o clássico de 1998 vai se surpreender com a maravilha que está esse cenário e os inimigos que habitam nele.",
     img12: ImageTwelve,
-    alt12: "Leon no esgoto",
+    alt12: "Revelations 1 & 2",
 
     title13: "Resident Evil 4 Remake",
     //paragraph13: "Assim como as ruas e delegacia, os esgotos de Raccon City estão lindos e concerteza quem jogou o clássico de 1998 vai se surpreender com a maravilha que está esse cenário e os inimigos que habitam nele.",
     img13: ImageThirteen,
-    alt13: "Leon no esgoto",
+    alt13: "Resident 4 Remake",
 }

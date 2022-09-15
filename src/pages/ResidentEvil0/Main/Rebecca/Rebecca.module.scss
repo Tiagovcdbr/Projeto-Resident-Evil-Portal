@@ -1,2 +1,57 @@
 @import "../../../styles/variables.scss";
 @import "../../../styles/mixins.scss";
+
+.rebecca {
+    width: 50%;
+    height: 100%;
+    padding: 3rem 0;
+
+    &_container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 800px;
+        padding: 1rem;
+
+        @media (min-width: 768px) {
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        @media (max-width: 420px) {
+            img {
+                display: none;
+            }
+        }
+
+        &_right {
+            @include justify-center;
+            padding: 1rem, 2rem;
+
+            img {
+                width: 30%;
+                height: 100%;
+                position: relative;
+                right: -50px;
+                object-fit: cover;
+                transition: 0.5s ease-in-out;
+
+                @media (min-width: 768px) {
+                    right: -70px;
+                    cursor: pointer;
+
+                    &:hover {
+                        right: -50px;
+                    }
+                }
+
+                @media (min-width: 1024px) {
+                    right: -100px;
+                    cursor: pointer;
+
+                    &:hover {
+                        right: -70px;
+                    }
+                }
+            }
+        }
+    }
+}

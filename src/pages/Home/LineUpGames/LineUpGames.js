@@ -115,7 +115,7 @@ const LineUpGames = ({
         </div>
 
         <div className={styles.features_content_card}>
-          <Link to="/re2remake" spy={true} smooth={true} duration={800} exact return={Component}>          
+          <Link to="re2remake" spy={true} smooth={true} duration={800} exact return={Component}>          
             <img src={img3} alt={alt3} />
           </Link>
             <h3>{title3}</h3>
