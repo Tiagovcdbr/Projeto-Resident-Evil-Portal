@@ -12,7 +12,7 @@ const Rebecca = ({ image, alt }) => {
   return (
     <div className={styles.rebecca} id="rebecca">
       <div className={styles.rebecca_container}>
-        <div data-aos="fade-left" className={styles.rebecca_container_right}>
+        <div data-aos="fade-left" className={styles.rebecca_container_left}>
           <img src={image} alt={alt} />
         </div>
       </div>

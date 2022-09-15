@@ -1,12 +1,13 @@
-@import "../../../styles/variables.scss";
-@import "../../../styles/mixins.scss";
+@import "../../../../styles/variables.scss";
+@import "../../../../styles/mixins.scss";
 
 .rebecca {
     width: 50%;
     height: 100%;
-    padding: 3rem 0;
+    padding: 15rem 0;
+    margin-left: 70%;
 
-    &_container {
+    &_container {        
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 800px;
@@ -22,16 +23,16 @@
             }
         }
 
-        &_right {
-            @include justify-center;
+        &_left {
+            @include align-end;
             padding: 1rem, 2rem;
 
             img {
-                width: 30%;
+                width: 80%;
                 height: 100%;
                 position: relative;
                 right: -50px;
-                object-fit: cover;
+                object-fit: cover;               
                 transition: 0.5s ease-in-out;
 
                 @media (min-width: 768px) {

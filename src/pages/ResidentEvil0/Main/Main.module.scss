@@ -13,6 +13,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    overflow-x: hidden;
 
     @media (min-width: 768px) {
         @include justify-start;
