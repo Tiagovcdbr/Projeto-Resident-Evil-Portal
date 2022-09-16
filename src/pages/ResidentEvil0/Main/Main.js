@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import LogoIMG from "../../../images/Resident0/firstView-title-global.png";
+import SwitchIMG from "../../../images/Resident0/switch-logo.png"
 import styles from "./Main.module.scss";
 
 import Rebecca from "../../ResidentEvil0/Main/Rebecca/Rebecca"
@@ -23,10 +24,19 @@ const Main = () => {
        ></audio>
       <div data-aos="fade" className={styles.main_content}>
         <img src={LogoIMG} 
-        alt="Logo" />
-        <h4>©2022 Capcom Co.,Ltd. All rights reserved. Feito por Fã</h4>
-        <h5>PS4, &nbsp;PS5,&nbsp;  Xbox,&nbsp; Xbox Series,&nbsp; PC</h5>
-      </div>      
+        alt="Logo" /> 
+        <h2 className={styles.firstView_title_text}>Resident Evil 0 HD Remaster</h2>
+        <div className={styles.firstView_switch}>
+        <div className={styles.firstView_switch_logo}>
+          <img src={SwitchIMG}
+          alt="Nintendo Switch" />
+        </div>
+        <div className={styles.firstView_switch_info}>
+          <div className={styles.firstView_switch_text}>Nintendo Switch™ version</div>
+          <div className={styles.firstView_switch_date}>Available Now</div>
+        </div>
+      </div> 
+      </div>            
     </div>
   );
 };

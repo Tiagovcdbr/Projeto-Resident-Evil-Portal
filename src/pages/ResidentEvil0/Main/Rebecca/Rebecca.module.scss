@@ -2,15 +2,16 @@
 @import "../../../../styles/mixins.scss";
 
 .rebecca {
-    width: 50%;
-    height: 100%;
-    padding: 15rem 0;
-    margin-left: 70%;
+    position: absolute;
+    z-index: 3;
+    width: 30.2916vw;
+    right: 0;
+    top: 30%;
 
     &_container {        
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 800px;
+        grid-template-rows: 1200px;
         padding: 1rem;
 
         @media (min-width: 768px) {
@@ -26,12 +27,13 @@
         &_left {
             @include align-end;
             padding: 1rem, 2rem;
+            width: 400px;
+            margin-left: -50px;                       
 
             img {
-                width: 80%;
+                width: 100%;
                 height: 100%;
                 position: relative;
-                right: -50px;
                 object-fit: cover;               
                 transition: 0.5s ease-in-out;
 

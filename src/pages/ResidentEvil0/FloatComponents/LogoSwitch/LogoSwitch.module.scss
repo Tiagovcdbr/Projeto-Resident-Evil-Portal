@@ -1,0 +1,10 @@
+@import url("../../../../styles/variables.scss");
+
+.logo_switch {
+   display: flex;
+   align-items: center;
+
+   img {
+    width: 5rem;
+   }
+}
