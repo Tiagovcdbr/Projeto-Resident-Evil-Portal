@@ -4,7 +4,7 @@
 .main {
     @include justify-center;
     height: 100vh;
-    position: relative;
+    position: static;
     padding: 0 8rem;
     z-index: 1;
     background: #0c0c0c;
@@ -40,32 +40,12 @@
     }
 
     &_content {
-        max-width: 1500px;
-        height: 100%;
-        @include justify-center;
-        flex-direction: column;
         position: absolute;
-        z-index: 3;
-        padding: 0.5rem 3.5rem;
+        left: 8.854vw;
         
-        img {
-            position: relative;
-            max-width: 1500px;
-            left: -10px;
-                                           
-        }
-
-        @media (min-width: 360px) {
-            img {
-                max-width: 250px;
-            }
-        }
-
-        @media (min-width: 480px) {
-            img {
-                max-width: 810px;
-            }
-        }
+        -webkit-transform: translateY(-50%);
+        transform: scale(90%);
+        z-index: 5;
 
         h2 {
             text-align: center;
@@ -81,12 +61,12 @@
     } 
     
     .firstView_switch {
-        bottom: 10px;
-        left: -30px;
+        bottom: 10px; 
         display: inline-flex;
         border-bottom: 1px solid #fff;
         text-align: left;        
-        position: relative; 
+        position: relative;
+        left: 120px; 
     }
 
     .firstView_switch_logo {
@@ -94,6 +74,7 @@
         margin-right: 1.3541vw;
 
         img {
+            position: relative;
             width: 100%;
             left: 0;
             top: -10px;
@@ -127,6 +108,15 @@
          0px 0px .8em #000000, 0px 0px 1.2em
          #000000, 0px 0px 1.6em #000000,
           0px 0px 2em #000000;
+    }
+
+    .firstView_otherPlats {
+        width: 17.7708vw;
+        margin: 0 auto;
+
+        img {
+            width: 100%;
+        }
     }
 }
 
