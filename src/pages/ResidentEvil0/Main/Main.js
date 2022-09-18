@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+
 import Aos from "aos";
 import "aos/dist/aos.css";
 import LogoIMG from "../../../images/Resident0/firstView-title-global.png";
@@ -27,27 +28,27 @@ const Main = () => {
        src={Audio}
        autoPlay={true}
        ></audio>
-      <div data-aos="fade" className={styles.main_content}>
+        <div data-aos="fade" className={styles.main_content}>
         <img src={LogoIMG} 
-        alt="Logo" /> 
-        <h2 className={styles.firstView_title_text}>Resident Evil 0 HD Remaster</h2>
-        <div className={styles.firstView_switch}>
-          <div className={styles.firstView_switch_logo}>
-            <img src={SwitchIMG}
-            alt="Nintendo Switch" />
+          alt="Logo" /> 
+          <h2 className={styles.firstView_title_text}>Resident Evil 0 HD Remaster</h2>
+          <div className={styles.firstView_switch}>
+            <div className={styles.firstView_switch_logo}>
+              <img src={SwitchIMG}
+              alt="Nintendo Switch" />
+            </div>
+            <div className={styles.firstView_switch_info}>
+              <div className={styles.firstView_switch_text}>Nintendo Switch™ version</div>
+              <div className={styles.firstView_switch_date}>Available Now</div>
+            </div>
           </div>
-        <div className={styles.firstView_switch_info}>
-          <div className={styles.firstView_switch_text}>Nintendo Switch™ version</div>
-          <div className={styles.firstView_switch_date}>Available Now</div>
-        </div>
-      </div>
-      <div className={styles.firstView_otherPlats}>
-        <img src={GlobalPlataforms} alt="PS4 PS3 XBOX ONE available now" />
-      </div> 
-      </div>
+          <div className={styles.firstView_otherPlats}>
+            <img src={GlobalPlataforms} alt="PS4 PS3 XBOX ONE available now" />
+          </div> 
+        </div> 
         <div className={styles.firstView_scroll_is_animate}>
           SCROLL
-        </div>            
+        </div>                    
     </div>
   );
 };
