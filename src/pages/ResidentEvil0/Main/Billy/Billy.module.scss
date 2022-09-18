@@ -4,8 +4,8 @@
 .billy {
     position: absolute;
     z-index: 2;
-    width: 35.52083vw;
-    right: 17vw;
+    width: 27.52083vw;
+    right: 25vw;
     top: 10%;
 
     &_container {        
@@ -18,10 +18,11 @@
         }
 
         @media (max-width: 768px) {
-            @include justify-center;
+            position: relative;
+            margin-left: -23rem;
         }
 
-        @media (max-width: 420px) {
+        @media (max-width: 540px) {
             img {
                 display: none;
             }

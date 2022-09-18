@@ -14,11 +14,16 @@
         grid-template-rows: 1200px;
         padding: 1rem;
 
+        @media (max-width: 960px) {
+            margin-left: -12rem;
+            transition: 0.3s ease-in-out;
+         }
+
         @media (min-width: 768px) {
             grid-template-columns: repeat(2, 1fr);
         }
 
-        @media (max-width: 420px) {
+        @media (max-width: 540px) {
             img {
                 display: none;
             }

@@ -44,7 +44,10 @@ const Main = () => {
       <div className={styles.firstView_otherPlats}>
         <img src={GlobalPlataforms} alt="PS4 PS3 XBOX ONE available now" />
       </div> 
-      </div>            
+      </div>
+        <div className={styles.firstView_scroll_is_animate}>
+          SCROLL
+        </div>            
     </div>
   );
 };
