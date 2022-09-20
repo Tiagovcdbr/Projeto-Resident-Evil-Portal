@@ -1,3 +1,4 @@
+
 import { useEffect } from "react";
 
 import Aos from "aos";
@@ -16,7 +17,7 @@ import GlobalPlataforms from "../../../images/Resident0/firstView-platforms-glob
 const Main = () => {
   useEffect(() => {
     Aos.init({duration: 2000});
-  }, []);
+  }, []);  
 
   return (
     <div className={styles.main} id="home">
@@ -45,9 +46,9 @@ const Main = () => {
           <div className={styles.firstView_otherPlats}>
             <img src={GlobalPlataforms} alt="PS4 PS3 XBOX ONE available now" />
           </div> 
-        </div> 
-        <div className={styles.firstView_scroll_is_animate}>
-          SCROLL
+        </div>
+        <div className={styles.firstView_scroll}> SCROLL
+          <div className={styles.firstView_scroll_is_animate}></div>            
         </div>                    
     </div>
   );

@@ -1,5 +1,4 @@
 import { useEffect } from "react";
-import { useState } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import styles from "./LineUpGames.module.scss";
@@ -80,19 +79,6 @@ const LineUpGames = ({
     Aos.init({duration: 1000});
   }, []);
 
-  // eslint-disable-next-line no-unused-vars
-  const [ details, setDetails ] = useState(false);
-
-  const ChangeDetails = () => {
-    if (window.scrollY >= 80) {
-      setDetails(true);
-    } else {
-      setDetails(false);
-    }
-  };
-
-  window.addEventListener("scroll", ChangeDetails);
-
   const [effect] = useSound(soundMenu)
 
   return (
@@ -115,7 +101,7 @@ const LineUpGames = ({
         </div>
 
         <div className={styles.features_content_card}>
-          <Link to="re2remake" spy={true} smooth={true} duration={800} exact return={Component}>          
+          <Link to="re2remake" spy={true} smooth={true} duration={800} exact return={Component}>         
             <img src={img3} alt={alt3} />
           </Link>
             <h3>{title3}</h3>
