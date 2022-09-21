@@ -1,6 +1,8 @@
 
 import { useEffect } from "react";
 
+import Music from "../../../audios/Resident Evil 0 - Save Room Theme.m4a"
+
 import Aos from "aos";
 import "aos/dist/aos.css";
 import LogoIMG from "../../../images/Resident0/firstView-title-global.png";
@@ -26,9 +28,10 @@ const Hero = () => {
         <Rebecca {...InfoRebecca} />
       </div>
       <audio
-       src={Audio}
-       autoPlay={true}
-       ></audio>
+        src={Music}
+        autoplay='1'
+        loop                
+      />
         <div data-aos="fade" className={styles.main_content}>
           <img src={LogoIMG} 
             alt="Logo" /> 
