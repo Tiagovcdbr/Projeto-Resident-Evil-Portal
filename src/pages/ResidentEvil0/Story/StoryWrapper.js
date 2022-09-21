@@ -2,6 +2,7 @@ import React from 'react'
 
 import styles from "./StoryWrapper.module.scss";
 import SystemIMG from "../../../images/Resident0/system1.jpg"
+import HistoryIMG from "../../../images/Resident0/story3.jpg"
 
 function StoryWrapper() {
   return (
@@ -9,7 +10,7 @@ function StoryWrapper() {
         <div className={styles.system}>
           <div className={styles.system_image}>
                 <img src={SystemIMG} alt="System 1" />
-                <div className={styles.system_image_overlay}></div>                
+              <div className={styles.system_image_overlay}></div>                
           </div>
           <div className={styles.system_descr}>
               <div className={styles.system_descr_bg}></div>
@@ -36,6 +37,40 @@ function StoryWrapper() {
                 </div>
               </div>
             </div>            
+        </div>
+        <div className={styles.story}>
+          <div className={styles.story_image}>
+            <img src={HistoryIMG} alt="History" />
+          </div>
+          <div className={styles.story_descr}>
+            <div className={styles.story_descr_bg}></div>
+              <div className={styles.story_descr_inner}>
+                <h3 className={styles.story_lead}>STORY</h3>
+                <div className={styles.story_detail}>
+                    In the year 1998, the Raccoon City Police Department 
+                    dispatched their elite unit S.T.A.R.S. Bravo Team to 
+                    investigate a series of bizarre murders on the outskirts 
+                    of the Midwestern city.
+                  <br>
+                  </br>
+                  <br>
+                  </br>
+                    While en route, the team's helicopter is forced to make 
+                    an emergency landing falling a sudden engine failure. The 
+                    team set out from the crash site only to discover that 
+                    the forest where they landed hid an overturned military 
+                    vehicle, dead soldiers, and orders for the transport of 
+                    Billy Coen, a prisoner who had been sentenced to death.
+                  <br>
+                  </br>
+                  <br>
+                  </br>
+                    As the team continue their search of the area, rookie member 
+                    Rebecca Chambers discovers a passenger train. Seeing no signs 
+                    of life, she steps on board...
+                </div>
+              </div>            
+          </div>
         </div>
     </div>
   )

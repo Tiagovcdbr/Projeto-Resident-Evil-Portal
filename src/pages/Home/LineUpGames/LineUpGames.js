@@ -1,8 +1,9 @@
+/* eslint-disable eqeqeq */
+/* eslint-disable no-undef */
 import { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import styles from "./LineUpGames.module.scss";
-import { Component } from "react";
 import { Link } from "react-router-dom";
 
 import useSound from 'use-sound';
@@ -82,12 +83,12 @@ const LineUpGames = ({
   const [effect] = useSound(soundMenu)
 
   return (
-    <div className={styles.container} id="lineup">
+    <div className={ styles.container } id="lineup">
       <h2 data-aos="fade">TimeLine da Franquia</h2>
       <div data-aos="fade-up" className={styles.features_content}>
 
         <div className={styles.features_content_card}>
-          <Link to="resident0" spy={true} smooth={true} duration={800} exact return={Component}>
+          <Link to="residentevil0" spy={true} smooth={true} duration={800}>
             <img src={img1} alt={alt1} onClick={effect} />
           </Link>
           <h3>{title1}</h3>
@@ -101,7 +102,7 @@ const LineUpGames = ({
         </div>
 
         <div className={styles.features_content_card}>
-          <Link to="re2remake" spy={true} smooth={true} duration={800} exact return={Component}>         
+          <Link to="re2remake" spy={true} smooth={true} duration={800}>         
             <img src={img3} alt={alt3} />
           </Link>
             <h3>{title3}</h3>

@@ -71,6 +71,7 @@
         display: -webkit-inline-box;
         display: -ms-inline-flexbox;
         display: inline-flex;
+        line-height: normal;
         left: 135px;
         border-bottom: 1px solid #fff;
         text-align: left;
@@ -97,8 +98,8 @@
     
     .firstView_switch_text {
         font-family: 'NotoSerifCJKjp', serif;
-        line-height: 1.4;
-        font-size: 1.5625vw;
+        margin-top: -10px;
+        font-size: 1.825vw;
         text-shadow: 0px 0px .4em #000000, 0px 0px .8em #000000, 0px 0px 1.2em #000000, 0px 0px 1.6em #000000, 0px 0px 2em #000000;
         letter-spacing: .06em;
         color: #fff;
@@ -107,7 +108,8 @@
     .firstView_title_text {
         font-size: 1.50vw;
         font-family: 'NotoSerifCJKjp', serif;
-        margin-bottom: 2.083vw;
+        margin-bottom: 2.525vw;
+        margin-left: 50px;
         text-shadow: 0px 0px .4em #000000, 0px 0px .8em #000000, 0px 0px 1.2em #000000, 0px 0px 1.6em #000000, 0px 0px 2em #000000;
         position: relative;
         font-weight: normal;
@@ -205,7 +207,7 @@
         position: absolute;
         z-index: 6;
         left: 50%;
-        bottom: 3%;
+        bottom: 8%;
         -webkit-transform: translateX(0%);
         transform: translateX(0%);
         text-shadow: 0px 0px .4em #000,
@@ -222,18 +224,7 @@
         animation-timing-function: ease;
         -webkit-animation-iteration-count: infinite;
         animation-iteration-count: infinite;
-        margin-left: -25px;
-    }
-    
-    .firstView_scroll_is_animate {
-        -webkit-animation-name: scrollAnim;
-        animation-name: scrollAnim;
-        -webkit-animation-duration: 2.8s;
-        animation-duration: 2.8s;
-        -webkit-animation-timing-function: ease;
-        animation-timing-function: ease;
-        -webkit-animation-iteration-count: infinite;
-        animation-iteration-count: infinite;
+        margin-left: -15px;
     }
     
     .firstView_scroll:after {
@@ -331,4 +322,6 @@
         }
     }
 }
+
+
 

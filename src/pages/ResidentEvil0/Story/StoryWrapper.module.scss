@@ -112,7 +112,7 @@
   }
 }
 
-.syste_image_img.js-firstAnimation,
+.system_image_img.js-firstAnimation,
 .story_image_img.js-firstAnimation {
   -webkit-transition: 0s;
   transition: 0s;
@@ -120,7 +120,7 @@
 }
 
 .system_image_overlay,
-.storyimage_overlay,
+.story_image_overlay,
 .additional_content_image_overlay,
 .coopPlay_image_overlay {
   position: absolute;
@@ -231,4 +231,133 @@
 	.uk .system_detail {
 		font-size: 13px;
 	}
+}
+
+.story {
+  margin-bottom: 7.8125vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+  -ms-flex-flow: row-reverse;
+  flex-flow: row-reverse;
+}
+
+@media only screen and (max-width: 960px) {
+  .story {
+      display: block;
+      margin-bottom: 14vw;
+  }
+}
+
+.story_image {
+  position: relative;
+  width: 50%;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+
+.story_image:before {
+  content: "";
+  display: block;
+
+}
+
+@media only screen and (max-width: 960px) {
+  .story_image {
+      width: 100%;
+  }
+}
+
+.story_image_img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: center center;
+  object-position: center center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  opacity: 0;
+  -webkit-transition: 1.5s;
+  transition: 1.5s;
+}
+
+@media all and (-ms-high-contrast: none),
+(-ms-high-contrast: active) {
+  .story_image_img {
+      -o-object-fit: none;
+      object-fit: none;
+      height: auto;
+  }
+}
+
+.story_image_img_is_active {
+  z-index: 3;
+  opacity: 1;
+  -webkit-transition: 1.5s;
+  transition: 1.5s;
+}
+
+@media all and (-ms-high-contrast: none),
+(-ms-high-contrast: active) {
+  .story_image_img {
+      -webkit-transition: 1.8s;
+      transition: 1.8s;
+  }
+  .story_image_img_is_active {
+      -webkit-transition: 1.8s;
+      transition: 1.8s;
+  }
+}
+
+.story_image_img_js_firstAnimation {
+  -webkit-transition: 0s;
+  transition: 0s;
+  opacity: 0;
+}
+
+.story_image_overlay {
+  position: absolute;
+  z-index: 4;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+}
+
+.system_descr,
+.story_descr {
+  position: relative;
+  padding: 5.208vw;
+  width: 50%;
+}
+
+@media only screen and (max-width: 960px) {
+  .system_descr,
+  .story_descr {
+      padding: 6.4814vw 7.4074vw 12.9629vw;
+      width: 100%;
+  }
+}
+
+.system_descr_bg,
+.story_descr_bg {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.system_descr_inner,
+.story_descr_inner {
+  position: relative;
+  z-index: 2;
 }
