@@ -34,7 +34,7 @@ Quando abrir seu projeto verá uma tela parecida como mostra abaixo.
 Note no package.json está mostrando todas as depedências que seu projeto tem, no caso da imagem acima já é o projeto feito e suas depedências, o que irei mostrar agora é como instalar e onde encontrar, caso você já saiba onde procure esses pacotes só pelo nome algumas pessoas já sabem onde é a fonte e por isso não precisa seguir esses passos a risca.
 ````
 
-#### React router dom:   https://v5.reactrouter.com/web/guides/quick-start..... e para instalar execute npm i react-router-dom para instalar as dependências, pode demorar um pouco mas é so aguardar. Após instalar cheque se tudo está ok dentro do package.json
+#### React router dom: https://reactrouter.com/en/main e para instalar execute  /* npm i react-router-dom */ para instalar as dependências, pode demorar um pouco mas é so aguardar. Após instalar cheque se tudo está ok dentro do package.json
 #### Animate On Scroll Library:   http://michalsnik.github.io/aos/.. mesmo passo acima sempre que instalar uma dependência olhe o seu package.json
 #### npm install react-icons --save:   https://react-icons.github.io/react-icons/
 #### npm i simple-react-lightbox:   https://www.npmjs.com/package/simple-react-lightbox
