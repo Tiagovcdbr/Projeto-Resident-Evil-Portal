@@ -13,8 +13,7 @@ import Rebecca from "./Rebecca/Rebecca"
 import { InfoRebecca } from "../../Home/DataGames/Resident0/RebeccaData";
 import Billy from "./Billy/Billy";
 import { InfoBilly } from "../../Home/DataGames/Resident0/BillyData";
-
-import GlobalPlataforms from "../../../images/Resident0/firstView-platforms-global.png"
+import GlobalPlataforms from "../../../images/Resident0/firstView-platforms-global.png";
 
 const Hero = () => {
   useEffect(() => {
@@ -29,12 +28,13 @@ const Hero = () => {
       </div>
       <audio
         src={Music}
-        autoplay='1'
+        autoplay={{ delay: 5000 }}
         loop                
       />
         <div data-aos="fade" className={styles.main_content}>
           <img src={LogoIMG} 
-            alt="Logo" /> 
+            alt="Logo"
+          /> 
           <h2 className={styles.firstView_title_text}>Resident Evil 0 HD Remaster</h2>
           <div className={styles.firstView_switch}>
             <div className={styles.firstView_switch_logo}>

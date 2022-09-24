@@ -1,0 +1,13 @@
+@import "../../../styles/variables.scss";
+@import "../../../styles/mixins.scss";
+
+.fixed_bottom_2_right_2 {
+    @include space-between;
+
+    width: 20px;
+    height: 20px;
+    margin: 5px auto;
+    display: inline-flex;
+    justify-content: end;
+    align-items: flex-end;
+}

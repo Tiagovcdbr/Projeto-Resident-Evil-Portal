@@ -1,5 +1,6 @@
 /* eslint-disable eqeqeq */
 /* eslint-disable no-undef */
+
 import { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -75,6 +76,11 @@ const LineUpGames = ({
   img13,
   alt13,
 
+  title14,
+  paragraph14,
+  img14,
+  alt14,
+
 }) => {
   useEffect(() => {
     Aos.init({duration: 1000});
@@ -83,93 +89,101 @@ const LineUpGames = ({
   const [effect] = useSound(soundMenu)
 
   return (
-    <div className={ styles.container } id="lineup">
-      <h2 data-aos="fade">TimeLine da Franquia</h2>
-      <div data-aos="fade-up" className={styles.features_content}>
+    <>
+      <div className={ styles.container } id="lineup">
+        <h2 data-aos="fade">TimeLine da Franquia</h2>
+        <div data-aos="fade-up" className={styles.features_content}>
 
-        <div className={styles.features_content_card}>
-          <Link to="residentevil0" spy={true} smooth={true} duration={800}>
-            <img src={img1} alt={alt1} onClick={effect} />
-          </Link>
-          <h3>{title1}</h3>
-          <p>{paragraph1}</p>
-        </div>
+          <div className={styles.features_content_card}>
+            <Link to="residentevil0" spy={true} smooth={true} duration={800}>
+              <img src={img1} alt={alt1} onClick={effect} />
+            </Link>
+            <h3>{title1}</h3>
+            <p>{paragraph1}</p>
+          </div>
 
-        <div className={styles.features_content_card}>
-          <img src={img2} alt={alt2} />
-          <h3>{title2}</h3>
-          <p>{paragraph2}</p>
-        </div>
+          <div className={styles.features_content_card}>
+            <img src={img2} alt={alt2} />
+            <h3>{title2}</h3>
+            <p>{paragraph2}</p>
+          </div>
 
-        <div className={styles.features_content_card}>
-          <Link to="re2remake" spy={true} smooth={true} duration={800}>         
-            <img src={img3} alt={alt3} />
-          </Link>
-            <h3>{title3}</h3>
-            <p>{paragraph3}</p>
-        </div>
+          <div className={styles.features_content_card}>
+            <Link to="re2remake" spy={true} smooth={true} duration={800}>         
+              <img src={img3} alt={alt3} />
+            </Link>
+              <h3>{title3}</h3>
+              <p>{paragraph3}</p>
+          </div>
 
-        <div className={styles.features_content_card}>
-          <img src={img4} alt={alt4} />
-          <h3>{title4}</h3>
-          <p>{paragraph4}</p>
-        </div>
+          <div className={styles.features_content_card}>
+            <img src={img4} alt={alt4} />
+            <h3>{title4}</h3>
+            <p>{paragraph4}</p>
+          </div>
 
-        <div className={styles.features_content_card}>
-          <img src={img5} alt={alt5} />
-          <h3>{title5}</h3>
-          <p>{paragraph5}</p>
-        </div>
+          <div className={styles.features_content_card}>
+            <img src={img5} alt={alt5} />
+            <h3>{title5}</h3>
+            <p>{paragraph5}</p>
+          </div>
 
-        <div className={styles.features_content_card}>
-          <img src={img6} alt={alt6} />
-          <h3>{title6}</h3>
-          <p>{paragraph6}</p>
-        </div>
+          <div className={styles.features_content_card}>
+            <img src={img6} alt={alt6} />
+            <h3>{title6}</h3>
+            <p>{paragraph6}</p>
+          </div>
 
-        <div className={styles.features_content_card}>
-          <img src={img7} alt={alt7} />
-          <h3>{title7}</h3>
-          <p>{paragraph7}</p>
-        </div>
+          <div className={styles.features_content_card}>
+            <img src={img7} alt={alt7} />
+            <h3>{title7}</h3>
+            <p>{paragraph7}</p>
+          </div>
 
-        <div className={styles.features_content_card}>
-          <img src={img8} alt={alt8} />
-          <h3>{title8}</h3>
-          <p>{paragraph8}</p>
-        </div>
+          <div className={styles.features_content_card}>
+            <img src={img8} alt={alt8} />
+            <h3>{title8}</h3>
+            <p>{paragraph8}</p>
+          </div>
 
-        <div className={styles.features_content_card}>
-          <img src={img9} alt={alt9} />
-          <h3>{title9}</h3>
-          <p>{paragraph9}</p>
-        </div>
+          <div className={styles.features_content_card}>
+            <img src={img9} alt={alt9} />
+            <h3>{title9}</h3>
+            <p>{paragraph9}</p>
+          </div>
 
-        <div className={styles.features_content_card}>
-          <img src={img10} alt={alt10} />
-          <h3>{title10}</h3>
-          <p>{paragraph10}</p>
-        </div>
+          <div className={styles.features_content_card}>
+            <img src={img10} alt={alt10} />
+            <h3>{title10}</h3>
+            <p>{paragraph10}</p>
+          </div>
 
-        <div className={styles.features_content_card}>
-          <img src={img11} alt={alt11} />
-          <h3>{title11}</h3>
-          <p>{paragraph11}</p>
-        </div>
+          <div className={styles.features_content_card}>
+            <img src={img11} alt={alt11} />
+            <h3>{title11}</h3>
+            <p>{paragraph11}</p>
+          </div>
 
-        <div className={styles.features_content_card}>
-          <img src={img12} alt={alt12} />
-          <h3>{title12}</h3>
-          <p>{paragraph12}</p>
-        </div>
+          <div className={styles.features_content_card}>
+            <img src={img12} alt={alt12} />
+            <h3>{title12}</h3>
+            <p>{paragraph12}</p>
+          </div>
 
-        <div className={styles.features_content_card}>
-          <img src={img13} alt={alt13} />
-          <h3>{title13}</h3>
-          <p>{paragraph13}</p>
+          <div className={styles.features_content_card}>
+            <img src={img13} alt={alt13} />
+            <h3>{title13}</h3>
+            <p>{paragraph13}</p>
+          </div>
+
+          <div className={styles.features_content_card}>
+            <img src={img14} alt={alt14} />
+            <h3>{title14}</h3>
+            <p>{paragraph14}</p>
+          </div>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 

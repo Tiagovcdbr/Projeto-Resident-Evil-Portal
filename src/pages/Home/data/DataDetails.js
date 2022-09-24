@@ -10,7 +10,8 @@ import ImageNine from '../../../images/lineup/lineup-village.jpg';
 import ImageTen from '../../../images/lineup/resident-evil-outbreak.jpg';
 import ImageEleven from '../../../images/lineup/outbreak-2.jpg';
 import ImageTwelve from '../../../images/lineup/lineup-revswitch.jpg';
-import ImageThirteen from '../../../images/lineup/lineup-re4.jpg';
+import ImageThirteen from '../../../images/lineup/lineup-code-veronica.jpg';
+import ImageFourteen from '../../../images/lineup/lineup-re4.jpg';
 
 
 export const LineUpGamesContent = {
@@ -74,8 +75,13 @@ export const LineUpGamesContent = {
     img12: ImageTwelve,
     alt12: "Revelations 1 & 2",
 
-    title13: "Resident Evil 4 Remake",
+    title13: "Resident Evil Code: Veronica",
     //paragraph13: "Assim como as ruas e delegacia, os esgotos de Raccon City estão lindos e concerteza quem jogou o clássico de 1998 vai se surpreender com a maravilha que está esse cenário e os inimigos que habitam nele.",
     img13: ImageThirteen,
-    alt13: "Resident 4 Remake",
+    alt13: "Resident Code Veronica",
+
+    title14: "Resident Evil 4 Remake",
+    //paragraph14: "Assim como as ruas e delegacia, os esgotos de Raccon City estão lindos e concerteza quem jogou o clássico de 1998 vai se surpreender com a maravilha que está esse cenário e os inimigos que habitam nele.",
+    img14: ImageFourteen,
+    alt14: "Resident 4 Remake",
 }
