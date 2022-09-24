@@ -1,5 +1,5 @@
-import ImageOne from '../../../images/lineup/re0.jpg';
-import ImageTwo from '../../../images/lineup/re1.jpg';
+import ImageOne from '../../../images/lineup/series_thumb11.jpg';
+import ImageTwo from '../../../images/lineup/series_thumb12.jpg';
 import ImageThree from '../../../images/lineup/lineup-re2.jpg';
 import ImageFour from '../../../images/lineup/lineup-re3.jpg';
 import ImageFive from '../../../images/lineup/series_thumb13.jpg';
