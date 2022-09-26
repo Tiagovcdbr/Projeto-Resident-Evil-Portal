@@ -52,7 +52,6 @@
             text-shadow: 0px 0px .4em #000000, 0px 0px .8em #000000, 0px 0px 1.2em #000000, 0px 0px 1.6em #000000, 0px 0px 2em #000000;
             position: relative;
             z-index: 4;
-
         }        
     } 
 
@@ -60,6 +59,19 @@
         .main_content {
             top: -5%;
             left: 2%;
+        }
+    }
+
+    @media only screen and (max-width: 540px) {
+        .main_content {
+            top: 20%;
+            left: 2%;
+        }
+    }
+
+    @media only screen and (max-width: 540px) {
+        .main_content h2 {
+            left: -7%;
         }
     }
 
@@ -78,6 +90,12 @@
         padding-bottom: 4px;
         position: relative;
         z-index: 6;
+    }
+
+    @media only screen and (max-width: 540px) {
+        .firstView_switch {
+            left: 60px;
+        }
     }
     
     .firstView_switch_logo {
@@ -178,6 +196,14 @@
     @media only screen and (max-width: 960px) {
         .firstView_otherPlats {
             width: 64vw;
+        }
+    }
+
+    @media only screen and (max-width: 540px) {
+        .firstView_otherPlats {
+            position: relative;
+            width: 50vw;
+            right: 4%;            
         }
     }
     
