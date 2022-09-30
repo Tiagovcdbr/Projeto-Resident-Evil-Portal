@@ -95,7 +95,7 @@ const LineUpGames = ({
         <div data-aos="fade-up" className={styles.features_content}>
 
           <div className={styles.features_content_card}>
-            <Link to="residentevil0" spy={true} smooth={true} duration={800}>
+            <Link to="residentevil0" onClick={() => navigate ('residentevl0')} spy={true} smooth={true} duration={800}>
               <img src={img1} alt={alt1} onClick={effect} />
             </Link>
             <h3>{title1}</h3>
@@ -109,7 +109,7 @@ const LineUpGames = ({
           </div>
 
           <div className={styles.features_content_card}>
-            <Link to="re2remake" spy={true} smooth={true} duration={800}>         
+            <Link to="re2remake" onClick={() => navigate ('re2remake')} spy={true} smooth={true} duration={800}>         
               <img src={img3} alt={alt3} />
             </Link>
               <h3>{title3}</h3>
