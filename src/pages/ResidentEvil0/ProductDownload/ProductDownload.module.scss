@@ -1,2 +1,388 @@
 @import "../../../styles/variables.scss";
 @import "../../../styles/mixins.scss";
+
+.otherplat {
+	background: rgba(0, 0, 0, .8);
+	padding: 4.48vw 12vw 6.458vw;
+	margin-bottom: 4%;
+}
+
+@media only screen and (max-width: 960px) {
+	.otherplat {
+		padding: 7.4074vw 7.4074vw 13.5185vw;
+	}
+	.otherplat .product_media_lead {
+		margin-bottom: 5vw;
+	}
+}
+
+.otherplat_lead {
+	font-weight: bold;
+	font-size: 1.875vw;
+	text-align: center;
+	margin-bottom: 1.333em;
+	font-family: 'NotoSerifCJKjp', serif;
+  color: #fff;
+}
+
+@media only screen and (max-width: 960px) {
+	.otherplat_lead {
+		font-size: 5.2vw;
+		margin-bottom: .8em;
+	}
+}
+
+.product_media_lead {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	margin-bottom: 2.8125vw;
+}
+
+.product_media_lead:before,
+.product_media_lead:after {
+	content: "";
+	display: inline-block;
+	background: #34a2ff;
+	height: 3px;
+	width: 100%;
+}
+
+.product_media_lead span {
+	padding: 0 1em;
+	-ms-flex-negative: 0;
+	flex-shrink: 0;
+	color: #34a2ff;
+	font-size: 1.83vw;
+	font-weight: bold;
+	font-family: 'NotoSerifCJKjp', serif;
+}
+
+.hk .product_media_lead span,
+.cn .product_media_lead span {
+	font-family: serif;
+}
+
+@media only screen and (max-width: 960px) {
+	.product_media_lead {
+		margin-bottom: 7.037vw;
+	}
+	.product_media_lead span {
+		font-size: 4.6vw;
+	}
+	.product_media_lead:before,
+	.product_media_lead:after {
+		height: 1px;
+	}
+}
+
+.otherplat_list {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	margin: 0 auto;
+}
+
+@media only screen and (min-width: 960px) {
+	.otherplat_list .otherplat_item {
+		margin-right: 2%;
+	}
+	.otherplat_list .otherplat_item:last-of-type {
+		margin-right: 0;
+	}
+}
+
+@media only screen and (max-width: 960px) {
+	.otherplat_list {
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+		-webkit-box-align: start;
+		-ms-flex-align: start;
+		align-items: flex-start;
+	}
+	.otherplat_list:after {
+		content: "";
+		width: 48%;
+		display: block;
+	}
+	.otherplat_list .otherplat_item_ps {
+		margin-right: 4%;
+	}
+
+  .otherplat_list .otherplat_item_steam {
+		margin-right: 4%;
+    margin-top: 4%;
+	}
+
+	.otherplat_list .otherplat-item:nth-of-type(2n) {
+		margin-right: 0;
+		margin-bottom: 5vw;
+	}
+}
+
+// estilizando Logo do Ps4
+
+.otherplat_item_ps {
+	border-radius: 6px;
+	width: 18%;
+	-webkit-transition: .3s ease-out;
+	transition: .3s ease-out;
+	text-align: center;
+}
+
+.otherplat_item_ps img {
+	width: 100%;
+}
+
+@media only screen and (max-width: 960px) {
+	.otherplat_item_ps {
+		width: 48%;
+	}
+	.otherplat_item_ps img {
+		width: 80%;
+	}
+}
+
+.otherplat_item_ps a {
+	display: block;
+	position: relative;
+}
+
+.otherplat_item_ps a:before {
+	content: "";
+	width: .36458vw;
+	height: .72916vw;
+	background: url(../../../images/Resident0/btn-rightArrow.png);
+	background-size: cover;
+	position: absolute;
+	top: 50%;
+	right: 4%;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+	display: block;
+	z-index: 4;
+	-webkit-transition: .2s ease;
+	transition: .2s ease;
+}
+
+@media only screen and (min-width: 960px) {
+	.otherplat_item_ps a:hover:before {
+		-webkit-transform: translate(2px, -50%);
+		transform: translate(2px, -50%);
+	}
+}
+
+@media only screen and (max-width: 960px) {
+	.otherplat_item_ps a:before {
+		content: "";
+		width: 1.02082vw;
+		height: 2.04165vw;
+	}
+}
+
+@media only screen and (max-width: 960px) {
+	.otherplat_item_ps a:before {
+		right: 4%;
+	}
+}
+
+// Estilizando Logo do Xbox
+
+.otherplat_item_xbox {
+	border-radius: 6px;
+	width: 18%;
+	-webkit-transition: .3s ease-out;
+	transition: .3s ease-out;
+	text-align: center;
+}
+
+.otherplat_item_xbox img {
+	width: 100%;
+}
+
+@media only screen and (max-width: 960px) {
+	.otherplat_item_xbox {
+		width: 48%;
+	}
+	.otherplat_item_xbox img {
+		width: 80%;
+	}
+}
+
+.otherplat_item_xbox a {
+	display: block;
+	position: relative;
+}
+
+.otherplat_item_xbox a:before {
+	content: "";
+	width: .36458vw;
+	height: .72916vw;
+	background: url(../../../images/Resident0/btn-rightArrow.png);
+	background-size: cover;
+	position: absolute;
+	top: 50%;
+	right: 4%;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+	display: block;
+	z-index: 4;
+	-webkit-transition: .2s ease;
+	transition: .2s ease;
+}
+
+@media only screen and (min-width: 960px) {
+	.otherplat_item_xbox a:hover:before {
+		-webkit-transform: translate(2px, -50%);
+		transform: translate(2px, -50%);
+	}
+}
+
+@media only screen and (max-width: 960px) {
+	.otherplat_item_xbox a:before {
+		content: "";
+		width: 1.02082vw;
+		height: 2.04165vw;
+	}
+}
+
+@media only screen and (max-width: 960px) {
+	.otherplat_item_xbox a:before {
+		right: 4%;
+	}
+}
+
+// Estilizando logo da Steam
+
+.otherplat_item_steam {
+	border-radius: 6px;
+	width: 18%;
+	-webkit-transition: .3s ease-out;
+	transition: .3s ease-out;
+	text-align: center;
+}
+
+.otherplat_item_steam img {
+	width: 100%;
+}
+
+@media only screen and (max-width: 960px) {
+	.otherplat_item_steam {
+		width: 48%;
+	}
+	.otherplat_item_steam img {
+		width: 80%;
+	}
+}
+
+.otherplat_item_steam a {
+	display: block;
+	position: relative;
+}
+
+.otherplat_item_steam a:before {
+	content: "";
+	width: .36458vw;
+	height: .72916vw;
+	background: url(../../../images/Resident0/btn-rightArrow.png);
+	background-size: cover;
+	position: absolute;
+	top: 50%;
+	right: 4%;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+	display: block;
+	z-index: 4;
+	-webkit-transition: .2s ease;
+	transition: .2s ease;
+}
+
+@media only screen and (min-width: 960px) {
+	.otherplat_item_steam a:hover:before {
+		-webkit-transform: translate(2px, -50%);
+		transform: translate(2px, -50%);
+	}
+}
+
+@media only screen and (max-width: 960px) {
+	.otherplat_item_steam a:before {
+		content: "";
+		width: 1.02082vw;
+		height: 2.04165vw;
+	}
+}
+
+@media only screen and (max-width: 960px) {
+	.otherplat_item_steam a:before {
+		right: 4%;
+	}
+}
+
+.otherplat_item_ps {
+	background: rgba(0, 104, 191, .8);
+	border: #0068bf solid 1px;
+}
+
+@media only screen and (min-width: 960px) {
+	.otherplat_item--ps:hover {
+		background: #0068bf;
+	}
+}
+
+.otherplat_item_xbox {
+	background: rgba(16, 124, 16, .8);
+	border: #107c10 solid 1px;
+}
+
+@media only screen and (min-width: 960px) {
+	.otherplat_item_xbox:hover {
+		background: #107c10;
+	}
+}
+
+.otherplat_item_steam {
+	background: rgba(79, 79, 79, .8);
+	border: #4f4f4f solid 1px;
+}
+
+@media only screen and (min-width: 960px) {
+	.otherplat_item_steam:hover {
+		background: #4f4f4f;
+	}
+}
+
+// Espaçamento entre o logo ps4 dos outros
+@media only screen and (min-width: 960px) {
+	.otherplat_list .otherplat_item_ps {
+		margin-right: 2%;
+	}
+	.otherplat_list .otherplat_item_ps:last-of-type {
+		margin-right: 0;
+	}
+}
+
+// Espaçamento entre o logo xbox dos outros
+@media only screen and (min-width: 960px) {
+	.otherplat_list .otherplat_item_xbox {
+		margin-right: 2%;
+	}
+	.otherplat_list .otherplat_item_xbox:last-of-type {
+		margin-right: 0;
+	}
+}
+
+// Espaçamento entre o logo steam dos outros
+@media only screen and (min-width: 960px) {
+	.otherplat_list .otherplat_item_steam {
+		margin-right: 2%;
+	}
+	.otherplat_list .otherplat_item_steam:last-of-type {
+		margin-right: 0;
+	}
+}

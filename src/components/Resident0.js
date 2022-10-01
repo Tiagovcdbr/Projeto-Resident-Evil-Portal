@@ -7,6 +7,7 @@ import StoryWrapper from '../pages/ResidentEvil0/Story/StoryWrapper';
 import FixedBg from '../pages/ResidentEvil0/FixedBg/FixedBg';
 import Chara from '../pages/ResidentEvil0/SectionCharacters/Chara';
 import Product from '../pages/ResidentEvil0/Product/Product';
+import ProductDownload from '../pages/ResidentEvil0/ProductDownload/ProductDownload';
 
 function Resident0() {
   return (
@@ -15,8 +16,9 @@ function Resident0() {
         <Hero /> 
         <StoryWrapper />
         <FixedBg /> 
-        <Chara />
-        <Product />   
+        <Chara /> 
+        <Product /> 
+        <ProductDownload />         
     </>
   )
 }

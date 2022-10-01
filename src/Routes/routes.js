@@ -12,8 +12,8 @@ export default function ApplicationRoutes () {
     <BrowserRouter>   
       <Routes>
         <Route path="/" element={ <Home/> } />        
-        <Route path="/re2remake" element={< Re2Remake />} />
-        <Route path="/residentevil0" element={< Resident0 />} />      
+        <Route path="/Resident-Evil-2-Remake" element={< Re2Remake />} />
+        <Route path="/Resident-Evil-0-HD-Remaster" element={< Resident0 />} />      
       </Routes>
     </BrowserRouter>
   )
