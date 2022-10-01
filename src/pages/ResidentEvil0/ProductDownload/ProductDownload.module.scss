@@ -3,12 +3,14 @@
 
 .otherplat {
 	background: rgba(0, 0, 0, .8);
+	position: relative;
 	padding: 4.48vw 12vw 6.458vw;
 	margin-bottom: 4%;
 }
 
 @media only screen and (max-width: 960px) {
 	.otherplat {
+		top: 100px;
 		padding: 7.4074vw 7.4074vw 13.5185vw;
 	}
 	.otherplat .product_media_lead {

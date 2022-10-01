@@ -2,6 +2,7 @@
 @import "../../../styles/mixins.scss";
 
 .product {
+	position: relative;
   margin-top: 170px;
 	padding: 5.2vw 12vw 5.7vw;
 	background: rgba(0, 0, 0, .8);
@@ -10,8 +11,7 @@
 
 @media only screen and (max-width: 960px) {
 	.product {
-		position: absolute;
-		margin-top: 150px;
+		top: 100px;
 		padding: 7.4074vw 7.4074vw 13.5185vw;
 	}
 }

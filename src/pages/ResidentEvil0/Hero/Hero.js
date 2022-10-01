@@ -13,6 +13,8 @@ import Billy from "./Billy/Billy";
 import { InfoBilly } from "../../Home/DataGames/Resident0/BillyData";
 import GlobalPlataforms from "../../../images/Resident0/firstView-platforms-global.png";
 
+import Audio from '../../../audios/Resident Evil 0 PS4 Voice Title.m4a'
+
 const Hero = () => {
   useEffect(() => {
     Aos.init({duration: 2000});
@@ -20,6 +22,10 @@ const Hero = () => {
 
   return (
     <div className={styles.main} id="home">
+    <audio
+      src={Audio}
+      autoPlay={true}
+    ></audio>
       <div data-aos="fade" className={styles.main_bg}>
         <Billy {...InfoBilly}/>
         <Rebecca {...InfoRebecca} />
