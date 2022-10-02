@@ -3,7 +3,6 @@
 
 import { useEffect } from "react";
 import { Navigate } from "react-router-dom";
-import { NavLink } from "react-router-dom";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import styles from "./LineUpGames.module.scss";
@@ -92,9 +91,9 @@ const LineUpGames = ({
         <div data-aos="fade-up" className={styles.features_content}>
 
           <div className={styles.features_content_card}>
-            <NavLink to="residentevil0" onClick={() => Navigate ('residentevil0')} spy={true} smooth={true} duration={800}>
+            <Link to={'residentevil0'} onClick={() => Navigate ('residentevil0')} spy={true} smooth={true} duration={800}>
               <img src={img1} alt={alt1} />
-            </NavLink>
+            </Link>
             <h3>{title1}</h3>
             <p>{paragraph1}</p>
           </div>
