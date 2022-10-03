@@ -90,7 +90,7 @@ const LineUpGames = ({
         <div data-aos="fade-up" className={styles.features_content}>
 
           <div className={styles.features_content_card}>
-            <Link to={'Resident-Evil-0-HD-Remaster'} onClick={(Navigate) => Navigate ('Resident-Evil-0-HD-Remaster')} spy={true} smooth={true} duration={800}>
+            <Link to={'Resident-Evil-0-HD-Remaster'} onClick={('Resident-Evil-0-HD-Remaster')} spy={true} smooth={true} duration={800}>
               <img src={img1} alt={alt1} />
             </Link>
             <h3>{title1}</h3>
