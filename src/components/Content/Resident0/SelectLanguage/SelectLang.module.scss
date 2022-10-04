@@ -1,0 +1,42 @@
+@import "../../../../styles/variables.scss";
+@import "../../../../styles/mixins.scss";
+
+.select_lang {
+	border-top: solid #444 1px;
+	background: #000;
+	text-align: center;
+	padding: 1em 0;
+	font-size: 1.26vw;
+}
+
+@media only screen and (max-width: 960px) {
+	.select_lang {
+		font-size: 2.375vw;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.select_lang {
+		font-size: 14px;
+	}
+}
+
+.select_lang a {
+	position: relative;
+	color: #fff;
+}
+
+.select_lang a:before {
+	content: "";
+	background: url(../../../../images/Resident0/selectLang-icon.png) center no-repeat;
+	background-size: contain;
+	content: '';
+	display: block;
+	height: 1em;
+	width: 1em;
+	position: absolute;
+	top: 52%;
+	left: -1.5em;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
