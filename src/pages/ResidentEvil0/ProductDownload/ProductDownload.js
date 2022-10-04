@@ -12,7 +12,7 @@ import SteamLogoIMG from '../../../images/Resident0/otherPlat-steam.png'
 const ProductDownload = () => {
 
   useEffect(() => {
-    Aos.init({duration: 2500});
+    Aos.init({duration: 3500});
   }, []); 
 
   return (

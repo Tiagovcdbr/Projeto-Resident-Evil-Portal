@@ -16,7 +16,7 @@ import LogoCapcomIMG from '../../../../images/Resident0/capcom_c_f.png'
 function Footer() {
 
   useEffect(() => {
-    Aos.init({duration: 3000});
+    Aos.init({duration: 3500});
   }, []); 
 
   return (
