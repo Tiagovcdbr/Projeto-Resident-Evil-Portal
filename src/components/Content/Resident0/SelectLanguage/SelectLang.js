@@ -10,7 +10,7 @@ import styles from '../SelectLanguage/SelectLang.module.scss';
 const SelectLang = () => {
 
   useEffect(() => {
-    Aos.init({duration: 3500});
+    Aos.init({duration: 3000});
   }, []); 
 
   return (

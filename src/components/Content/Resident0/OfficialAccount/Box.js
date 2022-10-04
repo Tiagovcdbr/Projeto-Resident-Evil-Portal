@@ -14,7 +14,7 @@ import InstagramIMG from '../../../../images/Resident0/insta_icon.png'
 function Box() {
 
   useEffect(() => {
-    Aos.init({duration: 3500});
+    Aos.init({duration: 3000});
   }, []); 
 
   return (
