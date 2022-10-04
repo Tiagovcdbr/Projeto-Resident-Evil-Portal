@@ -1,12 +1,20 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
 
+import { useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
+
 import styles from '../SelectLanguage/SelectLang.module.scss';
 
 const SelectLang = () => {
 
+  useEffect(() => {
+    Aos.init({duration: 3000});
+  }, []); 
+
   return (
-    <div className={styles.select_lang}>
+    <div data-aos="fade" className={styles.select_lang}>
       <a href=''>Select Language</a>
     </div>
   )

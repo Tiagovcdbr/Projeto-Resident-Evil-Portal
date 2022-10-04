@@ -1,11 +1,21 @@
 import React from 'react'
-import styles from '../Resident0/Especification.module.scss'
 
+import { useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
+
+import styles from '../Resident0/Especification.module.scss'
 import RateIMG from '../../../images/Resident0/bio0-esrb.png'
 
 function Especification () {
+
+  useEffect(() => {
+    Aos.init({duration: 3000});
+  }, []); 
+
+
   return (
-    <div className={styles.spec}>
+    <div data-aos="fade-right" className={styles.spec}>
       <ul className={styles.spec_list}>
         <li className={styles.spec_item}>
           <div className={styles.spec_item_head}>Release :</div>

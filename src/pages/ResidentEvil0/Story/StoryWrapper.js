@@ -1,25 +1,33 @@
 import React from 'react'
 
+import { useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
+
 import styles from "./StoryWrapper.module.scss";
 import SystemIMG from "../../../images/Resident0/system1.jpg"
 import HistoryIMG from "../../../images/Resident0/story3.jpg"
 
 function StoryWrapper() {
+  useEffect(() => {
+    Aos.init({duration: 3000});
+  }, []);
+  
   return (
     <div className={styles.system_story_wrapper}>
         <div className={styles.system}>
-          <div className={styles.system_image}>
+          <div data-aos="fade-right" className={styles.system_image}>
                 <img src={SystemIMG} alt="System 1" />
               <div className={styles.system_image_overlay}></div>                
           </div>
-          <div className={styles.system_descr}>
+          <div data-aos="fade" className={styles.system_descr}>
             <div className={styles.system_descr_bg}></div>
               <div className={styles.system_descr_inner}>
               <h3 className={styles.system_lead}>
                 Unearth the fate of S.T.A.R.S. Bravo Team, 
                 before the events of Resident Evil.
               </h3>
-              <div className={styles.system_detail}>
+              <div  className={styles.system_detail}>
                 RE0 details the events aboard the Ecliptic Express, 
                 which led up to the Mansion Incident depicted in RE1. 
                 This ambitious prequel featured various mechanics that 
@@ -39,10 +47,10 @@ function StoryWrapper() {
           </div>            
         </div>
         <div className={styles.story}>
-          <div className={styles.story_image}>
+          <div data-aos="fade-right" className={styles.story_image}>
             <img src={HistoryIMG} alt="History" />
           </div>
-          <div className={styles.story_descr}>
+          <div data-aos="fade" className={styles.story_descr}>
             <div className={styles.story_descr_bg}></div>
               <div className={styles.story_descr_inner}>
                 <h3 className={styles.story_lead}>STORY</h3>

@@ -1,8 +1,8 @@
 
 import { useEffect } from "react";
-
 import Aos from "aos";
 import "aos/dist/aos.css";
+
 import LogoIMG from "../../../images/Resident0/firstView-title-global.png";
 import SwitchIMG from "../../../images/Resident0/switch-logo.png"
 import styles from "./Hero.module.scss";
@@ -21,7 +21,7 @@ const Hero = () => {
   }, []);  
 
   return (
-    <div className={styles.main} id="home">
+    <div data-aos="fade" className={styles.main} id="home">
     <audio
       src={Audio}
       autoPlay={true}

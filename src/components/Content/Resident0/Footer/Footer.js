@@ -2,6 +2,10 @@ import React from 'react'
 
 import styles from '../Footer/Footer.module.scss';
 
+import { useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
+
 import PsIMG from '../../../../images/Resident0/psf_b.png'
 import Ps4IMG from '../../../../images/Resident0/ps4_b.png'
 import SwitchIMG from '../../../../images/Resident0/nintendoswitch_wb.png'
@@ -10,9 +14,14 @@ import SteamIMG from '../../../../images/Resident0/steam_b.png'
 import LogoCapcomIMG from '../../../../images/Resident0/capcom_c_f.png'
 
 function Footer() {
+
+  useEffect(() => {
+    Aos.init({duration: 3000});
+  }, []); 
+
   return (
     <div className={styles.footer}>
-      <div className={styles.title_footer}>
+      <div data-aos="fade" className={styles.title_footer}>
         <ul className={styles.title_footer_platform}>
           <li className={styles.pf_ps}>
             <img src={PsIMG} alt="Ps Img" />

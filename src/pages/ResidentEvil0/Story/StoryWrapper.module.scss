@@ -229,7 +229,10 @@
   width: 50%;
   -ms-flex-negative: 0;
   flex-shrink: 0;
-  overflow: hidden;
+  overflow-x: hidden;
+
+  object-fit: cover;
+  transition: 0.5s ease-in-out;
 }
 
 .story_image:before {

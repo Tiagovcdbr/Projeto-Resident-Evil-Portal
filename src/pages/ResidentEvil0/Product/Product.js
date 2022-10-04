@@ -1,14 +1,23 @@
 import React from 'react'
 import styles from './Product.module.scss';
 
+import { useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
+
 import BgIMG from "../../../images/Resident0/package-image-global.jpg";
 import PromoLogoIMG from "../../../images/Resident0/bio-remaster-set-global.png";
 import DownloadIMG from "../../../images/Resident0/download-global.jpg";
 
 const Product = () => {
+
+  useEffect(() => {
+    Aos.init({duration: 3500});
+  }, []); 
+
   return (
     <div id="product" className={styles.product_wrap}>
-      <div className={styles.product}>
+      <div data-aos="fade" className={styles.product}>
         <div className={styles.product_ttlset}>
           <h3 className={styles.product_ttl}>PRODUCT</h3>
           <h2 className={styles.product_ttl_main}>Nintendo Switch™</h2>

@@ -1,14 +1,23 @@
 import React from 'react'
 import styles from './ProductDownload.module.scss';
 
+import { useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
+
 import Ps4LogoIMG from '../../../images/Resident0/otherPlat-ps4.png'
 import XboxLogoIMG from '../../../images/Resident0/otherPlat-xboxone.png'
 import SteamLogoIMG from '../../../images/Resident0/otherPlat-steam.png'
 
 const ProductDownload = () => {
+
+  useEffect(() => {
+    Aos.init({duration: 2500});
+  }, []); 
+
   return (
     <>
-      <div className={styles.otherplat}>
+      <div data-aos="fade" className={styles.otherplat}>
         <h3 className={styles.otherplat_lead}>Purchase for another platform</h3>
         <div className={styles.product_media_lead}>
           <span>Downloadable Edition</span>

@@ -16,17 +16,17 @@ import Footer from './Content/Resident0/Footer/Footer';
 function Resident0() {
   return (
     <>
-        <Header /> 
+      <Header /> 
         <Hero /> 
-        <StoryWrapper />
-        <FixedBg /> 
-        <Chara /> 
-        <Product /> 
-        <ProductDownload />
-        <Especification />
-        <Box /> 
+          <StoryWrapper />
+              <FixedBg /> 
+                <Chara /> 
+                <Product /> 
+              <ProductDownload />
+            <Especification />
+          <Box /> 
         <SelectLang />
-        <Footer />        
+      <Footer />        
     </>
   )
 }
