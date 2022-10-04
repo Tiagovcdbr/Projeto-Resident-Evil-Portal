@@ -3,6 +3,11 @@
 ### O Projeto está sendo refatorado e modificado e com isso trarei mais algumas novidades ao site, aguardem novidades!
 ### 
 
+#### Status do projeto....!
+#### --- Página Resident Evil 0 Finalizada ---
+
+#### --- Outras seções ainda em construção ---!
+
 ### Deploy do projeto
 #### Obs: é possível que o audio e video apareça bloqueado no navegador de vocês no firefox pelo menos aparece é so desbloquear e curtir.
 #### Caso o video não carregue na primeira vez que acessar pelo PC de um reload na página, caso esteja na versão mobile e quiser vizualizar melhor o conteúdo vire a tela do aparelho ou ative a versão desktop no seu aparelho celular, espero que curtam !
