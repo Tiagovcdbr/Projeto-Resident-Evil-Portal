@@ -1,0 +1,159 @@
+@import "../../../styles/variables.scss";
+@import "../../../styles/mixins.scss";
+
+.spec {
+	background: rgba(0, 0, 0, .8);
+	padding: 2.083vw 4% 1.5625vw;
+	margin: 0 auto 7.8125vw;
+  color: #fff;
+	width: 68vw;
+  z-index: auto;
+  font-weight: 500;
+}
+
+@media only screen and (max-width: 960px) {
+	.spec {
+    display: block;
+		width: 100%;
+		margin: 0 auto 11.1111vw;
+    margin-top: 160px;
+		padding: 7.037037vw 5.5555vw 5.5555vw;
+	}
+}
+
+.spec_list:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.spec_item {
+  float: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 1.25vw;
+  margin-right: 3.645vw;
+  margin-bottom: 1em;
+  width: 48%;
+  margin-right: 4%;
+}
+
+@media only screen and (max-width: 960px) {
+	.spec_item {
+		width: 100%;
+		font-size: 3.148vw;
+		margin-bottom: 1em;
+		margin-right: 0;
+	}
+}
+
+.spec_item_head {
+  flex-shrink: 0;
+  color: rgba(255, 255, 255, .6);
+}
+
+.spec_item_data {
+  flex-shrink: 0;
+  padding-left: 6px;
+}
+
+.spec_list .spec_item:nth-of-type(2n) {
+	margin-right: 0;
+}
+
+.spec_item_rating_wrap {
+  
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 1.25vw;
+  margin-right: 3.645vw;
+  margin-bottom: 1em;
+  width: 48%;
+  margin-right: 4%;
+
+	-webkit-box-align: start;
+	-ms-flex-align: start;
+	align-items: flex-start;
+}
+
+.rating_head,
+.cero_wrap {
+	font-size: 1.25vw;
+	color: rgba(255, 255, 255, .6);
+ 
+}
+
+@media only screen and (max-width: 960px) {
+	.rating_head,
+	.cero_wrap {
+		font-size: 3.48148vw;
+	}
+}
+
+.rating_data,
+.cero_wrap {
+	font-size: 1.25vw;
+	color: #fff;
+	margin-right: 1em;
+  padding-left: 6px;
+}
+
+.rating_image,
+.cero_image {
+	width: 158px;
+  height: 78px;
+  margin-left: -20px;
+}
+
+.rating_image img,
+.cero_image img {
+	width: 100%;
+}
+
+@media only screen and (max-width: 960px) {
+	.rating_image,
+	.cero_image {
+		width: 8vw;
+	}
+}
+
+@media only screen and (max-width: 960px) {
+	.rating_data,
+	.cero_wrap {
+		font-size: 3.48148vw;
+	}
+}
+
+.law_manual_area {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+
+.law_manual_area .law-manual-btn:not(:last-of-type) {
+	margin-right: 1em;
+}
+
+@media only screen and (max-width: 960px) {
+	.law_manual_area .law_manual_btn:not(:last-of-type) {
+		margin-right: 4%;
+	}
+}
+
+.law_manual_btn {
+	display: block;
+  color: #fff;
+	border: 1px solid #fff;
+	padding: .4em .8em;
+	font-size: 1.25vw;
+}
+
+@media only screen and (max-width: 960px) {
+	.law_manual_btn {
+		width: 48%;
+		text-align: center;
+		font-size: 3.148vw;
+	}
+}

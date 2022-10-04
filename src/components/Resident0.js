@@ -8,6 +8,7 @@ import FixedBg from '../pages/ResidentEvil0/FixedBg/FixedBg';
 import Chara from '../pages/ResidentEvil0/SectionCharacters/Chara';
 import Product from '../pages/ResidentEvil0/Product/Product';
 import ProductDownload from '../pages/ResidentEvil0/ProductDownload/ProductDownload';
+import Especification from './Export/Resident0/Especification';
 
 function Resident0() {
   return (
@@ -18,7 +19,8 @@ function Resident0() {
         <FixedBg /> 
         <Chara /> 
         <Product /> 
-        <ProductDownload />         
+        <ProductDownload />
+        <Especification />         
     </>
   )
 }
