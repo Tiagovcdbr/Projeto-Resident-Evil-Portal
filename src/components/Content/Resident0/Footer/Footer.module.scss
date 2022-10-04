@@ -1,0 +1,278 @@
+@import "../../../../styles/variables.scss";
+@import "../../../../styles/mixins.scss";
+
+.footer {
+  display: block;
+  border-top: solid #444 1px;
+}
+
+footer::before {
+	border-top: 1px solid #444;
+	content: "";
+	display: block;
+	position: absolute;
+	top: -1px;
+	width: 100%;
+}
+
+.title_footer {
+	background: #000;
+	color: #666;
+	font-family: -apple-system, 'BlinkMacSystemFont', ‘Helvetica Neue’, ‘Hiragino Kaku Gothic ProN’, ‘游ゴシック’, ‘メイリオ’, meiryo, sans-serif;
+	padding: 2% 0;
+	width: inherit;
+}
+@media only screen and (min-width: 1024px) {
+	.title_footer {
+		padding: 15px 0;
+	}
+}
+
+// Estilizando os Logos das plataformas
+
+.title_footer_platform {
+	  box-sizing: border-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: 0 4%;
+}
+
+.title_footer_platform li {
+	margin-right: 2%;
+	margin-bottom: 1%;
+	margin-left: 2%;
+}
+.title_footer_platform li img {
+	height: auto;
+	width: 100%;
+}
+.title_footer_platform .pf_ps {
+	width: 9.6%;
+}
+.title_footer_platform .pf_ps4 {
+	width: 20.5%;
+}
+
+.title_footer_platform .pf_switch {
+	width: 33%;
+}
+
+.title_footer_platform .pf_xbox {
+	width: 36%;
+}
+
+.title_footer_platform .pf_steam {
+	width: 32.4%;
+}
+
+// Media Queries
+
+@media only screen and (min-width: 1024px) {
+	.title_footer_platform {
+		margin-bottom: 10px;
+	    padding: 0 10px;
+	}
+	.title_footer_platform li {
+		margin-right: 8px;
+		margin-bottom: 0;
+		margin-left: 8px;
+	}
+	.title_footer_platform .pf_ps {
+		width: 36px;
+	}
+	.title_footer_platform .pf_ps4 {
+		width: 76px;
+	}
+	.title_footer_platform .pf_switch {
+		width: 124px;
+	}
+	.title_footer_platform .pf_xbox {
+		width: 135px;
+	}
+	.title_footer_platform .pf_steam {
+		width: 109px;
+	}
+	.title_footer_platform_copyright {
+		font-size: 10px;
+		margin-bottom: 10px;
+	  padding: 0 0 10px;
+	}
+	.title_footer_platform_copyright img {
+		height: 10px;
+	}
+}
+
+// Sessão CopyRight de estilização 
+
+.title_footer_platform_copyright {
+    border-bottom: 1px solid #444;
+    box-sizing: border-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    line-height: 1.25;
+    margin-bottom: 2%;
+    text-align: center;
+}
+.title_footer_platform_copyright li {
+	width: 100%;
+}
+.title_footer_platform_copyright img {
+	height: 2.4vw;
+}
+
+// Estilização Title Footer Final da página
+
+.title_footer_menu {
+	  box-sizing: border-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    font-size: 2.67vw;
+    line-height: 1.25;
+    margin-bottom: 2%;
+    padding: 0 4%;
+}
+
+.title_footer_menu {
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+}
+
+.title_footer_menu li {
+	border: 1px solid #444;
+	box-sizing: border-box;
+	margin-bottom: 2%;
+	width: 49%;
+}
+.title_footer_menu li a {
+    box-sizing: inherit;
+    color: #CCC;
+    display: block;
+    padding: 3vw 4%;
+    text-align: center;
+}
+
+.title_footer_menu li.fullsize {
+	width: 100%;
+}
+
+@media only screen and (min-width: 1024px) {
+	.title_footer_menu {
+		border-bottom: none;
+		-webkit-box-pack: center;
+		-ms-flex-pack: center;
+		justify-content: center;
+		font-size: 14px;
+		margin-bottom: 10px;
+	  padding: 0;
+    text-decoration: underline #ffff ;
+	}
+	.title_footer_menu li {
+		border: none;
+		box-sizing: border-box;
+		margin-bottom: 10px;
+		padding-right: 15px;
+		padding-left: 15px;
+		width: auto;
+	}
+	.title_footer_menu li a {
+	    padding: 0;
+	}
+	.title_footer_menu li:not(:last-child) {
+		border-right: 1px solid #444;
+	}
+	.title_footer_menu li:first-child {
+		margin-left: 0;
+	}
+	.title_footer_menu li:last-child {
+		margin-right: 0;
+	}
+	.title_footer_menu li.fullsize {
+		width: auto;
+	}
+}
+
+@media only screen and (min-width: 1024px) {
+	.title_footer .title_footer_menu {
+		font-size: 12px;
+	}
+	.title_footer .title_footer_menu li a {
+		display: inline-block;
+	}
+	.title_footer .title_footer_menu li a::after {
+		background: #CCC;
+		content: '';
+		display: block;
+		height: 1px;
+		width: 100%;
+	}
+	.title_footer .title_footer_menu li a:hover::after {
+		background: transparent;
+	}
+}
+
+@media only screen and (min-width: 960px) {
+  .title_footer_platform_copyright {
+		font-size: 10px;
+		margin-bottom: 10px;
+	  padding: 0 0 10px;
+	}
+	.title_footer_platform_copyright img {
+		height: 10px;
+	}
+}
+
+/*----- capcom -----*/
+.title_footer_capcom {
+	font-size: 2.67vw;
+	line-height: 1.5;
+    padding: 0 4%;
+    text-align: center;
+}
+
+.title_footer_capcom .title_footer_capcom_logo {
+	line-height: 0;
+	margin-bottom: 2px;
+}
+.title_footer_capcom img {
+	max-width: 106px;
+	width: 100%;
+}
+.title_footer_capcom a {
+	display: inline-block;
+}
+
+@media only screen and (min-width: 1024px) {
+	.title_footer_capcom {
+		font-size: 10px;
+	    padding: 0;
+	}
+	.title_footer_capcom img {
+		width: 106px;
+	}
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+	.title_footer_capcom img {
+		max-width: 212px;
+		width: 100%;
+	}
+}
+
+.small {
+	font-size: 80%;
+}

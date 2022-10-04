@@ -11,6 +11,7 @@ import ProductDownload from '../pages/ResidentEvil0/ProductDownload/ProductDownl
 import Especification from './Export/Resident0/Especification';
 import Box from './Content/Resident0/OfficialAccount/Box';
 import SelectLang from './Content/Resident0/SelectLanguage/SelectLang';
+import Footer from './Content/Resident0/Footer/Footer';
 
 function Resident0() {
   return (
@@ -24,7 +25,8 @@ function Resident0() {
         <ProductDownload />
         <Especification />
         <Box /> 
-        <SelectLang />        
+        <SelectLang />
+        <Footer />        
     </>
   )
 }
