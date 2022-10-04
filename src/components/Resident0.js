@@ -9,6 +9,7 @@ import Chara from '../pages/ResidentEvil0/SectionCharacters/Chara';
 import Product from '../pages/ResidentEvil0/Product/Product';
 import ProductDownload from '../pages/ResidentEvil0/ProductDownload/ProductDownload';
 import Especification from './Export/Resident0/Especification';
+import Box from './Content/Resident0/OfficialAccount/Box';
 
 function Resident0() {
   return (
@@ -20,7 +21,8 @@ function Resident0() {
         <Chara /> 
         <Product /> 
         <ProductDownload />
-        <Especification />         
+        <Especification />
+        <Box />         
     </>
   )
 }
