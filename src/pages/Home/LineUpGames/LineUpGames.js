@@ -98,7 +98,9 @@ const LineUpGames = ({
           </div>
 
           <div className={styles.features_content_card}>
-            <img src={img2} alt={alt2} />
+            <Link to={'Resident-Evil-HD-Remaster'} spy={true} smooth={true} duration={800}>
+              <img src={img2} alt={alt2} />
+            </Link>
             <h3>{title2}</h3>
             <p>{paragraph2}</p>
           </div>

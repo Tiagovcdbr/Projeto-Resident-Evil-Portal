@@ -29,6 +29,9 @@
   -ms-flex-negative: 0;
   flex-shrink: 0;
   overflow: hidden;
+  -webkit-transition: 1.5s;
+	transition: 1.5s;
+  background: rgb(0, 0, 0, 0.8);
 }
 
 .system_image:before {
@@ -230,7 +233,6 @@
   -ms-flex-negative: 0;
   flex-shrink: 0;
   overflow-x: hidden;
-
   object-fit: cover;
   transition: 0.5s ease-in-out;
 }
@@ -238,7 +240,6 @@
 .story_image:before {
   content: "";
   display: block;
-
 }
 
 @media only screen and (max-width: 960px) {
