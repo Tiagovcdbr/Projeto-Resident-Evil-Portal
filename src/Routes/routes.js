@@ -6,11 +6,13 @@ import Home from '../pages/Home/Home';
 import Resident0 from '../components/Resident0';
 import Re2Remake from '../components/Re2Remake';
 import ResidentRemake from '../components/ResidentRemake';
+import ScrollToTop from '../components/other/Scroll/ScrollToTop';
 
 
 export default function ApplicationRoutes () {
   return ( 
-    <BrowserRouter>   
+    <BrowserRouter>
+    <ScrollToTop />   
       <Routes>
         <Route path="/" element={ <Home/> } />        
         <Route path="/Resident-Evil-2-Remake" element={< Re2Remake />} />

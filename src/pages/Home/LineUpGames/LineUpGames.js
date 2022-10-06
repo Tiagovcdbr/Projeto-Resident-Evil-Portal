@@ -8,6 +8,7 @@ import styles from "./LineUpGames.module.scss";
 import { Link } from "react-router-dom";
 
 const LineUpGames = ({
+  
   title1,
   paragraph1,
   img1,

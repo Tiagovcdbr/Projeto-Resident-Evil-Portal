@@ -5,6 +5,8 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  /*
+  --swiper-theme-color: #edf1f5; */
 }
 
 .swiper-slide {
