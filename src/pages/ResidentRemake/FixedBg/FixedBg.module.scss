@@ -1,0 +1,18 @@
+@import "../../../styles/variables.scss";
+@import "../../../styles/mixins.scss";
+
+.fixed_bg {
+    position: fixed;
+    z-index: -2;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: url(../../../images/ResidentRemake/fixed-bg.jpg);
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-size: auto;
+    background-position: center top 31%;
+    background-size: cover;
+    
+  }
