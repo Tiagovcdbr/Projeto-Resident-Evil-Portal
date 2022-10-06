@@ -6,10 +6,10 @@ import { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
-import YoutubeIMG from '../../../../images/Resident0/yt_icon.png'
-import TwitterIMG from '../../../../images/Resident0/tw_icon.png'
-import FacebookIMG from '../../../../images/Resident0/fb_icon.png'
-import InstagramIMG from '../../../../images/Resident0/insta_icon.png'
+import YoutubeIMG from '../../../../images/Resident0/icons/yt_icon.png'
+import TwitterIMG from '../../../../images/Resident0/icons/tw_icon.png'
+import FacebookIMG from '../../../../images/Resident0/icons/fb_icon.png'
+import InstagramIMG from '../../../../images/Resident0/icons/insta_icon.png'
 
 function Box() {
 

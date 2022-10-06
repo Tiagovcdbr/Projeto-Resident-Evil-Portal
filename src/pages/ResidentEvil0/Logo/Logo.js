@@ -1,5 +1,5 @@
 import styles from "./Logo.module.scss";
-import IMG from "../../../images/Resident2Images/resident-portal.png";
+import IMG from "../../../images/Resident0/icons/resident-portal.png";
 
 import useSound from 'use-sound';
 import soundMenu from '../../../audios/Resident-evil-voice-title.m4a'

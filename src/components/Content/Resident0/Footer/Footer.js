@@ -6,12 +6,12 @@ import { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
-import PsIMG from '../../../../images/Resident0/psf_b.png'
-import Ps4IMG from '../../../../images/Resident0/ps4_b.png'
-import SwitchIMG from '../../../../images/Resident0/nintendoswitch_wb.png'
-import XboxIMG from '../../../../images/Resident0/xboxone_b.png'
-import SteamIMG from '../../../../images/Resident0/steam_b.png'
-import LogoCapcomIMG from '../../../../images/Resident0/capcom_c_f.png'
+import PsIMG from '../../../../images/Resident0/icons/psf_b.png'
+import Ps4IMG from '../../../../images/Resident0/icons/ps4_b.png'
+import SwitchIMG from '../../../../images/Resident0/icons/nintendoswitch_wb.png'
+import XboxIMG from '../../../../images/Resident0/icons/xboxone_b.png'
+import SteamIMG from '../../../../images/Resident0/icons/steam_b.png'
+import LogoCapcomIMG from '../../../../images/Resident0/icons/capcom_c_f.png'
 
 function Footer() {
 

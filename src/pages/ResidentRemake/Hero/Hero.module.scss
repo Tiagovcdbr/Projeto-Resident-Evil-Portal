@@ -38,7 +38,7 @@
     &_content {
         position: absolute;
         left: 7.8vw;
-        top: 17rem;
+        top: 10rem;
         transition: ease-in-out 5ms;
         z-index: 5;
 
@@ -233,7 +233,7 @@
         text-align: center;
         position: absolute;
         z-index: 6;
-        left: 50%;
+        left: 49.8%;
         bottom: 8%;
         -webkit-transform: translateX(0%);
         transform: translateX(0%);
@@ -259,7 +259,7 @@
         display: block;
         width: 28px;
         height: 14px;
-        background: url(../../../images/Resident0/scroll-arrow.png);
+        background: url(../../../images/Resident0/icons/scroll-arrow.png);
         background-size: contain;
         margin: 8px auto 0;
         filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feGaussianBlur in="SourceAlpha" stdDeviation="16" /><feOffset dx="1" dy="1" result="offsetblur" /><feFlood flood-color="rgba(0,0,0,1)" /><feComposite in2="offsetblur" operator="in" /><feMerge><feMergeNode /><feMergeNode in="SourceGraphic" /></feMerge></filter></svg>#filter');

@@ -5,7 +5,7 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 
 import styles from '../Resident0/Especification.module.scss'
-import RateIMG from '../../../images/Resident0/bio0-esrb.png'
+import RateIMG from '../../../images/Resident0/icons/bio0-esrb.png'
 
 function Especification () {
 

@@ -3,15 +3,15 @@ import { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
-import LogoIMG from "../../../images/Resident0/firstView-title-global.png";
-import SwitchIMG from "../../../images/Resident0/switch-logo.png"
+import LogoIMG from "../../../images/Resident0/icons/firstView-title-global.png";
+import SwitchIMG from "../../../images/Resident0/icons/switch-logo.png"
 import styles from "./Hero.module.scss";
 
 import Rebecca from "./Rebecca/Rebecca"
 import { InfoRebecca } from "../../Home/DataGames/Resident0/RebeccaData";
 import Billy from "./Billy/Billy";
 import { InfoBilly } from "../../Home/DataGames/Resident0/BillyData";
-import GlobalPlataforms from "../../../images/Resident0/firstView-platforms-global.png";
+import GlobalPlataforms from "../../../images/Resident0/icons/firstView-platforms-global.png";
 
 import Audio from '../../../audios/Resident Evil 0 PS4 Voice Title.m4a'
 

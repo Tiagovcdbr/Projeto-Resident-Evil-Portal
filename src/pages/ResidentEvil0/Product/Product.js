@@ -6,7 +6,7 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 
 import BgIMG from "../../../images/Resident0/package-image-global.jpg";
-import PromoLogoIMG from "../../../images/Resident0/bio-remaster-set-global.png";
+import PromoLogoIMG from "../../../images/Resident0/icons/bio-remaster-set-global.png";
 import DownloadIMG from "../../../images/Resident0/download-global.jpg";
 
 const Product = () => {

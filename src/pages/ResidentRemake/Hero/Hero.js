@@ -3,11 +3,11 @@ import { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
-import LogoIMG from "../../../images/ResidentRemake/firstView-title-global.png";
-import SwitchIMG from "../../../images/Resident0/switch-logo.png"
+import LogoIMG from "../../../images/ResidentRemake/icons/firstView-title-global.png";
+import SwitchIMG from "../../../images/ResidentRemake/icons/switch-logo.png"
 import styles from "./Hero.module.scss";
 
-import GlobalPlataforms from "../../../images/Resident0/firstView-platforms-global.png";
+import GlobalPlataforms from "../../../images/ResidentRemake/icons/firstView-platforms-global.png";
 
 import Audio from '../../../audios/Resident Evil 1 Voice Title.m4a'
 import Chris from "./Chris/Chris";

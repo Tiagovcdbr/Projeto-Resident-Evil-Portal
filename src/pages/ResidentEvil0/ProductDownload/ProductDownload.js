@@ -5,9 +5,9 @@ import { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
-import Ps4LogoIMG from '../../../images/Resident0/otherPlat-ps4.png'
-import XboxLogoIMG from '../../../images/Resident0/otherPlat-xboxone.png'
-import SteamLogoIMG from '../../../images/Resident0/otherPlat-steam.png'
+import Ps4LogoIMG from '../../../images/Resident0/icons/otherPlat-ps4.png'
+import XboxLogoIMG from '../../../images/Resident0/icons/otherPlat-xboxone.png'
+import SteamLogoIMG from '../../../images/Resident0/icons/otherPlat-steam.png'
 
 const ProductDownload = () => {
 
