@@ -1,0 +1,53 @@
+.swiper-button-prev,
+.swiper-button-next {
+  position: absolute;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  --swiper-theme-color: #f9fbfc;
+  --swiper-navigation-size: 0px;
+  .myswiper {
+    height: 10%;
+    width: 100%;
+    .swiperslide img {
+      width: 100%;
+      object-fit: cover;
+    }
+  }  
+}
+
+.swiperslide img {
+  width: 100%;
+  height: 261px;
+}
+
+@media only screen and (max-width: 960px) {
+  .myswiper {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 10%;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transform: translateY(-50%);
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .swiperslide img {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    top: 39px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transform: translateY(-50%);
+  }
+}

@@ -17,7 +17,7 @@ import { InfoJill } from "../../Home/DataGames/ResidentRemake/JillData";
 
 const Hero = () => {
   useEffect(() => {
-    Aos.init({duration: 2000});
+    Aos.init({duration: 2500});
   }, []);  
 
   return (

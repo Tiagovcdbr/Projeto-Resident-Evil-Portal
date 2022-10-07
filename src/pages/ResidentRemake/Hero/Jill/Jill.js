@@ -6,7 +6,7 @@ import { useEffect } from 'react';
 
 const Jill = ({ image, alt }) => {
   useEffect(() => {
-      Aos.init({duration: 1000});
+      Aos.init({duration: 2500});
   }, []);
 
   return (
