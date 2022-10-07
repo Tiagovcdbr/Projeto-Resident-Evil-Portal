@@ -20,12 +20,20 @@
   }  
 }
 
-.swiperslide img {
-  width: 100%;
-  height: 261px;
+@media only screen and (max-width: 960px) {
+  .myswiper {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transform: translateY(-50%);
+  }
 }
 
-@media only screen and (max-width: 960px) {
+@media only screen and (max-width: 640px) {
   .myswiper {
     position: absolute;
     display: flex;
@@ -38,13 +46,14 @@
   }
 }
 
-@media only screen and (max-width: 640px) {
+
+@media only screen and (max-width: 440px) {
   .swiperslide img {
     position: absolute;
     display: flex;
     width: 100%;
     height: 100%;
-    top: 39px;
+    top: 39px;    
     justify-content: center;
     align-items: center;
     cursor: pointer;

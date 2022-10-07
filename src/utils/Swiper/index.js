@@ -8,7 +8,6 @@ import styles from '../Swiper/Home.module.scss';
 import IMG from '../../images/Portal/bnr_re4_sc_en.jpg'
 import IMG2 from '../../images/Portal/bnr_ns_cloud_en.jpg'
 import IMG3 from '../../images/Portal/bnr_village_ge2_en.jpg'
-import IMG4 from '../../images/Portal/bg_village.jpg'
 
 export default function Home () {
   return (
@@ -26,15 +25,12 @@ export default function Home () {
       <SwiperSlide className={styles.swiperslide}>
         <img src={IMG} alt="" />
       </SwiperSlide>  
-      <SwiperSlide className={styles.swiperslide_2}>
+      <SwiperSlide className={styles.swiperslide}>
         <img src={IMG2} alt="" />
       </SwiperSlide>  
-      <SwiperSlide className={styles.swiperslide_3}>
+      <SwiperSlide className={styles.swiperslide}>
         <img src={IMG3} alt="" />
-      </SwiperSlide>
-      <SwiperSlide className={styles.swiperslide_4}>
-        <img src={IMG4} alt="" />
-      </SwiperSlide>   
+      </SwiperSlide>  
       </Swiper>
     </div>
   )
