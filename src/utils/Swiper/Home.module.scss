@@ -1,14 +1,13 @@
 .swiper-button-prev,
 .swiper-button-next {
   position: absolute;
-  cursor: pointer;
   align-items: center;
   justify-content: center;
 }
 
 .container {
   display: flex;
-  --swiper-theme-color: #f9fbfc;
+  --swiper-theme-color: #7e0000;
   --swiper-navigation-size: 0px;
   .myswiper {
     height: 10%;
@@ -16,6 +15,7 @@
     .swiperslide img {
       width: 100%;
       object-fit: cover;
+      cursor: pointer;
     }
   }  
 }

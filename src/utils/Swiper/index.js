@@ -13,7 +13,11 @@ export default function Home () {
   return (
     <div className={styles.container}>
       <Swiper
+      pagination={{
+        type: "progressbar",
+        }}
         modules={[Navigation, EffectFade]}
+        progressbar={true}
         autoplay
         navigation={true}
         effect={'fade'}
@@ -30,7 +34,7 @@ export default function Home () {
       </SwiperSlide>  
       <SwiperSlide className={styles.swiperslide}>
         <img src={IMG3} alt="" />
-      </SwiperSlide>  
+      </SwiperSlide> 
       </Swiper>
     </div>
   )
