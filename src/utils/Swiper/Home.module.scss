@@ -10,15 +10,21 @@
   --swiper-theme-color: #7e0000;
   --swiper-navigation-size: 0px;
   .myswiper {
-    height: 11vw;
+    height: 16.3vw;
     width: 100%;
     .swiperslide img {
       width: 100%;
-      height: 100%;
+      height: 16.5vw;
       object-fit: cover;
       cursor: pointer;
     }
   }  
+}
+
+@media only screen and (max-width: 960px) {
+  .container {
+    margin-bottom: 8vw;
+  }
 }
 
 @media only screen and (max-width: 960px) {
