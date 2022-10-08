@@ -9,7 +9,7 @@ import styles from '../Swiper/Home.module.scss';
 import IMG from '../../images/Portal/bnr_re4_sc_en.jpg'
 import IMG2 from '../../images/Portal/bnr_ns_cloud_en.jpg'
 import IMG3 from '../../images/Portal/bnr_village_ge2_en.jpg'
-import IMG4 from '../../images/Portal/bg_village.jpg'
+import IMG4 from '../../images/Portal/bg_village_2.png'
 
 export default function Home () {
   return (
@@ -49,7 +49,7 @@ export default function Home () {
       <SwiperSlide className={styles.swiperslide}>
         <a href="https://www.residentevil.com/village/us/" target='_blank' rel="noreferrer">
           <img src={IMG4} alt="" />
-        </a>
+        </a>        
       </SwiperSlide>
 
       </Swiper>

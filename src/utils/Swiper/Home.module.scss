@@ -9,9 +9,11 @@
   display: flex;
   --swiper-theme-color: #7e0000;
   --swiper-navigation-size: 0px;
+
   .myswiper {
     height: 16.3vw;
     width: 100%;
+
     .swiperslide img {
       width: 100%;
       height: 16.5vw;
@@ -52,5 +54,3 @@
     transform: translateY(-50%);
   }
 }
-
-

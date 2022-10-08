@@ -5,6 +5,7 @@ import LineUpGames from './LineUpGames/LineUpGames';
 import { LineUpGamesContent } from './data/DataDetails';
 import Aside from './Aside/Aside';
 import Swiper from '../../utils/Swiper/index';
+import Contents from './Contents/Contents';
 
 function Home() {
   return (
@@ -13,6 +14,7 @@ function Home() {
       <Aside />
       <Main />
       <Swiper />
+      <Contents />
       <LineUpGames {...LineUpGamesContent} /> 
     </>
   )
