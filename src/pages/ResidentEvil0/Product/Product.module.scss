@@ -49,7 +49,7 @@
 }
 
 .product_ttl {
-	font-family: 'Cinzel', serif;
+	font-family: $font-family;
   font-weight: normal;
 	color: rgba(255, 255, 255, .75);
 	letter-spacing: .3em;
@@ -68,7 +68,7 @@
   line-height: 1.6;
   color: #fff;
 	font-weight: bold;
-	font-family: 'NotoSerifCJKjp', serif;
+	font-family: $font-family;
 }
 
 .hk .product_ttl_main,
@@ -88,6 +88,7 @@
 
 .spec_note_item {
 	color: #fff;
+	font-family: $font-family;
 	font-size: .9375vw;
 	text-align: center;
 	text-indent: -1em;
@@ -137,7 +138,7 @@
 	color: #d52634;
 	font-size: 2.100vw;
 	font-weight: bold;
-	font-family: 'NotoSerifCJKjp', serif;
+	font-family: $font-family;
 }
 
 .hk .product_media_lead span,
@@ -193,6 +194,7 @@
 .product_lead {
 	font-family: 'NotoSerifCJKjp', serif;
   color: #fff;
+	font-family: $font-family;
 	font-size: 1.7229vw;
 }
 
@@ -225,11 +227,13 @@
 .product_package_notes_strong {
 	font-size: 1.2em;
   color: #fff;
+	font-family: $font-family;
 	font-weight: bold;
 }
 
 .product_package_notes .with_indent {
   color: #fff;
+	font-family: $font-family;
 	text-indent: -1em;
 	margin-left: 1em;
 }
@@ -347,7 +351,7 @@
 	-webkit-box-align: center;
 	-ms-flex-align: center;
 	align-items: center;
-	font-family: 'NotoSerifCJKjp', serif;
+	font-family: $font-family;
 	font-size: 1.5625vw;
 	background: #a2010d;
 	color: #fff;
@@ -392,7 +396,7 @@
 
 .hk .product_btn .product_btn span,
 .cn .product_btn .product_btn span {
-	font-family: sans-serif;
+	font-family: $font-family;
 }
 
 @media only screen and (min-width: 960px) {
@@ -429,6 +433,7 @@
 .product_notes_item {
 	width: 40.625vw;
 	font-size: .9375vw;
+	font-family: $font-family;
 	text-indent: -1em;
 	padding-left: 1em;
 	color: #fff;

@@ -118,6 +118,7 @@
         font-family: 'NotoSerifCJKjp', serif;
         margin-top: -10px;
         font-size: 1.825vw;
+        font-family: $font-family;
         text-shadow: 0px 0px .4em #000000, 0px 0px .8em #000000, 0px 0px 1.2em #000000, 0px 0px 1.6em #000000, 0px 0px 2em #000000;
         letter-spacing: .06em;
         color: #fff;
@@ -128,6 +129,7 @@
         font-family: 'NotoSerifCJKjp', serif;
         margin-bottom: 2.525vw;
         margin-left: 50px;
+        font-family: $font-family;
         text-shadow: 0px 0px .4em #000000, 0px 0px .8em #000000, 0px 0px 1.2em #000000, 0px 0px 1.6em #000000, 0px 0px 2em #000000;
         position: relative;
         font-weight: normal;
@@ -164,6 +166,7 @@
         letter-spacing: .2em;
         text-shadow: 0px 0px .4em #000000, 0px 0px .8em #000000, 0px 0px 1.2em #000000, 0px 0px 1.6em #000000, 0px 0px 2em #000000;
         color: #fff;
+        font-family: $font-family;
     }
     
     .hk .firstView_switch_date,
@@ -227,6 +230,7 @@
         visibility: visible;
         font-size: 11px;
         color: #fff;
+        font-family: $font-family;
         letter-spacing: .3em;
         font-family: 'Cinzel', serif;
         text-align: center;

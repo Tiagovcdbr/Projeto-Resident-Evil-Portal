@@ -15,7 +15,9 @@ function Contents() {
               Get the most out of your experience
               by personalizing your profile page!
             </p>
-            <a className={styles.btn} href="" target="_blank">MY PROFILE</a>
+            <p className={styles.btn}>
+              MY PROFILE
+            </p>
         </div>
       </sections>
     </div>

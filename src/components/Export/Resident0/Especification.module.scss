@@ -33,6 +33,7 @@
   display: -ms-flexbox;
   display: flex;
   font-size: 1.25vw;
+	font-family: $font-family;
   margin-right: 3.645vw;
   margin-bottom: 1em;
   width: 48%;
@@ -51,11 +52,13 @@
 .spec_item_head {
   flex-shrink: 0;
   color: rgba(255, 255, 255, .6);
+	font-family: $font-family;
 }
 
 .spec_item_data {
   flex-shrink: 0;
   padding-left: 6px;
+	font-family: $font-family;
 }
 
 .spec_list .spec_item:nth-of-type(2n) {
@@ -81,6 +84,7 @@
 .rating_head,
 .cero_wrap {
 	font-size: 1.25vw;
+	font-family: $font-family;
 	color: rgba(255, 255, 255, .6);
  
 }
@@ -96,6 +100,7 @@
 .cero_wrap {
 	font-size: 1.25vw;
 	color: #fff;
+	font-family: $font-family;
 	margin-right: 1em;
   padding-left: 6px;
 }
@@ -156,6 +161,7 @@
 	border: 1px solid #fff;
 	padding: .4em .8em;
 	font-size: 1.25vw;
+	font-family: $font-family;
 }
 
 @media only screen and (max-width: 960px) {

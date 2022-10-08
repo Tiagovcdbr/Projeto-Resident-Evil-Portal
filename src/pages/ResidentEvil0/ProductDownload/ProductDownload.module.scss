@@ -23,7 +23,7 @@
 	font-size: 1.875vw;
 	text-align: center;
 	margin-bottom: 1.333em;
-	font-family: 'NotoSerifCJKjp', serif;
+	font-family: $font-family;
   color: #fff;
 }
 
@@ -60,7 +60,7 @@
 	color: #34a2ff;
 	font-size: 1.83vw;
 	font-weight: bold;
-	font-family: 'NotoSerifCJKjp', serif;
+	font-family: $font-family;
 }
 
 .hk .product_media_lead span,
