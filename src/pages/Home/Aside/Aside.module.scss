@@ -32,14 +32,14 @@
 
  .nav_top ul li::before {
   content:"";
-  display:block;
-  position:absolute;
-  top:50%;
-  left:10px;
-  width:12px;
-  height:2px;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  width: 12px;
+  height: 2px;
   background:#eb0000;
-  transform:translateY(-50%)
+  transform: translateY(-50%)
  }
 
  .nav_top ul li a {

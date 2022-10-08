@@ -5,9 +5,11 @@ import { Navigation, EffectFade } from 'swiper';
 import "swiper/swiper-bundle.css";
 
 import styles from '../Swiper/Home.module.scss';
+
 import IMG from '../../images/Portal/bnr_re4_sc_en.jpg'
 import IMG2 from '../../images/Portal/bnr_ns_cloud_en.jpg'
 import IMG3 from '../../images/Portal/bnr_village_ge2_en.jpg'
+import IMG4 from '../../images/Portal/bg_village.jpg'
 
 export default function Home () {
   return (
@@ -27,14 +29,29 @@ export default function Home () {
         className={styles.myswiper}
       >
       <SwiperSlide className={styles.swiperslide}>
-        <img src={IMG} alt="" />
-      </SwiperSlide>  
+        <a href="https://www.residentevil.com/re4/en-us/" target='_blank' rel="noreferrer">
+          <img src={IMG} alt="" />
+        </a>
+      </SwiperSlide>
+
       <SwiperSlide className={styles.swiperslide}>
-        <img src={IMG2} alt="" />
-      </SwiperSlide>  
+        <a href="https://www.residentevil.com/switch/cloud/en-us/" target='_blank' rel="noreferrer">
+          <img src={IMG2} alt="" />
+        </a>
+      </SwiperSlide>
+
       <SwiperSlide className={styles.swiperslide}>
-        <img src={IMG3} alt="" />
-      </SwiperSlide> 
+        <a href="https://www.residentevil.com/village/ge/" target='_blank' rel="noreferrer">
+          <img src={IMG3} alt="" />
+        </a>
+      </SwiperSlide>
+
+      <SwiperSlide className={styles.swiperslide}>
+        <a href="https://www.residentevil.com/village/us/" target='_blank' rel="noreferrer">
+          <img src={IMG4} alt="" />
+        </a>
+      </SwiperSlide>
+
       </Swiper>
     </div>
   )

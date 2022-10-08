@@ -10,10 +10,11 @@
   --swiper-theme-color: #7e0000;
   --swiper-navigation-size: 0px;
   .myswiper {
-    height: 10%;
+    height: 11vw;
     width: 100%;
     .swiperslide img {
       width: 100%;
+      height: 100%;
       object-fit: cover;
       cursor: pointer;
     }
@@ -47,16 +48,3 @@
 }
 
 
-@media only screen and (max-width: 440px) {
-  .swiperslide img {
-    position: absolute;
-    display: flex;
-    width: 100%;
-    height: 100%;
-    top: 39px;    
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-    transform: translateY(-50%);
-  }
-}
