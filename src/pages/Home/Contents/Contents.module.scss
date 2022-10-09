@@ -113,6 +113,10 @@
     font-size: 10px;
     margin-left: 20px;
   } 
+
+  @media (max-width: 390px) {
+    display: none;
+  } 
  }
 
  .contents_profile .inner .btn:hover,

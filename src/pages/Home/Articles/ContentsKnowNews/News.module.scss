@@ -218,7 +218,8 @@
 
  .know_news .inner .btn:hover,
 .know_news .inner .btn:active {
- background:#370000
+ background:#370000;
+ transition:background ease-in-out .2s,opacity .2s;
 }
 
 .know_news .inner .btn.disabled {

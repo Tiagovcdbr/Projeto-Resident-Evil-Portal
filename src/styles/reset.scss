@@ -6,6 +6,30 @@
   list-style: none;
   outline: none;
   border: 0;
+  
+  /* Barra de Rolagem */
+
+
+/* Fundo que corre */
+::-webkit-scrollbar-track {
+  background-color: #232C3B;
+}
+/* Fundo que corre */
+
+::-webkit-scrollbar {
+  width: 6px;
+  background: #F4F4F4;
+}
+
+/* Linha que desce */
+::-webkit-scrollbar-thumb {
+  background: #FE4719;
+  border-radius: 15px;
+}
+/* Linha que desce*/
+
+
+/* Barra de Rolagem */
 }
 
 img {
