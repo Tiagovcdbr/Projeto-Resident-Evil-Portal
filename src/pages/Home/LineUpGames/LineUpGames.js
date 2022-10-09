@@ -87,7 +87,7 @@ const LineUpGames = ({
   return (
     <>
       <div className={ styles.container } id="lineup">
-        <h2 data-aos="fade">TimeLine Games</h2>
+        <h2 data-aos="fade">TITLE LINEUP</h2>
         <div data-aos="fade-up" className={styles.features_content}>
 
           <div className={styles.features_content_card}>

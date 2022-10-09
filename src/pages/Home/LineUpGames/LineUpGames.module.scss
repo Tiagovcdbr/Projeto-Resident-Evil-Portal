@@ -24,6 +24,10 @@
         font-family: $font-family;
         margin-bottom: 1.2rem;
         text-align: center;
+
+        @media (max-width: 440px) {
+            font-size: 1.5rem;
+        }
     }
 }
 

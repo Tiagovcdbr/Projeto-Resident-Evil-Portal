@@ -6,6 +6,12 @@
   color: #fff;
 }
 
+@media only screen and (max-width: 960px) {
+  .contents {
+    margin-top: -1vw;
+  }
+}
+
 .contents_profile {
   display:flex;
   position:relative;
