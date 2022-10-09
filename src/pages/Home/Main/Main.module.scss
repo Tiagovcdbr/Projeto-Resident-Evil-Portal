@@ -3,7 +3,7 @@
 
 .main {
     @include justify-center;
-    height: 100vh;
+    height: 82vh;
     position: relative;
     padding: 0 1.875rem;
     z-index: 1;
@@ -49,9 +49,9 @@
         @include justify-center;
         flex-direction: column;
         position: absolute;
-        margin-top: -320px;
+        margin-top: -190px;
         z-index: 3;
-        padding: 0.5rem 3rem;
+        padding: 0.5rem 4rem;
 
         img {
             max-width: 1200px;           
