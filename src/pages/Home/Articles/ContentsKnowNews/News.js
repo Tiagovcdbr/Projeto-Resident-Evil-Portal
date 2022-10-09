@@ -1,4 +1,5 @@
 import React from 'react'
+import Fade from 'react-reveal/Fade';
 
 import styles from './News.module.scss';
 import Card1IMG from '../../../../images/Portal/event_en_eyecatch-220912-a.png'
@@ -10,8 +11,11 @@ function News() {
   return (
     <div className={styles.know_news}>
       <div className={styles.inner}>
-        <h3>NEWS</h3>
+        <Fade bottom duration={2500}>
+          <h3>NEWS</h3>
+        </Fade>
         <ul className={styles.news_list}>
+          <Fade duration={2250}>
           <li className=''>
             <a href="news-2513.html">
               <div className={styles.img_box}>
@@ -30,6 +34,8 @@ function News() {
               </p>
             </a>
           </li>
+          </Fade>
+          <Fade duration={2500}>
           <li className=''>
             <a href="news-2513.html">
               <div className={styles.img_box}>
@@ -47,6 +53,8 @@ function News() {
               </p>
             </a>
           </li>
+          </Fade>
+          <Fade duration={2750}>
           <li className=''>
             <a href="news-2513.html">
               <div className={styles.img_box}>
@@ -65,6 +73,8 @@ function News() {
               </p>
             </a>
           </li>
+          </Fade>
+          <Fade duration={3000}>
           <li className=''>
             <a href="news-2513.html">
               <div className={styles.img_box}>
@@ -83,6 +93,7 @@ function News() {
               </p>
             </a>
           </li>
+          </Fade>
         </ul>
         <a className={styles.btn} href='news.html'>
           MORE

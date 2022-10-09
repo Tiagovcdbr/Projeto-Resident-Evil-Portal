@@ -3,6 +3,7 @@ import { Swiper, SwiperSlide } from "swiper/react/swiper-react.js";
 
 import { Navigation, EffectFade } from 'swiper';
 import "swiper/swiper-bundle.css";
+import Fade from 'react-reveal/Fade';
 
 import styles from '../Swiper/Home.module.scss';
 
@@ -28,11 +29,15 @@ export default function Home () {
         loop
         className={styles.myswiper}
       >
+      
       <SwiperSlide className={styles.swiperslide}>
         <a href="https://www.residentevil.com/re4/en-us/" target='_blank' rel="noreferrer">
+        <Fade duration={2000}>
           <img src={IMG} alt="" />
+        </Fade>
         </a>
       </SwiperSlide>
+      
 
       <SwiperSlide className={styles.swiperslide}>
         <a href="https://www.residentevil.com/switch/cloud/en-us/" target='_blank' rel="noreferrer">
