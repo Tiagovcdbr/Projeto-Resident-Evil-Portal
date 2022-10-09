@@ -8,6 +8,8 @@
 
 #### --- Outras seções ainda em construção ---!
 
+#### Na instalação das depêndencias do projeto na hora de executar pode acontecer algum erro por conta de incompatibilidade, porém como a própria instrução no docs do npm rode este comando: --legacy-peer-deps... Fora que também deletar o package-lock-json seja solicitado, mas é só seguir as instruções caso de algum erro ai é so curtir o projeto.
+
 ### Deploy do projeto
 #### Obs: é possível que o audio e video apareça bloqueado no navegador de vocês no firefox pelo menos aparece é so desbloquear e curtir.
 #### Caso o video não carregue na primeira vez que acessar pelo PC de um reload na página, caso esteja na versão mobile e quiser vizualizar melhor o conteúdo vire a tela do aparelho ou ative a versão desktop no seu aparelho celular, espero que curtam !
