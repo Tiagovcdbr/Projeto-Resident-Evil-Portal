@@ -19,7 +19,7 @@ function Home() {
       <Swiper />
       <Contents />
       <Contentsknow />      
-      <LineUpGames {...LineUpGamesContent} /> 
+      <LineUpGames {...LineUpGamesContent} />
     </>
   )
 };

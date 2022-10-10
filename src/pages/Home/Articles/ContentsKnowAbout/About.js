@@ -22,8 +22,7 @@ function About() {
             <Fade bottom duration={2900}>
               <a className={styles.btn} alt="btn">More</a>
             </Fade>
-          </div>
-        
+          </div>        
       </div>
     </div>
   )
