@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
 import Fade from 'react-reveal/Fade';
 
@@ -17,7 +18,7 @@ function News() {
         <ul className={styles.news_list}>
           <Fade duration={2250}>
           <li className=''>
-            <a href="news-2513.html">
+            <a alt="card1">
               <div className={styles.img_box}>
                 <img src={Card1IMG} alt="" />
               </div>
@@ -37,7 +38,7 @@ function News() {
           </Fade>
           <Fade duration={2500}>
           <li className=''>
-            <a href="news-2513.html">
+            <a alt="card2">
               <div className={styles.img_box}>
                 <img src={Card2IMG}alt="" />
               </div>
@@ -56,7 +57,7 @@ function News() {
           </Fade>
           <Fade duration={2750}>
           <li className=''>
-            <a href="news-2513.html">
+            <a alt="card3">
               <div className={styles.img_box}>
                 <img src={Card3IMG} alt="" />
               </div>
@@ -76,7 +77,7 @@ function News() {
           </Fade>
           <Fade duration={3000}>
           <li className=''>
-            <a href="news-2513.html">
+            <a alt="card4">
               <div className={styles.img_box}>
                 <img src={Card4IMG} alt="" />
               </div>
@@ -95,7 +96,7 @@ function News() {
           </li>
           </Fade>
         </ul>
-        <a className={styles.btn} href='news.html'>
+        <a className={styles.btn} alt="btn">
           MORE
         </a>
       </div>

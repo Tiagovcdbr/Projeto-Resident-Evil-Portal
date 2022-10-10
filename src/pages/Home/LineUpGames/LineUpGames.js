@@ -89,11 +89,11 @@ const LineUpGames = ({
   return (
     <>
       <div className={ styles.container } id="lineup">
-      <audio
-        src={Audio}
-        autoplay='1'
-        loop                
-      />
+        <audio
+          src={Audio}
+          autoplay='1'
+          loop                
+        />
         <h2 data-aos="fade">TITLE LINEUP</h2>
         <div data-aos="fade-up" className={styles.features_content}>
 

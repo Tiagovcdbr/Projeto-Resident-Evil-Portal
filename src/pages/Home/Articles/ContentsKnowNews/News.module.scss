@@ -113,7 +113,8 @@
   border:1px solid #3a3a3a;
   background:#000;
   line-height:1;
-  overflow:hidden
+  overflow:hidden;
+  cursor: pointer;
  }
 
  .img_box {
@@ -207,7 +208,8 @@
   transition:background .2s,opacity .2s;
   opacity:1;
   transform:translateY(30px);
-  transition:opacity .6s linear 1.2s,transform .4s ease-out 1.2s
+  transition:opacity .6s linear 1.2s,transform .4s ease-out 1.2s;
+  cursor: pointer;
  }
 
  @media only screen and (max-width: 580px) {

@@ -135,6 +135,7 @@
   opacity:1;
   transform:translateY(30px);
   transition:opacity .6s linear 1.4s,transform .6s ease-out 1.4s;
+  cursor: pointer;
 
   @media only screen and (max-width: 990px) {
     position: relative;

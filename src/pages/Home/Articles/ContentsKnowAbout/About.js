@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
 import styles from './About.module.scss';
 import Fade from 'react-reveal/Fade';
@@ -19,7 +20,7 @@ function About() {
             </p>
             </Fade>
             <Fade bottom duration={2900}>
-              <a className={styles.btn} href="about-portal.html">More</a>
+              <a className={styles.btn} alt="btn">More</a>
             </Fade>
           </div>
         
