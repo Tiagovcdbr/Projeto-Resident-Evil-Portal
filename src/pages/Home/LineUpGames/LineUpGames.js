@@ -7,6 +7,8 @@ import "aos/dist/aos.css";
 import styles from "./LineUpGames.module.scss";
 import { Link } from "react-router-dom";
 
+import Audio from '../../../audios/Resident Evil Remake Soundtrack Main Hall.m4a'
+
 const LineUpGames = ({
   
   title1,
@@ -87,6 +89,11 @@ const LineUpGames = ({
   return (
     <>
       <div className={ styles.container } id="lineup">
+      <audio
+        src={Audio}
+        autoplay='1'
+        loop                
+      />
         <h2 data-aos="fade">TITLE LINEUP</h2>
         <div data-aos="fade-up" className={styles.features_content}>
 
