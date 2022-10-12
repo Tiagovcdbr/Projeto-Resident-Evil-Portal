@@ -20,7 +20,7 @@ function Resident0() {
         <Hero /> 
           <StoryWrapper />
               <FixedBg /> 
-                <Chara /> 
+                <Chara />
                 <Product /> 
               <ProductDownload />
             <Especification />

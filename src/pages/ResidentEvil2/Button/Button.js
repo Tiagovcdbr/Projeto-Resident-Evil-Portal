@@ -1,9 +1,9 @@
 /* eslint-disable no-unused-vars */
-import { useNavigate } from "react-router-dom";
+
 import styles from "../Button/Button.module.scss";
 
 const Button = ({ outline, big, large_font, children, onClick, to }) => {
-  const navigate = useNavigate();
+ 
 
   return (
     <button

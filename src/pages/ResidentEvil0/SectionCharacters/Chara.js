@@ -11,6 +11,7 @@ import styles from './Chara.module.scss';
 import CharaRebecca from '../../../components/Models/Resident0/Rebecca/CharaRebecca';
 import CharaBilly from '../../../components/Models/Resident0/Billy/CharaBilly';
 import CharaCreatures from '../../../components/Models/Resident0/Creatures/CharaCreatures';
+import { Link } from 'react-router-dom';
 
 function Chara() {
 
@@ -19,13 +20,15 @@ function Chara() {
   }, []); 
   
   return (
-    <div className={styles.chara}>
+    <div className={styles.chara}> 
       <div data-aos="fade-right" className={styles.chara_list_container}>
-        <ul className={styles.chara_list}>
+        <ul className={styles.chara_list}>      
           <li className={styles.chara_item_rebecca}>
-              <CharaRebecca />
+            <Link to={'Rebecca-Biography'}>       
+              <CharaRebecca />  
+            </Link>                                
             <div className={styles.chara_item_name_rebecca}>Rebecca Chambers</div>
-          </li>
+          </li>        
 
           <li className={styles.chara_item_billy}>
               <CharaBilly />
