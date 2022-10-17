@@ -51,14 +51,14 @@ function ContentsEnjoy() {
                   <a>
                     <img src={List2IMG} alt="list2" loading='lazy'/>
                     <p className={styles.list_text_orchestra}>
-                      Shinji Mikami and Jun Takeuchi Looking 
-                      Back on 25 Years of Resident Evil (Extra)
+                      Enjoy the TOKYO GAME MUSIC FES concert, 
+                      while reliving the horrors of Resident 
+                      Evil!
                     </p>
                     <p className={styles.list_category_orchestra}>
                       <span className={styles.list_date_orchestra}>
-                        Sep.02.2022
+                      Jun.21.2022
                       </span>
-                        UNDER THE UMBRELLA
                     </p>
                   </a>
                 </li>

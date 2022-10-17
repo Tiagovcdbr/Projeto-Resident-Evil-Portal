@@ -8,6 +8,7 @@ import Swiper from '../../utils/Swiper/index';
 import Contents from './Contents/Contents';
 import Contentsknow from './Articles/Contentsknow';
 import FixedMovieBg from './FixedMovieBg/FixedMovieBg';
+import ContentsEnjoy from './Articles/Contents/ContentsEnjoy';
 
 function Home() {
   return (
@@ -19,7 +20,8 @@ function Home() {
       <Swiper />
       <Contents />
       <Contentsknow />      
-      <LineUpGames {...LineUpGamesContent} />
+      <LineUpGames {...LineUpGamesContent} /> 
+      <ContentsEnjoy />     
     </>
   )
 };
