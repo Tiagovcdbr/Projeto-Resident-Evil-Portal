@@ -58,13 +58,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 80vw;
+    margin: 0 auto;
   }
 
   @media only screen and (max-width: 640px) {
     display: flex;
-    width: 90vw;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
     margin: 0 auto;
+    margin-left: -23vw;
   }
  }
 
@@ -157,7 +160,18 @@
 
   @media only screen and (max-width: 640px) {
     position: relative;
+    justify-content: center;
+    align-items: center;
     margin: 0 auto;
+    margin-left: 16vw;
+
+    @media only screen and (max-width: 540px) {
+      position: relative;
+      justify-content: center;
+      align-items: center;
+      margin: 0 auto;
+      margin-left: 18vw;
+    }
   }
  }
 
