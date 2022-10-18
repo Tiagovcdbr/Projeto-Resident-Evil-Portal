@@ -11,8 +11,7 @@
 
  @media only screen and (max-width: 1180px) {
   .news_list {
-    width: 100%;
-    
+    width: 100%;    
     justify-content:center;
     align-items:center;
     overflow: hidden;
@@ -39,7 +38,7 @@
   text-shadow:0 0 5px #000;
   opacity:1;
   transform:translateY(30px);
-  transition:opacity .6s,transform .6s ease-out
+  transition:opacity .6s,transform .6s ease-out;
  }
 
  .know_news .inner h3::before {
@@ -74,7 +73,11 @@
  .know_news .inner .news_list {
   display:flex;
   flex-wrap:wrap;
-  position:relative
+  position:relative;
+
+  @media only screen and (max-width:580px) {
+    margin: 0 auto;
+  }
  }
 
  .know_news .inner .news_list li {

@@ -9,6 +9,7 @@ import Contents from './Contents/Contents';
 import Contentsknow from './Articles/Contentsknow';
 import FixedMovieBg from './FixedMovieBg/FixedMovieBg';
 import ContentsEnjoy from './Articles/Contents/ContentsEnjoy';
+import SliderBars from '../../utils/SliderBars/SliderBars';
 
 function Home() {
   return (
@@ -18,6 +19,7 @@ function Home() {
       <Aside />
       <Main />
       <Swiper />
+      <SliderBars />
       <Contents />
       <Contentsknow />      
       <LineUpGames {...LineUpGamesContent} /> 

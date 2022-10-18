@@ -1,7 +1,8 @@
 import React from 'react'
 import styles from './SliderBars.module.scss';
 
-function SliderBars() {
+const SliderBars = () => {
+  
   return (
     <div className={styles.slider_bars}>
       <li className={styles.bar}></li>
@@ -12,4 +13,4 @@ function SliderBars() {
   )
 }
 
-export default SliderBars
+export default SliderBars;

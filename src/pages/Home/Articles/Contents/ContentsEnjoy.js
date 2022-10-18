@@ -57,7 +57,7 @@ function ContentsEnjoy() {
                     </p>
                     <p className={styles.list_category_orchestra}>
                       <span className={styles.list_date_orchestra}>
-                      Jun.21.2022
+                        Jun.21.2022
                       </span>
                     </p>
                   </a>
@@ -65,7 +65,9 @@ function ContentsEnjoy() {
               </ul>
             </div>
           </div>
-
+          <a className={styles.btn}>
+            MORE
+          </a>
         </div>
       </div>
     </div>
