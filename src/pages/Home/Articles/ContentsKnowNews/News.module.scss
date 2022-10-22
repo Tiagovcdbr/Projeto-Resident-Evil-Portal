@@ -122,7 +122,7 @@
 
  .img_box {
   :hover {
-    transform: scale(1.09);
+    transform: scale(1.2);
   }
  }
 
@@ -242,6 +242,6 @@
  .know_news.disp .inner h3,
 .know_news.disp .inner .news_list li,
 .know_news.disp .inner .btn {
- opacity:1;
- transform:translateY(0)
+  opacity:1;
+  transform:translateY(0);
 }

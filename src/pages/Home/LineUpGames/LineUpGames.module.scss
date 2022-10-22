@@ -65,6 +65,7 @@
     -webkit-animation:pulsate 1.5s ease infinite;
     animation:pulsate 1.5s ease infinite;
     animation-name: pulse;
+    margin-top: -5px;
 }
 
 @keyframes pulse {
@@ -75,6 +76,7 @@
     }
 
     50% {
+        transform: scale(1);
         background-color: transparent;
         animation:pulsate 1.5s ease infinite;
     }

@@ -5,11 +5,12 @@ import LineUpGames from './LineUpGames/LineUpGames';
 import { LineUpGamesContent } from './data/DataDetails';
 import Aside from './Aside/Aside';
 import Swiper from '../../utils/Swiper/index';
-import Contents from './Contents/Contents';
 import Contentsknow from './Articles/Contentsknow';
 import FixedMovieBg from './FixedMovieBg/FixedMovieBg';
 import ContentsEnjoy from './Articles/Contents/ContentsEnjoy';
 import SliderBars from '../../utils/SliderBars/SliderBars';
+import Profile from './Profile/Profile';
+import EnjoyGameLink from './Articles/Contents/EnjoyGameLink/EnjoyGameLink';
 
 function Home() {
   return (
@@ -19,11 +20,12 @@ function Home() {
       <Aside />
       <Main />
       <Swiper />
-      <SliderBars />
-      <Contents />
-      <Contentsknow />      
+      <SliderBars /> 
+      <Profile />
+      <Contentsknow /> 
       <LineUpGames {...LineUpGamesContent} /> 
-      <ContentsEnjoy />     
+      <ContentsEnjoy /> 
+      <EnjoyGameLink />
     </>
   )
 };

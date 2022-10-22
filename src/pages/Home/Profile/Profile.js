@@ -2,9 +2,9 @@
 
 import React from 'react'
 
-import styles from '../Contents/Contents.module.scss';
+import styles from '../Profile/Profile.module.scss';
 
-function Contents() {
+function Profile() {
 
   return (
     <div className={styles.contents}>
@@ -24,4 +24,4 @@ function Contents() {
   )
 }
 
-export default Contents;
+export default Profile;
