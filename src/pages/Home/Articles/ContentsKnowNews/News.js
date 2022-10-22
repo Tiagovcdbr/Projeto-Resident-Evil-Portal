@@ -3,10 +3,10 @@ import React from 'react'
 import Fade from 'react-reveal/Fade';
 
 import styles from './News.module.scss';
-import Card1IMG from '../../../../images/Portal/event_en_eyecatch-220912-a.png'
-import Card2IMG from '../../../../images/Portal/renet-info.jpg'
-import Card3IMG from '../../../../images/Portal/MicrosoftTeams-image-20.png'
-import Card4IMG from '../../../../images/Portal/collaboration_eyecatch-220831-gl.jpg'
+import Card1IMG from '../../../../images/Portal/goods_eyecatch-221021-gl.jpg'
+import Card2IMG from '../../../../images/Portal/game_eyecatch-221021-01-gl.jpg'
+import Card3IMG from '../../../../images/Portal/game_eyecatch-221021-02-gl.jpg'
+import Card4IMG from '../../../../images/Portal/amb-card_en.jpg'
 
 function News() {
   return (
@@ -23,15 +23,18 @@ function News() {
                 <img src={Card1IMG} alt="" />
               </div>
                 <p className={styles.list_text}>                
-                  Autographed card gift campaign to 
-                  commemorate Shinji Mikami x Jun 
-                  Takeuchi talks            
+                  New designs featuring
+                   "Resident Evil 4," "
+                   Resident Evil Village 
+                   Gold Edition," and "
+                   Resident Evil Re:Verse" 
+                   are now available!            
                 </p>
                 <p className={styles.list_category}>
                 <span className={styles.list_date}>
-                  Sep.12.2022
+                  Oct.21.2022
                 </span>                
-                  Event・Campaign            
+                  Goods            
               </p>
             </a>
           </li>
@@ -43,14 +46,16 @@ function News() {
                 <img src={Card2IMG}alt="" />
               </div>
                 <p className={styles.list_text}>                  
-                  [Restoration] Malfunction regarding 
-                  the Account link process                        
+                  The Resident Evil Village: 
+                  Gold Edition Gameplay Demo, 
+                  sporting the new Third-Person 
+                  Mode, is now available!                         
                 </p>
                 <p className={styles.list_category}>
                 <span className={styles.list_date}>
-                  Sep.08.2022
+                  Oct.21.2022
                 </span>                
-                  RE NET             
+                  Game             
               </p>
             </a>
           </li>
@@ -62,15 +67,17 @@ function News() {
                 <img src={Card3IMG} alt="" />
               </div>
                 <p className={styles.list_text}>                
-                  UNDER THE UMBRELLA 『Shinji Mikami
-                  and Jun Takeuchi Looking Back on 
-                  25 Years of Resident Evil』is out now!             
+                  Pre-orders for Resident Evil 4 
+                  are now available! Check out the 
+                  special collector's edition! 
+                  It's filled to the brim with 
+                  stuff sure to please any fan!             
                 </p>
                 <p className={styles.list_category}>
                 <span className={styles.list_date}>
-                  Sep.12.2022
+                  Oct.21.2022
                 </span>                
-                  Event・Campaign            
+                  Game            
               </p>
             </a>
           </li>
@@ -82,15 +89,15 @@ function News() {
                 <img src={Card4IMG} alt="" />
               </div>
                 <p className={styles.list_text}>                
-                  Dead by Daylight: Resident Evil: 
-                  PROJECT W. New Chapter is now 
-                  available            
+                  [Once a day] Aim for the full 
+                  completion! Ambassador Card 
+                  Campaign is ongoing!            
                 </p>
                 <p className={styles.list_category}>
                 <span className={styles.list_date}>
-                  Aug.31.2022
+                  Oct.17.2022
                 </span>                
-                  Collaboration            
+                  Event・Campaign            
               </p>
             </a>
           </li>
