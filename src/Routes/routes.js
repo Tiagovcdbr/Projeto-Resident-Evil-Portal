@@ -25,6 +25,7 @@ export default function ApplicationRoutes () {
         {/* Rota dos characters  */}
 
         <Route path="/Rebecca-Biography" component={ Bio } exact />
+
       </Switch>
     </BrowserRouter>
   )

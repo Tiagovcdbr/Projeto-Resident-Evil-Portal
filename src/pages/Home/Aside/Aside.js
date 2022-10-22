@@ -9,11 +9,12 @@ function Aside() {
     <div className={styles.nav_top}>
       <ul>
         <li className={styles.box_aside}>
+        
           <a className={styles.N_Btn}>
-          <Fade top duration={2000}>
-            <span className={styles.link_title}>NEWS</span>
+          <Fade top duration={2000}>          
+              <span className={styles.link_title}>News</span>
           </Fade>
-          </a>
+          </a>        
         </li>
 
         <li className={styles.box_aside}>

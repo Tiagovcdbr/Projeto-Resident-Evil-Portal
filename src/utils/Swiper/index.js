@@ -7,7 +7,7 @@ import Fade from 'react-reveal/Fade';
 
 import styles from '../Swiper/Home.module.scss';
 
-import IMG from '../../images/Portal/bnr_re4_sc_op_en.jpg'
+import IMG from '../../images/Portal/bnr_re4_sc_pre_en.jpg'
 import IMG2 from '../../images/Portal/bnr_ns_cloud_en.jpg'
 import IMG3 from '../../images/Portal/bnr_village_ge2_en.jpg'
 import IMG4 from '../../images/Portal/bg_village_2.png'
