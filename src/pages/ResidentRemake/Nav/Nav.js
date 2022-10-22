@@ -60,22 +60,22 @@ const Nav = ({ toggle }) => {
         </li>
         <li onClick={toggle}>
           <Link to="videos" spy={true} smooth={true} duration={800} onClick={play}>
-          RE Outbreak
+          RE: Outbreak
           </Link>
         </li>
         <li onClick={toggle}>
           <Link to="videos" spy={true} smooth={true} duration={800} onClick={play}>
-          RE Outbreak #File 2
+          RE: Outbreak #File 2
           </Link>
         </li>
         <li onClick={toggle}>
           <Link to="videos" spy={true} smooth={true} duration={800} onClick={play}>
-          RE Revelations 1 & 2
+          RE: Revelations 1 & 2
           </Link>
         </li>
         <li onClick={toggle}>
           <Link to="videos" spy={true} smooth={true} duration={800} onClick={play}>
-          RE Code Veronica
+          RE: Code Veronica
           </Link>
         </li>
         <li onClick={toggle}>

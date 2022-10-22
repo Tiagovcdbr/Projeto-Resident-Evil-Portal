@@ -12,7 +12,7 @@ function Aside() {
         
           <a className={styles.N_Btn}>
           <Fade top duration={2000}>          
-              <span className={styles.link_title}>News</span>
+              <span className={styles.link_title}>NEWS</span>
           </Fade>
           </a>        
         </li>
