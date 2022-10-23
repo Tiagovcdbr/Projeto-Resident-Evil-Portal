@@ -13,6 +13,9 @@ import Profile from './Profile/Profile';
 import EnjoyGameLink from './Articles/Contents/EnjoyGameLink/EnjoyGameLink';
 import EnjoyAmbassador from './Articles/Contents/EnjoyAmbassador/EnjoyAmbassador';
 import CautionSite from './CautionSite/CautionSite';
+import Footer from '../../components/Content/Resident0/Footer/Footer'
+import Box from '../../components/Content/Resident0/OfficialAccount/Box';
+import SelectLang from '../../components/Content/Resident0/SelectLanguage/SelectLang'
 
 function Home() {
   return (
@@ -30,6 +33,9 @@ function Home() {
       <EnjoyGameLink />
       <EnjoyAmbassador />
       <CautionSite />
+      <Box />
+      <SelectLang />
+      <Footer />
     </>
   )
 };
