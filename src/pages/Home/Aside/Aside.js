@@ -3,6 +3,8 @@ import React from 'react'
 
 import styles from '../Aside/Aside.module.scss';
 import Fade from 'react-reveal/Fade';
+import { Link } from 'react-scroll';
+import News from '../Articles/ContentsKnowNews/News';
 
 function Aside() {
   return (
@@ -10,8 +12,10 @@ function Aside() {
       <ul>
         <li className={styles.box_aside}>        
           <a className={styles.N_Btn}>
-          <Fade top duration={2000}>         
+          <Fade top duration={2000}>
+            <Link to={ News } spy={true} smooth={true}>         
               <span className={styles.link_title}>NEWS</span>
+            </Link>
           </Fade>
           </a>        
         </li>
