@@ -1,0 +1,233 @@
+@import "../../../../../styles/variables.scss";
+@import "../../../../../styles/mixins.scss";
+
+
+.enjoy_ambassador {
+  position:relative;
+  display: flex;
+  border-bottom:1px solid #3a3a3a;
+  background:url("../../../../../images/Portal/bg-mainimage.webp") no-repeat center center/cover;
+ }
+
+.enjoy_ambassador::before {
+  background-color:rgba(0,0,0,.3);
+  position:absolute;
+  top:0;
+  right:0;
+  left:0;
+  bottom:0;
+  content:"";
+ }
+
+.enjoy_ambassador .inner {
+  display:flex;
+  justify-content:space-between;
+  position:relative;
+  width:1190px;
+  margin:0 auto;
+  padding:156px 0 140px;
+
+  @media only screen and (max-width: 1250px) {
+    display: block;
+  }
+
+  @media only screen and (max-width: 540px) {
+    width: 100vw;
+  }
+ }
+
+ .enjoy_ambassador .inner .ambassador_left {
+  width:500px;
+
+  @media only screen and (max-width: 1250px) {
+    margin: 0 auto;
+    margin-top: -100px;
+    padding-left: 14vw;
+    margin-bottom: 10vh;
+  }
+
+  @media only screen and (max-width: 540px) {
+    width: 100vw;
+  }
+ }
+
+.enjoy_ambassador .inner .ambassador_left h3 {
+  width:810px;
+  position:relative;
+  margin:0 0 40px;
+  color:#fff;
+  font-family:"Oswald",sans-serif;
+  font-size:2.5rem;
+  font-weight:400;
+  line-height:1;
+  letter-spacing:.05em;
+  text-shadow:0 0 5px #000;
+  opacity:1;
+  transform:translateY(30px);
+  transition:opacity .6s,transform .6s ease-out;
+
+  @media only screen and (max-width: 1250px) {
+    width: 100%;
+    font-size: 1.8rem;
+  }
+
+  @media only screen and (max-width: 540px) {
+    width: 250px;
+    font-size: 1.5rem;
+    margin: 0 auto;
+    margin-bottom: 2vh;
+  }
+ }
+
+.enjoy_ambassador .inner .ambassador_left h3::before {
+  flex:none;
+  justify-content:center;
+  align-items:center;
+  content:"";
+  position:absolute;
+  top:-23px;
+  left:-25px;
+  width:25px;
+  height:3px;
+  background:#eb0000;
+  color:#eb0000;
+  font-family:"Oswald",sans-serif;
+  font-size:1.8rem;
+ }
+
+.enjoy_ambassador .inner .ambassador_left h3 span {
+  display:block;
+  margin:10px 0 0;
+  color:#e7e7e7;
+  font-family:"Noto Serif JP",serif;
+  font-size:1.4rem;
+  line-height:2;
+  letter-spacing:0em;
+
+  @media only screen and (max-width: 1250px) {
+    font-size: 1.2rem;
+  }
+
+  @media only screen and (max-width: 680px) {
+    width: 200px;
+    line-height: 1.5rem;
+  }
+ }
+
+.enjoy_ambassador .inner .ambassador_left p {
+  margin:0 0 35px;
+  color:#e7e7e7;
+  font-family:"Noto Serif JP",serif;
+  font-size:1.8rem;
+  opacity:1;
+  transform:translateY(30px);
+  transition:opacity .6s linear .4s,transform .6s ease-out .4s;
+
+  @media only screen and (max-width: 1250px) {
+    font-size: 1.4rem;
+  }
+
+  @media only screen and (max-width: 680px) {
+    width: 250px;
+  }
+
+  @media only screen and (max-width: 540px) {
+    margin: 0 auto;
+  }
+
+  @media only screen and (max-width: 420px) {
+    margin: 0 auto;
+    font-size: 1.2rem;
+  }
+ }
+
+.enjoy_ambassador .inner .ambassador_left .btn {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  width:200px;
+  height:40px;
+  margin:0;
+  border:1px solid #eb0000;
+  background:rgba(0,0,0,.5);
+  color:red;
+  font-family:"Oswald",sans-serif;
+  font-size:1rem;
+  transition:background .2s,opacity .2s;
+  opacity:1;
+  transform:translateY(30px);
+  transition:opacity .6s linear .8s,transform .6s ease-out .8s;
+  cursor: pointer;
+
+  @media only screen and (max-width: 1250px) {
+    font-size: 1rem;
+    margin-top: 5vh;
+  }
+
+  @media only screen and (max-width: 680px) {
+    width: 100px;
+  }
+
+  @media only screen and (max-width: 540px) {
+    margin-left: 24vw;
+  }
+ }
+
+ .enjoy_ambassador .inner .ambassador_left .btn:hover {
+ background:#370000;
+}
+
+.enjoy_ambassador .inner a.ambassador_card {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  width:670px;
+  height:293px;
+  border:1px solid #3a3a3a;
+  background:rgba(0,0,0,.6);
+  opacity:1;
+  transition:opacity .6s linear 1.2s,transform .6s ease-out 1.2s;
+
+  @media only screen and (max-width: 1250px) {
+    
+    margin: 0 auto;
+  }
+
+  @media only screen and (max-width: 680px) {
+    width: 350px;
+    display: block;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+ }
+
+ .enjoy_ambassador .inner a.ambassador_card p {
+  width:240px;
+  margin:0 50px 0 0;
+  color:#e7e7e7;
+  font-size:0.9rem;
+  line-height:2;
+
+  @media only screen and (max-width: 680px) {
+    margin: 0 auto;
+  }
+ }
+
+.enjoy_ambassador .inner a.ambassador_card span {
+  display:block;
+  width:243px;
+  color:#e7e7e7;
+  font-size:1.2rem;
+  text-align:center;
+
+  @media only screen and (max-width: 680px) {
+    margin: 0 auto;
+    margin-top: 2vh;
+  }
+ }
+
+.enjoy_ambassador .inner a.ambassador_card span img {
+  margin:0 0 15px;
+  width:100%;
+ }

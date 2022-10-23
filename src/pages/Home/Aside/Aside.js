@@ -8,10 +8,9 @@ function Aside() {
   return (
     <div className={styles.nav_top}>
       <ul>
-        <li className={styles.box_aside}>
-        
+        <li className={styles.box_aside}>        
           <a className={styles.N_Btn}>
-          <Fade top duration={2000}>          
+          <Fade top duration={2000}>         
               <span className={styles.link_title}>NEWS</span>
           </Fade>
           </a>        

@@ -11,6 +11,7 @@ import ContentsEnjoy from './Articles/Contents/ContentsEnjoy';
 import SliderBars from '../../utils/SliderBars/SliderBars';
 import Profile from './Profile/Profile';
 import EnjoyGameLink from './Articles/Contents/EnjoyGameLink/EnjoyGameLink';
+import EnjoyAmbassador from './Articles/Contents/EnjoyAmbassador/EnjoyAmbassador';
 
 function Home() {
   return (
@@ -26,6 +27,7 @@ function Home() {
       <LineUpGames {...LineUpGamesContent} /> 
       <ContentsEnjoy /> 
       <EnjoyGameLink />
+      <EnjoyAmbassador />
     </>
   )
 };

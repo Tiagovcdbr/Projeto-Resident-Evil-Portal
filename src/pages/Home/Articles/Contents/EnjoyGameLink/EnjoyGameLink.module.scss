@@ -9,6 +9,7 @@
   background:url('../../../../../images/Portal/bg_gamelink.webp') no-repeat center center/cover;
 
   @media only screen and (max-width: 1204px) {
+    background:url('../../../../../images/Portal/bg_gamelink.webp');
     margin-top: -20vh;
   }
 
@@ -136,7 +137,8 @@
   @media only screen and (max-width: 1240px) {
     display: block;
     width: 260px;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
+    font-weight: 600;
     margin: 0 auto;
   }
 
@@ -145,6 +147,7 @@
     font-size: 1rem;
     position: relative;
     text-align: center;
+    line-height: 1.2rem;
   }
 
  }

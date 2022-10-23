@@ -29,34 +29,34 @@ export default function Home () {
         loop
         className={styles.myswiper}
       >
-      
-      <SwiperSlide className={styles.swiperslide}>
-        <a href="https://www.residentevil.com/re4/en-us/" target='_blank' rel="noreferrer">
-        <Fade duration={2000}>
-          <img src={IMG} alt="" />
-        </Fade>
-        </a>
-      </SwiperSlide>
-      
+      <Fade duration={2200}>
+        <SwiperSlide className={styles.swiperslide}>
+          <a href="https://www.residentevil.com/re4/en-us/" target='_blank' rel="noreferrer">
+          <Fade duration={2000}>
+            <img src={IMG} alt="" />
+          </Fade>
+          </a>
+        </SwiperSlide>
+        
 
-      <SwiperSlide className={styles.swiperslide}>
-        <a href="https://www.residentevil.com/switch/cloud/en-us/" target='_blank' rel="noreferrer">
-          <img src={IMG2} alt="" />
-        </a>
-      </SwiperSlide>
+        <SwiperSlide className={styles.swiperslide}>
+          <a href="https://www.residentevil.com/switch/cloud/en-us/" target='_blank' rel="noreferrer">
+            <img src={IMG2} alt="" />
+          </a>
+        </SwiperSlide>
 
-      <SwiperSlide className={styles.swiperslide}>
-        <a href="https://www.residentevil.com/village/ge/" target='_blank' rel="noreferrer">
-          <img src={IMG3} alt="" />
-        </a>
-      </SwiperSlide>
+        <SwiperSlide className={styles.swiperslide}>
+          <a href="https://www.residentevil.com/village/ge/" target='_blank' rel="noreferrer">
+            <img src={IMG3} alt="" />
+          </a>
+        </SwiperSlide>
 
-      <SwiperSlide className={styles.swiperslide}>
-        <a href="https://www.residentevil.com/village/us/" target='_blank' rel="noreferrer">
-          <img src={IMG4} alt="" />
-        </a>        
-      </SwiperSlide>
-
+        <SwiperSlide className={styles.swiperslide}>
+          <a href="https://www.residentevil.com/village/us/" target='_blank' rel="noreferrer">
+            <img src={IMG4} alt="" />
+          </a>        
+        </SwiperSlide>
+      </Fade>
       </Swiper>
     </div>
   )
