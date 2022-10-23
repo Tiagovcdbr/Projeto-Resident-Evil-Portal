@@ -24,17 +24,19 @@ function EnjoyAmbassador() {
           </div>
         </Fade>
 
-        <a className={styles.ambassador_card}>
-          <p>
-            Players who actively share their 
-            positive experiences online can 
-            get access to special content 
-            and opportunities.
-          </p>
-          <span>
-            <img src={CardIMG} alt="Img Card" />
-          </span>
-        </a>
+        <Fade duration={2800}>
+          <a className={styles.ambassador_card}>
+            <p>
+              Players who actively share their 
+              positive experiences online can 
+              get access to special content 
+              and opportunities.
+            </p>
+            <span>
+              <img src={CardIMG} alt="Img Card" />
+            </span>
+          </a>
+        </Fade>
       </div>
     </div>
   )

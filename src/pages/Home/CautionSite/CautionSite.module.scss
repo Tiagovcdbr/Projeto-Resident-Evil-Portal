@@ -1,0 +1,51 @@
+@import "../../../styles/variables.scss";
+@import "../../../styles/mixins.scss";
+
+.caution_site {
+  position:relative;
+  padding:260px 0;
+  text-align:center;
+ }
+
+.caution_site dl {
+  display:inline-block;
+  background-color:rgba(0,0,0,.5);
+  border:1px solid rgba(255,255,255,.1);
+  color:#fff;
+  padding:50px;
+  width:60%;
+  font-family: $font-family;
+  max-width:600px;
+  margin:0 auto;
+  padding-top:100px;
+  background:rgba(0,0,0,.5) url("../../../images/Portal/icon_caution.png") no-repeat center 40px;
+ }
+
+.caution_site dl dt {
+  margin:0 0 30px;
+  font-size:1.3rem;
+ }
+
+.caution_site dl dd a {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  width:180px;
+  height:48px;
+  margin:0 auto 0;
+  background:#930912;
+  color:#fff;
+  font-family: $font-family;
+  font-size:0.9rem;
+  transition:background .2s,opacity .2s;
+
+  @media only screen and (max-width: 540px) {
+    width: 120px;
+    height: 48px;
+    margin: 0 auto;
+  }
+ }
+
+.caution_site dl dd a:hover {
+ background:#eb0000;
+}

@@ -12,6 +12,7 @@ import SliderBars from '../../utils/SliderBars/SliderBars';
 import Profile from './Profile/Profile';
 import EnjoyGameLink from './Articles/Contents/EnjoyGameLink/EnjoyGameLink';
 import EnjoyAmbassador from './Articles/Contents/EnjoyAmbassador/EnjoyAmbassador';
+import CautionSite from './CautionSite/CautionSite';
 
 function Home() {
   return (
@@ -28,6 +29,7 @@ function Home() {
       <ContentsEnjoy /> 
       <EnjoyGameLink />
       <EnjoyAmbassador />
+      <CautionSite />
     </>
   )
 };
