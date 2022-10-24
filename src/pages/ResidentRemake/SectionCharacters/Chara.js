@@ -8,10 +8,10 @@ import "aos/dist/aos.css";
 import "swiper/swiper-bundle.css";
 
 import styles from './Chara.module.scss';
-import CharaRebecca from '../../../components/Models/Resident0/Rebecca/CharaRebecca';
-import CharaBilly from '../../../components/Models/Resident0/Billy/CharaBilly';
-import CharaCreatures from '../../../components/Models/Resident0/Creatures/CharaCreatures';
-
+import CharaChris from '../../../components/Models/ResidentRemake/Chris/CharaChris';
+import CharaJill from '../../../components/Models/ResidentRemake/Jill/CharaJill';
+import CharaCreatures from '../../../components/Models/ResidentRemake/Creatures/CharaCreatures'
+;
 function Chara() {
 
   useEffect(() => {
@@ -22,14 +22,14 @@ function Chara() {
     <div className={styles.chara}> 
       <div data-aos="fade-right" className={styles.chara_list_container}>
         <ul className={styles.chara_list}>      
-          <li className={styles.chara_item_rebecca}>            
-              <CharaRebecca />                                  
-            <div className={styles.chara_item_name_rebecca}>Rebecca Chambers</div>
+          <li className={styles.chara_item_chris}>            
+              <CharaChris />                                  
+            <div className={styles.chara_item_name_chris}>Chris Redfiled</div>
           </li>        
           
-          <li className={styles.chara_item_billy}>
-              <CharaBilly />
-            <div className={styles.chara_item_name_billy}>Billy Coen</div>
+          <li className={styles.chara_item_jill}>
+              <CharaJill />
+            <div className={styles.chara_item_name_jill}>Jill Valentine</div>
           </li>
 
           <li className={styles.chara_item_creatures}>
