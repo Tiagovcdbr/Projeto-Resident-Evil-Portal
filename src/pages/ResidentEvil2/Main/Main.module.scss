@@ -7,7 +7,8 @@
     position: relative;
     padding: 0 1.875rem;
     z-index: 1;
-    background: #0c0c0c;
+    background: transparent;
+    overflow: hidden;
 
     @media (min-width: 768px) {
         @include justify-start;
@@ -20,14 +21,14 @@
         left: 0;
         right: 0;
         position: absolute;
-        background: linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.6) 100%),
-            linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, transparent 100%);
+        background-color: transparent;
         z-index: 2;
     }
 
     &_bg {
         width: 100%;
         height: 100%;
+        background-color: transparent;
         top: 0;
         bottom: 0;
         right: 0;
@@ -45,27 +46,36 @@
     }
 
     &_content {
-        max-width: 1200px;
+        max-width: 100vw;
+        width: 100%;
         @include justify-center;
         flex-direction: column;
         position: absolute;
         z-index: 3;
         padding: 0.5rem 1.5rem;
 
+        .logo{
+           @include justify-center;
+           flex-direction: column;
+           position: absolute;
+           position: relative;
+           width: 100vw;
+           height: 300px;            
+        }
+
         img {
-            max-width: 1200px;            
+            width: 800px; 
+            margin: 0 auto;
         }
 
-        @media (min-width: 360px) {
-            img {
-                max-width: 250px;
-            }
-        }
+        h3 {
+           font-size: 3.5rem; 
+           color: $white;
+           font-family: $font-family;
 
-        @media (min-width: 480px) {
-            img {
-                max-width: 400px;
-            }
+           @media (max-width: 390px) {
+             font-size: 2rem;   
+        }
         }
 
         h4,

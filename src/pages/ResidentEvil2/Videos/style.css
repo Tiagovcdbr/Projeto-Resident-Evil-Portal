@@ -1,12 +1,26 @@
 .swiper {
   width: 100%;
   height: 80vh;
-  background: url("../../../images/Resident2Images/bg8.jpg");
+  background: transparent;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  --swiper-theme-color: #930912;
+  --swiper-pagination: none;  
   /*
   --swiper-theme-color: #edf1f5; */
+}
+
+.swiper-pagination {
+  width: 100%;
+  height: 8px;
+  left: 0;
+  top: 0;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: #930912;
 }
 
 .swiper-slide {
@@ -23,7 +37,7 @@
 
 @media (min-width: 1024px) {
   .swiper {
-    background: url("../../../images/Resident2Images/bg8.jpg");
+    background: transparent;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
