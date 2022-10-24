@@ -24,13 +24,11 @@ import Annete from "../pages/ResidentEvil2/Annete/Annete";
 import { InfoAnnete } from "../pages/ResidentEvil2/data/DataAnnete";
 import BioWilliam from '../pages/ResidentEvil2/BioWilliam/BioWilliam';
 import { BioWilliamContent } from '../pages/ResidentEvil2/data/DataBioWilliam';
-import FixedMovieBg from '../pages/ResidentEvil2/FixedMovieBg/FixedMovieBg';
 
 function Re2Remake() {
   return (
   <>
     <Header />
-    <FixedMovieBg />
       <Main />
         <About_Umbrella {...InfoUmbrella} />        
          <Leon {...InfoLeon} />

@@ -3,11 +3,11 @@
 
 .main {
     @include justify-center;
+    width: 100%;
     height: 100vh;
-    position: relative;
+    position:relative ;
     padding: 0 1.875rem;
-    z-index: 1;
-    background: transparent;
+    background: #0c0c0c;
     overflow: hidden;
 
     @media (min-width: 768px) {
@@ -33,7 +33,7 @@
         bottom: 0;
         right: 0;
         left: 0;
-        position: absolute;
+        position: fixed;
         overflow: hidden;
 
         .video {

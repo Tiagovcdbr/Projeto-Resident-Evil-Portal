@@ -4,6 +4,7 @@ import "aos/dist/aos.css";
 import LogoIMG from "../../../images/Resident2Images/logo.png";
 import styles from "./Main.module.scss";
 import Audio from "../../../audios/Resident Evil 2 Remake- Title Screen Voice.m4a";
+import Video from '../../../images/Resident2Images/video.mp4';
 
 const Main = () => {
   useEffect(() => {
@@ -12,7 +13,13 @@ const Main = () => {
 
   return (
     <div className={styles.main} id="home">
-      <div data-aos="fade" className={styles.main_bg}>       
+      <div data-aos="fade" className={styles.main_bg}> 
+        <video
+        src={Video}
+        autoPlay={true}
+        loop 
+        className={styles.video}
+        ></video>      
       </div>
       <audio
        src={Audio}
