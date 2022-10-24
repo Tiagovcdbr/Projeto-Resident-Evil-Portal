@@ -6,7 +6,6 @@ import { LineUpGamesContent } from './data/DataDetails';
 import Aside from './Aside/Aside';
 import Swiper from '../../utils/Swiper/index';
 import Contentsknow from './Articles/Contentsknow';
-import FixedMovieBg from './FixedMovieBg/FixedMovieBg';
 import ContentsEnjoy from './Articles/Contents/ContentsEnjoy';
 import SliderBars from '../../utils/SliderBars/SliderBars';
 import Profile from './Profile/Profile';
@@ -20,8 +19,7 @@ import SelectLang from '../../components/Content/Resident0/SelectLanguage/Select
 function Home() {
   return (
     <>      
-      <Header />
-      <FixedMovieBg />      
+      <Header />      
       <Aside />
       <Main />
       <Swiper />

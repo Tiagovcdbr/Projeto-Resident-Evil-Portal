@@ -6,8 +6,7 @@
     height: 82vh;
     position: relative;
     padding: 0 1.875rem;
-    z-index: 1;
-    background: #0c0c0c;
+    background: transparent;
 
     @media (min-width: 768px) {
         @include justify-start;
@@ -20,8 +19,6 @@
         left: 0;
         right: 0;
         position: absolute;
-        background: linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.6) 100%),
-            linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, transparent 100%);
         z-index: 2;
     }
 
@@ -32,7 +29,7 @@
         bottom: 0;
         right: 0;
         left: 0;
-        position: absolute;
+        position: fixed;
         overflow: hidden;
 
         .video {
