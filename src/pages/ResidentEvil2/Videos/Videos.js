@@ -26,8 +26,8 @@ const Videos = () => {
         grabCursor={true}
         breakpoints={{
           769: {
-            slidesPerView: 3,
-            slidesPerGroup: 3,
+            slidesPerView: 2,
+            slidesPerGroup: 2,
           },
         }}
         className="mySwiper swiper"
