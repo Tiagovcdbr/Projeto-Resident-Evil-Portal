@@ -24,6 +24,7 @@ import Annete from "../pages/ResidentEvil2/Annete/Annete";
 import { InfoAnnete } from "../pages/ResidentEvil2/data/DataAnnete";
 import BioWilliam from '../pages/ResidentEvil2/BioWilliam/BioWilliam';
 import { BioWilliamContent } from '../pages/ResidentEvil2/data/DataBioWilliam';
+import FixedBg from '../pages/ResidentEvil2/FixedBg/FixedBg';
 
 function Re2Remake() {
   return (
@@ -38,9 +39,10 @@ function Re2Remake() {
           <MrX {...InfoMrX } />
          <Annete {...InfoAnnete } />
         <BioWilliam {...BioWilliamContent } />
+        <FixedBg />
        <Videos />
       <Details {...DetailsContent} />      
-    <Gallery />   
+    <Gallery /> 
   </>   
   )
 };

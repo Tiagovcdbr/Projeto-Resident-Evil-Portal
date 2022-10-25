@@ -1,0 +1,16 @@
+@import "../../../styles/variables.scss";
+@import "../../../styles/mixins.scss";
+
+.fixed_bg {
+    position: fixed;
+    z-index: -2;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: url(../../../images/Resident2Images/03.jpg);
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-position: center, center;
+    background-size: auto;    
+  }

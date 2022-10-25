@@ -4,14 +4,14 @@
 .container {
     @include justify-center;
     flex-direction: column;
-    background: url("../../../images/Resident2Images/bg7.jpg");
+    
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     padding: 3rem 0;
 
     @media (min-width: 768px) {
-        background: url("../../../images/Resident2Images/bg7.jpg");
+       
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;

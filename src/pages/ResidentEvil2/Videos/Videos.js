@@ -20,6 +20,16 @@ const Videos = () => {
         navigation={true}
         autoplay={{ delay: 5000 }}
         keyboard={true}
+        slidesPerView={1}
+        centeredSlides={false}
+        slidesPerGroupSkip={1}
+        grabCursor={true}
+        breakpoints={{
+          769: {
+            slidesPerView: 3,
+            slidesPerGroup: 3,
+          },
+        }}
         className="mySwiper swiper"
         id="videos"
       >

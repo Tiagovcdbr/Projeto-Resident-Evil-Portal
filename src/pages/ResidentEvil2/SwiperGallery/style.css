@@ -1,7 +1,7 @@
 .swiper {
   width: 100%;
   height: 700px;
-  
+  background:url("../../../images/Resident2Images/birkinfase1.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -37,7 +37,7 @@
 
 @media (min-width: 1024px) {
   .swiper {
-    
+    background:url("../../../images/Resident2Images/birkinfase1.jpg");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
