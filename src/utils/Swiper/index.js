@@ -7,10 +7,10 @@ import Fade from 'react-reveal/Fade';
 
 import styles from '../Swiper/Home.module.scss';
 
-import IMG from '../../images/Portal/bnr_re4_sc_pre_en.jpg'
-import IMG2 from '../../images/Portal/bnr_ns_cloud_en.jpg'
-import IMG3 from '../../images/Portal/bnr_village_ge2_en.jpg'
-import IMG4 from '../../images/Portal/bg_village_2.png'
+import IMG from '../../images/Portal/gold edition.png'
+import IMG2 from '../../images/Portal/reverse.png'
+import IMG3 from '../../images/Portal/bnr_re4_sc_pre_en.jpg'
+import IMG4 from '../../images/Portal/bnr_ns_cloud_en.jpg'
 
 export default function Home () {
   return (
@@ -24,7 +24,7 @@ export default function Home () {
         autoplay
         navigation={true}
         effect={'fade'}
-        speed={1200}
+        speed={2200}
         slidesPerView={1}
         loop
         className={styles.myswiper}

@@ -3,10 +3,10 @@ import React from 'react'
 import Fade from 'react-reveal/Fade';
 
 import styles from './News.module.scss';
-import Card1IMG from '../../../../images/Portal/goods_eyecatch-221021-gl.jpg'
-import Card2IMG from '../../../../images/Portal/game_eyecatch-221021-01-gl.jpg'
-import Card3IMG from '../../../../images/Portal/game_eyecatch-221021-02-gl.jpg'
-import Card4IMG from '../../../../images/Portal/amb-card_en.jpg'
+import Card1IMG from '../../../../images/Portal/renet-village-ge-en.png'
+import Card2IMG from '../../../../images/Portal/renet-reverse-en.png'
+import Card3IMG from '../../../../images/Portal/game_eyecatch-221021-01-gl.jpg'
+import Card4IMG from '../../../../images/Portal/game_eyecatch-221021-02-gl.jpg'
 
 function News() {
   return (
@@ -23,18 +23,16 @@ function News() {
                 <img src={Card1IMG} alt="" />
               </div>
                 <p className={styles.list_text}>                
-                  New designs featuring
-                   "Resident Evil 4," "
-                   Resident Evil Village 
-                   Gold Edition," and "
-                   Resident Evil Re:Verse" 
-                   are now available!            
+                  RE NET supports the Additional 
+                  Contents from Gold Edition! 
+                  Enjoy Resident Evil Village 
+                  even more            
                 </p>
                 <p className={styles.list_category}>
                 <span className={styles.list_date}>
-                  Oct.21.2022
+                  Oct.28.2022
                 </span>                
-                  Goods            
+                  RE NET            
               </p>
             </a>
           </li>
@@ -46,16 +44,16 @@ function News() {
                 <img src={Card2IMG}alt="" />
               </div>
                 <p className={styles.list_text}>                  
-                  The Resident Evil Village: 
-                  Gold Edition Gameplay Demo, 
-                  sporting the new Third-Person 
-                  Mode, is now available!                         
+                  et's utilize RE NET to check 
+                  your match results and play 
+                  info including exclusive 
+                  info on the web!                          
                 </p>
                 <p className={styles.list_category}>
                 <span className={styles.list_date}>
-                  Oct.21.2022
+                  Oct.28.2022
                 </span>                
-                  Game             
+                  RE NET             
               </p>
             </a>
           </li>
@@ -67,11 +65,10 @@ function News() {
                 <img src={Card3IMG} alt="" />
               </div>
                 <p className={styles.list_text}>                
-                  Pre-orders for Resident Evil 4 
-                  are now available! Check out the 
-                  special collector's edition! 
-                  It's filled to the brim with 
-                  stuff sure to please any fan!             
+                  The Resident Evil Village: 
+                  Gold Edition Gameplay Demo, 
+                  sporting the new Third-Person 
+                  Mode, is now available!              
                 </p>
                 <p className={styles.list_category}>
                 <span className={styles.list_date}>
@@ -89,15 +86,17 @@ function News() {
                 <img src={Card4IMG} alt="" />
               </div>
                 <p className={styles.list_text}>                
-                  [Once a day] Aim for the full 
-                  completion! Ambassador Card 
-                  Campaign is ongoing!            
+                  Pre-orders for Resident Evil 4 
+                  are now available! Check out 
+                  the special collector's edition! 
+                  It's filled to the brim with stuff 
+                  sure to please any fan!            
                 </p>
                 <p className={styles.list_category}>
                 <span className={styles.list_date}>
                   Oct.17.2022
                 </span>                
-                  Event・Campaign            
+                  Game            
               </p>
             </a>
           </li>
