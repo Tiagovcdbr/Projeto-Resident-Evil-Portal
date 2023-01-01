@@ -29,57 +29,57 @@ const Nav = ({ toggle }) => {
           </Link>
         </li>
         <li onClick={toggle}>
-          <Link to="Resident-Evil-3-Remake" spy={true} smooth={true} duration={800} onClick={play}>
+          <Link to="sherry" spy={true} smooth={true} duration={800} onClick={play}>
           Resident 3 Remake
           </Link>
         </li>
         <li onClick={toggle}>
-          <Link to="/" spy={true} smooth={true} duration={800} onClick={play}>
+          <Link to="ada" spy={true} smooth={true} duration={800} onClick={play}>
           Resident Evil 4
           </Link>
         </li>
         <li onClick={toggle}>
-          <Link to="/" spy={true} smooth={true} duration={800} onClick={play}>
+          <Link to="mrx" spy={true} smooth={true} duration={800} onClick={play}>
           Resident Evil 5
           </Link>
         </li>
         <li onClick={toggle}>
-          <Link to="/" spy={true} smooth={true} duration={800} onClick={play}>
+          <Link to="annete" spy={true} smooth={true} duration={800} onClick={play}>
           Resident Evil 6
           </Link>
         </li>
         <li onClick={toggle}>
-          <Link to="/" spy={true} smooth={true} duration={800} onClick={play}>
+          <Link to="biowilliam" spy={true} smooth={true} duration={800} onClick={play}>
           Resident Evil 7
           </Link>
         </li>
         <li onClick={toggle}>
-          <Link to="/" spy={true} smooth={true} duration={800} onClick={play}>
+          <Link to="videos" spy={true} smooth={true} duration={800} onClick={play}>
           Resident Evil Village
           </Link>
         </li>
         <li onClick={toggle}>
-          <Link to="/" spy={true} smooth={true} duration={800} onClick={play}>
-          RE Outbreak
+          <Link to="videos" spy={true} smooth={true} duration={800} onClick={play}>
+          RE: Outbreak
           </Link>
         </li>
         <li onClick={toggle}>
-          <Link to="/" spy={true} smooth={true} duration={800} onClick={play}>
-          RE Outbreak #File 2
+          <Link to="videos" spy={true} smooth={true} duration={800} onClick={play}>
+          RE: Outbreak #File 2
           </Link>
         </li>
         <li onClick={toggle}>
-          <Link to="/" spy={true} smooth={true} duration={800} onClick={play}>
-          RE Revelations 1 & 2
+          <Link to="videos" spy={true} smooth={true} duration={800} onClick={play}>
+          RE: Revelations 1 & 2
           </Link>
         </li>
         <li onClick={toggle}>
-          <Link to="/" spy={true} smooth={true} duration={800} onClick={play}>
-          RE Code Veronica
+          <Link to="videos" spy={true} smooth={true} duration={800} onClick={play}>
+          RE: Code Veronica
           </Link>
         </li>
         <li onClick={toggle}>
-          <Link to="/" spy={true} smooth={true} duration={800} onClick={play}>
+          <Link to="videos" spy={true} smooth={true} duration={800} onClick={play}>
           Resident Evil 4 Remake
           </Link>
         </li>

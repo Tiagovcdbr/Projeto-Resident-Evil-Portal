@@ -21,7 +21,7 @@ function EnjoyAmbassador() {
             <a className={styles.btn}>
               MORE
             </a>
-          </div>
+          </div> 
         </Fade>
 
         <Fade duration={2800}>

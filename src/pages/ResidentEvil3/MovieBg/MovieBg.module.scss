@@ -1,0 +1,191 @@
+@import "../../../styles/variables.scss";
+@import "../../../styles/mixins.scss";
+
+.movie_bg {
+  background: #000;
+  height: calc(100% + 80px);
+  left: 0;
+  position: fixed;
+  top: 0;
+  transition: opacity .5s ease;
+  width: 100%;
+  z-index: -1; 
+}
+  @media only screen and (min-width: 1024px) {
+    .movie_bg {
+      height: 100%;
+      left: 40px; } 
+    }
+
+  @media only screen and (orientation: landscape) and (max-width: 1023px) {
+    .movie_bg {
+      min-height: 400%; } 
+    }
+
+  .movie_bg .mv {
+    top: 25px;
+    left: 0;
+    height: 100%;
+    opacity: 1;
+    position: absolute;
+    width: 100%;
+    z-index: 3; 
+  }
+
+    .movie_bg .mv .img {
+      background: url(../../../images/Resident3Remake/page_bg.png) top center no-repeat;
+      background-size: 250%;
+      height: calc(100% - 6vw);
+      left: 0;
+      top: 0;
+      position: absolute;
+      width: 100%;
+      z-index: 2; 
+    }
+
+      @media only screen and (min-width: 1024px) {
+        .movie_bg .mv .img {
+          background: url(../../../images/Resident3Remake/page_bg.png) bottom center no-repeat;
+          background-size: cover;
+          bottom: 0;
+          height: 100%; } 
+        }
+
+    .movie_bg .mv::before, .movie_bg .mv::after {
+      height: calc(100% + 80px);
+      content: "";
+      display: block;
+      left: 0;
+      position: absolute;
+      top: 25vw;
+      width: 100%; 
+    }
+
+      @media only screen and (min-width: 1024px) {
+        .movie_bg .mv::before, .movie_bg .mv::after {
+          height: calc(100% + 160px);
+          top: -2.5vw; } 
+        }
+
+      @media only screen and (min-width: 1920px) {
+        .movie_bg .mv::before, .movie_bg .mv::after {
+          top: 2vw; } 
+        }
+
+      @media only screen and (min-height: 850px) and (min-width: 1024px) and (max-width: 1680px) {
+        .movie_bg .mv::before, .movie_bg .mv::after {
+          top: 4vw; } 
+        }
+
+      @media only screen and (min-height: 800px) and (min-width: 1024px) and (max-width: 1240px) {
+        .movie_bg .mv::before, .movie_bg .mv::after {
+          top: 6vw; } 
+        }
+
+    .movie_bg .mv::before {
+      background: url(../../../images/Resident3Remake/chara_bg01.png) top center no-repeat;
+      background-size: 220%;
+      z-index: 4; 
+    }
+
+      @media only screen and (min-width: 1024px) {
+        .movie_bg .mv::before {
+          top: 10px;
+          background-size: 100%; } 
+        }
+
+      @media only screen and (min-width: 1920px) {
+        .movie_bg .mv::before {
+          background-size: 90%; } 
+        }
+
+      @media only screen and (min-height: 850px) and (min-width: 1024px) and (max-width: 1680px) {
+        .movie_bg .mv::before {
+          background-size: 100%; } 
+        }
+
+      @media only screen and (min-height: 800px) and (min-width: 1024px) and (max-width: 1240px) {
+        .movie_bg .mv::before {
+          background-size: 120%; } 
+        }
+
+    .movie_bg .mv::after {
+      background: url(../../../images/Resident3Remake/chara_bg02.png) top center no-repeat;
+      background-size: 220%;
+      z-index: 3; 
+    }
+
+      @media only screen and (min-width: 1024px) {
+        .movie_bg .mv::after {
+          top: 10px;
+          background-size: 100%; } 
+        }
+
+      @media only screen and (min-width: 1920px) {
+        .movie_bg .mv::after {
+          background-size: 90%; } 
+        }
+
+      @media only screen and (min-height: 850px) and (min-width: 1024px) and (max-width: 1680px) {
+        .movie_bg .mv::after {
+          background-size: 100%; } 
+        }
+
+      @media only screen and (min-height: 800px) and (min-width: 1024px) and (max-width: 1240px) {
+        .movie_bg .mv::after {
+          background-size: 120%; } 
+        }
+
+  .movie_bg .video {
+    left: 50%;
+    opacity: 1;
+    overflow: hidden;
+    position: absolute;
+    top: -2.3vw;
+    -webkit-transform: translate(-50%, 0);
+    -moz-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+    width: 100%;
+    z-index: 2; 
+  }
+
+    @media only screen and (min-width: 1024px) {
+      .movie_bg .video {
+        left: calc(50% - 20px);
+        -webkit-transform: translate(-50%, -20%);
+        -moz-transform: translate(-50%, -20%);
+        -ms-transform: translate(-50%, -20%);
+        transform: translate(-50%, -20%); } 
+      }
+
+    .movie_bg .video video {
+      height: 100%;
+      left: 50%;
+      position: absolute;
+      top: -2vw;
+      -webkit-transform: translateX(-50%) scale(2.5);
+      -moz-transform: translateX(-50%) scale(2.5);
+      -ms-transform: translateX(-50%) scale(2.5);
+      transform: translateX(-50%) scale(2.5);
+      width: 100%;
+      z-index: -1; 
+    }
+
+      @media only screen and (min-width: 1024px) {
+        .movie_bg .video video {
+          -webkit-transform: translate(-50%, 0);
+          -moz-transform: translate(-50%, 0);
+          -ms-transform: translate(-50%, 0);
+          transform: translate(-50%, 0); } 
+        }
+
+  .movie_bg::after {
+    background: transparent;
+    content: "";
+    display: block;
+    min-width: 100%;
+    min-height: 100vh;
+    position: absolute;
+    z-index: 4; 
+  }

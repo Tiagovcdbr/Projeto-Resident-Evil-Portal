@@ -1,0 +1,14 @@
+@import "../../../styles/variables.scss";
+@import "../../../styles/mixins.scss";
+
+.wrapper {
+  overflow-x: hidden;
+  position: relative;
+  z-index: 2;
+}
+
+@media only screen and (min-width: 1024px) {
+  .wrapper {
+    margin-left: auto;
+    width: calc(100% - 40px); } 
+  }

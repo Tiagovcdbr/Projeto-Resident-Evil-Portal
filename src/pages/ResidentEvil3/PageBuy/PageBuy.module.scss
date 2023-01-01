@@ -1,0 +1,144 @@
+@import "../../../styles/variables.scss";
+@import "../../../styles/mixins.scss";
+
+.page_buy_btn {
+  left: 0;
+  position: fixed;
+  transition: opacity .2s ease-out, visibility .2s ease-out, z-index .2s ease-out;
+  z-index: 9; 
+}
+
+  @media only screen and (max-width: 1023px) {
+    .page_buy_btn {
+      background: #9a0000;
+      bottom: 18px;
+      text-align: center;
+      width: 48%; } 
+    }
+
+  @media only screen and (min-width: 1024px) {
+    .page_buy_btn {
+      height: 100%;
+      top: 0;
+      width: 40px; } 
+    }
+
+.page_buy_btn .btn_anchor {
+  background: url(../../../images/Resident3Remake/buybtn_bg.png) left -5px bottom no-repeat;
+  background-size: 135%;
+  background-color: rgb(0, 0, 0);
+  top: 0;
+  height: 100%;
+  font-family: "Oswald", "Noto Sans JP", sans-serif;
+  font-size: 4.5vw;
+  position: relative; 
+}
+
+    @media only screen and (max-width: 1024px) {
+      .page_buy_btn .btn_anchor {
+        background-color: rgb(238, 9, 9);
+      }      
+    }
+
+    @media only screen and (min-width: 1024px) {
+      .page_buy_btn .btn_anchor {
+        font-size: 24px;
+        width: inherit;
+        -webkit-writing-mode: vertical-rl;
+        -ms-writing-mode: tb-rl;
+        writing-mode: vertical-rl; } 
+      }
+
+.page_buy_btn .btn_anchor a {
+  color: #FFF;
+  padding: 2vw 2vw 2vw .2vw;
+  position: relative; 
+}
+
+      @media only screen and (min-width: 1024px) {
+        .page_buy_btn .btn_anchor a {
+          padding: 0 6px;
+          width: inherit; } 
+        }
+
+      @media only screen and (min-width: 1024px) {
+        .page_buy_btn .btn_anchor a {
+          display: inline; } 
+        }
+
+      @media only screen and (max-width: 1023px) {
+        .page_buy_btn .btn_anchor a::after {
+          color: #FFF;
+          display: inline-block;
+          font-family: "Material Icons";
+          font-size: 1.75em;
+          left: .5vw;
+          position: absolute;
+          top: .5vw;
+          vertical-align: top; } 
+        }
+
+.page_buy_btn .btn_inner {
+  display: inline-block;
+  text-align: center;
+  margin-right: 0.3vw; 
+  font-family: "Oswald", "Noto Sans JP", sans-serif;
+  letter-spacing: 0.01em;
+}
+
+      @media only screen and (max-width: 1023px) {
+        .page_buy_btn .btn_inner {
+          padding-left: 5vw; } 
+        }
+
+      @media only screen and (min-width: 1024px) {
+        .page_buy_btn .btn_inner {
+          display: block;
+          text-indent: -2em; } 
+        }
+
+.page_buy_btn .btn_anchor .btn_bg {
+  display: block;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  z-index: -1; 
+}
+
+      @media only screen and (max-width: 1023px) {
+        .page_buy_btn .btn_anchor .btn_bg {
+          bottom: 0; } 
+        }
+
+      @media only screen and (min-width: 1024px) {
+        .page_buy_btn .btn_anchor .btn_bg {
+          background: url(../../../images/Resident3Remake/buybtn_bg.png) left -5px bottom no-repeat;
+          background-size: 135%;
+          top: 0; } 
+        }
+
+.page_buy_btn .btn_anchor small {
+  font-family: "Noto Serif", "Noto Serif KR", "Noto Serif JP", serif;
+  font-size: .75em;
+  position: relative; 
+}
+
+      @media only screen and (max-width: 1023px) {
+        .page_buy_btn .btn_anchor small {
+          display: block;
+          font-size: .5em;
+          line-height: 1.5; } 
+        }
+
+      @media only screen and (min-width: 1024px) {
+        .page_buy_btn .btn_anchor small {
+          left: -.125em; } 
+        }
+
+@media only screen and (min-width: 1024px) {
+  .ua-edge .page_buy_btn .btn_anchor small,
+  .ua-ie .page_buy_btn .btn_anchor small {
+    left: auto;
+    top: .125em; } 
+  }

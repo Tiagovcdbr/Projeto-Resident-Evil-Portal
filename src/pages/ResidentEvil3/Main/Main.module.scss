@@ -1,0 +1,86 @@
+@import "../../../styles/variables.scss";
+@import "../../../styles/mixins.scss";
+
+.conts {
+  line-height: 1.5;
+  width: 100%;
+  height: 100%;
+}
+
+.conts_box_firstview {
+  min-height: 175vw;
+  position: relative;
+  transition: opacity .5s ease-out;
+  width: 100%;
+  z-index: 1; 
+}
+
+  @media only screen and (min-width: 1024px) {
+    .conts_box_firstview {
+      height: calc(100vh - 10px);
+      min-height: calc(100% + 160px);
+      padding: 0; } 
+    }
+
+  .conts_box_firstview .conts_box_inner_firstview {
+    height: 100%;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto;
+    width: 100%;
+    z-index: 1; 
+  }
+
+    @media only screen and (min-width: 1024px) {
+      .conts_box_firstview .conts_box_inner_firstview {
+        max-width: 880px;
+        width: 50%; } 
+      }
+
+    .conts_box_firstview .conts_box_inner_firstview .title_logo_firstview {
+      position: relative;
+      -webkit-transform: translateY(50vw);
+      -moz-transform: translateY(50vw);
+      -ms-transform: translateY(50vw);
+      transform: translateY(50vw); 
+    }
+
+      @media only screen and (max-width: 1023px) {
+        .conts_box_firstview .conts_box_inner_firstview .title_logo_firstview {
+          margin-bottom: 2vw; } 
+        }
+
+      @media only screen and (min-width: 1024px) {
+        .conts_box_firstview .conts_box_inner_firstview .title_logo_firstview {
+          top: 0;
+          -webkit-transform: translateY(15vw);
+          -moz-transform: translateY(15vw);
+          -ms-transform: translateY(15vw);
+          transform: translateY(15vw); } 
+        }
+
+    .conts_box_firstview .conts_box_inner_firstview .release_firstview {
+      color: #D80127;
+      font-size: 12.03704vw;
+      font-family: $font-family;
+      line-height: 1.2;
+      letter-spacing: -5px;
+      text-align: center;
+      text-shadow: 1px 1px 8px rgba(216, 1, 39, 0.4), 1px -1px 8px rgba(216, 1, 39, 0.4), -1px 1px 8px rgba(216, 1, 39, 0.4), -1px -1px 8px rgba(216, 1, 39, 0.4);
+      -webkit-transform: translateY(49vw);
+      -moz-transform: translateY(49vw);
+      -ms-transform: translateY(49vw);
+      transform: translateY(49vw); 
+    }
+
+      @media only screen and (min-width: 1024px) {
+        .conts_box_firstview .conts_box_inner_firstview .release_firstview {
+          bottom: 0;
+          font-size: 4.83163vw;
+          left: 50%;
+          position: absolute;
+          -webkit-transform: translateX(-50%);
+          -moz-transform: translateX(-50%);
+          -ms-transform: translateX(-50%);
+          transform: translateX(-50%); } 
+        }
