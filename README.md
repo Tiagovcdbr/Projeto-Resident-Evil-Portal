@@ -4,7 +4,9 @@
 ### 
 
 #### Status do projeto....!
-#### --- Página Resident Evil 0 Finalizada ---
+#### --- Página Resident Evil 0 HD Remaster Finalizada ---
+#### --- Página Resident Evil 1 Remake Finalizada ---
+#### --- Página Resident Evil 2 Remake Finalizada---
 
 #### --- Outras seções ainda em construção ---!
 
