@@ -1,4 +1,5 @@
 import React from 'react'
+import GlobalNav from '../pages/ResidentEvil3/GlobalNav/GlobalNav'
 import Header from '../pages/ResidentEvil3/Header/Header'
 import MovieBg from '../pages/ResidentEvil3/MovieBg/MovieBg'
 import PageBuy from '../pages/ResidentEvil3/PageBuy/PageBuy'
@@ -11,7 +12,8 @@ function Re3Remake() {
       <Header />
       <Wrapper />
       <MovieBg /> 
-      <PageBuy />   
+      <PageBuy />
+      <GlobalNav />   
     </>
   )
 }

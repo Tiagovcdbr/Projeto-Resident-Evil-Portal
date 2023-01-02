@@ -1,0 +1,105 @@
+@import "../../../styles/variables.scss";
+@import "../../../styles/mixins.scss";
+
+.global_nav {
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 6; }
+  @media only screen and (min-width: 1024px) {
+    .global_nav {
+      right: 0;
+      top: 50%;
+      -webkit-transform: translateY(-50%);
+      -moz-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%); } 
+    }
+  
+  @media only screen and (max-width: 1023px) {
+    .global_nav_box {
+      background: rgba(0, 0, 0, 0.8);
+      height: 100vh;
+      overflow-y: auto;
+      padding: 4vw 0;
+      position: relative;
+      transition: width .25s ease-in;
+      width: 0; } 
+    }
+  @media only screen and (max-width: 1023px) {
+    .global_nav_list {
+      padding-top: 20vw; } 
+    }
+
+  .global_nav_list li {
+    font-size: 3vw;
+    font-family: $font-family;
+    font-stretch: ultra-condensed;
+    font-weight: 600;
+    text-align: right; 
+  }
+
+    @media only screen and (max-width: 1023px) {
+      .global_nav_list li {
+        margin-right: -52vw;
+        position: relative;
+        transition: margin-right .25s ease-in .1s; } 
+      }
+
+    @media only screen and (min-width: 1024px) {
+      .global_nav_list li {
+        font-size: 1vw; } 
+      }
+
+    .global_nav_list li a {
+      color: #FFF;
+      font-size: 1.111vw;
+      letter-spacing: 0.11111px;
+      display: inline-block;
+      transition: color .25s ease-in, opacity .25s ease-in, text-shadow .25s ease-in; 
+    }
+
+    .global_nav_list li:not(.current):not(.link_btn) a:hover {
+      opacity: .8; 
+    }
+
+    .global_nav_list li:not(:last-child) {
+      margin-bottom: 1.9vw;
+      letter-spacing: .02rem;
+    }
+
+      @media only screen and (min-width: 1024px) {
+        .global-nav-list li:not(:last-child) {
+          margin-bottom: 2vw; } 
+        }
+
+    .global_nav_list li:not(.link_btn) a::after {
+      color: rgba(255, 255, 255, 0.8);
+      content: "\02014";
+      display: inline-block;
+      font-weight: 700;
+      margin-left: 0.25em; 
+    }
+    
+    .global_nav_list li.nav_mutual_link {
+      background: rgba(0, 0, 0, 0.5);
+      margin-left: auto;
+      width: 60%; 
+    }
+
+      @media only screen and (min-width: 1024px) {
+        .global_nav_list li.nav_mutual_link {
+          margin-top: 4vw;
+          max-width: 120px;
+          width: 100%; } 
+        }
+
+      .global_nav_list li.nav_mutual_link a::after {
+        display: none; 
+      }
+
+      .global_nav_list li.nav_mutual_link img {
+        border: 1px solid #D80127;
+        height: auto;
+        width: 100%; 
+      }
