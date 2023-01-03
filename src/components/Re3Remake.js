@@ -4,7 +4,7 @@ import Header from '../pages/ResidentEvil3/Header/Header'
 import MovieBg from '../pages/ResidentEvil3/MovieBg/MovieBg'
 import PageBuy from '../pages/ResidentEvil3/PageBuy/PageBuy'
 import Wrapper from '../pages/ResidentEvil3/Wrapper/Wrapper'
-/*import MovieBg from '../pages/ResidentEvil3/MovieBg/MovieBg'*/
+import Topics from '../pages/ResidentEvil3/Topics/Topics'
 
 function Re3Remake() {
   return (
@@ -13,7 +13,8 @@ function Re3Remake() {
       <Wrapper />
       <MovieBg /> 
       <PageBuy />
-      <GlobalNav />   
+      <GlobalNav />
+      <Topics />   
     </>
   )
 }

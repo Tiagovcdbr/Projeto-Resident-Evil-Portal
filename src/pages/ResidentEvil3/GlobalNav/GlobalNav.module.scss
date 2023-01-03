@@ -5,7 +5,9 @@
   position: fixed;
   right: 0;
   top: 0;
-  z-index: 6; }
+  z-index: 6; 
+}
+
   @media only screen and (min-width: 1024px) {
     .global_nav {
       right: 0;
@@ -26,6 +28,7 @@
       transition: width .25s ease-in;
       width: 0; } 
     }
+    
   @media only screen and (max-width: 1023px) {
     .global_nav_list {
       padding-top: 20vw; } 
@@ -37,6 +40,34 @@
     font-stretch: ultra-condensed;
     font-weight: 600;
     text-align: right; 
+  }
+
+  .global_nav_list li a:hover {
+    color:#eb0000;
+    cursor: pointer;
+    transition: ease-in-out 3ms;
+  }
+
+  .global_nav_list li:nth-of-type(1) {
+    transition:opacity .3s linear 0.4s,transform .3s ease-out 0.4s
+  }
+  .global_nav_list li:nth-of-type(2) {
+    transition:opacity .3s linear 0.5s,transform .3s ease-out 0.5s
+  }
+  .global_nav_list li:nth-of-type(3) {
+    transition:opacity .3s linear 0.6s,transform .3s ease-out 0.6s
+  }
+  .global_nav_list li:nth-of-type(4) {
+    transition:opacity .3s linear 0.7s,transform .3s ease-out 0.7s
+  }
+  .global_nav_list li:nth-of-type(5) {
+    transition:opacity .3s linear 0.8s,transform .3s ease-out 0.8s
+  }
+  .global_nav_list li:nth-of-type(6) {
+    transition:opacity .3s linear 0.9s,transform .3s ease-out 0.9s
+  }
+  .global_nav_list li:nth-of-type(7) {
+    transition:opacity .3s linear 1s,transform .3s ease-out 1s
   }
 
     @media only screen and (max-width: 1023px) {
@@ -78,7 +109,7 @@
       content: "\02014";
       display: inline-block;
       font-weight: 700;
-      margin-left: 0.25em; 
+      margin-left: 0.25em;
     }
     
     .global_nav_list li.nav_mutual_link {

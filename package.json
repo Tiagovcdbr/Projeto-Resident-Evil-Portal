@@ -18,6 +18,7 @@
     "react-router-dom": "^5.3.0",
     "react-scripts": "4.0.3",
     "react-scroll": "^1.8.4",
+    "react-slick": "^0.29.0",
     "sass": "^1.43.5",
     "sass-loader": "^12.3.0",
     "swiper": "^7.3.1",

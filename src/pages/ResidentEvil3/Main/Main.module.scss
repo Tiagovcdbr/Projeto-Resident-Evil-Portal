@@ -39,6 +39,7 @@
 
     .conts_box_firstview .conts_box_inner_firstview .title_logo_firstview {
       position: relative;
+      margin-left: 1rem;
       -webkit-transform: translateY(50vw);
       -moz-transform: translateY(50vw);
       -ms-transform: translateY(50vw);
@@ -62,9 +63,11 @@
     .conts_box_firstview .conts_box_inner_firstview .release_firstview {
       color: #D80127;
       font-size: 12.03704vw;
+      margin-left: 1rem;
       font-family: $font-family;
       line-height: 1.2;
-      letter-spacing: -5px;
+      letter-spacing: -0.3rem;
+      font-stretch: compressed;
       text-align: center;
       text-shadow: 1px 1px 8px rgba(216, 1, 39, 0.4), 1px -1px 8px rgba(216, 1, 39, 0.4), -1px 1px 8px rgba(216, 1, 39, 0.4), -1px -1px 8px rgba(216, 1, 39, 0.4);
       -webkit-transform: translateY(49vw);

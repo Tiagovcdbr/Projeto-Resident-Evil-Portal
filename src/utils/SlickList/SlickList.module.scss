@@ -1,0 +1,145 @@
+@import "../../styles/variables.scss";
+@import "../../styles/mixins.scss";
+
+
+.swiper-button-prev,
+.swiper-button-next {
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  --swiper-theme-color: #d4bfbf;
+  --swiper-navigation-size: 0px;
+}
+
+.myswiper {
+  width: 100vw;
+}
+
+.myswiper{
+  :global(.swiper-pagination-bullet) {
+    background: #313131;
+    padding: 2px;
+    width: 5rem;
+    height: 8px;
+    border-radius: 2rem;
+    opacity: 1;
+}
+
+  :global(.swiper-pagination-bullet-active) {
+    background: #D80127;
+    box-shadow: 0px 0px 8px 1px rgba(216, 1, 39, 0.8);
+    width: 5rem;
+    height: 8px;
+    border-radius: 2rem;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .myswiper{
+    :global(.swiper-pagination-bullets) {
+      display: none;
+      height: 8px;
+    }
+  } 
+}
+
+.swiper-pagination {
+  position: absolute;
+  text-align: center;
+  transition: 300ms opacity;
+  transform: translate3d(0, 0, 0);
+  z-index: 10;
+  top: 10vw;
+}
+
+.swiperslide {
+  width: 480px;
+  height: 450px;
+  margin: 0 10px;
+}
+
+.swiperslide img {
+  width: 100%;
+  height: 100%;
+  margin-top: 5vw;
+  object-fit: cover;
+  cursor: pointer;
+  border: 1px solid #D80127;
+}
+
+@media only screen and (max-width: 1700px) {
+  .container {
+    margin-top: 20vw;
+  }
+}
+
+@media only screen and (max-width: 1705px) {
+  .swiperslide img {
+    width: 100vw;
+    height: 100%;
+  }
+}
+
+@media only screen and (max-width: 1705px) {
+  .myswiper {
+    --swiper-navigation:none;
+    display: inline-flex;
+    justify-content: space-around;
+    width: 100vw;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transform: translateY(-50%);
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .myswiper {
+    position: absolute;
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transform: translateY(-50%);
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .myswiper {
+    width: 640px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .myswiper {
+    width: 768px;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .myswiper {
+    width: 1850px;
+  }
+}
+
+@media only screen and (max-width: 1680px) {
+  .myswiper {
+    .swiper-scrollbar-drag {
+      height: 100%;
+      width: 100%;
+      position: relative;
+      background: rgba(255, 255, 255, 0.5);
+      border-radius: 10px;
+      left: 0;
+      top: 0;
+    }
+  }
+}

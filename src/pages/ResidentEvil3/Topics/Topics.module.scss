@@ -1,0 +1,76 @@
+@import "../../../styles/variables.scss";
+@import "../../../styles/mixins.scss";
+
+.conts_box_topics {
+  padding: 24vw 0 0; 
+}
+
+  @media only screen and (min-width: 1024px) {
+     .conts_box_topics {
+      padding: 12vw 0 0; } 
+    }
+
+  .sec_ttl_topics {
+    color: #D80127;
+    font-family: "Oswald", "Noto Sans JP", sans-serif;
+    font-size: 7.40741vw;
+    text-shadow: 1px 1px 8px rgba(216, 1, 39, 0.4), 1px -1px 8px rgba(216, 1, 39, 0.4), -1px 1px 8px rgba(216, 1, 39, 0.4), -1px -1px 8px rgba(216, 1, 39, 0.4);
+    line-height: 1.2;
+    font-stretch: extra-condensed;
+    margin-bottom: 8vw;
+    position: relative;
+    text-align: center;
+    transition: text-shadow .5s ease-in; 
+  }
+
+    @media only screen and (min-width: 1024px) {
+      .sec_ttl_topics {
+        font-size: 3.66032vw;
+        margin-bottom: 4vw; } 
+      }
+
+      @media only screen and (max-width: 1080px) {
+        .sec_ttl_topics  {
+          position: relative;
+          top: -10vw;
+        }
+      }
+
+      @media only screen and (max-width: 768px) {
+        .sec_ttl_topics  {
+          position: relative;
+          top: -15vw;
+        }
+      }
+
+    @media only screen and (max-width: 640px) {
+      .sec_ttl_topics  {
+        display: none;
+      }
+    }
+
+    .sec_ttl small {
+      display: block;
+      font-size: .5em; 
+    }
+
+    .sec_ttl.size_s {
+      font-size: 5.55556vw; 
+    }
+
+      @media only screen and (min-width: 1024px) {
+        .sec_ttl.size_s {
+          font-size: 2.19619vw; } 
+        }
+
+    .sec_ttl.ic_up::before {
+      color: #D80127;
+      content: "[UP]";
+      display: block;
+      font-size: .3em;
+      font-weight: 700;
+      line-height: 1;
+      margin-bottom: .5em;
+      text-shadow: none; 
+    }
+

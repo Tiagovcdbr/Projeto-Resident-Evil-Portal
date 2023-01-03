@@ -6,6 +6,23 @@
   list-style: none;
   outline: none;
   border: 0;
+
+  .myswiper{
+    :global(.swiper-pagination-bullet) {
+      background: white;
+      width: 1rem;
+      height: 1rem;
+      border-radius: .5rem;
+      opacity: 1;
+  }
+  
+  :global(.swiper-pagination-bullet-active) {
+    background-color: blue;
+    width: 5rem;
+    height: 1rem;
+    border-radius: .5rem;
+  }
+}
   
   /* Barra de Rolagem */
 
