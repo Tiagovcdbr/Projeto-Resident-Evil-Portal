@@ -49,6 +49,12 @@
       }
     }
 
+    @media only screen and (max-width: 430px) {
+      .sec_ttl_topics  {
+        top: -30vw;
+      }
+    }
+
     .sec_ttl small {
       display: block;
       font-size: .5em; 
