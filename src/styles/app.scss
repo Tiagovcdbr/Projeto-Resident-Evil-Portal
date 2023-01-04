@@ -5,3 +5,8 @@ html {
     font-family: $font-family,  
 }
 
+body {
+::-webkit-scrollbar-face-color {
+    background-color: #232C3B;
+    }
+}

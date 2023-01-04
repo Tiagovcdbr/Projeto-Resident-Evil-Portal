@@ -6,7 +6,7 @@
   list-style: none;
   outline: none;
   border: 0;
-
+  
   .myswiper{
     :global(.swiper-pagination-bullet) {
       background: white;
@@ -36,6 +36,10 @@
 ::-webkit-scrollbar {
   width: 6px;
   background: #F4F4F4;
+}
+
+::-webkit-scrollbar-face-color {
+  background-color: #232C3B;
 }
 
 /* Linha que desce */

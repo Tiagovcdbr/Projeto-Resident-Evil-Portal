@@ -68,7 +68,10 @@
   margin-top: 5vw;
   object-fit: cover;
   cursor: pointer;
-  border: 1px solid #D80127;
+  border-top: 1px solid #D80127;
+  border-right: 1px solid #D80127;
+  border-bottom: 0 solid #D80127;
+  border-left: 1px solid #D80127;
 }
 
 @media only screen and (max-width: 1700px) {
@@ -81,6 +84,12 @@
   .swiperslide img {
     width: 100vw;
     height: 100%;
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  .swiperslide img {
+    border: 1px solid #D80127;
   }
 }
 
@@ -144,3 +153,31 @@
   }
 }
 
+.text {
+  height: 120px;
+  position: relative;
+  color: #FFF;
+  font-family: $font-family;
+  text-align: start;
+  background: rgba(0, 0, 0, 0.8);
+  border-top: 0 solid #D80127;
+  border-right: 1px solid #D80127;
+  border-bottom: 1px solid #D80127;
+  border-left: 1px solid #D80127;
+  font-size: 1.2222vw;
+  margin-top: -4px;
+  line-height: 1.2;
+  padding: 4%;
+}
+
+@media only screen and (max-width: 960px) {
+  .text {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  .text {
+    font-size: 1.6vw;
+  }
+}

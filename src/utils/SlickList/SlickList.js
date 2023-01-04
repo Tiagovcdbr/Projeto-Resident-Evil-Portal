@@ -24,7 +24,6 @@ export default function SlickList () {
       <Swiper
       modules={[ Scrollbar, Pagination ]}
         navigation={true}
-        autoplay={{ delay: 5000 }}
         keyboard={true}
         spaceBetween={1}
         loop={true}
@@ -59,46 +58,73 @@ export default function SlickList () {
       <Fade duration={2200}>
         <SwiperSlide className={styles.swiperslide}>
           <a href="https://www.residentevil.com/re4/en-us/" target='_blank' rel="noreferrer">
-          <Fade duration={2000}>
             <img src={IMG} alt="" />
-          </Fade>
-          </a>
-        </SwiperSlide>
-        
+            <div className={styles.text}>
+              <p>Resident Evil 3 Collector's Edition</p>
+            </div>
+          </a>          
+        </SwiperSlide>        
 
         <SwiperSlide className={styles.swiperslide}>
           <a href="https://www.residentevil.com/switch/cloud/en-us/" target='_blank' rel="noreferrer">
             <img src={IMG2} alt="" />
+            <div className={styles.text}>
+              <p>Three acclaimed titles have finally 
+              arrived on next-gen consoles with upgrades!</p>
+            </div>
           </a>
         </SwiperSlide>
 
         <SwiperSlide className={styles.swiperslide}>
           <a href="https://www.residentevil.com/village/ge/" target='_blank' rel="noreferrer">
             <img src={IMG3} alt="" />
+            <div className={styles.text}>
+              <p>Resident Evil 4 has been reimagined with 
+              modernized gameplay, a reimagined storyline 
+              and vividly detailed graphics.</p>
+            </div>
           </a>
         </SwiperSlide>
 
         <SwiperSlide className={styles.swiperslide}>
           <a href="https://www.residentevil.com/village/us/" target='_blank' rel="noreferrer">
             <img src={IMG4} alt="" />
+            <div className={styles.text}>
+              <p>In-game rewards unlock DLC for the 
+              Resident Evil 3 campaign available for 
+              purchase on August 6!</p>
+            </div>
           </a>        
         </SwiperSlide>
 
         <SwiperSlide className={styles.swiperslide}>
           <a href="https://www.residentevil.com/village/us/" target='_blank' rel="noreferrer">
             <img src={IMG5} alt="" />
+            <div className={styles.text}>
+              <p>The Classic Costume Pack is now 
+              available, with designs based on 
+              Resident Evil 3: Nemesis!</p>
+            </div>
           </a>        
         </SwiperSlide>
 
         <SwiperSlide className={styles.swiperslide}>
           <a href="https://www.residentevil.com/village/us/" target='_blank' rel="noreferrer">
             <img src={IMG6} alt="" />
+            <div className={styles.text}>
+              <p>Demo version available now!</p>
+            </div>
           </a>        
         </SwiperSlide>
 
         <SwiperSlide className={styles.swiperslide}>
           <a href="https://www.residentevil.com/village/us/" target='_blank' rel="noreferrer">
             <img src={IMG7} alt="" />
+            <div className={styles.text}>
+              <p>Learn more about the events 
+              that have transpired in Raccoon City, 
+              the setting for Resident Evil 3.</p>
+            </div>
           </a>        
         </SwiperSlide>
       </Fade>

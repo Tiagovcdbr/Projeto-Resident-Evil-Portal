@@ -1,5 +1,5 @@
 /* eslint-disable no-sequences */
-import { Link } from "react-scroll";
+import { Link } from "react-router-dom";
 import styles from "./Nav.module.scss";
 import useSound from 'use-sound';
 
@@ -14,58 +14,73 @@ const Nav = ({ toggle }) => {
     <nav className={styles.menu}>
       <ul>
         <li onClick={toggle}>
-          <Link to="about_umbrella" spy={true} smooth={true} duration={800} onClick={play}>
-          Prévia Umbrella
+          <Link to="Resident-Evil-0-HD-Remaster" spy={true} smooth={true} duration={800} onClick={play}>
+          Resident 0
           </Link>
         </li>
-        <li_2 onClick={toggle}>
-          <Link to="leon" spy={true} smooth={true} duration={800} onClick={play}>
-            Leon
+        <li onClick={toggle}>
+          <Link to="Resident-Evil-HD-Remaster" spy={true} smooth={true} duration={800} onClick={play}>
+            Resident Remake
           </Link>
-        </li_2>
-        <li_3 onClick={toggle}>
-          <Link to="claire" spy={true} smooth={true} duration={800} onClick={play}>
-            Claire
+        </li>
+        <li onClick={toggle}>
+          <Link to="Resident-Evil-2-Remake" spy={true} smooth={true} duration={800} onClick={play}>
+            Resident 2 Remake
           </Link>
-        </li_3>
-        <li_4 onClick={toggle}>
-          <Link to="sherry" spy={true} smooth={true} duration={800} onClick={play}>
-            Sherry
+        </li>
+        <li onClick={toggle}>
+          <Link to="Resident-Evil-3-Remake" spy={true} smooth={true} duration={800} onClick={play}>
+          Resident 3 Remake
           </Link>
-        </li_4>
-        <li_5 onClick={toggle}>
+        </li>
+        <li onClick={toggle}>
           <Link to="ada" spy={true} smooth={true} duration={800} onClick={play}>
-            Ada
+          Resident Evil 4
           </Link>
-        </li_5>
-        <li_6 onClick={toggle}>
+        </li>
+        <li onClick={toggle}>
           <Link to="mrx" spy={true} smooth={true} duration={800} onClick={play}>
-            Mr-X
+          Resident Evil 5
           </Link>
-        </li_6>
-        <li_7 onClick={toggle}>
+        </li>
+        <li onClick={toggle}>
           <Link to="annete" spy={true} smooth={true} duration={800} onClick={play}>
-            Annete
+          Resident Evil 6
           </Link>
-        </li_7>
+        </li>
         <li onClick={toggle}>
           <Link to="biowilliam" spy={true} smooth={true} duration={800} onClick={play}>
-            Biografia
+          Resident Evil 7
           </Link>
         </li>
         <li onClick={toggle}>
           <Link to="videos" spy={true} smooth={true} duration={800} onClick={play}>
-            Vídeos
+          Resident Evil Village
           </Link>
         </li>
         <li onClick={toggle}>
-          <Link to="details" spy={true} smooth={true} duration={800} onClick={play}>
-            Detalhes
+          <Link to="videos" spy={true} smooth={true} duration={800} onClick={play}>
+          RE: Outbreak
           </Link>
         </li>
         <li onClick={toggle}>
-          <Link to="gallery" spy={true} smooth={true} duration={800} onClick={play}>
-            Galeria
+          <Link to="videos" spy={true} smooth={true} duration={800} onClick={play}>
+          RE: Outbreak #File 2
+          </Link>
+        </li>
+        <li onClick={toggle}>
+          <Link to="videos" spy={true} smooth={true} duration={800} onClick={play}>
+          RE: Revelations 1 & 2
+          </Link>
+        </li>
+        <li onClick={toggle}>
+          <Link to="videos" spy={true} smooth={true} duration={800} onClick={play}>
+          RE: Code Veronica
+          </Link>
+        </li>
+        <li onClick={toggle}>
+          <Link to="videos" spy={true} smooth={true} duration={800} onClick={play}>
+          Resident Evil 4 Remake
           </Link>
         </li>
       </ul>
