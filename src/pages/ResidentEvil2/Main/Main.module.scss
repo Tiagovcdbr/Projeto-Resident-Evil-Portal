@@ -65,17 +65,18 @@
 
         img {
             width: 800px; 
-            margin: 0 auto;
+            margin-left: -1vw;
         }
 
         h3 {
            font-size: 3.5rem; 
            color: $white;
+           text-shadow: 1px 1px 8px rgba(216, 1, 39, 0.4), 1px -1px 8px rgba(216, 1, 39, 0.4), -1px 1px 8px rgba(216, 1, 39, 0.4), -1px -1px 8px rgba(216, 1, 39, 0.4);
            font-family: $font-family;
 
-           @media (max-width: 390px) {
+           @media (max-width: 424px) {
              font-size: 2rem;   
-        }
+            }
         }
 
         h4,

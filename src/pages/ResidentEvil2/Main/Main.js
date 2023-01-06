@@ -15,16 +15,18 @@ const Main = () => {
     <div className={styles.main} id="home">
       <div data-aos="fade" className={styles.main_bg}> 
         <video
-        src={Video}
-        autoPlay={true}
-        loop 
-        className={styles.video}
-        ></video>      
+          src={Video}
+          autoPlay={true}
+          loop 
+          className={styles.video}
+          >
+        </video>      
       </div>
       <audio
        src={Audio}
        autoPlay={true}
-       ></audio>
+       >
+      </audio>
       <div data-aos="fade" className={styles.main_content}>
         <div className={styles.logo}>
           <img src={LogoIMG} 

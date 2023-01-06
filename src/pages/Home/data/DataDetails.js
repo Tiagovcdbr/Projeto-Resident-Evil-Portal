@@ -7,7 +7,7 @@ import ImageSix from '../../../images/lineup/series_thumb05.jpg';
 import ImageSeven from '../../../images/lineup/series_thumb03.jpg';
 import ImageEight from '../../../images/lineup/series_thumb07.jpg';
 import ImageNine from '../../../images/lineup/lineup-village.jpg';
-import ImageTen from '../../../images/lineup/resident-evil-outbreak.jpg';
+import ImageTen from '../../../images/lineup/game_out-en.png';
 import ImageEleven from '../../../images/lineup/outbreak-2.jpg';
 import ImageTwelve from '../../../images/lineup/lineup-revswitch.jpg';
 import ImageThirteen from '../../../images/lineup/lineup-code-veronica.jpg';
@@ -60,7 +60,7 @@ export const LineUpGamesContent = {
     img9: ImageNine,
     alt9: "Resident Village",
 
-    title10: "Resident Evil Outbreak",
+    title10: "Resident Evil Outbreak File#1",
     //paragraph10: "Assim como as ruas e delegacia, os esgotos de Raccon City estão lindos e concerteza quem jogou o clássico de 1998 vai se surpreender com a maravilha que está esse cenário e os inimigos que habitam nele.",
     img10: ImageTen,
     alt10: "Resident Outbreak",
@@ -75,7 +75,7 @@ export const LineUpGamesContent = {
     img12: ImageTwelve,
     alt12: "Revelations 1 & 2",
 
-    title13: "Resident Evil Code: Veronica",
+    title13: "CODE: Veronica X",
     //paragraph13: "Assim como as ruas e delegacia, os esgotos de Raccon City estão lindos e concerteza quem jogou o clássico de 1998 vai se surpreender com a maravilha que está esse cenário e os inimigos que habitam nele.",
     img13: ImageThirteen,
     alt13: "Resident Code Veronica",
