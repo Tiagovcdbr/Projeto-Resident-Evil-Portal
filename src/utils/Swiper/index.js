@@ -24,7 +24,7 @@ export default function Home () {
         autoplay
         navigation={true}
         effect={'fade'}
-        speed={2200}
+        speed={3000}
         slidesPerView={1}
         loop
         className={styles.myswiper}

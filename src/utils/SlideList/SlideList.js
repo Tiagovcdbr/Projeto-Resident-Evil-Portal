@@ -25,7 +25,7 @@ export default function SlickList () {
       modules={[ Scrollbar, Pagination ]}
         navigation={true}
         keyboard={true}
-        spaceBetween={20}
+        spaceBetween={1}
         loop={true}
         slidesPerView={3}
         centeredSlides={false}
