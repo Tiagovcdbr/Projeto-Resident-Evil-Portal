@@ -14,7 +14,7 @@ function MovieBg() {
         >
         </video>
       </div>
-      <div className={styles.mv} >
+      <div className={styles.mv}>
         <div className={styles.img} ></div>
       </div>
     </div>    

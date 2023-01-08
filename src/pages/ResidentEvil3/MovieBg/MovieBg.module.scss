@@ -173,12 +173,13 @@
     }
 
       @media only screen and (min-width: 1024px) {
-        .movie_bg .video video {
+        .movie_bg .video video { 
           -webkit-transform: translate(-50%, 0);
           -moz-transform: translate(-50%, 0);
           -ms-transform: translate(-50%, 0);
-          transform: translate(-50%, 0); } 
-        }
+          transform: translate(-50%, 0); 
+        } 
+      }
 
   .movie_bg::after {
     background: transparent;
