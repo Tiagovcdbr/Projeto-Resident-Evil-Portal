@@ -16,6 +16,10 @@ import IMG4 from '../../images/Resident3Remake/trailer_demo_img.jpg'
 import IMG5 from '../../images/Resident3Remake/trailer_img01.jpg'
 import IMG6 from '../../images/Resident3Remake/maxresdefault.jpg'
 
+import SwiperCore, { Navigation, Autoplay, Keyboard } from "swiper";
+
+SwiperCore.use([Pagination, Navigation, Autoplay, Keyboard]);
+
 export default function SlideList () {
   return (
     <div className={styles.container}>

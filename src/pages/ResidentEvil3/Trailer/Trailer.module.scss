@@ -5,6 +5,12 @@
   padding: 24vw 0 0; 
 }
 
+@media only screen and (max-width: 640px) {
+  .conts_box_trailer {
+    margin-top: 30vw;
+  }
+}
+
   @media only screen and (min-width: 1024px) {
      .conts_box_trailer {
       padding: 12vw 0 0; } 
