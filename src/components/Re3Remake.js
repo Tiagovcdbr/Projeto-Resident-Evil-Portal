@@ -6,6 +6,7 @@ import PageBuy from '../pages/ResidentEvil3/PageBuy/PageBuy'
 import Wrapper from '../pages/ResidentEvil3/Wrapper/Wrapper'
 import Topics from '../pages/ResidentEvil3/Topics/Topics'
 import Trailer from '../pages/ResidentEvil3/Trailer/Trailer'
+import About from '../pages/ResidentEvil3/About/About'
 
 function Re3Remake() {
   return (
@@ -17,6 +18,7 @@ function Re3Remake() {
       <GlobalNav />
       <Topics />  
       <Trailer />
+      <About />
     </>
   )
 }

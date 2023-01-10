@@ -1,0 +1,181 @@
+@import "../../../styles/variables.scss";
+@import "../../../styles/mixins.scss";
+
+
+.conts_box_about {
+  margin-bottom: 12vw;
+  padding: 12vw 6vw; 
+}
+
+  @media only screen and (min-width: 1024px) {
+    .conts_box_about {
+      background: url(../../../images/Resident3Remake/about_bg.jpg) left center no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+      margin-bottom: 6vw;
+      padding: 6vw; 
+      } 
+    }
+
+    .sec_ttl_about {
+      color: #D80127;
+      font-family: $font-family;
+      font-stretch: extra-condensed;
+      font-weight: 600;
+      letter-spacing: -1px;
+      font-size: 7.40741vw;
+      line-height: 1.2;
+      margin-bottom: 8vw;
+      position: relative;
+      text-align: center;
+      transition: text-shadow .5s ease-in;
+    }
+
+    @media only screen and (min-width: 1024px) {
+      .sec_ttl_about {
+        font-size: 3.66032vw;
+        margin-bottom: 4vw; 
+        } 
+      }
+
+    .conts_box_about:not(#product):not(#spec) .sec_ttl_about {
+      text-shadow: 3px 3px 15px rgba(216, 1, 39, 0.3), 3px -3px 15px rgba(216, 1, 39, 0.3), -3px 3px 15px rgba(216, 1, 39, 0.3), -3px -3px 15px rgba(216, 1, 39, 0.3); 
+    }
+
+    @media only screen and (min-width: 1024px) {
+      .conts_box_about:not(#firstview) .conts_box_inner_about_story {
+        margin-right: auto;
+        margin-left: auto;
+        width: 74.46809%; 
+        } 
+      }
+
+    .conts_ttl_about {
+      color: #FFF;
+      font-family: "Noto Serif", "Noto Serif KR", "Noto Serif JP", serif;
+      font-size: 6.48148vw;
+      line-height: 1.2;
+      margin-bottom: 8vw;
+      position: relative;
+      text-align: center;
+    }
+
+    @media only screen and (min-width: 640px) {
+      .conts_ttl_about {
+        font-size: 9vw;
+        font-weight: 400;
+        margin-bottom: 4vw; 
+        } 
+      }
+
+    @media only screen and (min-width: 1024px) {
+      .conts_ttl_about {
+        font-size: 3.2vw;
+        font-weight: 400;
+        margin-bottom: 4vw; 
+        } 
+      }
+
+    .conts_box_inner_about_story .text_box_about p.lead {
+      color: #D80127;
+      font-size: 4.62963vw;
+      text-align: center; 
+    }
+
+    .text_box_about p {
+      color: #FFF;
+      text-shadow: 0 0 3px rgba(0, 0, 0, 0.8);
+      text-align: center; 
+    }
+      .text_box_about p.lead {
+        font-size: 3.7037vw;
+        font-weight: 700;
+        margin-bottom: 4vw;
+        line-height: 1.5; 
+      }
+
+    @media only screen and (min-width: 1024px) {
+      .text_box_about p.lead {
+        font-size: 1.75695vw;
+        margin-bottom: 2vw; 
+        } 
+      }
+
+    .text_box_about p.lead strong {
+      color: #D80127;
+      font-weight: 900; 
+    }
+
+    .text_box_about p:not(.lead) {
+      font-size: 1.85185vw;
+      line-height: 2; 
+    }
+
+    @media only screen and (min-width: 420px) {
+      .text_box_about p:not(.lead) {
+        font-size: 3.41112vw;
+      } 
+    }
+
+    @media only screen and (min-width: 1024px) {
+      .text_box_about p:not(.lead) {
+        font-size: 1.41112vw;
+      } 
+    }
+
+    .text_box_about p:not(.lead):not(:last-child) {
+      margin-bottom: 4vw; 
+    }
+
+    @media only screen and (min-width: 1024px) {
+      .text_box_about p:not(.lead):not(:last-child) {
+        margin-bottom: 2vw; 
+      } 
+    }
+
+    @media only screen and (min-width: 1024px) {
+      .conts_box_inner_about_story:not(:last-child) {
+        margin-bottom: 6vw; } }
+
+    .conts_box_inner_about_about {
+      margin-right: auto;
+      margin-left: auto;
+      width: 74.46809%;
+    }
+
+    .conts_box_about .text_box_about p.lead {
+      color: #D80127;
+      font-size: 2.19619vw;
+      text-align: center; 
+    }
+
+    @media only screen and (min-width: 420px) {
+      .conts_box_about .text_box_about p.lead {
+        font-size: 5.19619vw;
+        margin-top: 8vw;
+      }
+    }
+
+     @media only screen and (min-width: 1024px) {
+      .conts_box_about .text_box_about p.lead {
+        font-size: 2.19619vw;
+      }
+    }
+
+    @media only screen and (min-width: 420px) {
+      .conts_box_inner_about_about .text_box_about p {
+        margin-bottom: 2vw;
+      } 
+    }
+
+    @media only screen and (min-width: 1024px) {
+      .conts_box_inner_about_about .text_box_about p {
+        font-size: 1.31552vw; 
+      } 
+    }
+    
+
+   
+
+    
+
