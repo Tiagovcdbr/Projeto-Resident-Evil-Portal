@@ -111,7 +111,7 @@
       line-height: 2; 
     }
 
-    @media only screen and (min-width: 420px) {
+    @media only screen and (min-width: 400px) {
       .text_box_about p:not(.lead) {
         font-size: 3.41112vw;
       } 
@@ -149,7 +149,7 @@
       text-align: center; 
     }
 
-    @media only screen and (min-width: 420px) {
+    @media only screen and (min-width: 400px) {
       .conts_box_about .text_box_about p.lead {
         font-size: 5.19619vw;
         margin-top: 8vw;
@@ -162,7 +162,7 @@
       }
     }
 
-    @media only screen and (min-width: 420px) {
+    @media only screen and (min-width: 400px) {
       .conts_box_inner_about_about .text_box_about p {
         margin-bottom: 2vw;
       } 
