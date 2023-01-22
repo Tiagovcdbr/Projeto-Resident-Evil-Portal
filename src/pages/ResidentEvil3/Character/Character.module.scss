@@ -175,8 +175,55 @@
     .conts_box_character .character_jill .img_jill .name_jill .ic_open_jill {
     bottom: 1.5em;
     position: absolute;
-    transition: transform .2s ease-in; 
+    transition: transform .2s ease-in;     
   }
+
+  .ic_open_jill {
+    background: rgba(0, 0, 0, 0.4);
+    border: 1px solid #FFF;
+    font-size: 3.33333vw;
+    left: 4em;
+    top: 50%;
+    height: 5vw;
+    position: absolute;
+    width: 5vw;
+    z-index: 9; 
+  }
+
+  @media only screen and (min-width: 360px) {
+    .ic_open_jill {
+      top: 28%;
+      left: 3em;
+      font-size: 1.8vw;
+      height: 3vw;
+      width: 3vw; 
+    } 
+  }
+
+    @media only screen and (min-width: 1024px) {
+      .ic_open_jill {
+        top: 50%;
+        left: 4em;
+        font-size: 1.11111vw;
+        height: 2vw;
+        width: 2vw; 
+      } 
+    }
+
+    .ic_open_jill::before {
+      color: #FFF;
+      content: "\2B";
+      display: inline-block;
+      font-family: "Material Icons";
+      left: 50%;
+      bottom: -0.5em;
+      position: absolute;
+      top: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -moz-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%); 
+    }
 
     @media only screen and (max-width: 1023px) {
       .conts_box_character .character_jill .img_jill .ic_open_jill {
@@ -251,7 +298,7 @@
 
     @media only screen and (min-width: 1024px) {
       .conts_box_character .character_carlos .img_carlos .name_carlos {
-        top: 9.6em;
+        top: 9.7em;
         left: 18em;
         font-size: 2.92826vw; 
       } 
@@ -294,6 +341,54 @@
       } 
     }
 
+    .ic_open_carlos {
+      background: rgba(0, 0, 0, 0.4);
+      border: 1px solid #FFF;
+      font-size: 3.33333vw;
+      left: 4em;
+      top: 50%;
+      left: 53.4%;
+      height: 5vw;
+      position: absolute;
+      width: 5vw;
+      z-index: 9; 
+    }
+
+    @media only screen and (min-width: 360px) {
+      .ic_open_carlos {
+        top: 50.7%;
+        left: 3em;
+        font-size: 1.8vw;
+        height: 3vw;
+        width: 3vw; 
+      } 
+    }
+
+      @media only screen and (min-width: 1024px) {
+        .ic_open_carlos {
+          top: 50%;
+          left: 53.3%;
+          font-size: 1.11111vw;
+          height: 2vw;
+          width: 2vw; 
+        } 
+      }
+  
+      .ic_open_carlos::before {
+        color: #FFF;
+        content: "\2B";
+        display: inline-block;
+        font-family: "Material Icons";
+        left: 50%;
+        bottom: -0.5em;
+        position: absolute;
+        top: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%); 
+      }
+
 
   // Estilização Mikhail //
   
@@ -333,7 +428,7 @@
 
     @media only screen and (min-width: 1024px) {
       .conts_box_character .character_mikhail .img_mikhail .name_mikhail {
-        top: 19em;
+        top: 19.3em;
         left: 1.5em;
         font-size: 2.92826vw; 
       } 
@@ -376,6 +471,52 @@
       } 
     }
 
+    .ic_open_mikhail {
+      background: rgba(0, 0, 0, 0.4);
+      border: 1px solid #FFF;
+      font-size: 3.33333vw;
+      left: 4em;
+      bottom: 3%;
+      height: 5vw;
+      position: absolute;
+      width: 5vw;
+      z-index: 9; 
+    }
+
+    @media only screen and (min-width: 360px) {
+      .ic_open_mikhail {
+        bottom: 24.9%;
+        left: 3em;
+        font-size: 1.8vw;
+        height: 3vw;
+        width: 3vw; 
+      } 
+    }
+      @media only screen and (min-width: 1024px) {
+        .ic_open_mikhail {
+          bottom: 3.5%;
+          left: 4em;
+          font-size: 1.11111vw;
+          height: 2vw;
+          width: 2vw; 
+        } 
+      }
+  
+      .ic_open_mikhail::before {
+        color: #FFF;
+        content: "\2B";
+        display: inline-block;
+        font-family: "Material Icons";
+        left: 50%;
+        bottom: -0.5em;
+        position: absolute;
+        top: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%); 
+      }
+
  // Estilização Nicholai //
   
  .conts_box_character .character_nicholai .img_nicholai {
@@ -414,7 +555,7 @@
 
   @media only screen and (min-width: 1024px) {
     .conts_box_character .character_nicholai .img_nicholai .name_nicholai {
-      top: 19em;
+      top: 19.4em;
       left: 18em;
       font-size: 2.92826vw; 
     } 
@@ -453,8 +594,57 @@
       -webkit-transform: scale(1.1);
       -moz-transform: scale(1.1);
       -ms-transform: scale(1.1);
-      transform: scale(1.1);     } 
+      transform: scale(1.1);     
+    } 
   }
+
+  .ic_open_nicholai {
+    background: rgba(0, 0, 0, 0.4);
+    border: 1px solid #FFF;
+    font-size: 3.33333vw;
+    left: 4em;
+    bottom: 2.5%;
+    left: 53.4%;
+    height: 5vw;
+    position: absolute;
+    width: 5vw;
+    z-index: 9; 
+  }
+
+  @media only screen and (min-width: 360px) {
+    .ic_open_nicholai {
+      bottom: 1.6%;
+      left: 3em;
+      font-size: 1.8vw;
+      height: 3vw;
+      width: 3vw; 
+    } 
+  }
+
+    @media only screen and (min-width: 1024px) {
+      .ic_open_nicholai {
+        bottom: 2.8%;
+        left: 53.3%;
+        font-size: 1.11111vw;
+        height: 2vw;
+        width: 2vw; 
+      } 
+    }
+
+    .ic_open_nicholai::before {
+      color: #FFF;
+      content: "\2B";
+      display: inline-block;
+      font-family: "Material Icons";
+      left: 50%;
+      bottom: -0.5em;
+      position: absolute;
+      top: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -moz-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%); 
+    }
 
   // ===================== //
 
