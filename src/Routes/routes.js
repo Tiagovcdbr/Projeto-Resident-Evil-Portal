@@ -11,8 +11,11 @@ import ScrollToTop from '../components/other/Scroll/ScrollToTop';
 
 /* Import dos Characters */
 
-import Bio from '../pages/ResidentEvil0/CharacterDetails/Rebecca/Bio';
 import Contentsknow from '../pages/Home/Articles/Contentsknow';
+import BioJill from '../pages/ResidentEvil3/Character/Jill/BioJill';
+import BioCarlos from '../pages/ResidentEvil3/Character/Carlos/BioCarlos';
+import BioMikhail from '../pages/ResidentEvil3/Character/Mikhail/BioMikhail'
+import BioNicholai from '../pages/ResidentEvil3/Character/Nicholai/BioNicholai'
 
 
 export default function ApplicationRoutes () {
@@ -26,9 +29,12 @@ export default function ApplicationRoutes () {
         <Route path="/Resident-Evil-HD-Remaster" component={ ResidentRemake } exact />
         <Route path="/Resident-Evil-3-Remake" component={ Re3Remake } exact />
         
-        {/* Rota dos characters  */}
+        {/* Biography dos characters  */}
   
-        <Route path="/Rebecca-Biography" component={ Bio } exact />
+        <Route path="/Jill-Biography" component={ BioJill } exact />
+        <Route path="/Carlos-Biography" component={ BioCarlos } exact />
+        <Route path="/Mikhail-Biography" component={ BioMikhail } exact />
+        <Route path="/Nicholai-Biography" component={ BioNicholai } exact />
 
         <Route path="/News" component={ Contentsknow } exact />
 

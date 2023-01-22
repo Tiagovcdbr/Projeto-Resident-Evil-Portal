@@ -83,7 +83,8 @@
   text-align: center;
   margin-right: 0.3vw; 
   font-family: "Oswald", "Noto Sans JP", sans-serif;
-  letter-spacing: 0.01em;
+  letter-spacing: -0.1rem;
+  font-stretch: extra-condensed;
 }
 
       @media only screen and (max-width: 1023px) {
