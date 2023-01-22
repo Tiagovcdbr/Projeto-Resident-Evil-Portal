@@ -148,7 +148,7 @@
   .conts_box_character .character_jill .img_jill .name_jill {
     top: 7.8em;
     color: #FFF;
-    font-family: $font-family;
+    font-family: "Oswald", "Noto Sans JP", sans-serif;
     font-size: 7.59259vw;
     font-weight: 600;
     font-stretch: extra-condensed;
@@ -389,6 +389,16 @@
         transform: translate(-50%, -50%); 
       }
 
+      @media only screen and (min-width: 1024px) {
+        .conts_box_character .character_carlos:hover .ic_open_carlos {
+          -webkit-transform: scale(1.1);
+          -moz-transform: scale(1.1);
+          -ms-transform: scale(1.1);
+          transform: scale(1.1); 
+        } 
+      }
+    
+
 
   // Estilização Mikhail //
   
@@ -494,7 +504,7 @@
     }
       @media only screen and (min-width: 1024px) {
         .ic_open_mikhail {
-          bottom: 3.5%;
+          bottom: 3.4%;
           left: 4em;
           font-size: 1.11111vw;
           height: 2vw;
@@ -515,6 +525,15 @@
         -moz-transform: translate(-50%, -50%);
         -ms-transform: translate(-50%, -50%);
         transform: translate(-50%, -50%); 
+      }
+
+      @media only screen and (min-width: 1024px) {
+        .conts_box_character .character_mikhail:hover .ic_open_mikhail {
+          -webkit-transform: scale(1.1);
+          -moz-transform: scale(1.1);
+          -ms-transform: scale(1.1);
+          transform: scale(1.1); 
+        } 
       }
 
  // Estilização Nicholai //
@@ -646,6 +665,13 @@
       transform: translate(-50%, -50%); 
     }
 
+    @media only screen and (min-width: 1024px) {
+      .conts_box_character .character_nicholai:hover .ic_open_nicholai {
+        -webkit-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1); 
+      } 
+    }
+
   // ===================== //
-
-
