@@ -1,0 +1,461 @@
+@import "../../../styles/variables.scss";
+@import "../../../styles/mixins.scss";
+
+.conts_box_character {
+  position: relative;
+  padding: 0;
+  margin-bottom: 12vw; 
+}
+
+.conts_box_character .sec_ttl_character {
+  color: #D80127;
+  font-family: "Oswald", "Noto Sans JP", sans-serif;
+  font-size: 7.40741vw;
+  line-height: 1.2;
+  font-stretch: extra-condensed;
+  letter-spacing: -1px;
+  margin-bottom: 8vw;
+  position: relative;
+  text-align: center;
+  transition: text-shadow .5s ease-in; 
+}
+
+.conts_box_character:not(#product):not(#spec) .sec_ttl_character {
+  text-shadow: 3px 3px 15px rgba(216, 1, 39, 0.3), 3px -3px 15px rgba(216, 1, 39, 0.3), -3px 3px 15px rgba(216, 1, 39, 0.3), -3px -3px 15px rgba(216, 1, 39, 0.3); 
+}
+
+.conts_box_character .sec_ttl_character .ic-up::before {
+  color: #D80127;
+  content: "[UP]";
+  display: block;
+  font-size: .3em;
+  font-weight: 700;
+  line-height: 1;
+  margin-bottom: .5em;
+  text-shadow: none; 
+}
+
+.conts_box_character .character .a {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border: none;
+    color: #333;
+    outline: none;
+    text-decoration: none; }
+
+  @media only screen and (min-width: 1024px) {
+    .conts_box_inner_character {
+      width: 100%; 
+    } 
+  }
+
+  @media only screen and (min-width: 1024px) {
+    .conts_box_character:not(#character) .conts_box_inner_character{
+      margin-right: auto;
+      margin-left: auto;
+      width: 100%; 
+    } 
+  }
+
+  @media only screen and (min-width: 1024px) {
+    .col_box_pc_human_character {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap; 
+    } 
+  }
+
+.conts_box_inner_character:not(:last-child) {
+  margin-bottom: 12vw; 
+}
+
+  @media only screen and (min-width: 1024px) {
+    .conts_box_inner_character:not(:last-child) {
+      margin-bottom: 6vw; 
+    } 
+  }
+
+  @media only screen and (min-width: 1024px) {
+    .conts_box_character .sec_ttl_character  {
+      font-size: 3.66032vw;
+      margin-bottom: 4vw; 
+    } 
+  }
+
+  .conts_box_character .sec_ttl_character small {
+    display: block;
+    font-size: .5em; 
+  }
+
+  .conts_box_character .sec_ttl_character .size-s {
+    font-size: 5.55556vw; 
+  }
+
+  @media only screen and (min-width: 1024px) {
+    .conts_box_character .sec_ttl_character .size-s {
+      font-size: 2.19619vw; 
+    } 
+  }
+
+  @media only screen and (min-width: 1024px) {
+    .conts_box_character .col_box_pc_human_character .character_jill {
+      width: 50%; 
+    } 
+  }
+
+  @media only screen and (min-width: 1024px) {
+    .conts_box_character .col_box_pc_human_character .character_carlos {
+      width: 50%; 
+    } 
+  }
+
+  @media only screen and (min-width: 1024px) {
+    .conts_box_character .col_box_pc_human_character .character_mikhail {
+      width: 50%; 
+    } 
+  }
+
+  @media only screen and (min-width: 1024px) {
+    .conts_box_character .col_box_pc_human_character .character_nicholai {
+      width: 50%; 
+    } 
+  }
+
+  // Estilização Jill //
+  
+  .conts_box_character .character_jill .img_jill {
+    background: rgba(255, 255, 255, 0);
+    line-height: 0;
+    overflow: hidden;
+    transition: background .2s ease-in; 
+  }
+
+  .conts_box_character .character_jill .img_jill img {
+    width: 100%;
+    transition: opacity .2s ease-in, transform .2s ease-in; 
+  }
+
+  .img_pc_jill {
+    display: inline;
+    border: none;
+    height: auto;
+    margin: auto;
+    outline: none;
+  }
+
+  .conts_box_character .character_jill .img_jill .name_jill {
+    top: 7.8em;
+    color: #FFF;
+    font-family: $font-family;
+    font-size: 7.59259vw;
+    font-weight: 600;
+    font-stretch: extra-condensed;
+    letter-spacing: -1px;
+    left: 0.66667em;
+    line-height: 1.25;
+    position: absolute;
+    text-shadow: 0 0 3px rgba(0, 0, 0, 0.8); 
+  }
+
+    @media only screen and (min-width: 1024px) {
+      .conts_box_character .character_jill .img_jill .name_jill {
+        top: 9.7em;
+        left: 1.5em;
+        font-size: 2.92826vw; 
+      } 
+    }
+
+    .conts_box_character .character_jill .img_jill .name_jill small {
+      display: block;
+      font-size: .4em; 
+    }
+
+    .conts_box_character .character_jill .img_jill .name_jill .ic_open_jill {
+    bottom: 1.5em;
+    position: absolute;
+    transition: transform .2s ease-in; 
+  }
+
+    @media only screen and (max-width: 1023px) {
+      .conts_box_character .character_jill .img_jill .ic_open_jill {
+        right: 1.5em; 
+      } 
+    }
+
+    @media only screen and (min-width: 1024px) {
+      .conts_box_character .character_jill .img_jill .ic_open_jill {
+        left: 2.5em; 
+      } 
+    }
+
+  .conts_box_character .character_jill:hover .img_jill {
+    background: white; 
+  }
+
+    @media only screen and (min-width: 1024px) {
+      .conts_box_character .character_jill:hover .img_jill img {
+        opacity: .95;
+        -webkit-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1); 
+      } 
+    }
+
+  @media only screen and (min-width: 1024px) {
+    .conts_box_character .character_jill:hover .ic_open_jill {
+      -webkit-transform: scale(1.1);
+      -moz-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+      transform: scale(1.1); 
+    } 
+  }
+
+    // Estilização Carlos //
+
+  .conts_box_character .character_carlos .img_carlos {
+    background: rgba(255, 255, 255, 0);
+    line-height: 0;
+    overflow: hidden;
+    transition: background .2s ease-in; 
+  }
+
+  .conts_box_character .character_carlos .img_carlos img {
+    width: 100%;
+    transition: opacity .2s ease-in, transform .2s ease-in; 
+  }
+
+  .img_pc_carlos {
+    display: inline;
+    border: none;
+    height: auto;
+    margin: auto;
+    outline: none;
+  }
+
+  .conts_box_character .character_carlos .img_carlos .name_carlos {
+    top: 15em;
+    color: #FFF;
+    font-family: $font-family;
+    font-size: 7.59259vw;
+    font-weight: 600;
+    font-stretch: extra-condensed;
+    letter-spacing: -1px;
+    left: 0.66667em;
+    line-height: 1.25;
+    position: absolute;
+    text-shadow: 0 0 3px rgba(0, 0, 0, 0.8); 
+  }
+
+    @media only screen and (min-width: 1024px) {
+      .conts_box_character .character_carlos .img_carlos .name_carlos {
+        top: 9.7em;
+        left: 18em;
+        font-size: 2.92826vw; 
+      } 
+    }
+
+    .conts_box_character .character_carlos .img_carlos .name_carlos small {
+      display: block;
+      font-size: .4em; 
+    }
+
+    .conts_box_character .character_carlos .img_carlos .name_carlos .ic_open_carlos {
+    bottom: 1.5em;
+    position: absolute;
+    transition: transform .2s ease-in; 
+  }
+
+    @media only screen and (max-width: 1023px) {
+      .conts_box_character .character_carlos .img_carlos .ic_open_carlos {
+        right: 1.5em; 
+      } 
+    }
+
+    @media only screen and (min-width: 1024px) {
+      .conts_box_character .character_carlos .img_carlos .ic_open_carlos {
+        left: 2.5em; 
+      } 
+    }
+
+  .conts_box_character .character_carlos:hover .img_carlos {
+    background: white; 
+  }
+
+    @media only screen and (min-width: 1024px) {
+      .conts_box_character .character_carlos:hover .img_carlos img {
+        opacity: .95;
+        -webkit-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1); 
+      } 
+    }
+
+
+  // Estilização Mikhail //
+  
+  .conts_box_character .character_mikhail .img_mikhail {
+    background: rgba(255, 255, 255, 0);
+    line-height: 0;
+    overflow: hidden;
+    transition: background .2s ease-in; 
+  }
+
+  .conts_box_character .character_mikhail .img_mikhail img {
+    width: 100%;
+    transition: opacity .2s ease-in, transform .2s ease-in; 
+  }
+
+  .img_pc_mikhail {
+    display: inline;
+    border: none;
+    height: auto;
+    margin: auto;
+    outline: none;
+  }
+
+  .conts_box_character .character_mikhail .img_mikhail .name_mikhail {
+    bottom: 8.2em;
+    color: #FFF;
+    font-family: $font-family;
+    font-size: 7.59259vw;
+    font-weight: 600;
+    font-stretch: extra-condensed;
+    letter-spacing: -1px;
+    left: 0.66667em;
+    line-height: 1.25;
+    position: absolute;
+    text-shadow: 0 0 3px rgba(0, 0, 0, 0.8); 
+  }
+
+    @media only screen and (min-width: 1024px) {
+      .conts_box_character .character_mikhail .img_mikhail .name_mikhail {
+        top: 19em;
+        left: 1.5em;
+        font-size: 2.92826vw; 
+      } 
+    }
+
+    .conts_box_character .character_mikhail .img_mikhail .name_mikhail small {
+      display: block;
+      font-size: .4em; 
+    }
+
+    .conts_box_character .character_mikhail .img_mikhail .name_mikhail .ic_open_mikhail {
+    bottom: 1.5em;
+    position: absolute;
+    transition: transform .2s ease-in; 
+  }
+
+    @media only screen and (max-width: 1023px) {
+      .conts_box_character .character_mikhail .img_mikhail .ic_open_mikhail {
+        right: 1.5em; 
+      } 
+    }
+
+    @media only screen and (min-width: 1024px) {
+      .conts_box_character .character_mikhail .img_mikhail .ic_open_mikhail {
+        left: 2.5em; 
+      } 
+    }
+
+  .conts_box_character .character_mikhail:hover .img_mikhail {
+    background: white; 
+  }
+
+    @media only screen and (min-width: 1024px) {
+      .conts_box_character .character_mikhail:hover .img_mikhail img {
+        opacity: .95;
+        -webkit-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1); 
+      } 
+    }
+
+ // Estilização Nicholai //
+  
+ .conts_box_character .character_nicholai .img_nicholai {
+  background: rgba(255, 255, 255, 0);
+  line-height: 0;
+  overflow: hidden;
+  transition: background .2s ease-in; 
+}
+
+.conts_box_character .character_nicholai .img_nicholai img {
+  width: 100%;
+  transition: opacity .2s ease-in, transform .2s ease-in; 
+}
+
+.img_pc_nicholai {
+  display: inline;
+  border: none;
+  height: auto;
+  margin: auto;
+  outline: none;
+}
+
+.conts_box_character .character_nicholai .img_nicholai .name_nicholai {
+  bottom: 0.8em;
+  color: #FFF;
+  font-family: $font-family;
+  font-size: 7.59259vw;
+  font-weight: 600;
+  font-stretch: extra-condensed;
+  letter-spacing: -1px;
+  left: 0.66667em;
+  line-height: 1.25;
+  position: absolute;
+  text-shadow: 0 0 3px rgba(0, 0, 0, 0.8); 
+}
+
+  @media only screen and (min-width: 1024px) {
+    .conts_box_character .character_nicholai .img_nicholai .name_nicholai {
+      top: 19em;
+      left: 18em;
+      font-size: 2.92826vw; 
+    } 
+  }
+
+  .conts_box_character .character_nicholai .img_nicholai .name_nicholai small {
+    display: block;
+    font-size: .4em; 
+  }
+
+  .conts_box_character .character_nicholai .img_nicholai .name_nicholai .ic_open_nicholai {
+  bottom: 1.5em;
+  position: absolute;
+  transition: transform .2s ease-in; 
+}
+
+  @media only screen and (max-width: 1023px) {
+    .conts_box_character .character_nicholai .img_nicholai .ic_open_nicholai {
+      right: 1.5em; 
+    } 
+  }
+
+  @media only screen and (min-width: 1024px) {
+    .conts_box_character .character_nicholai .img_nicholai .ic_open_nicholai {
+      left: 2.5em; 
+    } 
+  }
+
+.conts_box_character .character_nicholai:hover .img_nicholai {
+  background: white; 
+}
+
+  @media only screen and (min-width: 1024px) {
+    .conts_box_character .character_nicholai:hover .img_nicholai img {
+      opacity: .95;
+      -webkit-transform: scale(1.1);
+      -moz-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+      transform: scale(1.1);     } 
+  }
+
+  // ===================== //
+
+
