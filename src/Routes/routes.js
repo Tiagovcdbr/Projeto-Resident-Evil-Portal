@@ -16,6 +16,7 @@ import BioJill from '../pages/ResidentEvil3/Character/Jill/BioJill';
 import BioCarlos from '../pages/ResidentEvil3/Character/Carlos/BioCarlos';
 import BioMikhail from '../pages/ResidentEvil3/Character/Mikhail/BioMikhail'
 import BioNicholai from '../pages/ResidentEvil3/Character/Nicholai/BioNicholai'
+import BioNemesis from '../pages/ResidentEvil3/Character/Nemesis/BioNemesis'
 
 
 export default function ApplicationRoutes () {
@@ -35,6 +36,7 @@ export default function ApplicationRoutes () {
         <Route path="/Carlos-Biography" component={ BioCarlos } exact />
         <Route path="/Mikhail-Biography" component={ BioMikhail } exact />
         <Route path="/Nicholai-Biography" component={ BioNicholai } exact />
+        <Route path="/Nemesis-Biography" component={ BioNemesis } exact />
 
         <Route path="/News" component={ Contentsknow } exact />
 

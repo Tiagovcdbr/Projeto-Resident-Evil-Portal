@@ -6,6 +6,7 @@ import IMGJill from '../../../images/Resident3Remake/character_img01.jpg'
 import IMGCarlos from '../../../images/Resident3Remake/character_img02.jpg'
 import IMGMikhail from '../../../images/Resident3Remake/character_img04.jpg'
 import IMGNicholai from '../../../images/Resident3Remake/character_img05.jpg'
+import IMGNemesis from '../../../images/Resident3Remake/character_img03.jpg'
 import { Link } from 'react-router-dom'
 
 function Character() {
@@ -14,7 +15,7 @@ function Character() {
       <h2 className={styles.sec_ttl_character}>CHARACTER</h2>
         <div className={styles.conts_box_inner_character}>
           <div className={styles.col_box_pc_human_character}>
-                    {/* Jill Valentine */}
+                     {/* Jill Valentine */}
               <div className={styles.character_jill}>
                 <a>
                   <p className={styles.img_jill}>
@@ -71,7 +72,23 @@ function Character() {
                 </a>
               </div>
           </div>
-        </div>
+                          {/* Nemesis */}
+            <div className={styles.inner_creature}>
+              <div className={styles.character_nemesis}>
+                <a>
+                  <p className={styles.img_nemesis}>
+                    <span className={styles.img_pc_nemesis}>
+                    <Link to={'Nemesis-Biography'} spy={true} smooth={true} duration={800}>
+                      <img src={IMGNemesis} alt="Nemesis"/>
+                    </Link>
+                    </span>
+                    <p className={styles.name_nemesis}>Nemesis</p>
+                  </p>
+                  <div className={styles.ic_open_nemesis}></div>
+                </a>
+              </div>
+          </div>
+        </div>                        
     </div>
   )
 }

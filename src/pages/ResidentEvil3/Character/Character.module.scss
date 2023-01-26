@@ -4,7 +4,7 @@
 .conts_box_character {
   position: relative;
   padding: 0;
-  margin-bottom: 12vw; 
+  margin-bottom: 8vw; 
 }
 
 .conts_box_character .sec_ttl_character {
@@ -123,6 +123,19 @@
     } 
   }
 
+  @media only screen and (min-width: 400px) {
+    .conts_box_character .col_box_pc_human_character .character_nemesis {
+      width: 100%;
+    } 
+  }
+
+  @media only screen and (min-width: 1024px) {
+    .conts_box_character .col_box_pc_human_character .character_nemesis {
+      width: 100%; 
+    } 
+  }
+
+
   // Estilização Jill //
   
   .conts_box_character .character_jill .img_jill {
@@ -192,7 +205,7 @@
 
   @media only screen and (min-width: 360px) {
     .ic_open_jill {
-      top: 28%;
+      top: 25.2%;
       left: 3em;
       font-size: 1.8vw;
       height: 3vw;
@@ -202,7 +215,7 @@
 
     @media only screen and (min-width: 1024px) {
       .ic_open_jill {
-        top: 50%;
+        top: 35%;
         left: 4em;
         font-size: 1.11111vw;
         height: 2vw;
@@ -356,7 +369,7 @@
 
     @media only screen and (min-width: 360px) {
       .ic_open_carlos {
-        top: 50.7%;
+        top: 45.5%;
         left: 3em;
         font-size: 1.8vw;
         height: 3vw;
@@ -366,7 +379,7 @@
 
       @media only screen and (min-width: 1024px) {
         .ic_open_carlos {
-          top: 50%;
+          top: 35%;
           left: 53.3%;
           font-size: 1.11111vw;
           height: 2vw;
@@ -423,7 +436,7 @@
   }
 
   .conts_box_character .character_mikhail .img_mikhail .name_mikhail {
-    bottom: 8.2em;
+    bottom: 36%;
     color: #FFF;
     font-family: $font-family;
     font-size: 7.59259vw;
@@ -438,7 +451,7 @@
 
     @media only screen and (min-width: 1024px) {
       .conts_box_character .character_mikhail .img_mikhail .name_mikhail {
-        top: 19.3em;
+        top: 19.4em;
         left: 1.5em;
         font-size: 2.92826vw; 
       } 
@@ -486,7 +499,7 @@
       border: 1px solid #FFF;
       font-size: 3.33333vw;
       left: 4em;
-      bottom: 3%;
+      bottom: 3.5%;
       height: 5vw;
       position: absolute;
       width: 5vw;
@@ -495,7 +508,7 @@
 
     @media only screen and (min-width: 360px) {
       .ic_open_mikhail {
-        bottom: 24.9%;
+        bottom: 35.2%;
         left: 3em;
         font-size: 1.8vw;
         height: 3vw;
@@ -504,7 +517,7 @@
     }
       @media only screen and (min-width: 1024px) {
         .ic_open_mikhail {
-          bottom: 3.4%;
+          bottom: 31.8%;
           left: 4em;
           font-size: 1.11111vw;
           height: 2vw;
@@ -559,7 +572,7 @@
 }
 
 .conts_box_character .character_nicholai .img_nicholai .name_nicholai {
-  bottom: 0.8em;
+  bottom: 16%;
   color: #FFF;
   font-family: $font-family;
   font-size: 7.59259vw;
@@ -632,7 +645,7 @@
 
   @media only screen and (min-width: 360px) {
     .ic_open_nicholai {
-      bottom: 1.6%;
+      bottom: 15.2%;
       left: 3em;
       font-size: 1.8vw;
       height: 3vw;
@@ -642,7 +655,7 @@
 
     @media only screen and (min-width: 1024px) {
       .ic_open_nicholai {
-        bottom: 2.8%;
+        bottom: 31.8%;
         left: 53.3%;
         font-size: 1.11111vw;
         height: 2vw;
@@ -674,4 +687,162 @@
       } 
     }
 
-  // ===================== //
+  // Estilização Nemesis //
+
+
+  .inner_creature {
+    padding-top: 2vw;
+    width: 100%;
+    height: 100%;
+    transition: opacity .2s ease-in, transform .2s ease-in; 
+  }
+
+  .inner_creature .character_nemesis .img_nemesis {
+  background: rgba(255, 255, 255, 0);
+  line-height: 0;
+  overflow: hidden;
+  transition: background .4s ease-in; 
+}
+
+.img_nemesis {
+  width: 100%;
+}
+
+  .img_pc_nemesis {
+    display: inline;
+    border: none;
+    height: auto;
+    margin: auto;
+    outline: none;
+  }
+
+  .inner_creature .character_nemesis .img_nemesis img {
+    width: 100%;
+    overflow: hidden;
+    transition: opacity .2s ease-in, transform .2s ease-in;
+  }
+  
+  .inner_creature .character_nemesis .img_nemesis .name_nemesis {
+    bottom: 2%;
+    color: #FFF;
+    font-family: $font-family;
+    font-size: 7.59259vw;
+    font-weight: 600;
+    font-stretch: extra-condensed;
+    letter-spacing: -1px;
+    left: 0.66667em;
+    line-height: 1.25;
+    position: absolute;
+    text-shadow: 0 0 3px rgba(0, 0, 0, 0.8); 
+  }
+  
+    @media only screen and (min-width: 1024px) {
+      .inner_creature .character_nemesis .img_nemesis .name_nemesis {
+        bottom: 1.5em;
+        left: 2em;
+        font-size: 2.92826vw; 
+      } 
+    }
+  
+    .inner_creature .character_nemesis .img_nemesis .name_nemesis small {
+      display: block;
+      font-size: .4em; 
+    }
+  
+    .inner_creature .character_nemesis .img_nemesis .name_nemesis .ic_open_nemesis {
+    bottom: 1.5em;
+    position: absolute;
+    transition: transform .2s ease-in; 
+  }
+  
+    @media only screen and (max-width: 1023px) {
+      .inner_creature .character_nemesis .img_nemesis .name_nemesis .ic_open_nemesis {
+        right: 1.5em; 
+      } 
+    }
+  
+    @media only screen and (min-width: 1024px) {
+      .inner_creature .character_nemesis .img_nemesis .name_nemesis .ic_open_nemesis {
+        left: 2.5em; 
+      } 
+    }
+  
+    @media only screen and (min-width: 1024px) {
+      .inner_creature .character_nemesis:hover .img_nemesis img {
+        transition: opacity .2s ease-in, transform .2s ease-out;
+        opacity: .95;
+        overflow: hidden;
+        -webkit-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);     
+      } 
+    }
+
+    @media only screen and (min-width: 1024px) {
+        .inner_creature .character_nemesis:hover .ic_open_nemesis {
+          -webkit-transform: scale(1.1);
+          -moz-transform: scale(1.1);
+          -ms-transform: scale(1.1);
+          transform: scale(1.1); 
+        } 
+      }
+  
+    .ic_open_nemesis {
+      background: rgba(0, 0, 0, 0.4);
+      border: 1px solid #FFF;
+      font-size: 3.33333vw;
+      left: 4em;
+      bottom: 2.5%;
+      left: 53.4%;
+      height: 5vw;
+      position: absolute;
+      width: 5vw;
+      z-index: 9; 
+    }
+  
+    @media only screen and (min-width: 360px) {
+      .ic_open_nemesis {
+        bottom: 1.3%;
+        left: 3em;
+        font-size: 1.8vw;
+        height: 3vw;
+        width: 3vw; 
+      } 
+    }
+  
+      @media only screen and (min-width: 1024px) {
+        .ic_open_nemesis {
+          bottom: 2.3em;
+          left: 5.2em;
+          font-size: 1.11111vw;
+          height: 2vw;
+          width: 2vw; 
+        } 
+      }
+  
+      .ic_open_nemesis::before {
+        color: #FFF;
+        content: "\2B";
+        display: inline-block;
+        font-family: "Material Icons";
+        left: 50%;
+        bottom: -0.5em;
+        position: absolute;
+        top: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%); 
+      }
+
+      @media only screen and (min-width: 1024px) {
+        .inner_creature {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -ms-flex-wrap: wrap;
+          flex-wrap: wrap; 
+        } 
+      }
+    
