@@ -4,7 +4,7 @@ import styles from '../About/About.module.scss'
 
 function About() {
   return (
-    <div className={styles.conts_box_about}>
+    <div className={styles.conts_box_about} id="about">
       <h2 className={styles.sec_ttl_about}>ABOUT</h2>
         <div className={styles.conts_box_inner_about_story}>
         <h3 className={styles.conts_ttl_about}>

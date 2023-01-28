@@ -17,7 +17,7 @@ import Audio from '../../../audios/Resident Evil 0 PS4 Voice Title.m4a'
 
 const Hero = () => {
   useEffect(() => {
-    Aos.init({duration: 2500});
+    Aos.init({duration: 3000});
   }, []);  
 
   return (

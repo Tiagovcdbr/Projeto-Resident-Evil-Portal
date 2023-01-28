@@ -9,7 +9,6 @@ import soundCursor from '../../../audios/resident_evil2_sound cursor.mp3';
 const Nav = ({ toggle }) => {
   const [play] = useSound(soundCursor);
 
-
   return (    
     <nav className={styles.menu}>
       <ul>

@@ -10,7 +10,7 @@ import List2IMG from '../../../../images/Portal/content_orchestra.jpg'
 
 function ContentsEnjoy() {
   return (
-    <div className={styles.contents_enjoy}>
+    <div className={styles.contents_enjoy} id="contents">
       <div className={styles.contents_enjoy_fancontents}>
         <div className={styles.inner}>
         <Fade bottom duration={2000}>

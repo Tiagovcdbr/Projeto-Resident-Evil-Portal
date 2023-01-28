@@ -10,7 +10,7 @@ import Card4IMG from '../../../../images/Portal/game_eyecatch-221021-02-gl.jpg'
 
 function News() {
   return (
-    <div className={styles.know_news}>
+    <div className={styles.know_news} id="news">
       <div className={styles.inner}>
         <Fade bottom duration={2500}>
           <h3>NEWS</h3>

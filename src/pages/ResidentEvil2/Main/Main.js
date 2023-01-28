@@ -18,6 +18,7 @@ const Main = () => {
           src={Video}
           autoPlay={true}
           loop 
+          muted
           className={styles.video}
           >
         </video>      

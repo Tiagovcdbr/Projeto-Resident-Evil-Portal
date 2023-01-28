@@ -5,7 +5,7 @@ import Fade from 'react-reveal/Fade';
 
 function About() {
   return (
-    <div className={styles.know_about}>
+    <div className={styles.know_about} id="about">
       <div className={styles.inner}>        
           <div className={styles.about_left}>
             <Fade bottom duration={2200}>

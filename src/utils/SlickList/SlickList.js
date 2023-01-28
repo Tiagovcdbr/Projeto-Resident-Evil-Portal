@@ -20,7 +20,7 @@ import IMG7 from '../../images/Resident3Remake/map_thumb.jpg'
 
 export default function SlickList () {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id="news">
       <Swiper
       modules={[ Scrollbar, Pagination ]}
         navigation={true}

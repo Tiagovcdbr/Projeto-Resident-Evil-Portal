@@ -14,7 +14,7 @@ import XboxSeriesIMG from '../../../../../images/Portal/logo_Xboxseries.png';
 
 function EnjoyGameLink() {
   return (
-    <div className={styles.enjoy_gamelink}>
+    <div className={styles.enjoy_gamelink} id="data">
       <Fade left duration={2200}>
         <div className={styles.gamelink_left}>
           <h3>

@@ -1,27 +1,28 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import React from 'react'
 import styles from '../GlobalNav/GlobalNav.module.scss'
 import ResistenceIMG from '../../../images/Resident3Remake/resistance_bnr.jpg'
+import { Link } from 'react-scroll'
 
-function GlobalNav() {
+const GlobalNav = () => {  
+
   return (
     <div className={styles.global_nav}>
       <div className={styles.global_nav_box}>
         <ul className={styles.global_nav_list}>
           <li className={styles.nav_firstview}>
-            <a>TOP</a>
+            <Link to="top" spy={true} smooth={true} duration={800}>TOP</Link>
           </li>
           <li className={styles.nav_topics}>
-            <a>NEWS</a>
+            <Link to="news" spy={true} smooth={true} duration={800}>NEWS</Link>
           </li>
           <li className={styles.nav_trailer}>
-            <a>TRAILER</a>
+            <Link to="trailer" spy={true} smooth={true} duration={800}>TRAILER</Link>
           </li>
           <li className={styles.nav_about}>
-            <a>ABOUT</a>
+            <Link to="about" spy={true} smooth={true} duration={800}>ABOUT</Link>
           </li>
           <li className={styles.nav_character}>
-            <a>CHARACTER</a>
+            <Link to="character" spy={true} smooth={true} duration={800}>CHARACTER</Link>
           </li>
           <li className={styles.nav_art}>
             <a>IMAGES</a>

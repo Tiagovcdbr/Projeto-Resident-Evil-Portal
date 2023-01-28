@@ -7,7 +7,7 @@ import CardIMG from '../../../../../images/Portal/card-sample-en.png';
 
 function EnjoyAmbassador() {
   return (
-    <div className={styles.enjoy_ambassador}>
+    <div className={styles.enjoy_ambassador} id="ambassador">
       <div className={styles.inner}>
         <Fade bottom duration={2400}>
           <div className={styles.ambassador_left}>

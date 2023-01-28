@@ -5,7 +5,7 @@ import styles from '../Trailer/Trailer.module.scss'
 
 function Trailer() {
   return (
-    <div className={styles.conts_box_trailer}>
+    <div className={styles.conts_box_trailer} id="trailer">
       <h2 className={styles.sec_ttl_trailer}>TRAILER</h2>
         <div className={styles.conts_box_inner_trailer}>
           <SlideList/>
