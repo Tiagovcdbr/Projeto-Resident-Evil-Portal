@@ -1,0 +1,66 @@
+@import "../../../styles/variables.scss";
+@import "../../../styles/mixins.scss";
+
+
+.conts_art {
+  position: relative;
+  padding-bottom: 7vw;
+}
+
+  @media only screen and (min-width: 1024px) {
+    .conts_art .conts_box_inner_art {
+      top: 20vw;
+      margin-right: auto;
+      margin-left: auto;
+      width: 82.92553%; 
+    } 
+  }
+
+  .conts_art .slide_box_art {
+    padding: 0 2vw; 
+  }
+
+    @media only screen and (min-width: 1024px) {
+      .conts_art .slide_box_art {
+        padding: 0 2vw; 
+      } 
+    }
+
+    .conts_art {
+      position: relative; 
+    }
+
+    .conts_art .slide_box_art {
+      padding: 0 2vw; 
+    }
+
+    @media only screen and (min-width: 1024px) {
+      .conts_art .slide_box_art {
+        padding: 0 2vw; 
+      } 
+    }
+
+    .sec_ttl {
+      color: #D80127;
+      font-family: $font-family;
+      font-stretch: extra-condensed;
+      font-weight: 600;
+      letter-spacing: -1px;
+      font-size: 7.40741vw;
+      line-height: 1.2;
+      margin-bottom: 8vw;
+      position: relative;
+      text-align: center;
+      transition: text-shadow .5s ease-in;
+    }
+
+    @media only screen and (min-width: 1024px) {
+      .sec_ttl {
+        font-size: 3.66032vw;
+        margin-bottom: 4vw; 
+        } 
+      }
+
+    .conts_art:not(#product):not(#spec) .sec_ttl {
+      text-shadow: 3px 3px 15px rgba(216, 1, 39, 0.3), 3px -3px 15px rgba(216, 1, 39, 0.3), -3px 3px 15px rgba(216, 1, 39, 0.3), -3px -3px 15px rgba(216, 1, 39, 0.3); 
+    }

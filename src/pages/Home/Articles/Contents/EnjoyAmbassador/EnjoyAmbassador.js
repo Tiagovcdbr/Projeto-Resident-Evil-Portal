@@ -16,7 +16,9 @@ function EnjoyAmbassador() {
               <span>Resident Evil Ambassador program</span>
             </h3>
             <p>
-              Share your enthusiasm for Resident Evil with fans around the world!
+              Share your enthusiasm for 
+              Resident Evil with fans around 
+              the world!
             </p>
             <a className={styles.btn}>
               MORE

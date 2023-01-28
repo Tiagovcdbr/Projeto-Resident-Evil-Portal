@@ -8,6 +8,7 @@ import Topics from '../pages/ResidentEvil3/Topics/Topics'
 import Trailer from '../pages/ResidentEvil3/Trailer/Trailer'
 import About from '../pages/ResidentEvil3/About/About'
 import Character from '../pages/ResidentEvil3/Character/Character'
+import Art from '../pages/ResidentEvil3/Art/Art'
 
 function Re3Remake() {
   return (
@@ -21,6 +22,7 @@ function Re3Remake() {
       <Trailer />
       <About />
       <Character />
+      <Art />
     </>
   )
 }

@@ -15,12 +15,12 @@ import CharaCreatures from '../../../components/Models/Resident0/Creatures/Chara
 function Chara() {
 
   useEffect(() => {
-    Aos.init({duration: 2200});
+    Aos.init({duration: 2500});
   }, []); 
   
   return (
-    <div className={styles.chara}> 
-      <div data-aos="fade-right" className={styles.chara_list_container}>
+    <div className={styles.chara} id="characters"> 
+      <div data-aos="fade" className={styles.chara_list_container}>
         <ul className={styles.chara_list}>      
           <li className={styles.chara_item_rebecca}>            
               <CharaRebecca />                                  

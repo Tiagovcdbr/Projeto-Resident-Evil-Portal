@@ -6,6 +6,7 @@ import "aos/dist/aos.css";
 import LogoIMG from "../../../images/Resident0/icons/firstView-title-global.png";
 import SwitchIMG from "../../../images/Resident0/icons/switch-logo.png"
 import styles from "./Hero.module.scss";
+import { Link } from "react-scroll";
 
 import Rebecca from "./Rebecca/Rebecca"
 import { InfoRebecca } from "../../Home/DataGames/Resident0/RebeccaData";
@@ -15,7 +16,7 @@ import GlobalPlataforms from "../../../images/Resident0/icons/firstView-platform
 
 import Audio from '../../../audios/Resident Evil 0 PS4 Voice Title.m4a'
 
-const Hero = () => {
+const Hero = ({ toggle }) => {
   useEffect(() => {
     Aos.init({duration: 3000});
   }, []);  
@@ -49,7 +50,9 @@ const Hero = () => {
             <img src={GlobalPlataforms} alt="PS4 PS3 XBOX ONE available now" />
           </div> 
         </div>
-        <div className={styles.firstView_scroll}>SCROLL</div>                    
+        <div onClick={ toggle } className={styles.firstView_scroll}>
+          <Link to="story" spy={true} smooth={true} duration={800}>SCROLL</Link>
+        </div>                    
     </div>
   );
 };

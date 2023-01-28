@@ -8,13 +8,13 @@ import styles from "./StoryWrapper.module.scss";
 import SystemIMG from "../../../images/Resident0/system1.jpg"
 import HistoryIMG from "../../../images/Resident0/story3.jpg"
 
-function StoryWrapper() {
+const StoryWrapper = () => {
   useEffect(() => {
     Aos.init({duration: 3000});
   }, []);
   
   return (
-    <div className={styles.system_story_wrapper}>
+    <div className={styles.system_story_wrapper} id="story">
         <div className={styles.system}>
           <div data-aos="fade-right" className={styles.system_image}>
                 <img src={SystemIMG} alt="System 1" />
