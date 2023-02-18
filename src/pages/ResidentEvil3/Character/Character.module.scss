@@ -205,8 +205,8 @@
 
   @media only screen and (min-width: 360px) {
     .ic_open_jill {
-      top: 25.2%;
-      left: 3em;
+      top: 20.7%;
+      left: 2.8em;
       font-size: 1.8vw;
       height: 3vw;
       width: 3vw; 
@@ -296,7 +296,7 @@
   }
 
   .conts_box_character .character_carlos .img_carlos .name_carlos {
-    top: 15em;
+    top: 15.2em;
     color: #FFF;
     font-family: $font-family;
     font-size: 7.59259vw;
@@ -369,7 +369,7 @@
 
     @media only screen and (min-width: 360px) {
       .ic_open_carlos {
-        top: 45.5%;
+        top: 37.7%;
         left: 3em;
         font-size: 1.8vw;
         height: 3vw;
@@ -436,7 +436,7 @@
   }
 
   .conts_box_character .character_mikhail .img_mikhail .name_mikhail {
-    bottom: 34%;
+    bottom: 45.5%;
     color: #FFF;
     font-family: $font-family;
     font-size: 7.59259vw;
@@ -508,7 +508,7 @@
 
     @media only screen and (min-width: 360px) {
       .ic_open_mikhail {
-        bottom: 33%;
+        bottom: 44.8%;
         left: 3em;
         font-size: 1.8vw;
         height: 3vw;
@@ -572,7 +572,7 @@
 }
 
 .conts_box_character .character_nicholai .img_nicholai .name_nicholai {
-  bottom: 13%;
+  bottom: 28.7%;
   color: #FFF;
   font-family: $font-family;
   font-size: 7.59259vw;
@@ -645,7 +645,7 @@
 
   @media only screen and (min-width: 360px) {
     .ic_open_nicholai {
-      bottom: 12%;
+      bottom: 27.9%;
       left: 3em;
       font-size: 1.8vw;
       height: 3vw;
@@ -716,6 +716,18 @@
     outline: none;
   }
 
+  @media only screen and (max-width: 1024px) {
+    .img_pc_nemesis {
+      display: none;
+    }
+  }
+
+  @media only screen and (min-width: 1024px) {
+    .img_sp_nemesis {
+      display: none;
+    }
+  }
+   
   .inner_creature .character_nemesis .img_nemesis {
     width: 100%;
     height: 100%;
@@ -728,7 +740,7 @@
   }
   
   .inner_creature .character_nemesis .img_nemesis .name_nemesis {
-    bottom: 2%;
+    bottom: 1.5%;
     color: #FFF;
     font-family: $font-family;
     font-size: 7.59259vw;
@@ -743,7 +755,7 @@
   
     @media only screen and (min-width: 1024px) {
       .inner_creature .character_nemesis .img_nemesis .name_nemesis {
-        bottom: 1.5em;
+        bottom: 1em;
         left: 1.7em;
         font-size: 2.92826vw; 
       } 
@@ -808,7 +820,7 @@
   
     @media only screen and (min-width: 360px) {
       .ic_open_nemesis {
-        bottom: 1.3%;
+        bottom: .8%;
         left: 3em;
         font-size: 1.8vw;
         height: 3vw;
@@ -818,7 +830,7 @@
   
       @media only screen and (min-width: 1024px) {
         .ic_open_nemesis {
-          bottom: 2.3em;
+          bottom: 1em;
           left: 4.5em;
           font-size: 1.11111vw;
           height: 2vw;

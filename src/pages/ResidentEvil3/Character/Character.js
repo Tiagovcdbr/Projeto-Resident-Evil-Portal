@@ -7,6 +7,7 @@ import IMGCarlos from '../../../images/Resident3Remake/character_img02.jpg'
 import IMGMikhail from '../../../images/Resident3Remake/character_img04.jpg'
 import IMGNicholai from '../../../images/Resident3Remake/character_img05.jpg'
 import IMGNemesis from '../../../images/Resident3Remake/character_img03.jpg'
+import IMGNemesisMobile from '../../../images/Resident3Remake/character_img03_sp.jpg'
 import { Link } from 'react-router-dom'
 
 function Character() {
@@ -81,6 +82,12 @@ function Character() {
                     <span className={styles.img_pc_nemesis}>
                       <Link to={'Nemesis-Biography'} spy={true} smooth={true} duration={800}>
                         <img src={IMGNemesis} alt="Nemesis"/>
+                      </Link>
+                    </span>
+
+                    <span className={styles.img_sp_nemesis}>
+                      <Link to={'Nemesis-Biography'} spy={true} smooth={true} duration={800}>
+                        <img src={IMGNemesisMobile} alt="Nemesis"/>
                       </Link>
                     </span>
                     <p className={styles.name_nemesis}>Nemesis</p>
