@@ -16,6 +16,7 @@ import IMGWalMartStore from '../../../images/Resident3Remake/walmart_logo.jpg'
 import IMGTargetStore from '../../../images/Resident3Remake/target_logo.jpg'
 
 import RacconCityIMG from '../../../images/Resident3Remake/bundle_bnr.jpg'
+import RacconCityMobileIMG from '../../../images/Resident3Remake/bundle_bnr_sp.jpg'
 
 function Product() {
   return (
@@ -176,6 +177,10 @@ function Product() {
             <a href=''>
               <span className={styles.img_pc}>
                 <img src={RacconCityIMG} alt='Raccon City' />
+              </span>
+
+              <span className={styles.img_sp}>
+                <img src={RacconCityMobileIMG} alt='Raccon City' />
               </span>
             </a>
           </div>

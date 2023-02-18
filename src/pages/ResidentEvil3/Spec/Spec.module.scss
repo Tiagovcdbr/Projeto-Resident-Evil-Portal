@@ -1,0 +1,211 @@
+@import "../../../styles/variables.scss";
+@import "../../../styles/mixins.scss";
+
+
+.conts_box .sec_ttl {
+  color: #FFF;
+  font-size: 3.51852vw;
+  text-shadow: none !important; 
+}
+
+.sec_ttl {
+  color: #D80127;
+  font-family: "Oswald", "Noto Sans JP", sans-serif;
+  font-size: 7.40741vw;
+  line-height: 1.2;
+  margin-bottom: 8vw;
+  position: relative;
+  text-align: center;
+  transition: text-shadow .5s ease-in; 
+}
+
+.mark_bracket {
+  margin: 0 .2em;
+  position: relative;
+  top: -.05em; 
+}
+
+@media only screen and (min-width: 1024px) {
+  .sec_ttl {
+    font-size: 3.66032vw;
+    margin-bottom: 4vw; 
+  } 
+}
+
+@media only screen and (min-width: 1024px) {
+  .conts_box:not(#firstview) {
+    margin-bottom: 12vw; 
+  } 
+}
+
+@media only screen and (min-width: 1024px) {
+  .conts_box {
+    padding: 0 3vw; 
+  } 
+}
+
+@media only screen and (min-width: 1024px) {
+  .conts_box .sec_ttl {
+    font-size: 1.31772vw; 
+  } 
+}
+
+@media only screen and (min-width: 1024px) {
+  .conts_box:not(#firstview) .conts_box_inner {
+    margin-right: auto;
+    margin-left: auto;
+    width: 74.46809%; 
+  } 
+}
+
+@media only screen and (min-width: 1024px) {
+  .conts_box .spec_box:not(:last-child) {
+    margin-bottom: 2vw; 
+  } 
+}
+
+.conts_box .spec_box {
+  text-align: center;
+  margin-bottom: 4vw; 
+}
+
+.conts_box .spec_box .box_title {
+  width: 100%; 
+}
+
+.conts_box .spec_box .box_title p {
+  color: #FFF;
+  font-size: 6.55556vw;
+  font-weight: 700;
+  margin-bottom: 4vw;  
+}
+
+@media only screen and (min-width: 1024px) {
+  .conts_box .spec_box .box_title p {
+    font-size: 2.19619vw; 
+  } 
+}
+
+.conts_box .spec_box {
+  text-align: center;
+  color: #FFF;
+  display: block;
+  font-size: 3.93333vw;
+  font-family: $font-family;
+  margin-bottom: 4vw;
+}
+
+@media only screen and (min-width: 1024px) {
+  .conts_box .spec_box {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .conts_box .spec_box .box_genre {
+    margin-right: 2vw;
+    margin-bottom: 2vw; 
+  } 
+}
+
+@media only screen and (min-width: 1024px) {
+  .conts_box .spec_box .box_release {
+    margin-right: 2vw;
+    margin-bottom: 2vw; 
+  } 
+}
+
+@media only screen and (min-width: 1024px) {
+  .conts_box .spec_box .box_players {
+    margin-right: 2vw;
+    margin-bottom: 2vw; 
+  } 
+}
+
+@media only screen and (min-width: 1024px) {
+  .conts_box .spec_box p {
+    font-size: 1.31772vw; 
+    font-family: "Noto Sans", "Noto Sans SC", "Noto Sans HK", "Noto Sans KR", "Noto Sans JP", sans-serif;
+  } 
+}
+
+@media only screen and (min-width: 1024px) {
+  .conts_box .spec_box .box_reengine {
+    margin-right: 1.33333vw; 
+  } 
+}
+
+@media only screen and (min-width: 1024px) {
+  .conts_box .spec_box  p {
+    font-size: 1.31772vw; 
+  } 
+}
+
+.conts_box .spec_box .box_reengine img {
+  width: 12.5%; 
+  margin-left: 1.33333vw;
+}
+
+.conts_box .spec_box .box_rating img {
+  width: 30.53704%;
+  margin-left: 1.33333vw; 
+}
+
+.conts_box .spec_box .visit img {
+  width: 19.16667%;
+}
+
+@media only screen and (max-width: 1024px) {
+  .conts_box .spec_box 
+  .box_reengine,
+  .box_rating,
+  .visit {
+    padding-top: 4vw;
+  }
+}
+
+
+@media only screen and (min-width: 1024px) {
+  .conts_box .spec_box .box_reengine img {
+    max-width: 84px;
+    width: 32%;
+    margin-left: 1.33333vw; 
+  } 
+}
+
+
+@media only screen and (min-width: 1024px) {
+  .conts_box .spec_box .box_rating {
+    text-align: left;
+    width: 32%; 
+  } 
+}
+
+.conts_box .spec_box .box_rating .rating {
+  margin-right: .5em; 
+}
+
+.conts_box .spec_box .box p a, .conts_box .spec_box p img {
+  display: inline;
+  vertical-align: middle;
+  width: auto; 
+}
+
+@media only screen and (min-width: 1024px) {
+  .conts_box .spec_box .box_rating .rating img {
+    max-width: 427px;
+    width: 48%;
+    margin-left: 0.33333vw;  
+  } 
+}
+
+@media only screen and (min-width: 1024px) {
+  .conts_box .spec_box .box_rating .visit img {
+    max-width: 227px;
+    width: 20%; 
+  } 
+}

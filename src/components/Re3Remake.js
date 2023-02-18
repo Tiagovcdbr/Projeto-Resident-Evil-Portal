@@ -10,6 +10,7 @@ import About from '../pages/ResidentEvil3/About/About'
 import Character from '../pages/ResidentEvil3/Character/Character'
 import Art from '../pages/ResidentEvil3/Art/Art'
 import Product from 'pages/ResidentEvil3/Product/Product'
+import Spec from 'pages/ResidentEvil3/Spec/Spec'
 
 function Re3Remake() {
   return (
@@ -25,6 +26,7 @@ function Re3Remake() {
       <Character />
       <Art />
       <Product />
+      <Spec />
     </>
   )
 }
