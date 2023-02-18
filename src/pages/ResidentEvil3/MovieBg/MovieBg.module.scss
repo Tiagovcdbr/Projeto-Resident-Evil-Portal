@@ -9,7 +9,12 @@
   top: 0;
   transition: opacity .5s ease;
   width: 100%;
-  z-index: -1; 
+  z-index: -1000;
+}
+
+.movie_bg_active {
+  
+  transition: 0.5s;
 }
   @media only screen and (min-width: 1024px) {
     .movie_bg {
@@ -37,6 +42,7 @@
       background-size: 250%;
       height: calc(100% - 6vw);
       left: 0;
+      opacity: 1;
       top: -1.5rem;
       position: absolute;
       width: 100%;

@@ -5,10 +5,17 @@
   padding: 24vw 0 0; 
 }
 
+@media only screen and (max-width: 1024px) {
+  .conts_box_topics {
+    margin-top: -50%; 
+  }
+}
+
   @media only screen and (min-width: 1024px) {
      .conts_box_topics {
-      padding: 12vw 0 0; } 
-    }
+      padding: 12vw 0 0; 
+    } 
+  }
 
 .sec_ttl_topics {
   color: #D80127;
