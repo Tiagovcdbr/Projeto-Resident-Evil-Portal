@@ -25,10 +25,10 @@ const GlobalNav = () => {
             <Link to="character" spy={true} smooth={true} duration={800}>CHARACTER</Link>
           </li>
           <li className={styles.nav_art}>
-            <a>IMAGES</a>
+            <Link to="art" spy={true} smooth={true} duration={800}>IMAGES</Link>
           </li>
           <li className={styles.nav_product}>
-            <a>PRODUCT INFORMATION</a>
+            <Link to="information" spy={true} smooth={true} duration={800}>PRODUCT INFORMATION</Link>
           </li>
           <li className={styles.nav_mutual_link}>
             <img src={ResistenceIMG} alt='resistence' />

@@ -10,6 +10,7 @@ import IMGNemesis from '../../../images/Resident3Remake/character_img03.jpg'
 import { Link } from 'react-router-dom'
 
 function Character() {
+  
   return (
     <div className={styles.conts_box_character} id="character">
       <h2 className={styles.sec_ttl_character}>CHARACTER</h2>
@@ -78,9 +79,9 @@ function Character() {
                 <a>
                   <p className={styles.img_nemesis}>
                     <span className={styles.img_pc_nemesis}>
-                    <Link to={'Nemesis-Biography'} spy={true} smooth={true} duration={800}>
-                      <img src={IMGNemesis} alt="Nemesis"/>
-                    </Link>
+                      <Link to={'Nemesis-Biography'} spy={true} smooth={true} duration={800}>
+                        <img src={IMGNemesis} alt="Nemesis"/>
+                      </Link>
                     </span>
                     <p className={styles.name_nemesis}>Nemesis</p>
                   </p>

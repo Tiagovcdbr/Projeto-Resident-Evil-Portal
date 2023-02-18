@@ -1,0 +1,765 @@
+@import "../../../styles/variables.scss";
+@import "../../../styles/mixins.scss";
+
+.conts_box_product {
+  padding-top: 12vw; 
+  position: relative;
+}
+
+@media only screen and (min-width: 380px) {
+  .conts_box:not(#firstview) .conts_box_inner {
+    margin-right: auto;
+    margin-left: auto;
+    width: 90.46809%; 
+  } 
+}
+
+@media only screen and (min-width: 1024px) {
+  .conts_box:not(#firstview) .conts_box_inner {
+    margin-right: auto;
+    margin-left: auto;
+    width: 90.46809%; 
+  } 
+}
+
+@media only screen and (min-width: 380px) {
+  .conts_box .conts_box_inner {
+    width: 100%; 
+  } 
+}
+
+
+@media only screen and (min-width: 1024px) {
+  .conts_box .conts_box_inner {
+    width: 93.61702%; 
+  } 
+}
+
+@media only screen and (min-width: 1024px) {
+  .conts_box {
+    margin-right: auto;
+    margin-left: auto;
+    padding: 8vw 0 0;
+    width: 82.66666%; 
+  } 
+}
+
+.sec_ttl {
+  color: #D80127;
+  font-family: $font-family;
+  font-size: 7.40741vw;
+  line-height: 1.2;
+  font-stretch: extra-condensed;
+  letter-spacing: -1px;
+  margin-bottom: 8vw;
+  position: relative;
+  text-align: center;
+  font-weight: 600;
+  transition: text-shadow .5s ease-in;
+}
+
+.conts_box .sec_ttl {
+  color: #FFF; 
+}
+
+.product_box {
+  color: #FFF;
+  font-family: $font-family;
+  font-size: 1.4vw;
+  font-weight: 400; 
+}
+
+@media only screen and (min-width: 1024px) {
+    .sec_ttl {
+      font-size: 3.66032vw;
+      font-family: $font-family;
+      margin-bottom: 4vw; 
+    } 
+  }
+
+.product_box .pf_list {
+  display: flex;
+  flex-wrap: wrap;
+  background: rgba(0, 0, 0, 0.6);
+  margin-bottom: 4vw; 
+}
+
+@media only screen and (min-width: 380px) {
+  .product_box .pf_list {
+    display: flex;
+    flex-wrap: wrap;
+    background: rgba(0, 0, 0, 0.6);
+    margin-bottom: 4vw; 
+  } 
+}
+
+@media only screen and (min-width: 1024px) {
+  .product_box .pf_list {
+    margin-bottom: 2vw; 
+  } 
+}
+
+@media only screen and (min-width: 1024px) {
+  .conts_box .pf_list {
+    font-size: 1em; 
+  } 
+}
+
+@media only screen and (min-width: 380px) {
+  .product_box .pf_list .pf_ps4 {
+    width: 33.33333%; 
+  } 
+}
+
+@media only screen and (min-width: 1024px) {
+  .product_box .pf_list .pf_ps4 {
+    width: 33.33333%; 
+  } 
+}
+
+.product_box .pf_list .pf_ps4 {
+  border: 2px solid #0248A0;
+  text-align: center;
+  list-style: none;
+}
+
+.product_box .pf_list .pf_ps4 .pf_logo {
+  background: #0248A0; 
+}
+
+@media only screen and (min-width: 1024px) {
+  .product_box .pf_list .pf_logo {
+    padding: 0.5vw 1em; 
+  } 
+}
+
+@media only screen and (min-width: 380px) {
+  .product_box .pf_list .pf_logo img {
+    max-height: 5vw; 
+  } 
+}
+
+@media only screen and (min-width: 1024px) {
+  .product_box .pf_list .pf_logo img {
+    max-height: 2.5vw; 
+  } 
+}
+
+.fmt_list {
+  display: flex;
+  flex-wrap: wrap;
+  height: auto;
+  font-size: 1.5em;
+}
+
+@media only screen and (min-width: 1024px) {
+  .fmt_list {
+    font-size: 1em;
+  }
+}
+
+.product_box .pf_list .pf_ps4 .fmt_list .fmt:not(:last-child) {
+  border-right: 2px solid #0248A0; 
+  background: rgba(2, 72, 160, 0.4);
+}
+
+.product_box .fmt_list .fmt.select {
+  background: rgba(2, 72, 160, 0.4); 
+}
+
+.product_box .pf_list .fmt_list .fmt {
+  cursor: pointer;
+  line-height: 1.2;
+  text-decoration: none;
+  width: 50%; 
+}
+
+.product_box .pf_list .pf_ps4 .fmt_list .fmt span {
+  border: 2px solid rgba(102, 153, 255, 0); 
+}
+
+.product_box .pf_list .fmt_list .fmt span {
+  padding: 1.2em 0.5em;
+  display: block; 
+}
+
+@media only screen and (min-width: 1024px) {
+  .product_box .pf_list .fmt_list .fmt span {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: 1em; 
+  } 
+}
+
+.product_box .pf_list .fmt_list .fmt:hover {
+  text-decoration: none; 
+}
+
+.product_box .pf_list .fmt_list.full_size .fmt {
+  width: 100%; 
+}
+
+/* ============== Estilização Card Xbox One =============== */
+
+@media only screen and (min-width: 380px) {
+  .product_box .pf_list .pf_xbox {
+    width: 33.33333%; 
+  } 
+}
+
+@media only screen and (min-width: 1024px) {
+  .product_box .pf_list .pf_xbox {
+    width: 33.33333%; 
+  } 
+}
+
+.product_box .pf_list .pf_xbox {
+  border: 2px solid #107A10; 
+  text-align: center;
+  list-style: none;
+}
+
+.product_box .pf_list .pf_xbox .pf_logo {
+  background: #107A10; 
+}
+
+@media only screen and (min-width: 1024px) {
+  .product_box .pf_list .pf_logo {
+    padding: 0.5vw 1em; 
+  } 
+}
+
+@media only screen and (min-width: 1024px) {
+  .product_box .pf_list .pf_logo img {
+    max-height: 2.5vw; 
+  } 
+}
+
+.fmt_list {
+  display: flex;
+  flex-wrap: wrap;
+  height: auto;
+}
+
+.product_box .pf_list .pf_xbox .fmt_list .fmt:not(:last-child) {
+  border-right: 2px solid #107A10; 
+}
+
+.product_box .fmt_list .fmt.select {
+  background: rgba(2, 72, 160, 0.4); 
+}
+
+.product_box .pf_list .fmt_list .fmt {
+  cursor: pointer;
+  line-height: 1.2;
+  text-decoration: underline;
+  width: 50%; 
+}
+
+.product_box .pf_list .pf_xbox .fmt_list .fmt span {
+  border: 2px solid rgba(102, 153, 255, 0); 
+}
+
+.product_box .pf_list .fmt_list .fmt span {
+  padding: 1.2em 0.5em;
+  display: block; 
+}
+
+@media only screen and (min-width: 1024px) {
+  .product_box .pf_list .fmt_list .fmt span {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: 1em; 
+  } 
+}
+
+.product_box .pf_list .fmt_list .fmt:hover {
+  text-decoration: none; 
+}
+
+.product_box .pf_list .fmt_list.full_size .fmt {
+  width: 100%; 
+}
+
+/* ============== Estilização Card Steam =============== */
+
+@media only screen and (min-width: 380px) {
+  .product_box .pf_list .pf_steam {
+    width: 33.33333%; 
+  } 
+}
+
+@media only screen and (min-width: 1024px) {
+  .product_box .pf_list .pf_steam {
+    width: 33.33333%; 
+  } 
+}
+
+.product_box .pf_list .pf_steam {
+  border: 2px solid #6A6A6A; 
+  text-align: center;
+  list-style: none;
+}
+
+.product_box .pf_list .pf_steam .pf_logo {
+  background: #6A6A6A;
+}
+
+@media only screen and (min-width: 1024px) {
+  .product_box .pf_list .pf_logo {
+    padding: 0.5vw 1em; 
+  } 
+}
+
+@media only screen and (min-width: 1024px) {
+  .product_box .pf_list .pf_logo img {
+    max-height: 2.5vw; 
+  } 
+}
+
+.fmt_list_full {
+  display: flex;
+  flex-wrap: wrap;
+  height: auto;
+  font-size: 1.5em;
+}
+
+@media only screen and (min-width: 1024px) {
+  .fmt_list_full {
+    font-size: 1em;
+  }
+}
+
+.product_box .pf_list .fmt_list_full .fmt_dl {
+  cursor: pointer;
+  line-height: 1.2;
+  text-decoration: underline;
+  width: 100%;
+}
+
+.product_box .pf_list .pf_steam .fmt_list_full .fmt_dl span {
+  border: 2px solid rgba(102, 153, 255, 0); 
+}
+
+.product_box .pf_list .fmt_list_full .fmt_dl span {
+  padding: 1.2em 0.5em;
+  display: block; 
+}
+
+.product_box .pf_list .fmt_list_full .fmt_dl:hover {
+  text-decoration: none; 
+}
+
+.product_box .pf_list .fmt_list_full .fmt_dl {
+  width: 100%;
+}
+
+@media only screen and (min-width: 1024px) {
+  .product_box .pf_list .fmt_list_full .fmt_dl span {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    text-align: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: 1em; 
+  } 
+}
+
+/*  ======== Fim da estilização dos cards ============= */
+
+.product_box .product_detail {
+    background: rgba(0, 0, 0, 0.6);
+    border: 1px solid #333; 
+  }
+
+  @media only screen and (min-width: 380px) {
+    .conts_box .ed_list {
+      font-size: 1.7em;
+      flex-wrap: wrap;
+      display: flex; 
+    } 
+  }
+
+@media only screen and (min-width: 1024px) {
+    .conts_box .pf_list,
+    .conts_box .ed_list {
+      font-size: 1.12em;
+      flex-wrap: wrap;
+      display: flex; 
+    } 
+  }
+
+.product_box .ed_list .ed_normal {
+  background: rgba(2, 72, 160, 0.4);
+  border-top: 4px solid #0248a0;
+  border-right: 4px solid #0248a0;
+  border-left: 4px solid #0248a0;  
+  width: 50%;
+}
+
+@media only screen and (min-width: 1024px) {
+  .product_box .ed_list .ed_normal {
+    background: rgba(2, 72, 160, 0.4);
+    border-top: 4px solid #0248a0;
+    border-right: 4px solid #0248a0;
+    border-left: 4px solid #0248a0;  
+    width: 50%;
+    height: 101px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .product_box .ed_list .ed_normal:not(:last-child) {
+    border-right: 1px solid #333; 
+  } 
+}
+
+.product_box .ed_list .ed_normal {
+    cursor: pointer;
+    display: table;
+    line-height: 1.2;
+    text-align: center;
+    text-decoration: underline; 
+}
+
+.product_box .ed_list .ed_normal span {
+    border-top: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+    display: table-cell;
+    height: 4em;
+    padding: 1.5em 1em 2em;
+    vertical-align: middle;
+    width: 100%; 
+  }
+
+.product_box .ed_list .ed_normal:hover {
+  text-decoration: none;
+}
+
+@media only screen and (min-width: 1024px) {
+    .product_box .ed_list .ed_normal span {
+      border-bottom: none; 
+    } 
+  }
+
+  @media only screen and (min-width: 1024px) {
+    .product-box.ps4 .ed-list .ed_normal span {
+      border-bottom: none; 
+    } 
+  }
+
+@media only screen and (min-width: 1024px) {
+    .product_box .ed_list .ed_normal span {
+      border-bottom: none;
+      padding: 0.5em 1em 0.66667em; 
+    } 
+  }
+
+.product_box .ed_list .ed_collectors {
+    cursor: pointer;
+    display: table;
+    line-height: 1.2;
+    text-align: center;
+    text-decoration: underline;
+    border-top: 4px solid #0248a0;
+    border-right: 4px solid #0248a0;
+    border-left: 4px solid #0248a0; 
+    width: 50%; 
+}
+
+.product_box .ed_list .ed_collectors span {
+    border-top: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+    display: table-cell;
+    height: 4em;
+    padding: 1.5em 1em 2em;
+    vertical-align: middle;
+    width: 100%; 
+  }
+
+.product_box .ed_list .ed_collectors:hover{
+  text-decoration: none;
+}
+
+
+@media only screen and (min-width: 1024px) {
+    .product_box .ed_list .ed_collectors span {
+      border-bottom: none;
+      padding: 0.5em 1em 0.66667em; 
+    } 
+  }
+
+.product_box .ed_list .ed_collectors span {
+    border-top: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+    display: table-cell;
+    height: 4em;
+    vertical-align: middle;
+    width: 100%; 
+  }
+
+.product_box .product_box_inner {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; 
+}
+
+ @media only screen and (min-width: 1024px) {
+    .product_box_inner {
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center; 
+      display: flex;
+      flex-wrap: wrap;
+    } 
+  }
+
+.product_box .product_box_inner .product_name {
+  background: #0248A0; 
+}
+
+.product_box_inner .product_name {
+    border-bottom: 1px solid #333;
+    font-size: 3.7037vw;
+    padding: 0.66667em 1em;
+    text-align: center;
+    width: 100%; 
+  }
+
+@media only screen and (min-width: 1024px) {
+    .product_box_inner .product_name {
+      font-size: 1.75695vw; 
+      font-weight: normal;
+    } 
+  }
+
+.product_box_inner .product_name .icon {
+    line-height: 1;
+    margin: 0 0.7em; 
+}
+
+@media only screen and (min-width: 1024px) {
+    .product_box_inner .product_img {
+      padding: 2vw;
+      width: 50%; 
+    } 
+  }
+
+.product_box_inner .product_img {
+  line-height: 0;
+}
+
+.product_box_inner .product_img .img_box {
+  position: relative; 
+}
+
+.product_box_inner .product_img .img_box a {
+  display: block;
+  pointer-events: none; 
+  backface-visibility: hidden;
+  border: none;
+  outline: none;
+  text-decoration: none;
+}
+
+.product_box_inner .product_img .img {
+  background: url(../../../images/Resident3Remake/ps4_pk_img01.jpg) center top no-repeat;
+  background-size: contain; 
+}
+
+.product_box_inner .product_buy {
+  font-size: 3.33333vw;
+  width: 100%; 
+}
+
+@media only screen and (min-width: 1024px) {
+  .product_box_inner .product_buy {
+    font-size: 1.46413vw; 
+  } 
+}
+
+.product_box_inner .product_buy_ttl {
+  border-top: 1px solid #333;
+  border-bottom: 1px solid #333;
+  padding: 0.66667em 1em; 
+  text-align: center;
+  font-weight: normal;
+  display: block;
+}
+
+.product_box .product_box_inner .product_buy  .store_list {
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; 
+}
+
+.product_box .product_box_inner .product_buy .store_list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; 
+}
+
+.product_box_inner .product_buy .store_list {
+  display: block;
+  justify-content: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: 4vw 4vw 2vw; 
+}
+
+@media only screen and (max-width: 610px) {
+  .product_box_inner .product_buy .store_list {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+  } 
+}
+
+@media only screen and (min-width: 1024px) {
+  .product_box_inner .product_buy .store_list {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: 2vw; 
+  } 
+}
+
+@media only screen and (min-width: 1024px) {
+  .product_box .product_box_inner .product_buy .store_list .store_capcom:not([data-shop="target"]) {
+    margin-bottom: 1.33333vw; 
+  } 
+}
+
+@media only screen and (min-width: 1024px) {
+  .product_box .product_box_inner .product_buy .store_list .store_gamestop:not([data-shop="target"]) {
+    margin-bottom: 1.33333vw; 
+  } 
+}
+
+@media only screen and (min-width: 1024px) {
+  .product_box .product_box_inner .product_buy .store_list .store_amazon:not([data-shop="target"]) {
+    margin-bottom: 1.33333vw; 
+  } 
+}
+
+@media only screen and (min-width: 1024px) {
+  .product_box .product_box_inner .product_buy .store_list .store_bestbuy:not([data-shop="target"]) {
+    margin-bottom: 1.33333vw; 
+  } 
+}
+
+@media only screen and (min-width: 1024px) {
+  .product_box .product_box_inner .product_buy .store_list .store_walmart:not([data-shop="target"]) {
+    margin-bottom: 1.33333vw; 
+  } 
+}
+
+@media only screen and (min-width: 1024px) {
+  .product_box .product_box_inner .product_buy .store_list .store_target:not([data-shop="target"]) {
+    margin-bottom: 1.33333vw; 
+  } 
+}
+
+@media only screen and (min-width: 1024px) {
+  .product_box_inner .product_buy .store_list
+  .store_capcom, 
+  .store_gamestop,
+  .store_amazon,
+  .store_bestbuy,
+  .store_walmart,
+  .store_target
+   {
+    width: 18%; 
+  } 
+}
+
+.product_box_inner .product_note {
+  border-top: 1px solid #333;
+  font-size: 2.59259vw;
+  padding: 1em 2em;
+  width: 100%; 
+}
+
+.product_box_inner .product_note_list_ttl {
+  color: #D80127;
+  font-size: 2.77778vw;
+  font-weight: 700;
+  margin-bottom: 0.5em; 
+}
+
+@media only screen and (min-width: 1024px) {
+  .product_box_inner .product_note {
+    font-size: 0.87848vw; 
+  } 
+}
+
+@media only screen and (min-width: 1024px) {
+  .product_box_inner .product_note_list_ttl {
+    font-size: 1.22489vw; 
+  } 
+}
+
+.product_box_inner .product_note_list {
+  color: #999; 
+}
+
+.product_box_inner .product_note_list li {
+  padding-left: 0;
+  text-indent: 0;
+}
+
+.product_box_inner .product_note_list li::before {
+  content: ''; 
+}
+
+@media only screen and (min-width: 1024px) {
+  .conts_box .link_bnr {
+    margin-top: 2vw; 
+  } 
+}
+
+.conts_box .link_bnr a {
+  backface-visibility: hidden;
+  border: none;
+  color: #333;
+  outline: none;
+  text-decoration: none;
+}
+
+.img_pc {
+  display: inline; 
+}
+
+.conts_box .link_bnr a {
+  transition: opacity .2s ease; 
+}

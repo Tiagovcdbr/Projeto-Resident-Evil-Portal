@@ -130,8 +130,8 @@
   }
 
   @media only screen and (min-width: 1024px) {
-    .conts_box_character .col_box_pc_human_character .character_nemesis {
-      width: 100%; 
+    .conts_box_character .conts_box_inner_character .character_nemesis {
+      width: 100%;
     } 
   }
 
@@ -714,6 +714,11 @@
     height: auto;
     margin: auto;
     outline: none;
+  }
+
+  .inner_creature .character_nemesis .img_nemesis {
+    width: 100%;
+    height: 100%;
   }
 
   .inner_creature .character_nemesis .img_nemesis img {
