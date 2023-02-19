@@ -12,6 +12,7 @@ import Art from '../pages/ResidentEvil3/Art/Art'
 import Product from 'pages/ResidentEvil3/Product/Product'
 import Spec from 'pages/ResidentEvil3/Spec/Spec'
 import Aside from 'pages/ResidentEvil3/Aside/Aside'
+import Footer from 'pages/ResidentEvil3/Footer/Footer'
 
 function Re3Remake() {
   return (
@@ -29,6 +30,7 @@ function Re3Remake() {
       <Product />
       <Spec />
       <Aside />
+      <Footer />
     </>
   )
 }

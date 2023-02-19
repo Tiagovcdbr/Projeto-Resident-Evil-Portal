@@ -223,6 +223,7 @@
 @media only screen and (min-width: 1024px) {
   .links_sns .label {
     font-size: 1.5713vw;
+    font-family: $font-family
   } 
 }
 
@@ -473,7 +474,7 @@
 }
 
 @media only screen and (max-width: 1023px) {
-  .conts_box .links_page .link_list .btn a img:nth-child(1) {
+  .conts_box .links_page .link_list .btn a img:not(:last-child) {
     width: 100%;
     justify-content: center;
     margin-left: .8em;
@@ -484,6 +485,12 @@
   .conts_box .links_page  {
     margin-bottom: 10vw;
   } 
+}
+
+@media only screen and (max-width: 1024px) {
+  .links_portal {
+    margin-bottom: 30vw;
+  }
 }
 
 .links_portal {
