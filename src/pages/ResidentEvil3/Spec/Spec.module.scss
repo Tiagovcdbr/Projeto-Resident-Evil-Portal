@@ -1,6 +1,11 @@
 @import "../../../styles/variables.scss";
 @import "../../../styles/mixins.scss";
 
+@media only screen and (max-width: 1023px) {
+  .conts_box  {
+    margin-bottom: 30vw; 
+  } 
+}
 
 .conts_box .sec_ttl {
   color: #FFF;
