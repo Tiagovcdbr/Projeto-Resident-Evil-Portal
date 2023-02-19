@@ -2,18 +2,18 @@
 @import "../../../styles/mixins.scss";
 
 .movie_bg {
-  background: #000;
+  background: rgba(0, 0, 0, 0.6);
+  filter: brightness(0.50) opacity(1);
   height: calc(100% + 80px);
   left: 0;
   position: fixed;
   top: 0;
-  transition: opacity .5s ease;
+  transition: opacity .9s ease;
   width: 100%;
-  z-index: -1000;
+  z-index: -1;
 }
 
-.movie_bg_active {
-  
+.movie_bg_active {  
   transition: 0.5s;
 }
   @media only screen and (min-width: 1024px) {
