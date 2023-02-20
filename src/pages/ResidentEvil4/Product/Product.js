@@ -12,7 +12,7 @@ import DownloadIMG from "../../../images/ResidentEvil4/download-global.jpg";
 const Product = () => {
 
   useEffect(() => {
-    Aos.init({duration: 3500});
+    Aos.init({duration: 2000});
   }, []); 
 
   return (
