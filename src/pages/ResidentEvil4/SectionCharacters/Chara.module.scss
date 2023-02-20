@@ -1,0 +1,151 @@
+@import "../../../styles/variables.scss";
+@import "../../../styles/mixins.scss";
+
+.chara {
+    position: relative;	
+}
+
+@media only screen and (max-width: 960px) {
+	.chara_list {
+		margin-top: 5vw;
+		display: block;	
+		margin-bottom: 35%;	
+	}
+}
+
+@media only screen and (max-width: 640px) {
+	.chara_list {
+		margin-top: 5vw;	
+		margin-bottom: 50%;	
+	}
+}
+
+@media only screen and (min-width: 960px) {
+	.chara_list {
+    width: 90vw;
+    margin: 100px auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    list-style-type: none;
+	}
+}
+
+.chara_item_chris {
+    position: relative;
+    will-change: opacity, filter;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.chara_item_name_chris {
+	position: absolute;
+	z-index: 4;
+	background: rgba(0, 0, 0, .8);
+	font-size: 1.302vw;
+	color: #fff;
+	font-family: $font-family;
+	width: 83%;
+	padding: 1em 0;
+	bottom: 0;
+	left: 50%;
+	-webkit-transform: translate(-50%, 50%);
+	transform: translate(-50%, 50%);
+	text-align: center;
+}
+
+@media only screen and (max-width: 960px) {
+	.chara_item_name_chris {
+		position: absolute;
+		font-size: 2.500vw;
+		width: 65%;		
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.chara_item_name_chris {
+		position: absolute;
+		font-size: 12px;
+	}
+}
+
+.chara_item_jill {
+    position: relative;
+    will-change: opacity, filter;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.chara_item_name_jill {
+	position: absolute;
+	z-index: 4;
+	background: rgba(0, 0, 0, .8);
+	font-size: 1.302vw;
+	color: #fff;
+	font-family: $font-family;
+	width: 83%;
+	padding: 1em 0;
+	bottom: 0;
+	left: 50%;
+	-webkit-transform: translate(-50%, 50%);
+	transform: translate(-50%, 50%);
+	text-align: center;
+}
+
+@media only screen and (max-width: 960px) {
+	.chara_item_name_jill {
+		position: absolute;
+		font-size: 2.500vw;
+		width: 65%;
+		margin-bottom: -100px;		
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.chara_item_name_jill {
+		position: absolute;
+		font-size: 12px;
+	}
+}
+
+.chara_item_creatures {
+    position: relative;
+    will-change: opacity, filter;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.chara_item_name_creatures {
+	position: absolute;
+	z-index: 4;
+	background: rgba(0, 0, 0, .8);
+	font-size: 1.302vw;
+	color: #fff;
+	font-family: $font-family;
+	width: 83%;
+	padding: 1em 0;
+	bottom: 0;
+	left: 50%;
+	-webkit-transform: translate(-50%, 50%);
+	transform: translate(-50%, 50%);
+	text-align: center;
+}
+
+@media only screen and (max-width: 960px) {
+	.chara_item_name_creatures {
+		position: absolute;
+		font-size: 2.500vw;
+		width: 65%;
+		margin-bottom: -190px;	
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.chara_item_name_creatures {
+		position: absolute;
+		font-size: 12px;
+	}
+}

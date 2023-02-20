@@ -1,0 +1,398 @@
+@import "../../../styles/variables.scss";
+@import "../../../styles/mixins.scss";
+
+.main {
+  height: 100vh;
+  position: relative;
+  padding: 0 8rem;
+  z-index: 1;
+  background: #0c0c0c; 
+  text-align: center; 
+
+  background: url("../../../images/ResidentEvil4/firstView-bg.jpg"), #000;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top 16%;  
+  overflow: hidden;
+
+  &:before {
+    content: "";
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;        
+    z-index: 2;
+  }
+}
+
+  .main_bg {
+    width: 100%;
+    height: 100%;
+    margin-top: -5vw;
+    transform: translateY(-50%);
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    position: absolute;
+    overflow: hidden;
+  }
+
+  .main_content {
+    position: absolute;
+    left: 8.854vw;
+    transition: ease-in-out 5ms;
+    z-index: 5;
+
+  }
+
+    .main .main_bg .main_content h2 {
+      text-align: center;
+      font-size: 1.35vw;
+      font-family: 'NotoSerifCJKjp', serif;
+      margin-bottom: 3.083vw;
+      margin-top: -30px;
+      color: #fff;
+      text-shadow: 0px 0px .4em #000000, 0px 0px .8em #000000, 0px 0px 1.2em #000000, 0px 0px 1.6em #000000, 0px 0px 2em #000000;
+      position: relative;
+      z-index: 4;
+    }        
+
+  @media only screen and (max-width: 960px) {
+    .main_content {
+      top: -1%;
+      left: 2%;
+      justify-content: center;
+    }
+  }
+
+  @media only screen and (max-width: 540px) {
+    .main_content {
+      top: 20%;
+      left: 0;
+    }
+  }
+  
+  @media only screen and (min-width: 1024px) {
+    .main_content {
+      top: 6vw;
+    }
+  }
+  
+  .main_content img {
+    width: 100%;
+  }
+
+  .firstView_bnr_item {
+    border: 1px solid #666;
+    line-height: 0;
+  }
+
+  .firstView_bnr {
+    margin-right: auto;
+    margin-left: auto;
+    //width: calc((540 / 750) * 100%);
+  }
+
+  .firstView_bnr_item img {
+    height:  auto;
+    width: 100%;
+  }
+
+  @media only screen and (max-width: 960px)  {
+    .firstView_bnr {
+      display: none;
+    }
+  }
+
+  @media only screen and (min-width: 961px) {
+    .firstView_bnr {
+      bottom:  3%;
+      position: absolute;
+      right: 1.5%;
+      width: calc((460 / 1920) * 100%);
+    }
+  }
+
+  @media only screen and (min-width: 961px) {
+    .firstView_bnr_item:hover {
+      filter: brightness(1.25);
+      transition: filter .4s ease;
+  }
+}
+
+  .firstView_switch_info {
+    position: relative;
+  }
+  
+
+  
+  .firstView_switch {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    line-height: normal;
+    top: -3vw;
+    border-bottom: 1px solid #fff;
+    text-align: left;
+    padding-bottom: 4px;
+    position: relative;
+    z-index: 6;
+  }
+  
+  .firstView_switch_logo {
+    width: 5vw;
+    margin-right: 1.3541vw;
+  }
+  
+  .firstView_switch_logo img {
+    width: 100%;
+  }
+
+  @media only screen and (max-width: 960px) {
+    .firstView_switch_info {
+      width: 100%;
+    }
+  }
+  
+  @media only screen and (max-width: 960px) {
+    .firstView_switch_logo {
+      width: 13.5185vw;
+    }
+  }
+  
+  .firstView_switch_text {
+    font-family: 'NotoSerifCJKjp', serif;
+    margin-top: -10px;
+    font-size: 1.825vw;
+    text-shadow: 0px 0px .4em #000000, 0px 0px .8em #000000, 0px 0px 1.2em #000000, 0px 0px 1.6em #000000, 0px 0px 2em #000000;
+    letter-spacing: .06em;
+    color: #fff;
+  }
+
+  .firstView_title_text {
+    font-size: 1.30vw;
+    font-family: 'NotoSerifCJKjp', serif;
+    margin-bottom: 2.525vw;
+    position: absolute;
+    top: -7vw;
+    left: 10%;
+    color: #fff;
+    text-shadow: 0px 0px .4em #000000, 0px 0px .8em #000000, 0px 0px 1.2em #000000, 0px 0px 1.6em #000000, 0px 0px 2em #000000;
+    position: relative;
+    font-weight: normal;
+    z-index: 4;
+  }
+  
+  .hk .firstView_title_text,
+  .cn .firstView_title_text {
+    font-family: serif;
+  }
+  
+  @media only screen and (max-width: 960px) {
+    .firstView_title_text {
+      font-size: 3.7037vw;
+      margin-bottom: 8.3333vw;
+      text-shadow: 0px 0px .3em #000000, 0px 0px .6em #000000, 0px 0px .9em #000000, 0px 0px 1.2em #000000, 0px 0px 1.5em #000000;
+    }
+  }
+  
+  .hk .firstView_switch_text,
+  .cn .firstView_switch_text {
+    font-family: serif;
+  }
+  
+  @media only screen and (max-width: 960px) {
+    .firstView_switch_text {
+      font-size: 4.1666vw;
+    }
+  }
+  
+  .firstView_switch_date {
+    font-family: 'NotoSerifCJKjp', serif;
+    font-size: 2.0833vw;
+    letter-spacing: .2em;
+    text-shadow: 0px 0px .4em #000000, 0px 0px .8em #000000, 0px 0px 1.2em #000000, 0px 0px 1.6em #000000, 0px 0px 2em #000000;
+    color: #fff;
+  }
+  
+  .hk .firstView_switch_date,
+  .cn .firstView_switch_date {
+    font-family: serif;
+  }
+  
+  @media only screen and (max-width: 960px) {
+    .firstView_switch_date {
+      font-size: 4.8vw;
+    }
+  }
+
+  .firstView_otherPlats {
+    max-width: 100%;
+    position: relative;
+    width: 20vw;
+    margin: 0 auto;
+    margin-top: -3vw;
+    justify-content: center;
+  }
+
+  @media only screen and (max-width: 960px) {
+    .firstView_otherPlats {
+      width: 60vw;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  
+  .firstView_otherPlats img {
+    width: 100%;
+    vertical-align: middle;
+  }
+  
+  .firstView_otherPlats--onsale {
+    width: 23.7708vw;
+  }
+  
+  @media only screen and (max-width: 1400px) {
+    .firstView_otherPlats--onsale {
+      width: 29.7708vw;
+    }
+  }
+  
+  @media only screen and (max-width: 960px) {
+    .firstView_otherPlats--onsale {
+      width: 81.7vw;
+    }
+  }
+
+  @media only screen and (max-width: 960px) {
+    .firstView_scroll {
+      bottom: 10vw;
+    }
+  }
+
+  .firstView_scroll {
+    visibility: visible;
+    font-size: 11px;
+    color: #fff;
+    letter-spacing: .3em;
+    font-family: 'Cinzel', serif;
+    text-align: center;
+    position: absolute;
+    z-index: 6;
+    left: 49.8%;
+    bottom: 8%;
+    -webkit-transform: translateX(0%);
+    transform: translateX(0%);
+    text-shadow: 0px 0px .4em #000,
+    0px 0px .8em #000,
+    0px 0px 1.2em #000,
+    0px 0px 1.6em #000,
+    0px 0px 2em;
+
+    -webkit-animation-name: scrollAnim;
+    animation-name: scrollAnim;
+    -webkit-animation-duration: 2.8s;
+    animation-duration: 2.8s;
+    -webkit-animation-timing-function: ease;
+    animation-timing-function: ease;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    margin-left: -15px;
+  }
+  
+  .firstView_scroll:after {
+    content: "";
+    display: block;
+    width: 28px;
+    height: 14px;
+    background: url(../../../images/Resident0/icons/scroll-arrow.png);
+    background-size: contain;
+    margin: 8px auto 0;
+    filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feGaussianBlur in="SourceAlpha" stdDeviation="16" /><feOffset dx="1" dy="1" result="offsetblur" /><feFlood flood-color="rgba(0,0,0,1)" /><feComposite in2="offsetblur" operator="in" /><feMerge><feMergeNode /><feMergeNode in="SourceGraphic" /></feMerge></filter></svg>#filter');
+    -webkit-filter: drop-shadow(0px 0px 16px black);
+    filter: drop-shadow(0px 0px 16px black);
+  }
+  
+  @media only screen and (max-width: 960px) {
+    .firstView_scroll {
+      bottom: 0vw;
+    }
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .firstView_scroll {
+      font-size: 10px;
+    }
+    .firstView_scroll:after {
+      width: 14px;
+      height: 7px;
+    }
+  }
+  
+  @-webkit-keyframes scrollAnim {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(0%, -8px);
+        transform: translateY(0%, -8px);
+    }
+    20% {
+        opacity: 1;
+        -webkit-transform: translateY(-50%, -4px);
+        transform: translateY(-50%, -4px);
+    }
+    40% {
+        opacity: 1;
+        -webkit-transform: translateY(-50%, 0);
+        transform: translateY(-50%, 0);
+    }
+    80% {
+        opacity: 1;
+        -webkit-transform: translateY(-50%, 0);
+        transform: translateY(-50%, 0);
+    }
+    90% {
+        opacity: 0;
+        -webkit-transform: translateY(-50%, 0);
+        transform: translateY(-50%, 0);
+    }
+    100% {
+        opacity: 0;
+        -webkit-transform: translateY(-50%, 0);
+        transform: translateY(-50%, 0);
+    }
+  }
+  
+  @keyframes scrollAnim {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate(0%, -15px);
+        transform: translate(0%, -15px);
+    }
+    20% {
+        opacity: 1;
+        -webkit-transform: translateY(-50%, 84px);
+        transform: translateY(-50%, -8px);
+    }
+    40% {
+        opacity: 1;
+        -webkit-transform: translateY(-50%, 0);
+        transform: translateY(-50%, 0);
+    }
+    80% {
+        opacity: 1;
+        -webkit-transform: translateY(-50%, 0);
+        transform: translateY(-50%, 0);
+    }
+    90% {
+        opacity: 0;
+        -webkit-transform: translateY(-50%, 0);
+        transform: translateY(-50%, 0);
+    }
+    100% {
+        opacity: 0;
+        -webkit-transform: translateY(-50%, 0);
+        transform: translateY(-50%, 0);
+    }
+  }

@@ -29,12 +29,12 @@ const Nav = ({ toggle }) => {
         </li>
         <li onClick={toggle}>
           <Link to="Resident-Evil-3-Remake" spy={true} smooth={true} duration={800} onClick={play}>
-          Resident 3 Remake
+            Resident 3 Remake
           </Link>
         </li>
         <li onClick={toggle}>
-          <Link to="/" spy={true} smooth={true} duration={800} onClick={play}>
-          Resident Evil 4
+          <Link to="Resident-Evil-4" spy={true} smooth={true} duration={800} onClick={play}>
+            Resident Evil 4
           </Link>
         </li>
         <li onClick={toggle}>
