@@ -8,7 +8,7 @@
 #### --- Página Resident Evil 1 Remake Finalizada ---
 #### --- Página Resident Evil 2 Remake Finalizada---
 #### --- Página Resident Evil 3 Remake Finalizada---
-#### --- Página Resident Evil 4 Classic em construção---
+#### --- Página Resident Evil 4 Classic Finalizada---
 
 #### --- Outras seções ainda em construção ---!
 
