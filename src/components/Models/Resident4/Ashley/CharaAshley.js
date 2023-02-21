@@ -4,7 +4,7 @@ import styles from './CharaAshley.module.scss';
 import BgIMG from '../../../../images/ResidentEvil4/ashley-bg.jpg'
 import CharaIMG from '../../../../images/ResidentEvil4/chara-ashley.png'
 
-function CharaJill() {
+function CharaAshley() {
   return (
     <div className={styles.chara_item_inner}>
       <div className={styles.chara_item_bg}>
@@ -17,4 +17,4 @@ function CharaJill() {
   )
 }
 
-export default CharaJill;
+export default CharaAshley;

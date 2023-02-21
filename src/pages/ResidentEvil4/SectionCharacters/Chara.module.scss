@@ -34,14 +34,14 @@
 	}
 }
 
-.chara_item_chris {
+.chara_item_leon {
     position: relative;
     will-change: opacity, filter;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
 }
 
-.chara_item_name_chris {
+.chara_item_name_leon {
 	position: absolute;
 	z-index: 4;
 	background: rgba(0, 0, 0, .8);
@@ -58,7 +58,7 @@
 }
 
 @media only screen and (max-width: 960px) {
-	.chara_item_name_chris {
+	.chara_item_name_leon {
 		position: absolute;
 		font-size: 2.500vw;
 		width: 65%;		
@@ -66,20 +66,20 @@
 }
 
 @media only screen and (max-width: 600px) {
-	.chara_item_name_chris {
+	.chara_item_name_leon {
 		position: absolute;
 		font-size: 12px;
 	}
 }
 
-.chara_item_jill {
+.chara_item_ashley {
     position: relative;
     will-change: opacity, filter;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
 }
 
-.chara_item_name_jill {
+.chara_item_name_ashley {
 	position: absolute;
 	z-index: 4;
 	background: rgba(0, 0, 0, .8);
@@ -96,7 +96,7 @@
 }
 
 @media only screen and (max-width: 960px) {
-	.chara_item_name_jill {
+	.chara_item_name_ashley {
 		position: absolute;
 		font-size: 2.500vw;
 		width: 65%;
@@ -105,20 +105,20 @@
 }
 
 @media only screen and (max-width: 600px) {
-	.chara_item_name_jill {
+	.chara_item_name_ashley {
 		position: absolute;
 		font-size: 12px;
 	}
 }
 
-.chara_item_creatures {
+.chara_item_ganados {
     position: relative;
     will-change: opacity, filter;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
 }
 
-.chara_item_name_creatures {
+.chara_item_name_ganados {
 	position: absolute;
 	z-index: 4;
 	background: rgba(0, 0, 0, .8);
@@ -135,7 +135,7 @@
 }
 
 @media only screen and (max-width: 960px) {
-	.chara_item_name_creatures {
+	.chara_item_name_ganados {
 		position: absolute;
 		font-size: 2.500vw;
 		width: 65%;
@@ -144,7 +144,7 @@
 }
 
 @media only screen and (max-width: 600px) {
-	.chara_item_name_creatures {
+	.chara_item_name_ganados {
 		position: absolute;
 		font-size: 12px;
 	}

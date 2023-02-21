@@ -39,7 +39,7 @@ const Nav = ({ toggle }) => {
           </Link>
         </li>
         <li onClick={toggle}>
-          <Link to="mrx" spy={true} smooth={true} duration={800} onClick={play}>
+          <Link to="Resident-Evil-5" spy={true} smooth={true} duration={800} onClick={play}>
           Resident Evil 5
           </Link>
         </li>

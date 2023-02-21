@@ -7,6 +7,7 @@ import Resident0 from '../components/Resident0';
 import Re2Remake from '../components/Re2Remake';
 import Re3Remake from '../components/Re3Remake';
 import Resident4 from '../components/Resident4';
+import Resident5 from '../components/Resident5';
 import ResidentRemake from '../components/ResidentRemake';
 import ScrollToTop from '../components/other/Scroll/ScrollToTop';
 
@@ -19,7 +20,6 @@ import BioMikhail from '../pages/ResidentEvil3/Character/Mikhail/BioMikhail'
 import BioNicholai from '../pages/ResidentEvil3/Character/Nicholai/BioNicholai'
 import BioNemesis from '../pages/ResidentEvil3/Character/Nemesis/BioNemesis'
 
-
 export default function ApplicationRoutes () {
   return ( 
     <BrowserRouter>
@@ -31,6 +31,7 @@ export default function ApplicationRoutes () {
         <Route path="/Resident-Evil-HD-Remaster" component={ ResidentRemake } exact />
         <Route path="/Resident-Evil-3-Remake" component={ Re3Remake } exact />
         <Route path="/Resident-Evil-4" component={ Resident4 } exact />
+        <Route path="/Resident-Evil-5" component={ Resident5 } exact />
         
         {/* Biography dos characters  */}
   

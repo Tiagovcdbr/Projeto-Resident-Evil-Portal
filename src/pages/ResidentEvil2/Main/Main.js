@@ -3,7 +3,7 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import LogoIMG from "../../../images/Resident2Images/logo.png";
 import styles from "./Main.module.scss";
-import Audio from "../../../audios/Resident Evil 2 Remake- Title Screen Voice.m4a";
+import Audio from "../../../audios/Resident Evil 2 Voice Title.m4a";
 import Video from '../../../images/Resident2Images/video.mp4';
 
 const Main = () => {

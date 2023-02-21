@@ -4,7 +4,7 @@ import styles from './CharaLeon.module.scss';
 import BgIMG from '../../../../images/ResidentEvil4/leon-bg.jpg'
 import CharaIMG from '../../../../images/ResidentEvil4/chara-leon.png'
 
-function CharaChris() {
+function CharaLeon () {
   return (
     <div className={styles.chara_item_inner}>
       <div className={styles.chara_item_bg}>
@@ -17,4 +17,4 @@ function CharaChris() {
   )
 }
 
-export default CharaChris;
+export default CharaLeon;

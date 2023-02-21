@@ -4,7 +4,7 @@ import styles from './CharaGanados.module.scss';
 import BgIMG from '../../../../images/ResidentEvil4/ganados-bg.jpg'
 import CharaIMG from '../../../../images/ResidentEvil4/chara-ganados.png'
 
-function CharaCreatures() {
+function CharaGanados () {
   return (
     <div className={styles.chara_item_inner}>
       <div className={styles.chara_item_bg}>
@@ -17,4 +17,4 @@ function CharaCreatures() {
   )
 }
 
-export default CharaCreatures;
+export default CharaGanados;
