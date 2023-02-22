@@ -49,7 +49,7 @@
 .firstView_inner {
 	position: absolute;
   top: 75%;
-  left: 20%;
+  left: 18%;
 	transform: translateY(-50%);
 	z-index: 5;
 }
@@ -62,7 +62,6 @@
     transform: translateY(-50%);
     z-index: 5;
   }
-  
 }
 
 @media only screen and (max-width: 960px) {
