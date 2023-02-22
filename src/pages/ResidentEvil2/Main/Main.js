@@ -24,9 +24,9 @@ const Main = () => {
         </video>      
       </div>
       <audio
-       src={Audio}
-       autoPlay={true}
-       >
+        src={Audio}
+        autoPlay={true}
+        >
       </audio>
       <div data-aos="fade" className={styles.main_content}>
         <div className={styles.logo}>

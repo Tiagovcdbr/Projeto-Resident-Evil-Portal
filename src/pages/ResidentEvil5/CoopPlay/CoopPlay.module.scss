@@ -1,0 +1,119 @@
+@import "../../../styles/variables.scss";
+@import "../../../styles/mixins.scss";
+
+@media only screen and (max-width: 960px) {
+  .coopPlay {
+    margin-top: 280px;
+		background-color: rgba(0, 0, 0, 0.8);
+		margin-bottom: 10vw;
+  }
+}
+
+@media only screen and (min-width: 961px) {
+	.coopPlay {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-pack: justify;
+		//-ms-flex-pack: justify;
+		justify-content: space-between;
+		align-items: center;
+    margin-bottom: 10vw;
+    background-color: rgba(0, 0, 0, 0.8);
+		padding: 3.8541% 5.2083%;
+	}
+}
+
+.coopPlay_imageWrap {
+	position: relative;
+	width: 50%;
+}
+
+@media only screen and (max-width: 960px) {
+	.coopPlay_imageWrap {
+		width: 100%;
+	}
+}
+
+.coopPlay_imageWrap:before {
+	content: "";
+	display: block;
+	width: 100%;
+	padding-top: 56.279069%;
+}
+
+.coopPlay_image_overlay {
+	position: absolute;
+	z-index: 4;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #000;
+}
+
+.coopPlay_image {
+	border: 1px solid #585858;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	transition: 1.5s;
+}
+
+@media only screen and (max-width: 960px) {
+	.coopPlay_image {
+		border: none;
+	}
+}
+
+.coopPlay_descr {
+	width: 47%;
+  line-height: 1.6;
+}
+
+@media only screen and (max-width: 960px) {
+	.coopPlay_descr {
+		padding: 6.4814vw 7.4074vw 12.9629vw;
+		width: 100%;
+	}
+}
+
+.coopPlay_descr_inner {
+  opacity: 1;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.coopPlay_lead {
+	font-family: 'NotoSerifCJKjp', serif;
+	font-size: 2.54375vw;
+	margin-bottom: 1em;
+  line-height: 1.6;
+  color: #fff;
+}
+
+@media only screen and (max-width: 960px) {
+	.coopPlay_lead {
+		font-size: 5.0925vw;
+		margin-bottom: .6em;
+	}
+}
+
+.coopPlay_detail {
+	font-size: .9711111vw;
+	color: #b4b4b4;
+	font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 500;
+}
+
+@media only screen and (max-width: 960px) {
+  .coopPlay_detail {
+		font-size: 18px;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+  .coopPlay_detail {
+		font-size: 16px;
+	}
+}

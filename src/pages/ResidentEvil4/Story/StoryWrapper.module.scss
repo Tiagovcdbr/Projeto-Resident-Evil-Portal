@@ -47,10 +47,19 @@
 
 .system_image img {
   width: 100%;
-  height: 70vh;
   opacity: 1;
   -webkit-transition: 1.5s;
   transition: 1.5s;
+}
+
+@media only screen and (min-width: 961px) {
+  .system_image img {
+    width: 100%;
+    height: 70vh;
+    opacity: 1;
+    -webkit-transition: 1.5s;
+    transition: 1.5s;
+  }
 }
 
 @media all and (-ms-high-contrast: none),
@@ -240,7 +249,6 @@
 
 .story_image img {
   width: 100%;
-  height: 80vh;
   opacity: 1;
   -webkit-transition: 1.5s;
   transition: 1.5s;
@@ -249,7 +257,7 @@
   object-fit: cover;
 }
 
-@media only screen and (min-width: 960px) {
+@media only screen and (min-width: 961px) {
   .story_image img {
   width: 100%;
   height: 70vh;

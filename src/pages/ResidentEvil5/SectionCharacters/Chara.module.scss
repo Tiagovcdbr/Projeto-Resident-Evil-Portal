@@ -3,6 +3,14 @@
 
 .chara {
     position: relative;	
+		margin-bottom: 10vw;
+}
+
+@media only screen and (max-width: 960px) {
+	.chara {
+    position: relative;	
+		margin-bottom: 20.37vw;
+	}
 }
 
 @media only screen and (max-width: 960px) {

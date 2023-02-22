@@ -1,0 +1,134 @@
+@import "../../../styles/variables.scss";
+@import "../../../styles/mixins.scss";
+
+.additional_content {
+	margin-bottom: 10vw;
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+@media only screen and (min-width: 960px) {
+	.additional_content {
+		//display: -webkit-box;
+		//display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: reverse;
+		//-ms-flex-flow: row-reverse;
+		flex-flow: row-reverse;
+		-webkit-box-pack: justify;
+		//-ms-flex-pack: justify;
+		justify-content: space-between;
+		padding: 3.8541% 5.2083%;
+	}
+}
+
+.additional_content_imageWrap {
+	position: relative;
+	width: 50%;
+}
+
+.additional_content_imageWrap:before {
+	content: "";
+	display: block;
+	width: 100%;
+	padding-top: 64.6511627%;
+}
+
+@media only screen and (max-width: 960px) {
+	.additional_content_imageWrap {
+		width: 100%;
+	}
+}
+
+.additional_content_image_overlay {
+	position: absolute;
+	z-index: 4;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.additional_content_image {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	opacity: 1;
+	//-webkit-transition: 1.5s;
+	transition: 1.5s;
+}
+
+.additional_content_descr {
+	width: 47%;
+  color: #ffff;
+}
+
+@media only screen and (max-width: 960px) {
+	.additional_content_descr {
+		padding: 6.4814vw 7.4074vw 12.9629vw;
+		width: 100%;
+	}
+}
+
+.additional_content_descr_inner {
+  opacity: 1;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.additional_content_lead {
+	font-family: 'NotoSerifCJKjp', serif;
+	font-size: 2.54375vw;
+	margin-bottom: 1em;
+}
+
+@media only screen and (max-width: 960px) {
+	.additional_content_lead {
+		font-size: 5.9925vw;
+    font-family: 'NotoSerifCJKjp', serif;
+		margin-bottom: .6em;
+    line-height: 1.6;
+	}
+}
+
+.additional_content_sublead {
+	font-size: 1.19375vw;
+	font-weight: bold;
+	line-height: 2;
+	margin-bottom: 1.6em;
+}
+
+@media only screen and (max-width: 960px) {
+	.additional_content_sublead {
+		font-size: 3.6vw;
+    font-weight: bold;
+    line-height: 2;
+	}
+}
+
+.additional_content_detail {
+	font-size: .9375vw;
+	color: #b4b4b4;
+	font-family: 'Noto Sans JP', sans-serif;
+}
+
+@media only screen and (max-width: 960px) {
+	.additional_content_detail {
+		font-size: 2.8vw;
+	}
+}
+
+.additional_content_notesItem {
+	font-size: .8333vw;
+	color: #b4b4b4;
+	font-family: 'Noto Sans JP', sans-serif;
+	margin-top: 1.5em;
+	text-indent: -2em;
+	margin-left: 2em;
+}
+
+@media only screen and (max-width: 960px) {
+	.additional_content_notesItem {
+		font-size: 2.4vw;
+	}
+}
