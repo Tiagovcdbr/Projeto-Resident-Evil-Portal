@@ -7,6 +7,7 @@ import Chara from 'pages/ResidentEvil5/SectionCharacters/Chara'
 import FixedBg from 'pages/ResidentEvil5/FixedBg/FixedBg'
 import CoopPlay from 'pages/ResidentEvil5/CoopPlay/CoopPlay'
 import AdditionalContent from 'pages/ResidentEvil5/AdditionalContent/AdditionalContent'
+import UpdateMotion from 'pages/ResidentEvil5/UpdateMotion/UpdateMotion'
 
 function Resident5() {
   return (
@@ -18,6 +19,7 @@ function Resident5() {
       <Chara />
       <CoopPlay />
       <AdditionalContent />
+      <UpdateMotion />
     </>
   )
 }
