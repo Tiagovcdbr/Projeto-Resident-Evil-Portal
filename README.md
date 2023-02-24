@@ -9,6 +9,8 @@
 #### --- Página Resident Evil 2 Remake Finalizada---
 #### --- Página Resident Evil 3 Remake Finalizada---
 #### --- Página Resident Evil 4 Classic Finalizada---
+#### --- Página Resident Evil 5 Finalizada---
+#### --- Página Resident Evil 6 Finalizada---
 
 #### --- Outras seções ainda em construção ---!
 
