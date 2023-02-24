@@ -1,0 +1,234 @@
+@import "../../../styles/variables.scss";
+@import "../../../styles/mixins.scss";
+
+@media only screen and (max-width: 960px) {
+	.firstView_inner {
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 961px) {
+  .firstView {
+    width: 100%;
+    height: 157.407vw;
+    background: url(../../../images/ResidentEvil6/firstView-bg-sp.png), #000;
+      // background-position-x: 0%, 0%;
+      // background-position-y: 0%, 0%;
+      // background-repeat: repeat, repeat;
+      // background-size: auto, auto;
+    background-size: 100% auto, auto;
+    background-position: left top, left top;
+    background-repeat: no-repeat, repeat;
+  }
+}
+
+@media only screen and (min-width: 961px) {
+  .firstView {
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    position: relative;
+    background: url(../../../images/ResidentEvil6/firstView-bg.jpg), #0a0a0a;
+    // background-position-x: 0%, 0%;
+    // background-position-y: 0%, 0%;
+    // background-repeat: repeat, repeat;
+    // background-size: auto, auto;
+    background-size: auto 100%, auto;
+    background-position: right center, left top;
+    background-repeat: no-repeat, repeat;
+    overflow: hidden;
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  .firstView_title_text {
+    visibility: hidden;
+  }
+}
+
+@media only screen and (max-width: 960px) {
+	.firstView_title_text {
+		margin-top: 1.4em;
+		margin-bottom: 5.33vw;
+	}
+}
+
+@media only screen and (min-width: 960px) {
+  .firstView_title_text {
+    visibility: hidden;
+  }
+}
+
+@media only screen and (max-width: 960px) {
+	.firstView_inner {
+    width: 100%;
+		//-webkit-transform: translate(-50%, -50%);
+		transform: translate(-50%, -50%);
+    overflow: hidden;
+	}
+}
+
+
+@media only screen and (max-width: 960px) {
+	.firstView_inner {
+		width: 100%;
+    top: 19%;
+		padding-top: 130vw;
+	}
+}
+
+.firstView_inner {
+	position: absolute;
+  // top: 52%;
+  // -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  z-index: 5;
+}
+
+@media only screen and (min-width: 960px) {
+  .firstView_inner {
+    position: absolute;
+    top: 49%;
+    transform: translateY(-50%);
+    z-index: 5;
+  }
+}
+
+@media only screen and (max-width: 960px) {
+	 .firstView_title {
+    margin-left: auto;
+    margin-right: auto;
+		width: 61.5925vw;
+    visibility: visible;
+		margin-bottom: -8%;
+	}
+}
+
+@media only screen and (min-width: 960px) {
+	.firstView_inner {
+		left: 2.854vw;
+    left: 10%;
+	}
+}
+
+@media only screen and (min-width: 960px) {
+	.firstView_title {
+    width: 24.34375vw;
+    position: relative;
+  }
+}
+
+.firstView_title img {
+	width: 100%;
+  vertical-align: middle;
+}
+
+
+@media only screen and (min-width: 961px) {
+  .firstView_switch {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    border-bottom: 1px solid #fff;
+    text-align: left;
+    padding-bottom: 10px;
+    position: relative;
+    z-index: 6;
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  .firstView_switch {
+    //display: -webkit-inline-box;
+    //display: -ms-inline-flexbox;
+    display: inline-flex;
+    border-bottom: 1px solid #fff;
+    text-align: left;
+    padding-bottom: 10px;
+    position: relative;
+    z-index: 6;
+    justify-content: center;
+    left: 20%;
+  }
+}
+	
+@media only screen and (min-width: 961px) {
+  .firstView_switch_logo {
+    width: 5vw;
+    margin-right: 1.3541vw;
+  }  
+}
+
+@media only screen and (max-width: 960px) {
+	.firstView_switch_logo {
+		width: 13.5185vw;
+	}
+}
+
+.firstView_switch_logo img {
+	width: 100%;
+  vertical-align: middle;
+}
+
+@media only screen and (max-width: 961px) {
+  .firstView_switch_text {
+  font-size: 4.1666vw;
+  margin-left: 2vw;
+  color: #fff;
+  font-family: 'NotoSerifCJKjp', serif;
+  vertical-align: middle;
+}
+}
+
+
+@media only screen and (min-width: 961px) {
+  .firstView_switch_text {
+    font-family: 'NotoSerifCJKjp', serif;
+    line-height: 1.4;
+    color: #fff;
+    font-size: 1.8625vw;
+    text-shadow: 0px 0px .4em #000000, 0px 0px .8em #000000, 0px 0px 1.2em #000000, 0px 0px 1.6em #000000, 0px 0px 2em #000000;
+    letter-spacing: .06em;
+  }  
+}
+
+@media only screen and (max-width: 961px) {
+  .firstView_switch_date {
+  font-size: 4.8vw;
+  margin-left: 2vw;
+  color: #fff;
+  font-family: 'NotoSerifCJKjp', serif;
+  letter-spacing: .1em;
+}
+}
+
+
+@media only screen and (min-width: 961px) {
+  .firstView_switch_date {
+    font-family: 'NotoSerifCJKjp', serif;
+    color: #fff;
+    font-size: 2.0833vw;
+    letter-spacing: .2em;
+    text-shadow: 0px 0px .4em #000000, 0px 0px .8em #000000, 0px 0px 1.2em #000000, 0px 0px 1.6em #000000, 0px 0px 2em #000000;
+  }
+}
+
+.firstView_otherPlats img {
+	width: 100%;
+  vertical-align: middle;
+  margin-left: 8vw;
+}
+
+@media only screen and (min-width: 960px) {
+  .firstView_otherPlats img {
+    width: 23vw;
+    margin-left: -1vw;
+  }
+}
+
+@media only screen and (max-width: 960px) {
+	.firstView_otherPlats {
+		width: 81.7vw;
+	}
+}
+

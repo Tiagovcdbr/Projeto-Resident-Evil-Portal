@@ -1,8 +1,8 @@
 import React from 'react'
 import styles from '../Hero/Hero.module.scss'
-import Audio from '../../../audios/Resident Evil 5 Title Screen Voice.m4a'
+import Audio from '../../../audios/Resident Evil 6 Opening Voice Title HD.mp3'
 
-import IMGTitleGlobal from '../../../images/ResidentEvil5/firstView-title-global.png'
+import IMGTitleGlobal from '../../../images/ResidentEvil6/firstView-title-global.png'
 import IMGSwitch from '../../../images/ResidentEvil5/switch-logo.png'
 import IMGOnsale from '../../../images/ResidentEvil5/firstView-platforms-onsale-global.png'
 
@@ -18,6 +18,7 @@ function Hero() {
           <div className={styles.firstView_inner}></div>
         <h1 className={styles.firstView_title}>
           <img src={IMGTitleGlobal} alt="" />
+          <p className={styles.firstView_title_text}>Resident Evil 6</p>
         </h1>
 
         <div className={styles.firstView_switch}>

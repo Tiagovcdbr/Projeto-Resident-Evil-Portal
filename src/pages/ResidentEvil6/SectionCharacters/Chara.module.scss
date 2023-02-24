@@ -1,0 +1,266 @@
+@import "../../../styles/variables.scss";
+@import "../../../styles/mixins.scss";
+
+.chara {
+    position: relative;	
+		margin-bottom: 5.5vw;
+}
+
+@media only screen and (max-width: 960px) {
+	.chara {
+    position: relative;	
+		margin-bottom: 500px;
+	}
+}
+
+.chara_list {
+	width: 95vw;
+	margin: 0 auto;
+	display: flex;
+}
+
+@media only screen and (max-width: 960px) {
+	.chara_list {
+		display: block;	
+	}
+}
+
+@media only screen and (max-width: 640px) {
+	.chara_list {
+		margin-top: 5vw;	
+		margin-bottom: 50%;	
+	}
+}
+
+@media only screen and (min-width: 960px) {
+	.chara_list {
+		//-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+		-webkit-box-pack: center;
+		//-ms-flex-pack: center;
+		justify-content: center;
+	}
+	.chara_list .chara_item_leon, .chara_item_chris, .chara_item_ada, .chara_item_jake, .chara_item_adversaries:not(:nth-of-type(3n)) {
+		margin-right: 2.9125vw;
+	}
+	.chara_list .chara_item_leon, .chara_item_chris, .chara_item_ada, .chara_item_jake, .chara_item_adversaries:nth-of-type(-n+3) {
+		margin-bottom: 5%;
+	}
+}
+
+.chara_item_leon {
+    position: relative;
+    will-change: opacity, filter;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.chara_item_name_leon {
+	position: absolute;
+	z-index: 4;
+	background: rgba(0, 0, 0, .8);
+	font-size: 1.302vw;
+	color: #fff;
+	font-family: $font-family;
+	width: 83%;
+	padding: 1em 0;
+	bottom: 0;
+	left: 50%;
+	-webkit-transform: translate(-50%, 50%);
+	transform: translate(-50%, 50%);
+	text-align: center;
+}
+
+@media only screen and (max-width: 960px) {
+	.chara_item_name_leon {
+		position: absolute;
+		font-size: 2.500vw;
+		width: 65%;		
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.chara_item_name_leon {
+		position: absolute;
+		font-size: 12px;
+	}
+}
+
+.chara_item_chris {
+    position: relative;
+    will-change: opacity, filter;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.chara_item_name_chris {
+	position: absolute;
+	z-index: 4;
+	background: rgba(0, 0, 0, .8);
+	font-size: 1.302vw;
+	color: #fff;
+	font-family: $font-family;
+	width: 83%;
+	padding: 1em 0;
+	bottom: 0;
+	left: 50%;
+	-webkit-transform: translate(-50%, 50%);
+	transform: translate(-50%, 50%);
+	text-align: center;
+}
+
+@media only screen and (max-width: 960px) {
+	.chara_item_name_chris {
+		position: absolute;
+		font-size: 2.500vw;
+		width: 65%;
+		margin-bottom: -100px;		
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.chara_item_name_chris {
+		position: absolute;
+		font-size: 12px;
+	}
+}
+
+.chara_item_jake {
+    position: relative;
+    will-change: opacity, filter;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+@media only screen and (max-width: 960px) {
+	.chara_item_jake {
+		position: relative;
+	}
+}
+
+.chara_item_name_jake {
+	position: absolute;
+	z-index: 4;
+	background: rgba(0, 0, 0, .8);
+	font-size: 1.302vw;
+	color: #fff;
+	font-family: $font-family;
+	width: 83%;
+	padding: 1em 0;
+	bottom: 0;
+	left: 50%;
+	-webkit-transform: translate(-50%, 50%);
+	transform: translate(-50%, 50%);
+	text-align: center;
+}
+
+@media only screen and (max-width: 960px) {
+	.chara_item_name_jake {
+		position: absolute;
+		font-size: 2.500vw;
+		width: 65%;
+		margin-bottom: -190px;	
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.chara_item_name_jake {
+		position: absolute;
+		font-size: 12px;
+	}
+}
+
+.chara_item_ada {
+	position: relative;
+	will-change: opacity, filter;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.chara_item_name_ada {
+position: absolute;
+z-index: 4;
+background: rgba(0, 0, 0, .8);
+font-size: 1.302vw;
+color: #fff;
+font-family: $font-family;
+width: 83%;
+padding: 1em 0;
+bottom: 0;
+left: 50%;
+-webkit-transform: translate(-50%, 50%);
+transform: translate(-50%, 50%);
+text-align: center;
+}
+
+@media only screen and (max-width: 960px) {
+.chara_item_name_ada:not(:nth-of-type(3n))  {
+	position: absolute;
+	font-size: 2.500vw;
+	width: 65%;
+	margin-bottom: -300px;
+
+	.chara_item_name_ada:not(:nth-of-type(3n)) {
+		position: absolute;
+		font-size: 2.500vw;
+		width: 65%;
+		margin-bottom: -400px;
+		}
+	}
+}
+
+@media only screen and (max-width: 960px) {
+	.chara_item_name_ada {
+		position: absolute;
+		font-size: 2.500vw;
+		width: 65%;
+		margin-bottom: -300px;
+		}
+	}
+
+
+.chara_item_adversaries {
+	height: 100%;
+	position: relative;
+	will-change: opacity, filter;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+@media only screen and (max-width: 960px) {
+	.chara_item_adversaries {
+		height: 100%;
+	}
+}
+
+.chara_item_name_adversaries {
+position: absolute;
+z-index: 4;
+background: rgba(0, 0, 0, .8);
+font-size: 1.302vw;
+color: #fff;
+font-family: $font-family;
+width: 83%;
+padding: 1em 0;
+bottom: 0;
+left: 50%;
+-webkit-transform: translate(-50%, 50%);
+transform: translate(-50%, 50%);
+text-align: center;
+}
+
+@media only screen and (max-width: 960px) {
+.chara_item_name_adversaries {
+	position: absolute;
+	font-size: 2.500vw;
+	width: 65%;
+	margin-bottom: -400px;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+.chara_item_name_adversaries {
+	position: absolute;
+	font-size: 12px;
+	}
+}

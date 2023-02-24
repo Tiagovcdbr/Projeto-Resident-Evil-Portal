@@ -1,0 +1,17 @@
+@import "../../../styles/variables.scss";
+@import "../../../styles/mixins.scss";
+
+.fixed_bg {
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: url(../../../images/ResidentEvil6/fixed-bg.jpg) #0a0a0a;
+    //background-position-x: 0%;
+    //background-position-y: 0%;
+    //background-size: auto;
+  background-size: cover, auto;
+  background-position: center top 40%, left top;
+  }

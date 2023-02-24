@@ -1,0 +1,63 @@
+@import "../../../../styles/variables.scss";
+@import "../../../../styles/mixins.scss";
+
+.chara_item_inner {
+    position: relative;
+    overflow: hidden;
+    width: 28.125vw;
+    height: 38.541vw;
+    margin: 0 auto; 
+}
+
+@media only screen and (max-width: 960px) {
+    .chara_item_inner {
+        width: 65vw;
+        height: 84.259vw;
+    }
+}
+
+.chara_item_cv {
+	font-size: .9375vw;
+	color: rgba(255, 255, 255, .7);
+}
+
+.chara_item_bg {
+	overflow: hidden;
+    width: 100%;
+    visibility: visible;
+    position: absolute;
+}
+
+.chara_item_bg img {
+    overflow: hidden;
+    width: 100%;
+}
+
+.chara_item_charaImg {
+    overflow: hidden;
+    position: absolute;
+    top: 4%;
+    right: -20%;
+    width: 122%;
+    z-index: 4;
+}
+
+.chara_item_charaImg img {
+    overflow: hidden;
+    width: 100%;
+}
+
+.chara_item_charaImg2 {
+    overflow: hidden;
+    position: absolute;
+    width: 63%;
+    top: 5%;
+    left: -4%;
+}
+
+.chara_item_charaImg2 img {
+    overflow: hidden;
+    width: 100%;
+}
+
+

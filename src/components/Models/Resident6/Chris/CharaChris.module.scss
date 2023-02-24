@@ -1,0 +1,61 @@
+
+@import "../../../../styles/variables.scss";
+@import "../../../../styles/mixins.scss";
+
+.chara_item_inner {
+    position: relative;
+    overflow: hidden;
+    width: 28.125vw;
+    height: 38.541vw;
+    margin: 0 auto; 
+}
+
+@media only screen and (max-width: 960px) {
+	.chara_item_inner {
+		width: 65vw;
+		height: 84.259vw;
+        top: 100px;
+	}
+}
+
+.chara_item_cv {
+	font-size: .9375vw;
+	color: rgba(255, 255, 255, .7);
+}
+
+.chara_item_bg {
+	visibility: visible;
+	overflow: hidden;
+    width: 100%;
+}
+
+.chara_item_bg img {
+    overflow: hidden;
+    width: 100%;
+}
+
+.chara_item_charaImg {
+    position: absolute;
+    top: 4%;
+    right: -42%;
+    width: 138%;
+    z-index: 4;
+}
+
+.chara_item_charaImg img {
+    overflow: hidden;
+    width: 100%;
+}
+
+.chara_item_charaImg2 {
+    position: absolute;
+    width: 74%;
+    top: 4%;
+    left: -13%;
+    z-index: 3;
+}
+
+.chara_item_charaImg2 img {
+    overflow: hidden;
+    width: 100%;
+}
