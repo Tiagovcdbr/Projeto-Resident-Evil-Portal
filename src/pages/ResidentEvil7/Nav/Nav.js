@@ -9,6 +9,7 @@ import soundCursor from '../../../audios/resident_evil2_sound cursor.mp3';
 const Nav = ({ toggle }) => {
   const [play] = useSound(soundCursor);
 
+
   return (    
     <nav className={styles.menu}>
       <ul>
@@ -29,12 +30,12 @@ const Nav = ({ toggle }) => {
         </li>
         <li onClick={toggle}>
           <Link to="Resident-Evil-3-Remake" spy={true} smooth={true} duration={800} onClick={play}>
-            Resident 3 Remake
+          Resident 3 Remake
           </Link>
         </li>
         <li onClick={toggle}>
           <Link to="Resident-Evil-4" spy={true} smooth={true} duration={800} onClick={play}>
-            Resident Evil 4
+          Resident Evil 4
           </Link>
         </li>
         <li onClick={toggle}>
@@ -48,37 +49,37 @@ const Nav = ({ toggle }) => {
           </Link>
         </li>
         <li onClick={toggle}>
-          <Link to="Resident-Evil-7" spy={true} smooth={true} duration={800} onClick={play}>
+          <Link to="biowilliam" spy={true} smooth={true} duration={800} onClick={play}>
           Resident Evil 7
           </Link>
         </li>
         <li onClick={toggle}>
-          <Link to="/" spy={true} smooth={true} duration={800} onClick={play}>
+          <Link to="videos" spy={true} smooth={true} duration={800} onClick={play}>
           Resident Evil Village
           </Link>
         </li>
         <li onClick={toggle}>
-          <Link to="/" spy={true} smooth={true} duration={800} onClick={play}>
-          RE Outbreak
+          <Link to="videos" spy={true} smooth={true} duration={800} onClick={play}>
+          RE: Outbreak
           </Link>
         </li>
         <li onClick={toggle}>
-          <Link to="/" spy={true} smooth={true} duration={800} onClick={play}>
-          RE Outbreak #File 2
+          <Link to="videos" spy={true} smooth={true} duration={800} onClick={play}>
+          RE: Outbreak #File 2
           </Link>
         </li>
         <li onClick={toggle}>
-          <Link to="/" spy={true} smooth={true} duration={800} onClick={play}>
-          RE Revelations 1 & 2
+          <Link to="videos" spy={true} smooth={true} duration={800} onClick={play}>
+          RE: Revelations 1 & 2
           </Link>
         </li>
         <li onClick={toggle}>
-          <Link to="/" spy={true} smooth={true} duration={800} onClick={play}>
-          RE Code Veronica
+          <Link to="videos" spy={true} smooth={true} duration={800} onClick={play}>
+          RE: Code Veronica
           </Link>
         </li>
         <li onClick={toggle}>
-          <Link to="/" spy={true} smooth={true} duration={800} onClick={play}>
+          <Link to="videos" spy={true} smooth={true} duration={800} onClick={play}>
           Resident Evil 4 Remake
           </Link>
         </li>

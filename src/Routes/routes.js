@@ -20,6 +20,7 @@ import BioMikhail from '../pages/ResidentEvil3/Character/Mikhail/BioMikhail'
 import BioNicholai from '../pages/ResidentEvil3/Character/Nicholai/BioNicholai'
 import BioNemesis from '../pages/ResidentEvil3/Character/Nemesis/BioNemesis'
 import Resident6 from 'components/Resident6';
+import Resident7 from 'components/Resident7';
 
 export default function ApplicationRoutes () {
   return ( 
@@ -34,6 +35,7 @@ export default function ApplicationRoutes () {
         <Route path="/Resident-Evil-4" component={ Resident4 } exact />
         <Route path="/Resident-Evil-5" component={ Resident5 } exact />
         <Route path="/Resident-Evil-6" component={ Resident6 } exact />
+        <Route path="/Resident-Evil-7" component={ Resident7 } exact />
         
         {/* Biography dos characters  */}
   
