@@ -112,8 +112,7 @@ function Wrapper() {
                             <img src={IMGBnr} alt="" />
                             <figcaption>                             
                               Three acclaimed titles have finally arrived on next-gen consoles with
-                              <br>
-                              </br>
+                             
                               upgrades!                          
                             </figcaption>
                           </figure>
