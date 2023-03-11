@@ -148,7 +148,10 @@ function Wrapper() {
               <ul className={styles.clearfix}>
                 <li className={styles.list_btn}>
                   <span className={styles.date}>6/15/2022 </span>
-                  <span className={styles.text}>Notice regarding Resident Evil 7 biohazard obtained from the PlayStation®Plus Collection </span>
+                  <span className={styles.text}>Notice regarding Resident Evil 7 biohazard obtained from the 
+                  <br>
+                  </br>
+                  PlayStation®Plus Collection </span>
                 <p className={styles.btn}></p>
                 </li>
               </ul>
@@ -187,9 +190,9 @@ function Wrapper() {
                 </li>
 
                 <li>
-                  <span className={styles.text}>Genre</span>
+                  <span className={styles.title}>Genre</span>
                   <span className={styles.text}>
-                    Survival Horror
+                    Survivor Horror
                   </span>
                 </li>
 

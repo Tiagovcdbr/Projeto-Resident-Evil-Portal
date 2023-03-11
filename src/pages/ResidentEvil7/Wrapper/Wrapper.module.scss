@@ -6,6 +6,14 @@
   height: auto;
   position: relative;
 }
+@media only screen and (max-width: 1023px) {
+  .wrapper {
+    width: 100%;
+    height: auto;
+    position: relative;
+    background: #000;
+  }
+}
 
 nav {
   width: 200px;
@@ -27,12 +35,36 @@ nav ul li {
   letter-spacing: 2px;
 }
 
-nav ul li a {
-  color: #e7e3df;
-  display: inline-block;
-  padding: 6px 0;
-  position: relative;
-  text-shadow: 0 0 3px rgba(0, 0, 0, .8);
+@media only screen and (max-width: 1023px) {
+  nav ul li a {
+    color: #e7e3df;
+    display: inline-block;
+    padding: 6px 0;
+    font-size: .9em;
+    position: relative;
+    text-shadow: 0 0 3px rgba(0, 0, 0, .8);
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  nav ul li a {
+    color: #e7e3df;
+    display: inline-block;
+    padding: 6px 0;
+    font-size: .62222em;
+    position: relative;
+    text-shadow: 0 0 3px rgba(0, 0, 0, .8);
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  nav ul li a {
+    color: #e7e3df;
+    display: inline-block;
+    padding: 6px 0;
+    position: relative;
+    text-shadow: 0 0 3px rgba(0, 0, 0, .8);
+  }
 }
 
 nav ul li a:hover {
@@ -69,14 +101,29 @@ nav ul .current a:before, nav ul a:after {
   opacity: 1;
 }
 
-.top .mainVisual {
-  margin: auto;
-  top: 20%;
-  position: relative;
-  font-size: 100%;
-  background: #000;
-  text-align: center;
-  width: 100%;
+@media only screen and (max-width: 1023px) {
+  .top .mainVisual {
+    background: url(../../../images/ResidentEvil7/r7.png) no-repeat center top;
+    background-size: cover;
+    margin: auto;
+    position: relative;
+    font-size: 100%;
+    text-align: center;
+    width: 100%;
+    height: 100vw;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .top .mainVisual {
+    margin: auto;
+    top: 20%;
+    position: relative;
+    font-size: 100%;
+    background: #000;
+    text-align: center;
+    width: 100%;
+  }
 }
 
 .top .mainVisual:before {
@@ -156,21 +203,22 @@ nav ul .current a:before, nav ul a:after {
 
 @media only screen and (max-width: 1023px) {
   .top .mainVisual .bgArea {
-    background: url(../../../images/ResidentEvil7/r7.png);
+    
     // min-height: 729px;
     position: relative;
     width: 100%;
-    height: 100vw;
-    background-size: 100% auto, auto;
+    background-size: 100% cover, auto;
     background-position: left top, left top;
     background-repeat: no-repeat, repeat;
     transition: ease-in-out 1.5ms;
     animation: change 5s ease-in-out alternate;  
+    background: #000;
   }
 }
 
 @media only screen and (min-width: 1024px) {
   .top .mainVisual .bgArea {
+    background: #000;
     background: url(../../../images/ResidentEvil7/main_img06.jpg) no-repeat center top -6em;
     background-size: 120%;
     // min-height: 729px;
@@ -686,11 +734,15 @@ a img {
   /*border-top: 1px solid #212121;*/
 }
 
+@media only screen and (max-width: 1023px) {
+  .top .update {
+    margin-top: 10vw;
+  }
+}
+
 .top .update .updateListWrap {
   border-bottom: solid #434343 1px;
 }
-
-
 
 @media only screen and (max-width: 1023px) {
   .top .update .updateList {
@@ -731,6 +783,22 @@ a img {
   font-size: 14px;
   letter-spacing: 2px;
   padding: 12px 0;
+}
+
+@media only screen and (max-width: 1023px) {
+  .top .update .updateList ul li {
+    font-size: 12px;
+    letter-spacing: 2px;
+    padding: 12px 0;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .top .update .updateList ul li {
+    font-size: 14px;
+    letter-spacing: 2px;
+    padding: 12px 0;
+  }
 }
 
 .clearfix:after {
@@ -856,46 +924,125 @@ a img {
 
 /* ========================== */
 
-.top .spec {
-  width: 100%;
-  background: #000;
-  border-bottom: 1px solid #444;
-  /*min-height: 452px;*/
-  padding-bottom: 3em;
-  position: relative;
-  z-index: 5;
-  background: url(../../../images/ResidentEvil7/bg_spec.jpg) no-repeat right top 40px #000;
+@media only screen and (max-width: 1023px) {
+  .top .spec {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    background: #000;
+    border-bottom: 1px solid #444;
+    /*min-height: 452px;*/
+    padding-bottom: 3em;
+    bottom: 2px;
+    position: relative;
+    z-index: 5;
+    background: url(../../../images/ResidentEvil7/bg_spec.jpg) no-repeat right top 40px #000;
+  }
 }
-.top .spec h2 {
-  color: #b0b0b0;
-  font-size: 32px;
-  text-align: center;
-  margin-bottom: 25px;
-  font-family: 'Oswald';
+
+@media only screen and (min-width: 1024px) {
+  .top .spec {
+    width: 100%;
+    background: #000;
+    border-bottom: 1px solid #444;
+    /*min-height: 452px;*/
+    padding-bottom: 3em;
+    position: relative;
+    z-index: 5;
+    background: url(../../../images/ResidentEvil7/bg_spec.jpg) no-repeat right top 40px #000;
+  }
 }
-.top .spec .inner {
-  width: 820px;
-  top: 40px;
-  margin: 0 auto;
-  padding: 45px 0 25px;
+
+@media only screen and (max-width: 1023px) {
+  .top .spec h2 {
+    color: #b0b0b0;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 25px;
+    font-family: 'Oswald';
+  }
 }
-.top .spec .inner.award {
+
+@media only screen and (min-width: 1024px) {
+  .top .spec h2 {
+    color: #b0b0b0;
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 25px;
+    font-family: 'Oswald';
+  }
+}
+
+@media only screen and (max-width: 1023px) {
+  .top .spec .inner {
+    width: 80%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 45px 0 25px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .top .spec .inner {
+    width: 820px;
+    top: 40px;
+    margin: 0 auto;
+    padding: 45px 0 25px;
+  }
+}
+
+.top .spec .inner .award {
   border-bottom: 1px solid #554d4b;
   margin: 0 auto 45px;
   padding: 0 0 25px;
 }
+
 .top .spec .inner div {
   width: auto;
 }
-.top .spec .inner div ul li {
-  color: #b0b0b0;
-  border-bottom: 1px solid #554d4b;
-  padding: 18px 10px;
-  box-sizing: border-box;
-  font-size: 12px;
-  letter-spacing: -.40em;
+
+@media only screen and (max-width: 1023px) {
+  .top .spec .inner div ul li {
+    color: #b0b0b0;
+    margin: 0  auto;
+    border-bottom: 1px solid #554d4b;
+    padding: 18px 10px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 18px;
+    left: 50%;
+    right: 50%;
+    letter-spacing: -.40em;
+  }
 }
-.top .spec .inner div ul li:after {
+
+@media only screen and (min-width: 1024px) {
+  .top .spec .inner div ul li {
+    color: #b0b0b0;
+    border-bottom: 1px solid #554d4b;
+    padding: 18px 10px;
+    box-sizing: border-box;
+    font-size: 12px;
+    letter-spacing: -.40em;
+  }
+}
+
+@media only screen and (max-width: 1023px) {
+  .top .spec .inner div ul li:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    height: 0px;
+    font-size: 0.1px;
+    line-height: 0.1px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .top .spec .inner div ul li:after {
   content: ".";
   display: block;
   clear: both;
@@ -903,78 +1050,195 @@ a img {
   height: 0px;
   font-size: 0.1px;
   line-height: 0.1px;
+  }
 }
-.top .spec .inner div ul li span {
+
+@media only screen and (max-width: 1023px) {
+  .top .spec .inner div ul li span {
+  display: inline-block;
+  vertical-align: top;
+  line-height: 1.3;
+  margin-bottom: 2.7222vw;
+  letter-spacing: normal;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .top .spec .inner div ul li span {
   display: inline-block;
   vertical-align: top;
   line-height: 1.3;
   letter-spacing: normal;
+  }
 }
-.top .spec .inner div ul li .title {
+
+@media only screen and (max-width: 1023px) {
+  .top .spec .inner div ul li .title {
+    width: 140px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 auto;
+     margin-bottom: 2vw;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .top .spec .inner div ul li .title {
   width: 140px;
   font-weight: bold;
   float: left;
+  }
 }
-.top .spec .inner div ul li .text {
+
+@media only screen and (max-width: 1023px) {
+  .top .spec .inner div ul li .text {
+    width: 100%;
+    position: relative;
+    padding-left: 20px;
+    box-sizing: border-box;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .top .spec .inner div ul li .text {
   width: 660px;
   position: relative;
   padding-left: 20px;
   box-sizing: border-box;
   float: right;
+  }
 }
-.top .spec .inner div ul li .text:before {
-  content: "：";
-  position: absolute;
-  top: 0;
-  left: 0;
+
+@media only screen and (max-width: 1023px) {
+  .top .spec .inner div ul li .text:before {
+    display: none;
+  }
 }
+
+@media only screen and (min-width: 1024px) {
+  .top .spec .inner div ul li .text:before {
+    content: "：";
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+}
+
 .top .spec .inner div ul li .text a {
   color: #ef7800;
   text-decoration: underline;
 }
+
 .top .spec .inner div ul li .text a:hover {
   text-decoration: none;
 }
+
 .top .spec .inner div ul li .text img {
   vertical-align: top;
   margin-left: 10px;
 }
+
 .top .spec .inner .left ul li:first-child .text {
   width: 100%;
   float: none;
   font-weight: bold;
   padding-left: 0;
 }
+
 .top .spec .inner .left ul li:first-child .text:before {
   display: none;
 }
-.top .spec .inner .right {
-  width: auto;
-  float: none;
+
+@media only screen and (max-width: 1023px) {
+  .top .spec .inner .right {
+    display: block;
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+  }
 }
-.top .spec .awardList {
-  //display: -ms-flex;
-  //display: -webkit-flex;
-  display: flex;
-  //-ms-flex-wrap: wrap;
-  //-webkit-flex-wrap: wrap;
-  flex-wrap: wrap;
-  //-ms-flex-pack: justify;
-  //-webkit-justify-content: space-between;
-  justify-content: space-between;
-  margin: auto;
-  width: 420px;
+
+@media only screen and (min-width: 1024px) {
+  .top .spec .inner .right {
+    width: auto;
+    float: none;
+  }
 }
-.top .spec .awardList li {
-  width: 94px;
+
+@media only screen and (max-width: 1023px) {
+  .top .spec .awardList {
+    display: flex;
+    flex-wrap: wrap;  
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+  }
 }
-.top .spec .awardList li:nth-child(4) {
-  width: 118px;
+
+@media only screen and (min-width: 1024px) {
+  .top .spec .awardList {
+    //display: -ms-flex;
+    //display: -webkit-flex;
+    display: flex;
+    //-ms-flex-wrap: wrap;
+    //-webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    //-ms-flex-pack: justify;
+    //-webkit-justify-content: space-between;
+    justify-content: space-between;
+    margin: auto;
+    width: 420px;
+  }
 }
-.top .spec .awardList li img {
-  height: auto;
-  width: 100%;
+
+
+
+@media only screen and (max-width: 1023px) {
+  .top .spec .awardList li {
+    width: 150px;
+    margin: 0 auto;
+    text-align: center;
+  }
 }
+
+@media only screen and (min-width: 1024px) {
+  .top .spec .awardList li {
+    width: 94px;
+  }
+}
+
+@media only screen and (max-width: 1023px)  {
+  .top .spec .awardList li:nth-child(4) {
+    width: 180px;
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .top .spec .awardList li:nth-child(4) {
+    width: 118px;
+  }
+}
+
+@media only screen and (max-width: 1023px)  {
+  .top .spec .awardList li img {
+    height: auto;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .top .spec .awardList li img {
+    height: auto;
+    width: 100%;
+  }
+}
+
 .top .spec .btnArea {
   //display: -ms-flex;
   //display: -webkit-flex;
@@ -988,14 +1252,17 @@ a img {
   width: 820px;
   margin: 0 auto;
 }
+
 .top .spec .btnArea li {
   text-align: center;
   width: 48%;
   margin-top: 40px;
 }
+
 .top .spec .btnArea li:last-child {
   margin-bottom: 0;
 }
+
 .top .spec .btnArea li a {
   display: block;
   padding: 15px 0 15px;
@@ -1005,6 +1272,7 @@ a img {
   position: relative;
   font-size: 16px;
 }
+
 .top .spec .btnArea li a:after {
   content: "";
   //-webkit-transform: rotate(135deg);
@@ -1020,6 +1288,7 @@ a img {
   border-left: 2px solid #e57300;
   display: block;
 }
+
 .top .spec .btnArea li a:hover {
   background: #ef7800;
   color: #fff;
@@ -1027,6 +1296,7 @@ a img {
   transition: all 0.2s ease-in-out;
   cursor: pointer;
 }
+
 .top .spec .btnArea li a:hover:after {
   border-top: 2px solid #ffffff;
   border-left: 2px solid #ffffff;

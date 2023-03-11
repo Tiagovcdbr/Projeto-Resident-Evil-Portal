@@ -35,7 +35,7 @@ const Main = () => {
         </Fade>
 
         <Fade left duration={1800}>
-          <h4>©2022 Capcom Co.,Ltd. All rights reserved. Feito por Fã</h4>
+          <h4>©2023 Capcom Co.,Ltd. All rights reserved. Feito por Fã</h4>
           <h5>PS4, &nbsp;PS5,&nbsp;  Xbox,&nbsp; Xbox Series,&nbsp; PC</h5>
         </Fade>
       </div>
