@@ -75,7 +75,7 @@ function Main() {
           <Fade duration={2500}>
             <span id="mainImg05" className={styles.mainImg_sixthAnime}></span>
           </Fade>
-            <span id="effectImg" className={styles.mainImg_effectImg}></span>
+            <span id="effectImg" className={styles.mainImg_effectImg}></span> 
         </div>
       </div>
 
@@ -90,46 +90,52 @@ function Main() {
               <img src={IMGLogo} alt="" />
             </h1>
           </div>
-          <div data-aos="fade" className={styles.topUpdate}>
-            <ul className={styles.fullSizeWrap}>
-              <li className={styles.fullSize_bnrDLC}>
-                <ul className={styles.harfSizeWrap}>
+            <div className={styles.topUpdate}>
+              <ul className={styles.fullSizeWrap}>
+                <li className={styles.fullSize_bnrDLC}>
+                  <ul className={styles.harfSizeWrap}>
 
-                  <li data-aos="fade" className={styles.harfSize_bnrVillage}>
-                    <a>
-                      <figure>
-                        <img src={IMGVillage} alt="" />
-                        <figcaption>                              
-                          Resident Evil Village Gold Edition adds 3 major new features!        
-                        </figcaption>
-                      </figure>
-                    </a>
-                  </li>
+                    <Fade duration={2000}>
+                      <li data-aos="fade" className={styles.harfSize_bnrVillage}>
+                        <a>
+                          <figure>
+                          
+                            <img src={IMGVillage} alt="" />
+                            <figcaption>                              
+                              Resident Evil Village Gold Edition adds 3 major new features!        
+                            </figcaption>
+                            
+                          </figure>
+                        </a>
+                      </li>
+                    </Fade>
 
-                  <li data-aos="fade" className={styles.harfSize_bnrZOE}>
-                    <a>
-                      <figure>
-                        <img src={IMGBnr} alt="" />
-                        <figcaption>                             
-                          Three acclaimed titles have finally arrived on next-gen consoles with
-                         
-                          upgrades!                          
-                        </figcaption>
-                      </figure>
-                    </a>
-                  </li>
+                  <Fade duration={2000}>
+                    <li className={styles.harfSize_bnrZOE}>
+                      <a>
+                        <figure>
+                          <img src={IMGBnr} alt="" />
+                          <figcaption>                             
+                            Three acclaimed titles have finally arrived on next-gen consoles with
+                          
+                            upgrades!                          
+                          </figcaption>
+                        </figure>
+                      </a>
+                    </li>
+                  </Fade>
 
-                </ul>
-              </li>
-              <li className={styles.news}>
-                <a className={styles.newsModal_cboxElement}>
-                  <span className={styles.text}>
-                    Resident Evil 7: 4K for Xbox One X! Free update available!
-                  </span>
-                </a>
-              </li>
-            </ul>
-          </div>
+                  </ul>
+                </li>
+                <li className={styles.news}>
+                  <a className={styles.newsModal_cboxElement}>
+                    <span className={styles.text}>
+                      Resident Evil 7: 4K for Xbox One X! Free update available!
+                    </span>
+                  </a>
+                </li>
+              </ul>
+            </div>
         </div>
       </div>
     </section>
