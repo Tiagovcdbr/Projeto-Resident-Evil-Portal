@@ -14,22 +14,22 @@ const Nav = ({ toggle }) => {
       <ul>
         <li onClick={toggle}>
           <Link to="Resident-Evil-0-HD-Remaster" spy={true} smooth={true} duration={800} onClick={play}>
-          Resident 0
+          Resident Evil 0
           </Link>
         </li>
         <li onClick={toggle}>
           <Link to="Resident-Evil-HD-Remaster" spy={true} smooth={true} duration={800} onClick={play}>
-            Resident Remake
+            Resident Evil Remake
           </Link>
         </li>
         <li onClick={toggle}>
           <Link to="Resident-Evil-2-Remake" spy={true} smooth={true} duration={800} onClick={play}>
-            Resident 2 Remake
+            Resident Evil 2 Remake
           </Link>
         </li>
         <li onClick={toggle}>
           <Link to="Resident-Evil-3-Remake" spy={true} smooth={true} duration={800} onClick={play}>
-            Resident 3 Remake
+            Resident Evil 3 Remake
           </Link>
         </li>
         <li onClick={toggle}>
@@ -39,47 +39,47 @@ const Nav = ({ toggle }) => {
         </li>
         <li onClick={toggle}>
           <Link to="Resident-Evil-5" spy={true} smooth={true} duration={800} onClick={play}>
-          Resident Evil 5
+            Resident Evil 5
           </Link>
         </li>
         <li onClick={toggle}>
           <Link to="Resident-Evil-6" spy={true} smooth={true} duration={800} onClick={play}>
-          Resident Evil 6
+            Resident Evil 6
           </Link>
         </li>
         <li onClick={toggle}>
           <Link to="Resident-Evil-7" spy={true} smooth={true} duration={800} onClick={play}>
-          Resident Evil 7
+            Resident Evil 7
           </Link>
         </li>
         <li onClick={toggle}>
           <Link to="/" spy={true} smooth={true} duration={800} onClick={play}>
-          Resident Evil Village
+            Resident Evil Village
           </Link>
         </li>
         <li onClick={toggle}>
           <Link to="/" spy={true} smooth={true} duration={800} onClick={play}>
-          RE Outbreak
+            RE Outbreak
           </Link>
         </li>
         <li onClick={toggle}>
           <Link to="/" spy={true} smooth={true} duration={800} onClick={play}>
-          RE Outbreak #File 2
+            RE Outbreak #File 2
           </Link>
         </li>
         <li onClick={toggle}>
           <Link to="/" spy={true} smooth={true} duration={800} onClick={play}>
-          RE Revelations 1 & 2
+            RE Revelations 1 & 2
           </Link>
         </li>
         <li onClick={toggle}>
           <Link to="/" spy={true} smooth={true} duration={800} onClick={play}>
-          RE Code Veronica
+            RE Code Veronica
           </Link>
         </li>
         <li onClick={toggle}>
           <Link to="/" spy={true} smooth={true} duration={800} onClick={play}>
-          Resident Evil 4 Remake
+            Resident Evil 4 Remake
           </Link>
         </li>
       </ul>

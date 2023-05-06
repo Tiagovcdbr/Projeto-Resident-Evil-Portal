@@ -1,33 +1,68 @@
 @import "../../../styles/variables.scss";
 @import "../../../styles/mixins.scss";
 /* Estilização dos Personagens, e suas li que contém os textos, que são incluídos no component Nav */ 
-.menu {
-    width: 100%;
-    @include align-center;
-    flex-direction: column;
-    font-size: 1.3rem;
-    text-transform: uppercase;
-    font-weight: 300;
-    /* Estilizando o menu mobile  */
-    ul {
-        @include align-center;
-        flex-direction: column;
-        margin-bottom: 2rem;
-        cursor: pointer;
-
+@media only screen and (max-width: 1023px) {
+    .menu {
+      width: 100%;
+      @include align-center;
+      flex-direction: column;
+      font-size: 1.3rem;
+      text-transform: uppercase;
+      font-weight: 300;
+        /* Estilizando o menu mobile  */
+      ul {
+          @include align-center;
+          flex-direction: column;
+          bottom: 2rem;
+          cursor: pointer;
+  
         li {
             &:not(:last-child) {
-                margin-bottom: 1.2rem;
+                margin-bottom: 1rem;
             }
-
-            a {
-                color: $white;
-                transition: 0.3s ease-in-out;
-
-                &:hover {
-                    color: red;
-                }                
-            }
+  
+          a {
+              color: $white;
+              transition: 0.3s ease-in-out;
+  
+            &:hover {
+                color: red;
+            }                
+          }
         }
-    }  
-}
+      }  
+    }
+  }
+  
+  @media only screen and (min-width: 1024px) {
+    .menu {
+      width: 100%;
+      @include align-center;
+      flex-direction: column;
+      font-size: 1.3rem;
+      text-transform: uppercase;
+      font-weight: 300;
+        /* Estilizando o menu mobile  */
+      ul {
+          @include align-center;
+          flex-direction: column;
+          margin-bottom: 2rem;
+          cursor: pointer;
+  
+        li {
+            &:not(:last-child) {
+                margin-bottom: 1rem;
+            }
+  
+          a {
+              color: $white;
+              transition: 0.3s ease-in-out;
+  
+            &:hover {
+                color: red;
+            }                
+          }
+        }
+      }  
+    }
+  }
