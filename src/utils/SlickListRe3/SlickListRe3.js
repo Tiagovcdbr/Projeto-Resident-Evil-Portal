@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 
 import { Swiper, SwiperSlide, } from "swiper/react/swiper-react.js";
 import { Scrollbar, Pagination } from 'swiper';
@@ -51,121 +52,121 @@ export default function SlickListRe3 () {
       >
       <Fade duration={2200}>
         <SwiperSlide className={styles.swiperslide}>
-          <a href="https://www.residentevil.com/re4/en-us/" target='_blank' rel="noreferrer">
+          <a rel="noreferrer">
             <img src={IMG} alt="" />
           </a>          
         </SwiperSlide>        
 
         <SwiperSlide className={styles.swiperslide}>
-          <a href="https://www.residentevil.com/switch/cloud/en-us/" target='_blank' rel="noreferrer">
+          <a rel="noreferrer">
             <img src={IMG2} alt="" />
           </a>
         </SwiperSlide>
 
         <SwiperSlide className={styles.swiperslide}>
-          <a href="https://www.residentevil.com/village/ge/" target='_blank' rel="noreferrer">
+          <a rel="noreferrer">
             <img src={IMG3} alt="" />
           </a>
         </SwiperSlide>
 
         <SwiperSlide className={styles.swiperslide}>
-          <a href="https://www.residentevil.com/village/us/" target='_blank' rel="noreferrer">
+          <a rel="noreferrer">
             <img src={IMG4} alt="" />
           </a>        
         </SwiperSlide>
 
         <SwiperSlide className={styles.swiperslide}>
-          <a href="https://www.residentevil.com/village/us/" target='_blank' rel="noreferrer">
+          <a rel="noreferrer">
             <img src={IMG5} alt="" />
           </a>        
         </SwiperSlide>
 
         <SwiperSlide className={styles.swiperslide}>
-          <a href="https://www.residentevil.com/village/us/" target='_blank' rel="noreferrer">
+          <a rel="noreferrer">
             <img src={IMG6} alt="" />
           </a>        
         </SwiperSlide>
 
         <SwiperSlide className={styles.swiperslide}>
-          <a href="https://www.residentevil.com/village/us/" target='_blank' rel="noreferrer">
+          <a rel="noreferrer">
             <img src={IMG7} alt="" />
           </a>        
         </SwiperSlide>
 
         <SwiperSlide className={styles.swiperslide}>
-          <a href="https://www.residentevil.com/village/us/" target='_blank' rel="noreferrer">
+          <a rel="noreferrer">
             <img src={IMG8} alt="" />
           </a>        
         </SwiperSlide>
 
         <SwiperSlide className={styles.swiperslide}>
-          <a href="https://www.residentevil.com/village/us/" target='_blank' rel="noreferrer">
+          <a rel="noreferrer">
             <img src={IMG9} alt="" />
           </a>        
         </SwiperSlide>
 
         <SwiperSlide className={styles.swiperslide}>
-          <a href="https://www.residentevil.com/village/us/" target='_blank' rel="noreferrer">
+          <a rel="noreferrer">
             <img src={IMG10} alt="" />
           </a>        
         </SwiperSlide>
 
         <SwiperSlide className={styles.swiperslide}>
-          <a href="https://www.residentevil.com/village/us/" target='_blank' rel="noreferrer">
+          <a rel="noreferrer">
             <img src={IMG11} alt="" />
           </a>        
         </SwiperSlide>
 
         <SwiperSlide className={styles.swiperslide}>
-          <a href="https://www.residentevil.com/village/us/" target='_blank' rel="noreferrer">
+          <a rel="noreferrer">
             <img src={IMG12} alt="" />
           </a>        
         </SwiperSlide>
 
         <SwiperSlide className={styles.swiperslide}>
-          <a href="https://www.residentevil.com/village/us/" target='_blank' rel="noreferrer">
+          <a rel="noreferrer">
             <img src={IMG13} alt="" />
           </a>        
         </SwiperSlide>
 
         <SwiperSlide className={styles.swiperslide}>
-          <a href="https://www.residentevil.com/village/us/" target='_blank' rel="noreferrer">
+          <a rel="noreferrer">
             <img src={IMG14} alt="" />
           </a>        
         </SwiperSlide>
 
         <SwiperSlide className={styles.swiperslide}>
-          <a href="https://www.residentevil.com/village/us/" target='_blank' rel="noreferrer">
+          <a rel="noreferrer">
             <img src={IMG15} alt="" />
           </a>        
         </SwiperSlide>
 
         <SwiperSlide className={styles.swiperslide}>
-          <a href="https://www.residentevil.com/village/us/" target='_blank' rel="noreferrer">
+          <a rel="noreferrer">
             <img src={IMG16} alt="" />
           </a>        
         </SwiperSlide>
 
         <SwiperSlide className={styles.swiperslide}>
-          <a href="https://www.residentevil.com/village/us/" target='_blank' rel="noreferrer">
+          <a rel="noreferrer">
             <img src={IMG17} alt="" />
           </a>        
         </SwiperSlide>
 
         <SwiperSlide className={styles.swiperslide}>
-          <a href="https://www.residentevil.com/village/us/" target='_blank' rel="noreferrer">
+          <a rel="noreferrer">
             <img src={IMG18} alt="" />
           </a>        
         </SwiperSlide>
 
         <SwiperSlide className={styles.swiperslide}>
-          <a href="https://www.residentevil.com/village/us/" target='_blank' rel="noreferrer">
+          <a rel="noreferrer">
             <img src={IMG19} alt="" />
           </a>        
         </SwiperSlide>
 
         <SwiperSlide className={styles.swiperslide}>
-          <a href="https://www.residentevil.com/village/us/" target='_blank' rel="noreferrer">
+          <a rel="noreferrer">
             <img src={IMG20} alt="" />
           </a>        
         </SwiperSlide>
