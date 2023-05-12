@@ -174,7 +174,7 @@ function Product() {
 
         <div className={styles.link_bnr}>
           <div className={styles.bnr}>
-            <a href=''>
+            <a>
               <span className={styles.img_pc}>
                 <img src={RacconCityIMG} alt='Raccon City' />
               </span>

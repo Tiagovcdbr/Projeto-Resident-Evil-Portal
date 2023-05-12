@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable react/jsx-no-target-blank */
 import React from 'react'
 import styles from '../Aside/Aside.module.scss'
@@ -13,7 +14,7 @@ function Aside() {
           <div className={styles.links_renet}>
             <div className={styles.link_btn}>
               <div className={styles.btn}>
-                <a href="https://www.residentevil.net/" target="_blank">RESIDENT EVIL.NET</a>
+                <a>RESIDENT EVIL.NET</a>
               </div>
             </div>
           </div>
@@ -21,7 +22,7 @@ function Aside() {
           <div className={styles.links_manual}>
             <div className={styles.link_btn}>
               <div className={styles.btn}>
-                <a href="https://game.capcom.com/manual/re3/" target="_blank">Official Web Manual</a>
+                <a>Official Web Manual</a>
               </div>
             </div>
           </div>
@@ -37,25 +38,25 @@ function Aside() {
             
             <ul className={styles.link_list}>
               <li className={styles.btn}>
-                <a href="https://www.youtube.com/user/ResidentEvil" target="_blank">
+                <a>
                   <span className={styles.ic_yt}></span>
                 </a>
               </li>
 
               <li className={styles.btn}>
-                <a href="https://twitter.com/RE_games" target="_blank">
+                <a>
                   <span className={styles.ic_tw}></span>
                 </a>
               </li>
 
               <li className={styles.btn}>
-                <a href="https://www.facebook.com/residentevil" target="_blank">
+                <a>
                   <span className={styles.ic_fb}></span>
                 </a>
               </li>
 
               <li className={styles.btn}>
-                <a href="https://www.instagram.com/re_games/" target="_blank">
+                <a>
                   <span className={styles.ic_insta}></span>
                 </a>
               </li>
@@ -73,13 +74,13 @@ function Aside() {
 
             <ul className={styles.link_list}>
               <li className={styles.btn}>
-                <a href="http://www.residentevil2.com/" target="_blank">
+                <a>
                   <img src={IMGRe2Logo} alt="" />
                 </a>
               </li>
 
               <li className={styles.btn}>
-                <a href="http://store.capcom.com/" target="_blank">
+                <a>
                   <img src={IMGCapStoreLogo} alt="" />
                 </a>
               </li>
@@ -91,7 +92,7 @@ function Aside() {
           <div className={styles.portal_link}>
             <div className={styles.link_btn}>
               <div className={styles.btn}>
-                <a href="../../re3/us/">
+                <a>
                     Resident Evil 3
                   <small>TOP</small>
                 </a>

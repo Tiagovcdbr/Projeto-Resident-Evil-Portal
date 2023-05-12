@@ -87,7 +87,7 @@
   display: flex;
   flex-wrap: wrap;
   background: rgba(0, 0, 0, 0.6);
-  margin-bottom: 4vw; 
+  margin-bottom: 4vw;
 }
 
 @media only screen and (min-width: 380px) {
@@ -111,6 +111,8 @@
   } 
 }
 
+/* ============== Estilização Card PS4 =============== */
+
 @media only screen and (min-width: 380px) {
   .product_box .pf_list .pf_ps4 {
     width: 33.33333%; 
@@ -126,7 +128,7 @@
 .product_box .pf_list .pf_ps4 {
   border: 2px solid #0248A0;
   text-align: center;
-  list-style: none;
+  list-style: none; 
 }
 
 .product_box .pf_list .pf_ps4 .pf_logo {
@@ -141,7 +143,7 @@
 
 @media only screen and (min-width: 380px) {
   .product_box .pf_list .pf_logo img {
-    max-height: 5vw; 
+    max-height: 4vw; 
   } 
 }
 
@@ -153,14 +155,27 @@
 
 .fmt_list {
   display: flex;
-  flex-wrap: wrap;
-  height: auto;
-  font-size: 1.5em;
+  flex-wrap: wrap;  
+  font-size: 1em;
+}
+
+@media only screen and (max-width: 400px) {
+  .fmt_list .fmt {
+    display: flex;
+    flex-wrap: wrap;  
+    height: 35px;
+  }
 }
 
 @media only screen and (min-width: 1024px) {
   .fmt_list {
     font-size: 1em;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .fmt_list .fmt {
+    height: auto;
   }
 }
 
@@ -182,6 +197,7 @@
 
 .product_box .pf_list .pf_ps4 .fmt_list .fmt span {
   border: 2px solid rgba(102, 153, 255, 0); 
+  font-size: 1em;
 }
 
 .product_box .pf_list .fmt_list .fmt span {
@@ -201,8 +217,7 @@
     align-items: center;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
-    justify-content: center;
-    padding: 1em; 
+    justify-content: center; 
   } 
 }
 
@@ -235,7 +250,14 @@
 }
 
 .product_box .pf_list .pf_xbox .pf_logo {
-  background: #107A10; 
+  background: #107A10;
+}
+
+@media only screen and (min-width: 1024px) {
+  .product_box .pf_list .pf_xbox .pf_logo {
+    background: #107A10; 
+    margin-top: -8px;
+  }
 }
 
 @media only screen and (min-width: 1024px) {
@@ -257,7 +279,7 @@
 }
 
 .product_box .pf_list .pf_xbox .fmt_list .fmt:not(:last-child) {
-  border-right: 2px solid #107A10; 
+  border-right: 2px solid #107A10;
 }
 
 .product_box .fmt_list .fmt.select {
@@ -268,11 +290,12 @@
   cursor: pointer;
   line-height: 1.2;
   text-decoration: underline;
-  width: 50%; 
+  width: 50%;
 }
 
 .product_box .pf_list .pf_xbox .fmt_list .fmt span {
-  border: 2px solid rgba(102, 153, 255, 0); 
+  border: 2px solid rgba(102, 153, 255, 0);
+  font-size: 1em; 
 }
 
 .product_box .pf_list .fmt_list .fmt span {
@@ -282,8 +305,8 @@
 
 @media only screen and (min-width: 1024px) {
   .product_box .pf_list .fmt_list .fmt span {
-    display: -webkit-box;
-    display: -ms-flexbox;
+    // display: -webkit-box;
+    // display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
@@ -330,6 +353,13 @@
 }
 
 @media only screen and (min-width: 1024px) {
+  .product_box .pf_list .pf_steam .pf_logo {
+    background: #6A6A6A;
+    margin-top: -8px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
   .product_box .pf_list .pf_logo {
     padding: 0.5vw 1em; 
   } 
@@ -344,7 +374,6 @@
 .fmt_list_full {
   display: flex;
   flex-wrap: wrap;
-  height: auto;
   font-size: 1.5em;
 }
 
