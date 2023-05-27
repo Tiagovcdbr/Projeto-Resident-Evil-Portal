@@ -159,17 +159,30 @@
   font-size: 1em;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 1024px) {
   .fmt_list .fmt {
     display: flex;
     flex-wrap: wrap;  
-    height: 35px;
+    height: auto;
+    margin: 0 auto;
   }
 }
 
 @media only screen and (min-width: 1024px) {
   .fmt_list {
     font-size: 1em;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .fmt_list .fmt {
+    height: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 2em;
+    padding-top: auto; 
   }
 }
 

@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 
 import { Swiper, SwiperSlide, } from "swiper/react/swiper-react.js";
 import { Scrollbar, Pagination } from 'swiper';
@@ -57,7 +58,7 @@ export default function SlickList () {
       >
       <Fade duration={2200}>
         <SwiperSlide className={styles.swiperslide}>
-          <a href="https://www.residentevil.com/re4/en-us/" target='_blank' rel="noreferrer">
+          <a>
             <img src={IMG} alt="" />
             <div className={styles.text}>
               <p>Resident Evil 3 Collector's Edition</p>
@@ -66,7 +67,7 @@ export default function SlickList () {
         </SwiperSlide>        
 
         <SwiperSlide className={styles.swiperslide}>
-          <a href="https://www.residentevil.com/switch/cloud/en-us/" target='_blank' rel="noreferrer">
+          <a>
             <img src={IMG2} alt="" />
             <div className={styles.text}>
               <p>Three acclaimed titles have finally 
@@ -76,7 +77,7 @@ export default function SlickList () {
         </SwiperSlide>
 
         <SwiperSlide className={styles.swiperslide}>
-          <a href="https://www.residentevil.com/village/ge/" target='_blank' rel="noreferrer">
+          <a>
             <img src={IMG3} alt="" />
             <div className={styles.text}>
               <p>Resident Evil 4 has been reimagined with 
@@ -87,7 +88,7 @@ export default function SlickList () {
         </SwiperSlide>
 
         <SwiperSlide className={styles.swiperslide}>
-          <a href="https://www.residentevil.com/village/us/" target='_blank' rel="noreferrer">
+          <a>
             <img src={IMG4} alt="" />
             <div className={styles.text}>
               <p>In-game rewards unlock DLC for the 
@@ -98,7 +99,7 @@ export default function SlickList () {
         </SwiperSlide>
 
         <SwiperSlide className={styles.swiperslide}>
-          <a href="https://www.residentevil.com/village/us/" target='_blank' rel="noreferrer">
+          <a>
             <img src={IMG5} alt="" />
             <div className={styles.text}>
               <p>The Classic Costume Pack is now 
@@ -109,7 +110,7 @@ export default function SlickList () {
         </SwiperSlide>
 
         <SwiperSlide className={styles.swiperslide}>
-          <a href="https://www.residentevil.com/village/us/" target='_blank' rel="noreferrer">
+          <a>
             <img src={IMG6} alt="" />
             <div className={styles.text}>
               <p>Demo version available now!</p>
@@ -118,7 +119,7 @@ export default function SlickList () {
         </SwiperSlide>
 
         <SwiperSlide className={styles.swiperslide}>
-          <a href="https://www.residentevil.com/village/us/" target='_blank' rel="noreferrer">
+          <a>
             <img src={IMG7} alt="" />
             <div className={styles.text}>
               <p>Learn more about the events 

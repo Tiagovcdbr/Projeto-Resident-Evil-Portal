@@ -98,32 +98,30 @@ function Main() {
                     <Fade duration={2000}>
                       <li data-aos="fade" className={styles.harfSize_bnrVillage}>
                         <a>
-                          <figure>
-                          
+                          <figure>                          
                             <img src={IMGVillage} alt="" />
-                            <figcaption>                              
-                              Resident Evil Village Gold Edition adds 3 major new features!        
-                            </figcaption>
-                            
+                              <figcaption>                              
+                                Resident Evil Village Gold Edition adds 3 major new features!        
+                              </figcaption>                            
                           </figure>
                         </a>
                       </li>
                     </Fade>
 
-                  <Fade duration={2000}>
-                    <li className={styles.harfSize_bnrZOE}>
-                      <a>
-                        <figure>
-                          <img src={IMGBnr} alt="" />
-                          <figcaption>                             
-                            Three acclaimed titles have finally arrived on next-gen consoles with
-                          
-                            upgrades!                          
-                          </figcaption>
-                        </figure>
-                      </a>
-                    </li>
-                  </Fade>
+                    <Fade duration={2000}>
+                      <li className={styles.harfSize_bnrZOE}>
+                        <a>
+                          <figure>
+                            <img src={IMGBnr} alt="" />
+                            <figcaption>                             
+                              Three acclaimed titles have finally arrived on next-gen consoles with
+                            
+                              upgrades!                          
+                            </figcaption>
+                          </figure>
+                        </a>
+                      </li>
+                    </Fade>
 
                   </ul>
                 </li>
